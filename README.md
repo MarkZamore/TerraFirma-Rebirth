@@ -81,16 +81,26 @@ systems", and says plainly that redistributing it "using a direct file upload"
 is not allowed. This pack is files in a git repository, which is exactly that.
 
 So `EuphoriaPatcher` says `SHADER NOT FOUND` until the player puts one in. The
-mod here is `EuphoriaPatcher-1.9.3-r5.8.1-neoforge.jar` and the settings files
-are written for 1.9.3, so the version that matches is **r5.8.1**:
+mod here is `EuphoriaPatcher-1.10.0-r5.9-neoforge.jar`, so the version that matches is
+**r5.9**:
 
-- [Complementary Reimagined r5.8.1](https://modrinth.com/shader/complementary-reimagined/version/r5.8.1)
-- [Complementary Unbound r5.8.1](https://modrinth.com/shader/complementary-unbound/version/r5.8.1)
+- [Complementary Reimagined r5.9](https://modrinth.com/shader/complementary-reimagined/version/r5.9)
+- [Complementary Unbound r5.9](https://modrinth.com/shader/complementary-unbound/version/r5.9)
 
 Drop either zip into `shaderpacks/` and Euphoria Patches builds the patched
-version beside it. The mod also reports that 1.10.0 exists and wants
-Complementary r5.9; taking that route means updating the mod and the settings
-files together, and the pack is not set up for it.
+version beside it. The release shipped EuphoriaPatcher 1.9.3 with r5.8.1, and that pair does not
+compile under the Iris this pack also ships. Stock Complementary r5.8.1 loads
+fine on the same Iris, so what Iris chokes on is what the patcher adds:
+
+    final.fsh: ERROR: 0:854: '_10' : undeclared identifier
+
+`_10` is a name Iris's own translator generates and then fails to declare, so
+the fault is in the pairing rather than in anybody's shader source. Iris cannot
+move: it is 1.8.14-beta.1 because that is the one that speaks Sodium 0.8, this
+pack ships Sodium 0.8.13-beta.1, and Sable declares anything below
+0.8.12-alpha.2 incompatible. So the patcher moved instead - to 1.10.0-r5.9,
+which the mod itself asked for. The author's three shader settings were carried
+across into files named for the new pair.
 
 `TFCR-Bliss` and `TFCR-photon-voxy-support` are shipped and work without any of
 this.
