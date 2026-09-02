@@ -9,17 +9,12 @@ file id; 187 came from CurseForge and five more - EntityCulling, 3D Skin
 Layers, Create Aeronautics, TFC Sable Rivers and E33 Chat - from Modrinth,
 because their authors switched off API distribution on CurseForge and Modrinth
 serves the same file names. Seven further mods ride inside the release's own
-`overrides/mods`, so the folder holds 199.
+`overrides/mods`, so the folder holds 199 before the three below.
 
-Three are still missing and the pack will not run without them. Their authors
-blocked API distribution and they are on CurseForge alone, so they have to be
-fetched by hand:
-
-| file | page |
-| --- | --- |
-| `coralstfc-1.21.1-neoforge-1.0.3.jar` | [corals-tfc](https://www.curseforge.com/minecraft/mc-mods/corals-tfc/files/7883936) |
-| `tfcorewashing-1.21.1-neoforge-1.1.4.jar` | [tfc-ore-washing](https://www.curseforge.com/minecraft/mc-mods/tfc-ore-washing/files/8058503) |
-| `simulatedcoasters-0.1.5.jar` | [create-coasters-simulated](https://www.curseforge.com/minecraft/mc-mods/create-coasters-simulated/files/8655742) |
+Three more came from CurseForge by hand, because their authors blocked API
+distribution and they exist nowhere else - `coralstfc` 1.0.3, `tfcorewashing`
+1.1.4 and `simulatedcoasters` 0.1.5, each checked against the SHA-1 CurseForge
+publishes for it. So the folder holds 202 and the set is complete.
 
 ## What comes from the release and what does not
 
