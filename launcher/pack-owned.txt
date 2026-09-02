@@ -14,4 +14,10 @@
 # Nothing yet. Add a path here the first time this pack ships a change to a
 # config that a mod rewrites at startup and the change fails to arrive.
 
-# Nothing yet: this pack has not needed to take a file back off a player.
+# NeoForge rewrites this one itself, so it looks edited from the first launch
+# and nothing shipped could otherwise reach it again. What it carries is the
+# pack's, not the player's: the dependency overrides section, which held a line
+# softening sable's incompatibility with scalablelux - a mod this pack does not
+# have, so the override matched nothing and only produced a warning on every
+# load.
+config/fml.toml

@@ -71,6 +71,41 @@ start with the mod loaded and its one job undone.
 
 mods/ holds 201.
 
+## The shader is the player's to fetch
+
+`shaderpacks/` carries two `.txt` files named for Complementary. They are not
+shaders - they are Euphoria Patches settings files, and the first line of each
+says so. The shader itself is not here and cannot be: Complementary's licence
+allows a modpack to include it only "by using Modrinth or CurseForge's existing
+systems", and says plainly that redistributing it "using a direct file upload"
+is not allowed. This pack is files in a git repository, which is exactly that.
+
+So `EuphoriaPatcher` says `SHADER NOT FOUND` until the player puts one in. The
+mod here is `EuphoriaPatcher-1.9.3-r5.8.1-neoforge.jar` and the settings files
+are written for 1.9.3, so the version that matches is **r5.8.1**:
+
+- [Complementary Reimagined r5.8.1](https://modrinth.com/shader/complementary-reimagined/version/r5.8.1)
+- [Complementary Unbound r5.8.1](https://modrinth.com/shader/complementary-unbound/version/r5.8.1)
+
+Drop either zip into `shaderpacks/` and Euphoria Patches builds the patched
+version beside it. The mod also reports that 1.10.0 exists and wants
+Complementary r5.9; taking that route means updating the mod and the settings
+files together, and the pack is not set up for it.
+
+`TFCR-Bliss` and `TFCR-photon-voxy-support` are shipped and work without any of
+this.
+
+## One warning removed
+
+`config/fml.toml` held `sable = ["-scalablelux"]`, softening Sable's declared
+incompatibility with ScalableLux. ScalableLux is not in this pack, so the
+override matched nothing and NeoForge said so on every load - the one warning
+on the mod-loading screen. It is gone.
+
+The file is claimed in `launcher/pack-owned.txt`, because NeoForge rewrites it
+itself: it looks player-edited from the first launch, and nothing shipped could
+otherwise reach an instance that already has it.
+
 ## Publishing
 
 `tools/generate_manifest.py` writes `pack-manifest.json` and stages the zipped
