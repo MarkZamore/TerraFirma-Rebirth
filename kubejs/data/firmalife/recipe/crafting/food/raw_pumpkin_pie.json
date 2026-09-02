@@ -1,0 +1,1 @@
+{"type":"tfc:advanced_shapeless_crafting","ingredients":[{"type":"tfc:and","children":[{"item":"firmalife:food/pumpkin_pie_dough"},{"type":"tfc:not_rotten"}]}],"primary_ingredient":{"type":"tfc:and","children":[{"item":"firmalife:food/pumpkin_pie_dough"},{"type":"tfc:not_rotten"}]},"result":{"stack":{"count":1,"id":"firmalife:food/raw_pumpkin_pie"}}}

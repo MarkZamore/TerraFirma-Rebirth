@@ -1,0 +1,118 @@
+// ============================================================
+// TFCR 4.1 音乐包配置（Ambience Mini 2.7.10）
+//   menu      主菜单 3 首，进世界加载中不断播
+//   void      melodysheep 9 首，进入深空维度随机播放
+//   moon      melodysheep 6 首，登月后随机播放
+//   nether    melodysheep 7 首，下界随机播放
+//   overworld 其余 47 首，主世界随机播放
+// ============================================================
+
+playlist menu = [
+  "menu/Granni Xie - menu01.mp3",
+  "menu/Granni Xie - menu02.mp3",
+  "menu/Granni Xie - menu03.mp3"
+];
+
+playlist void = [
+  "void/melodysheep - Beckoning.mp3",
+  "void/melodysheep - Islands of Sound.mp3",
+  "void/melodysheep - Perseverance.mp3",
+  "void/melodysheep - Pressure Waves.mp3",
+  "void/melodysheep - Primordial.mp3",
+  "void/melodysheep - The Morning Star.mp3",
+  "void/melodysheep - The Outer Reaches.mp3",
+  "void/melodysheep - The Wandering Dream.mp3"
+];
+
+playlist overworld = [
+  "overworld/Adrian Von Ziegler - A Celtic Lore.mp3",
+  "overworld/Adrian Von Ziegler - Prophecy.mp3",
+  "overworld/Artesia - Irree Seose.mp3",
+  "overworld/Beltaine - Bring to the Boil.mp3",
+  "overworld/Brian Finnegan - Starrs.mp3",
+  "overworld/DROLLS - Saltarello (Italy, anon. XIV).mp3",
+  "overworld/David Arkenstone - Song Of The Silkie.mp3",
+  "overworld/Estampie - Trotto.mp3",
+  "overworld/Granni Xie - track01.mp3",
+  "overworld/Granni Xie - track02.mp3",
+  "overworld/Granni Xie - track03.mp3",
+  "overworld/Granni Xie - track04.mp3",
+  "overworld/Granni Xie - track05.mp3",
+  "overworld/Granni Xie - track06.mp3",
+  "overworld/Granni Xie - track07.mp3",
+  "overworld/Granni Xie - track08.mp3",
+  "overworld/Granni Xie - track09.mp3",
+  "overworld/Granni Xie - track10.mp3",
+  "overworld/Granni Xie - track12.mp3",
+  "overworld/Granni Xie - track13.mp3",
+  "overworld/Granni Xie - track14.mp3",
+  "overworld/Granni Xie - track15.mp3",
+  "overworld/Granni Xie - track16.mp3",
+  "overworld/Granni Xie - track17.mp3",
+  "overworld/Granni Xie - track18.mp3",
+  "overworld/Granni Xie - track19.mp3",
+  "overworld/Granni Xie - track20.mp3",
+  "overworld/Granni Xie - track21.mp3",
+  "overworld/Granni Xie - track22.mp3",
+  "overworld/Granni Xie - track23.mp3",
+  "overworld/Granni Xie - track24.mp3",
+  "overworld/Granni Xie - track25.mp3",
+  "overworld/Irrlichter - Lauda.mp3",
+  "overworld/Irrlichter - Wassermann.mp3",
+  "overworld/James Horner - Horner For The Love Of A Princess.mp3",
+  "overworld/John Debney - General CAS 3.mp3",
+  "overworld/Les Batards du Nord - Le reel de la sorciere.mp3",
+  "overworld/Loreena McKennitt - Kecharitomene.mp3",
+  "overworld/Paul Leonard Morgan - Mary Queen of Scots.mp3",
+  "overworld/Paul Romero,Steve Baca,Paul James - Floating Across Water.mp3",
+  "overworld/Ron Korb - Cuchulainn.mp3",
+  "overworld/Ron Korb - Elk Man Prophecy.mp3",
+  "overworld/Sava - Eire.mp3",
+  "overworld/Slechtvalk - From Out of the Mist We Came Forth.mp3",
+  "overworld/Solas - Mi Pequena Estrella (Little Star).mp3",
+  "overworld/Stary Olsa - Mound.mp3",
+  "overworld/Silfy - Shestvie gnomov.mp3"
+];
+
+playlist moon = [
+  "moon/melodysheep - Gaia.mp3",
+  "moon/melodysheep - Georeactor.mp3",
+  "moon/melodysheep - Moon Water.mp3",
+  "moon/melodysheep - Synestia.mp3",
+  "moon/melodysheep - Theia.mp3",
+  "moon/melodysheep - Written in the Rocks.mp3"
+];
+
+playlist nether = [
+  "nether/melodysheep - Afterlife.mp3",
+  "nether/melodysheep - Crossing the Dark (Part 2).mp3",
+  "nether/melodysheep - Drifting.mp3",
+  "nether/melodysheep - Incubator.mp3",
+  "nether/melodysheep - Mesa.mp3",
+  "nether/melodysheep - Subterranean.mp3",
+  "nether/melodysheep - The Somnium.mp3"
+];
+
+// ---------------- 调度 ----------------
+begin
+    // 主菜单 + 进世界加载中：菜单音乐不间断
+    when ( @main_menu || @joining ) play menu;
+
+    when ( @in_game )
+    begin
+        // 深空（cosmonautics 的虚空维度）：melodysheep
+        when ( $dimension == "rocketnautics:deep_space" ) play void;
+
+        // 主世界：其余曲目随机
+        when ( $dimension == "minecraft:overworld" ) play overworld;
+
+        // 月球：melodysheep 月球主题
+        when ( $dimension == "rocketnautics:moon" ) play moon;
+
+        // 下界：melodysheep 幽暗主题
+        when ( $dimension == "minecraft:the_nether" ) play nether;
+
+        // 其他维度：无音乐
+        play [ ];
+    end
+end

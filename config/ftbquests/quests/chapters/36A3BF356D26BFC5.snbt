@@ -1,0 +1,80 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "36A3BF356D26BFC5"
+	group: "47652EC60BA7B927"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
+	id: "36A3BF356D26BFC5"
+	images: [ ]
+	order_index: 17
+	quest_enhance_chapter_background: "minecraft:textures/map/map_background.png"
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4525DB7844975EC1"]
+			id: "5A304CBBF873084F"
+			tasks: [
+				{
+					id: "772B785289C95BFF"
+					item: { count: 1, id: "create:schematic_and_quill" }
+					type: "item"
+				}
+				{
+					id: "55832BFD16072C52"
+					item: { count: 1, id: "create:schematic_table" }
+					type: "item"
+				}
+				{
+					id: "3F20C81A6FD95E18"
+					item: { count: 1, id: "create:schematicannon" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4525DB7844975EC1"]
+			id: "5A60D485AF132B1A"
+			tasks: [{
+				id: "5A378742EAE10C0A"
+				item: { count: 1, id: "create:crafting_blueprint" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4525DB7844975EC1"]
+			id: "0ABF6F581A681D48"
+			tasks: [{
+				id: "3C332018BBF8C3A6"
+				item: { count: 1, id: "create:tree_fertilizer" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4525DB7844975EC1"]
+			id: "71DE0C4DC2E26005"
+			tasks: [
+				{
+					id: "5E1DDC9131736B67"
+					item: { count: 1, id: "create:white_postbox" }
+					type: "item"
+				}
+				{
+					id: "0A78D06C05E3555B"
+					item: { count: 1, id: "create:red_postbox" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -2.0d
+		}
+	]
+}

@@ -1,0 +1,4 @@
+# Byte identity is the point: the launcher and its peers compare SHA-256 hashes
+# of the pack's files, so git must not touch a single byte - no line-ending
+# conversion, no filters.
+* -text
