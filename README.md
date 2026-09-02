@@ -117,6 +117,16 @@ own record of what it last built - a version and the hash of the base shader it
 was built from - and shipping one that describes r5.8.1 could talk the patcher
 out of rebuilding. It writes a fresh one on the first run.
 
+The pack now opens on `TFCR-Bliss`, one of the two shaders it actually ships,
+so a fresh install has working shaders with nothing to download. It used to
+open on the patched Complementary, which is a folder that does not exist until
+the player has fetched the base shader - shaders on, pointing at nothing.
+
+Anyone who wants the author's original look still can: fetch Complementary
+r5.9 from the link above, drop it in `shaderpacks/`, and Euphoria Patches
+builds the patched version on the next start. The settings files for it are
+already here.
+
 ## One warning removed
 
 `config/fml.toml` held `sable = ["-scalablelux"]`, softening Sable's declared
