@@ -1,0 +1,22 @@
+# Game settings this build asks for, in options.txt's own key:value form.
+#
+# A plain line is a starting point: it is written into an instance that does
+# not have the key yet, and never touched again. The game writes back every
+# option it knows the first time it saves, so after one session a plain line
+# here can no longer change anything, and what the player set stays set.
+#
+# A line beginning with ! is the build's rather than the player's. The launcher
+# puts it back at every launch, wherever it already stands in the file. Keep
+# that mark for the few settings the build depends on and nothing else.
+
+# The game opens in Russian.
+#
+# Minecraft's own default is en_us, so an instance came up in English and sat
+# there until somebody went looking for the setting - on a build whose quests,
+# items and tooltips are translated.
+#
+# Seeded and not held. A language is exactly the kind of thing a player may
+# want otherwise, and the ! mark would put this back at every launch and argue
+# with them about it. After the first session the key exists and this line can
+# never change it again.
+lang:ru_ru
