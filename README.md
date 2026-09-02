@@ -105,6 +105,18 @@ across into files named for the new pair.
 `TFCR-Bliss` and `TFCR-photon-voxy-support` are shipped and work without any of
 this.
 
+The pack's `config/iris.properties` names the shader it starts with, and it
+named the old one - `TFCR-ComplementaryReimagined_r5.8.1 + EuphoriaPatches_1.9.3`,
+a folder that no longer gets built. It names the new pair now. Iris still opens
+with shaders on, as the author had it; a player who has not fetched the base
+shader yet simply has nothing at that name, which was already true of the old
+one.
+
+`config/euphoria_patcher/.data.json` went with it. That file is the patcher's
+own record of what it last built - a version and the hash of the base shader it
+was built from - and shipping one that describes r5.8.1 could talk the patcher
+out of rebuilding. It writes a fresh one on the first run.
+
 ## One warning removed
 
 `config/fml.toml` held `sable = ["-scalablelux"]`, softening Sable's declared
