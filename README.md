@@ -14,7 +14,7 @@ serves the same file names. Seven further mods ride inside the release's own
 Three more came from CurseForge by hand, because their authors blocked API
 distribution and they exist nowhere else - `coralstfc` 1.0.3, `tfcorewashing`
 1.1.4 and `simulatedcoasters` 0.1.5, each checked against the SHA-1 CurseForge
-publishes for it. So the folder holds 202 and the set is complete.
+publishes for it. So the folder held 202; one came back out, for the reason below.
 
 ## What comes from the release and what does not
 
@@ -45,6 +45,31 @@ through rather than dropped.
 
 `options.txt` sets no language, so the game opens in English and follows
 whatever the player picks; the questbook follows with it.
+
+## CustomSkinLoader is out
+
+The release shipped CustomSkinLoader 15.0.1 and the game would not start with
+it:
+
+    Patch 'customskinloader:skin-manager-patch:skin-manager.<init>.v1'
+    matched protocol 0 but did not modify any bytecode
+
+It patches `net.minecraft.client.resources.SkinManager`, and so does the
+launcher's identity agent - `createSkinLookup` and the lambda inside it are
+named in the arguments every launch is given. The agent is a `-javaagent`, so
+it runs before ModLauncher's transformers; by the time CustomSkinLoader looks
+at the constructor it is no longer the shape it expects, and it refuses rather
+than guess.
+
+Two skin systems cannot both own that class, and the launcher's is the one this
+whole setup rests on: skins follow a player across machines and across a LAN
+from their Steam identity. CustomSkinLoader answers the same question for skin
+servers this setup does not use, and nothing in the pack declares it - no mod
+here names it as a dependency. So it is out rather than silenced with
+`-Dcustomskinloader.ignorePatchFailure=true`, which would have let the game
+start with the mod loaded and its one job undone.
+
+mods/ holds 201.
 
 ## Publishing
 
