@@ -71,61 +71,25 @@ start with the mod loaded and its one job undone.
 
 mods/ holds 201.
 
-## The shader is the player's to fetch
+## Shaders work out of the box, and Complementary is gone
 
-`shaderpacks/` carries two `.txt` files named for Complementary. They are not
-shaders - they are Euphoria Patches settings files, and the first line of each
-says so. The shader itself is not here and cannot be: Complementary's licence
-allows a modpack to include it only "by using Modrinth or CurseForge's existing
-systems", and says plainly that redistributing it "using a direct file upload"
-is not allowed. This pack is files in a git repository, which is exactly that.
+The release shipped Euphoria Patcher and two settings files named for
+Complementary, but not Complementary itself - its licence lets a modpack
+include it only through Modrinth's or CurseForge's own systems and forbids
+redistributing it by direct file upload, which is what a git repository of
+files is. So the patcher opened every game with SHADER NOT FOUND and Iris was
+pointed at a folder that only exists once the player has fetched the base
+shader themselves.
 
-So `EuphoriaPatcher` says `SHADER NOT FOUND` until the player puts one in. The
-mod here is `EuphoriaPatcher-1.10.0-r5.9-neoforge.jar`, so the version that matches is
-**r5.9**:
+That whole arrangement is out: the patcher, its config, and the two settings
+files. What is left is the two shaders the pack really ships, `TFCR-Bliss` and
+`TFCR-photon-voxy-support`, both the author's own edits, and `iris.properties`
+opens on Bliss - the smaller of the two, and the one that does not carry
+support for Voxy, a mod this pack does not have.
 
-- [Complementary Reimagined r5.9](https://modrinth.com/shader/complementary-reimagined/version/r5.9)
-- [Complementary Unbound r5.9](https://modrinth.com/shader/complementary-unbound/version/r5.9)
-
-Drop either zip into `shaderpacks/` and Euphoria Patches builds the patched
-version beside it. The release shipped EuphoriaPatcher 1.9.3 with r5.8.1, and that pair does not
-compile under the Iris this pack also ships. Stock Complementary r5.8.1 loads
-fine on the same Iris, so what Iris chokes on is what the patcher adds:
-
-    final.fsh: ERROR: 0:854: '_10' : undeclared identifier
-
-`_10` is a name Iris's own translator generates and then fails to declare, so
-the fault is in the pairing rather than in anybody's shader source. Iris cannot
-move: it is 1.8.14-beta.1 because that is the one that speaks Sodium 0.8, this
-pack ships Sodium 0.8.13-beta.1, and Sable declares anything below
-0.8.12-alpha.2 incompatible. So the patcher moved instead - to 1.10.0-r5.9,
-which the mod itself asked for. The author's three shader settings were carried
-across into files named for the new pair.
-
-`TFCR-Bliss` and `TFCR-photon-voxy-support` are shipped and work without any of
-this.
-
-The pack's `config/iris.properties` names the shader it starts with, and it
-named the old one - `TFCR-ComplementaryReimagined_r5.8.1 + EuphoriaPatches_1.9.3`,
-a folder that no longer gets built. It names the new pair now. Iris still opens
-with shaders on, as the author had it; a player who has not fetched the base
-shader yet simply has nothing at that name, which was already true of the old
-one.
-
-`config/euphoria_patcher/.data.json` went with it. That file is the patcher's
-own record of what it last built - a version and the hash of the base shader it
-was built from - and shipping one that describes r5.8.1 could talk the patcher
-out of rebuilding. It writes a fresh one on the first run.
-
-The pack now opens on `TFCR-Bliss`, one of the two shaders it actually ships,
-so a fresh install has working shaders with nothing to download. It used to
-open on the patched Complementary, which is a folder that does not exist until
-the player has fetched the base shader - shaders on, pointing at nothing.
-
-Anyone who wants the author's original look still can: fetch Complementary
-r5.9 from the link above, drop it in `shaderpacks/`, and Euphoria Patches
-builds the patched version on the next start. The settings files for it are
-already here.
+A player who wants the Complementary look can still have it: install Euphoria
+Patcher and Complementary r5.9 into their own instance. Nothing here fights
+them. It is simply not something this pack can hand out.
 
 ## One warning removed
 
