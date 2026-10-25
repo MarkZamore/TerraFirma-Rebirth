@@ -1,0 +1,854 @@
+{
+  "create.keyinfo.alt_modifier": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "create.keyinfo.ctrl_modifier": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "create.keyinfo.rotate_menu": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "create.keyinfo.shift_modifier": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "create.keyinfo.toolbelt": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "create.keyinfo.toolmenu": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "desc.seasonhud.keybind.options": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "iris.keybind.reload": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "iris.keybind.shaderPackSelection": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "iris.keybind.toggleShaders": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "iris.keybind.wireframe": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "jei_swift_copy.item.id": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "jei_swift_copy.item.info": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "jei_swift_copy.recipe.json": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.advancements": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.aero_cam_sync.add_mainhand_item_client": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.aero_cam_sync.open_config": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.aero_cam_sync.toggle": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.aeroworks.joystick.free_camera": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.area_cancel": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.area_confirm": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.astikorcartsredux.action": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.astikorcartsredux.slow": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.attack": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.back": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.carry.desc": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.chat": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.climbable_ropes.lock_rope_camera": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.command": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.corpse.death_history": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.curios.open.desc": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.dashpanels.hold_move_camera": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "key.dashpanels.hold_to_open_wiki": {
+    "context": "GUI",
+    "source": "bytecode"
+  },
+  "key.drop": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.dynamic_fps.toggle_disabled": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.dynamic_fps.toggle_forced": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.entityculling.toggle": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.forward": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ftbchunks.add_waypoint": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ftbchunks.claim_manager": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ftbchunks.map": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ftbchunks.minimap.zoomIn": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ftbchunks.minimap.zoomOut": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ftbchunks.toggle_minimap": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ftbchunks.waypoint_manager": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ftbquests.gui.extended_info": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ftbquests.gui.move_down": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ftbquests.gui.move_left": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ftbquests.gui.move_right": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ftbquests.gui.move_up": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ftbquests.gui.next_chapter": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ftbquests.gui.player_prefs": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ftbquests.gui.prev_chapter": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ftbquests.gui.recenter": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ftbquests.gui.search": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ftbquests.gui.zoom_in": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ftbquests.gui.zoom_out": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ftbquests.gui.zoom_reset": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ftbquests.gui_editor.copy": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ftbquests.gui_editor.delete": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ftbquests.gui_editor.force_delete": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ftbquests.gui_editor.paste": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ftbquests.gui_editor.redo": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ftbquests.gui_editor.reload_theme": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ftbquests.gui_editor.reward_tables": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ftbquests.gui_editor.select_all": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ftbquests.gui_editor.select_none": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ftbquests.gui_editor.toggle_crosshairs": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ftbquests.gui_editor.undo": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ftbquests.gui_quest_panel.add_image": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ftbquests.gui_quest_panel.add_line": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ftbquests.gui_quest_panel.add_page_break": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ftbquests.gui_quest_panel.edit_desc": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ftbquests.gui_quest_panel.edit_quest_props": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ftbquests.gui_quest_panel.edit_subtitle": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ftbquests.gui_quest_panel.edit_title": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ftbquests.quests": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ftbteams.open_gui": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.fullscreen": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.hotbar.1": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.hotbar.2": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.hotbar.3": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.hotbar.4": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.hotbar.5": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.hotbar.6": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.hotbar.7": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.hotbar.8": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.hotbar.9": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.immersiveengineering.chemthrowerSwitch": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.immersiveengineering.magnetEquip": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.immersiveengineering.railgunZoom": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.inventory": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jade.config": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jade.narrate": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jade.show_details": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jade.show_overlay": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jade.show_recipes": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jade.show_uses": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jade.toggle_liquid": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jei.bookmark": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jei.cheatItemStack": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jei.cheatItemStack2": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jei.cheatOneItem": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jei.cheatOneItem2": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jei.clearSearchBar": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jei.closeRecipeGui": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jei.copy.recipe.id": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jei.focusSearch": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jei.internal.enter.key": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jei.maxTransferRecipeBookmark": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jei.nextCategory": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jei.nextPage": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jei.nextRecipePage": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jei.nextSearch": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jei.pauseRecipeCycling": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jei.previousCategory": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jei.previousPage": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jei.previousRecipePage": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jei.previousSearch": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jei.quickMove": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jei.recipeBack": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jei.shareToChat": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jei.showBookmarkTooltipFeatures": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jei.showRecipe": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jei.showRecipe2": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jei.showUses": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jei.showUses2": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jei.toggleBookmarkOverlay": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jei.toggleCheatMode": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jei.toggleCheatModeConfigButton": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jei.toggleEditMode": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jei.toggleHideIngredient": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jei.toggleOverlay": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jei.toggleWildcardHideIngredient": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jei.transferRecipeBookmark": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.journeymap.create_waypoint": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.journeymap.fullscreen.disable_buttons": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.journeymap.fullscreen.east": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.journeymap.fullscreen.north": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.journeymap.fullscreen.south": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.journeymap.fullscreen.west": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.journeymap.fullscreen_chat_position": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.journeymap.fullscreen_create_waypoint": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.journeymap.fullscreen_follow_player": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.journeymap.fullscreen_options": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.journeymap.fullscreen_waypoints": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.journeymap.map_toggle_alt": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.journeymap.minimap_preset": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.journeymap.minimap_toggle_alt": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.journeymap.minimap_type": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.journeymap.toggle_entity_names": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.journeymap.toggle_render_waypoints": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.journeymap.toggle_render_waypoints_map": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.journeymap.toggle_render_waypoints_world": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.journeymap.toggle_waypoints": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.journeymap.zoom_in": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.journeymap.zoom_out": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jump": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.kubejs.kubedex": {
+    "context": "UNIVERSAL",
+    "source": "bytecode"
+  },
+  "key.left": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.loadToolbarActivator": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.modernui.openCenter": {
+    "context": "UNIVERSAL",
+    "source": "bytecode"
+  },
+  "key.modernui.zoom": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "key.next_music": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.oelib.open_fluid_example": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.oneenoughitem.open_editor": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.pickItem": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.play_pause": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.playerlist": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ponder.ponder": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.print_all": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.reload": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.right": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.rocketnautics.toggle_alignment": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.rocketnautics.toggle_dampeners": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.rocketnautics.toggle_jetpack": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sable_schematic_api.blueprint_tool.open": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sable_schematic_api.camera.open": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sablecleanup.open_list": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.saveToolbarActivator": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.screenshot": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.smoothCamera": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sneak": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.socialInteractions": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sophisticatedbackpacks.inventory_interaction": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sophisticatedbackpacks.open_backpack": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sophisticatedbackpacks.toggle_upgrade_1": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sophisticatedbackpacks.toggle_upgrade_2": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sophisticatedbackpacks.toggle_upgrade_3": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sophisticatedbackpacks.toggle_upgrade_4": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sophisticatedbackpacks.toggle_upgrade_5": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sophisticatedbackpacks.tool_swap": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sophisticatedcore.sort": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sophisticatedcore.transfer_to_inventory": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sophisticatedcore.transfer_to_storage": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.spectatorOutlines": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sprint": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.swapOffhand": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.togglePerspective": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.toggle_areas": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.tracks.open_tuning": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.unlockIME": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.use": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "lambdynlights.key.toggle_fps_dynamic_lighting": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "simulated.keyinfo.rotate_mode": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "simulated.keyinfo.scroll_down": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "simulated.keyinfo.scroll_up": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "tfc.key.cycle_chisel_mode": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "tfc.key.place_block": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "tfc.key.stack_food": {
+    "context": "GUI",
+    "source": "bytecode"
+  },
+  "tfcgenviewer.key.open_viewer": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "tfcgenviewer.key.preview_center_spawn": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "tfcgenviewer.key.preview_center_view": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  }
+}
