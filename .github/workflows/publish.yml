@@ -1,11 +1,11 @@
-name: Publish TerraFirma Rebirth pack
+name: Publish TerraFirma Rebirth 2 pack
 
 on:
   push:
     branches: [main]
 
 concurrency:
-  group: terrafirma-rebirth-pack-latest
+  group: terrafirma-rebirth-2-pack-latest
   cancel-in-progress: false
 
 permissions:
@@ -73,13 +73,13 @@ jobs:
 
           if gh release view pack-latest >/dev/null 2>&1; then
             retry "Release edit" gh release edit pack-latest \
-              --title "TerraFirma Rebirth pack" \
-              --notes "Rolling TerraFirma Rebirth pack release. Revision: $GITHUB_SHA"
+              --title "TerraFirma Rebirth 2 pack" \
+              --notes "Rolling TerraFirma Rebirth 2 pack release. Revision: $GITHUB_SHA"
           else
             retry "Release create" gh release create pack-latest \
               --target "$GITHUB_SHA" \
-              --title "TerraFirma Rebirth pack" \
-              --notes "Rolling TerraFirma Rebirth pack release. Revision: $GITHUB_SHA"
+              --title "TerraFirma Rebirth 2 pack" \
+              --notes "Rolling TerraFirma Rebirth 2 pack release. Revision: $GITHUB_SHA"
           fi
 
           # Every asset is named <kind>-<the first twelve of its sha256>-<file>,

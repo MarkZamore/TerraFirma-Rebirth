@@ -1,4 +1,4 @@
-# TerraFirma Rebirth
+# TerraFirma Rebirth 2
 
 TerraFirma: Rebirth by MerMerrr, release `1.21.1-4.1.21release`, for Minecraft
 1.21.1 on NeoForge 21.1.248, laid out as a portable pack the LANMinecraft
