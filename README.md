@@ -118,3 +118,7 @@ before the download and after.
 ## Controls preset
 
 The launcher offers a complete 213-mapping controls preset for this pack. It keeps vanilla controls, gives TFC and engineering actions separate keys, and is validated before every GitHub release. See [the layout and maintenance instructions](tools/keybinds/design.md). Applying the preset is optional; later changes are distributed as pack data without a launcher update.
+
+## Rename compatibility
+
+TerraFirma Rebirth 2 updates the existing pack. The stable catalogue ID `terrafirma-rebirth` and published installation key `TerraFirma Rebirth` are retained so existing launchers receive the renamed library card and subsequent pack updates at startup without a new executable. The source repository and authoring folder use the new name. Newer launchers also recognise the old installation key after migrating their local folders; worlds continue to belong to the same pack.
