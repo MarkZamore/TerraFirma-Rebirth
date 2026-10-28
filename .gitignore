@@ -3,3 +3,7 @@
 _download/
 dist/
 tools/__pycache__/
+
+# Temporary tooling output and Python bytecode.
+artifacts/
+__pycache__/

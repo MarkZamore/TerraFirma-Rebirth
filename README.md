@@ -114,3 +114,7 @@ before the download and after.
 ## Launcher library
 
 `library/content.json` owns the player-facing description, stable identity, additional library IDs and curated addon relationships; `library/preview.jpg` is the original menu background resized for cards and the detail banner. `tools/pack_library.py` reads the actual shipped jars and builds a deterministic, content-addressed library bundle. The optional `library` field of `pack-manifest.json` names its size, SHA-256 and revision. It is published before the manifest, separately from installed game files, and ignored by older launchers.
+
+## Controls preset
+
+The launcher offers a complete 213-mapping controls preset for this pack. It keeps vanilla controls, gives TFC and engineering actions separate keys, and is validated before every GitHub release. See [the layout and maintenance instructions](tools/keybinds/design.md). Applying the preset is optional; later changes are distributed as pack data without a launcher update.
