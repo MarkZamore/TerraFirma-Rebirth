@@ -76,7 +76,7 @@
 		
 		# Dimension ID's where chunks may be claimed. If non-empty, chunks may be claimed *only* in these dimensions (and the dimension is not in "claim_dimension_blacklist"). Same syntax as for "claim_dimension_blacklist".
 		# Default: []
-		claim_dimension_whitelist: [ ]
+		claim_dimension_whitelist: ["minecraft:overworld"]
 		
 		# Hard limit for the number of chunks a team can claim, regardless of how many members. Default of 0 means no hard limit.
 		# Default: 0

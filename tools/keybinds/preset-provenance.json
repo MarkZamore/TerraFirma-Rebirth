@@ -1,0 +1,119 @@
+{
+  "status": "native Options namespace reconciled and integrated by source owner",
+  "officialProjectId": 957957,
+  "officialFileId": 8843176,
+  "authorManifestName": "TerraFirma Rebirth 2",
+  "authorVersion": "1.21.1-1.0.0-release",
+  "minecraftVersion": "1.21.1",
+  "loader": "NeoForge21.1.248",
+  "archiveSha256": "51fc02aaee49ed9668e97923f9b4714acb5bf1fb4fe6f225652e4e2874372d19",
+  "authorStockSnapshotSha256": "0ad3aab923deeda5a7bb118927923108ddb369277ea1e0288f549f0d81ce557e",
+  "authorJars": 222,
+  "authorOptionsSha256": "0d7b081a7adbb10205b6d3b8e0e3250afbc65f9589bf42fd1e3933b2134adf91",
+  "authorOptionsMappings": 219,
+  "additionalStaticUnboundNames": [],
+  "presetNames": 216,
+  "enabled": 88,
+  "unbound": 128,
+  "uniquePhysicalKeys": 88,
+  "nativeSourceDataMutations": 0,
+  "oldPresetSha256": "cba87b2e72b92bfbcba29f7132152f46a43cfa5e8298965e1dd21082945c93fd",
+  "oldEnabledShortcutsNowUnbound": [
+    "key.modernui.openCenter"
+  ],
+  "retiredNameRemoved": "key.entityculling.toggle",
+  "restoredPriorShortcuts": [
+    "tfcgenviewer.key.open_viewer",
+    "key.unlockIME"
+  ],
+  "sourceOptionOwnership": {
+    "total": 219,
+    "namesWithCurrentVanillaOrJarEvidence": 217,
+    "knownStaleRowsUnbound": [
+      "key.friendship.prank",
+      "key.friendship.interact"
+    ],
+    "embeddedFactoryNames": 4,
+    "evidence": "tools/keybinds/stock-owner-audit.json"
+  },
+  "checks": {
+    "generatorReproducible": true,
+    "existingCheckerConflicts": 0,
+    "actualNeoForgeVersion": "21.1.248",
+    "actualJava21RuntimeSha256": "0afb1170b83c156dfdb7f54bb34c9b058064175c329a5d80b782bcc9dbaa2164",
+    "nativeKeyTokens": 221,
+    "nativeOrderedContextPairs": 5184,
+    "nativeBoundPairs": 3828,
+    "nativeConflicts": 0,
+    "productionParserApplyChecks": 9,
+    "fullGameRun": false,
+    "nativeKeyTokensScope": "Prior source preparation proved221 accepted tokens; final216 is an exact subset. No new native pair execution performed for five removed unbound names.",
+    "fullGameRunScope": "No new game or GPU run for this data-only cleanup. Actual native Title inventory216/216 was supplied by source owner.",
+    "currentGeneratorCheck": "PASS exact216",
+    "currentChecker": "PASS216/88bound/88physical/0conflicts",
+    "publicationRegistryValidation": "Pinned sanitized native Options snapshot bound to exact source descriptor, author options and source JAR set. Static scanner is discovery only; counts are data, not generic hardcoded limits."
+  },
+  "removedNonOptionsNames": [
+    {
+      "name": "key.aero_cam_sync.add_mainhand_item_client",
+      "previousPreset": "key.keyboard.unknown",
+      "reason": "native ALL-only internal, absent from Options"
+    },
+    {
+      "name": "key.friendship.interact",
+      "previousPreset": "key.keyboard.unknown",
+      "reason": "not registered in native ALL or Options"
+    },
+    {
+      "name": "key.friendship.prank",
+      "previousPreset": "key.keyboard.unknown",
+      "reason": "not registered in native ALL or Options"
+    },
+    {
+      "name": "key.jei.internal.enter.key",
+      "previousPreset": "key.keyboard.unknown",
+      "reason": "native ALL-only internal, absent from Options"
+    },
+    {
+      "name": "key.oelib.open_fluid_example",
+      "previousPreset": "key.keyboard.unknown",
+      "reason": "not registered in native ALL or Options"
+    }
+  ],
+  "nativeInventory": {
+    "sha256": "f6cc977cb1d112f187a5b282e40b49310bc56397f7f7a31edbe20c8c8e1c2f98",
+    "sizeBytes": 151143,
+    "registeredAll": 223,
+    "options": 216,
+    "allOptionsAssignmentsMatchExistingPreset": true,
+    "additionalLanguageGuards": 0,
+    "allOnlyNamesExcluded": [
+      "create.keyinfo.",
+      "key.aero_cam_sync.add_mainhand_item_client",
+      "key.jei.internal.enter.key",
+      "key.jei.internal.enter.key2",
+      "key.jei.internal.escape.key",
+      "key.jei.internal.left.click",
+      "key.jei.internal.right.click"
+    ],
+    "scope": "Actual final technical Title inventory; no player options copied into pack data."
+  },
+  "priorPreparedPresetSha256": "d218322ffeaf680c38c1264aac4665013452f42adc1dd18311e824245fb48359",
+  "changes": {
+    "boundAssignmentsChanged": 0,
+    "removedUnboundRows": 5,
+    "authorOptionsOr2913AuthorFilesChanged": false,
+    "gameOrGpuStarted": false,
+    "activeSourceWritten": true,
+    "integrationScope": "Reviewed controls/workflow files only; all author data unchanged."
+  },
+  "staleAuthorOptionsNamesExcludedFromPreset": [
+    "key.friendship.interact",
+    "key.friendship.prank"
+  ],
+  "presetSha256": "dfa1a153069c433e3db403b94d9bfe00ff258aa2cef95503e8c1cd20d162b698",
+  "nativeRegistry": {
+    "path": "tools/keybinds/native-registry.json",
+    "sha256": "c5a483e25cfbcae05efcff4e4a5f305b2b03e2911f1caccb4885d4c6fa662d7c"
+  }
+}

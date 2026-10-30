@@ -1,0 +1,16 @@
+{
+  "version": "1.21.1",
+  "versionMetadataUrl": "https://piston-meta.mojang.com/v1/packages/018296bcb207bea6fd25b05f08eee3942dcec406/1.21.1.json",
+  "versionMetadataSha256": "5603a965deddb519da59866f3df784ed11c4fef81953d22781e76cebefeac8c3",
+  "officialClient": {
+    "sha1": "30c73b1c5da787909b2f73340419fdf13b9def88",
+    "size": 26836906,
+    "url": "https://piston-data.mojang.com/v1/objects/30c73b1c5da787909b2f73340419fdf13b9def88/client.jar"
+  },
+  "actualClient": {
+    "sizeBytes": 26836906,
+    "sha1": "30c73b1c5da787909b2f73340419fdf13b9def88",
+    "sha256": "499f6897d1837516680f3114072d8106e11c9adcd933fe5cf051b551089b0c99"
+  },
+  "status": "PASS"
+}

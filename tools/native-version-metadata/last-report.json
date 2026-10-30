@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "kind": "native-version-resource-projection",
+  "sourceClient": {
+    "path": "minecraft-1.21.1-client.jar",
+    "sizeBytes": 26836906,
+    "sha256": "499f6897d1837516680f3114072d8106e11c9adcd933fe5cf051b551089b0c99"
+  },
+  "minecraftVersion": "1.21.1",
+  "enabled": true,
+  "metadataSha256": "1dfc39c0408d868c95741e492dc19fca28d67268e4585b2c35430a9ee20c7299",
+  "metadataBytes": 357,
+  "protocolVersion": 767,
+  "worldVersion": 3955,
+  "outputPath": "config/native-version-metadata.jar",
+  "outputSha256": "2719ffe9a82a4c0f2acbd04d68b9043776fb824e87b983e226c8928a46bbf2b7",
+  "outputEntries": [
+    "version.json"
+  ],
+  "classEntries": 0,
+  "managedJvmFlag": "-Xbootclasspath/a:config/native-version-metadata.jar",
+  "managedOwnedPattern": "config/native-version-metadata.jar",
+  "status": "PREPARED_NATIVE_METADATA",
+  "gameOrAuthorModJarsChanged": false,
+  "clientSourceUnchanged": true,
+  "gameInstanceModified": false,
+  "futureVersionTableOrJarCountGate": false,
+  "onlySupportFilePinsUpdated": [
+    "config/native-version-metadata.jar",
+    "launcher/jvm-args.txt",
+    "launcher/pack-owned.txt"
+  ],
+  "changedPaths": []
+}

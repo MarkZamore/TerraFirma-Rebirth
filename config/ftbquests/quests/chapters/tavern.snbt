@@ -63,11 +63,9 @@
 			dependencies: ["7B2E000000000002"]
 			icon: {
 				components: {
-					"tfc:food": {
-						creation_date: -2L
-					}
+					"ftbquests:missing_item": "kaleidoscopetfctavern:grape_purple"
 				}
-				id: "kaleidoscopetfctavern:grape_purple"
+				id: "ftbquests:missing_item"
 			}
 			id: "7B2E000000000003"
 			rewards: [{
@@ -86,11 +84,9 @@
 			dependencies: ["7B2E000000000003"]
 			icon: {
 				components: {
-					"tfc:food": {
-						creation_date: -2L
-					}
+					"ftbquests:missing_item": "kaleidoscopetfctavern:grape_red"
 				}
-				id: "kaleidoscopetfctavern:grape_red"
+				id: "ftbquests:missing_item"
 			}
 			id: "7B2E000000000004"
 			rewards: [{
@@ -132,7 +128,7 @@
 			}]
 			tasks: [{
 				id: "00007B2E10000006"
-				item: { components: { "ftbfiltersystem:filter": "or(item(kaleidoscopetfctavern:purple_grape_bucket) item(kaleidoscopetfctavern:red_grape_bucket) item(kaleidoscopetfctavern:white_grape_bucket) item(kaleidoscopetfctavern:green_grape_bucket))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbfiltersystem:filter": "or(and(item(tfc:wooden_bucket) component(fuzzy:{\\\\\\\\\\\\\\\"tfc:fluid\\\\\\\\\\\\\\\":{id:\\\\\\\\\\\\\\\"kaleidoscopetfctavern:purple_grape_juice\\\\\\\\\\\\\\\",amount:1000}})) and(item(tfc:wooden_bucket) component(fuzzy:{\\\\\\\\\\\\\\\"tfc:fluid\\\\\\\\\\\\\\\":{id:\\\\\\\\\\\\\\\"kaleidoscopetfctavern:red_grape_juice\\\\\\\\\\\\\\\",amount:1000}})) and(item(tfc:wooden_bucket) component(fuzzy:{\\\\\\\\\\\\\\\"tfc:fluid\\\\\\\\\\\\\\\":{id:\\\\\\\\\\\\\\\"kaleidoscopetfctavern:white_grape_juice\\\\\\\\\\\\\\\",amount:1000}})) and(item(tfc:wooden_bucket) component(fuzzy:{\\\\\\\\\\\\\\\"tfc:fluid\\\\\\\\\\\\\\\":{id:\\\\\\\\\\\\\\\"kaleidoscopetfctavern:green_grape_juice\\\\\\\\\\\\\\\",amount:1000}})))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 4.5d
@@ -194,11 +190,9 @@
 			dependencies: ["7B2E000000000009"]
 			icon: {
 				components: {
-					"tfc:food": {
-						creation_date: 144000L
-					}
+					"ftbquests:missing_item": "kaleidoscopetfctavern:flower_purple_wine"
 				}
-				id: "kaleidoscopetfctavern:flower_purple_wine"
+				id: "ftbquests:missing_item"
 			}
 			id: "7B2E00000000000A"
 			rewards: [{

@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "kind": "clean-author-curseforge-stock",
+  "officialProjectPage": "https://www.curseforge.com/minecraft/modpacks/terrafirma-rebirth",
+  "officialFilePage": "https://www.curseforge.com/minecraft/modpacks/terrafirma-rebirth/files/8843176",
+  "projectId": 957957,
+  "fileId": 8843176,
+  "authorVersion": "1.21.1-1.0.0-release",
+  "archive": {
+    "url": "https://mediafilez.forgecdn.net/files/8843/176/TerraFirmaRebirth2%201.0.0-release.zip",
+    "fileName": "TerraFirmaRebirth2 1.0.0-release.zip",
+    "sizeBytes": 489344319,
+    "sha256": "51fc02aaee49ed9668e97923f9b4714acb5bf1fb4fe6f225652e4e2874372d19"
+  },
+  "platform": {
+    "minecraftVersion": "1.21.1",
+    "loader": {
+      "type": "neoforge",
+      "version": "21.1.248"
+    }
+  },
+  "stockSnapshot": {
+    "path": "tools/author-source/stock-snapshot.json",
+    "sha256": "0ad3aab923deeda5a7bb118927923108ddb369277ea1e0288f549f0d81ce557e"
+  },
+  "authorFilesChanged": [],
+  "authorJarsExcluded": [],
+  "portableAdaptations": [
+    {
+      "sourcePath": "options.txt",
+      "path": "configureddefaults/options.txt",
+      "sha256": "0d7b081a7adbb10205b6d3b8e0e3250afbc65f9589bf42fd1e3933b2134adf91",
+      "reason": "Byte-identical author starting options; generic controls setup reads this only when personal options.txt is absent."
+    },
+    {
+      "sourcePath": "servers.dat",
+      "runtimeShipped": false,
+      "reason": "Original author bytes remain in source. The launcher keeps the personal server list under instance ownership."
+    }
+  ],
+  "supportFiles": [
+    {
+      "path": "portable-pack.json",
+      "sizeBytes": 172,
+      "sha256": "dc2023a3afeb24e1f9f31076eaa1c014b50e8e2177a3313ecc27bc869f474d87"
+    },
+    {
+      "path": "minecraft-1.21.1-client.jar",
+      "sizeBytes": 26836906,
+      "sha256": "499f6897d1837516680f3114072d8106e11c9adcd933fe5cf051b551089b0c99"
+    },
+    {
+      "path": "configureddefaults/options.txt",
+      "sizeBytes": 13763,
+      "sha256": "0d7b081a7adbb10205b6d3b8e0e3250afbc65f9589bf42fd1e3933b2134adf91"
+    },
+    {
+      "path": "config/log4j2.xml",
+      "sizeBytes": 4137,
+      "sha256": "6752b55f7a2ede24cef57d8bab70cfeec8f471f7adb72b6fb13b46853151c65d"
+    },
+    {
+      "path": "launcher/jvm-args.txt",
+      "sizeBytes": 164,
+      "sha256": "94c3837d106accff859e88201ffae225b67b0612485cb8e7d2d8f75718efdd9b"
+    },
+    {
+      "path": "launcher/pack-owned.txt",
+      "sizeBytes": 276,
+      "sha256": "75f1c41930f69f91a5d2e044adb21608247196df809858f74930dc79c7554de9"
+    },
+    {
+      "path": "launcher/controls-preset.txt",
+      "sizeBytes": 16923,
+      "sha256": "dfa1a153069c433e3db403b94d9bfe00ff258aa2cef95503e8c1cd20d162b698"
+    },
+    {
+      "path": "config/native-version-metadata.jar",
+      "sizeBytes": 479,
+      "sha256": "2719ffe9a82a4c0f2acbd04d68b9043776fb824e87b983e226c8928a46bbf2b7"
+    },
+    {
+      "path": "shaderpacks/ComplementaryUnbound_r5.8.1.zip",
+      "sha256": "bb89b1fc54687d4147a837fb2e3c3f7261a13bee51819761e9b6a91cb7915965",
+      "sizeBytes": 546928,
+      "kind": "native-required-input",
+      "reason": "Exact unmodified Complementaryr5.8.1 base required by author EuphoriaPatcher1.9.3; missing from author export. Native author patcher produces its own packs. No mod/config/effect setting changed."
+    },
+    {
+      "path": "shaderpacks/ComplementaryReimagined_r5.8.1.zip",
+      "sha256": "3f1cd389e717b2e62f58edff222059b9c60de71b14bb49b517eb58318ce35b15",
+      "sizeBytes": 546925,
+      "kind": "native-required-input",
+      "reason": "Exact unmodified Complementaryr5.8.1 base required by author EuphoriaPatcher1.9.3; missing from author export. Native author patcher produces its own packs. No mod/config/effect setting changed."
+    }
+  ],
+  "originalManifest": {
+    "path": "tools/author-source/manifest.json",
+    "sha256": "a135dc310796faa822d5c688ed1bbb2ef18029ee32f44996120402494d361911"
+  },
+  "nativeClientSourceProof": {
+    "path": "tools/author-source/native-client-source.json",
+    "sha256": "2f22f834d5519542c3ad0c8f72287e25ff06d04687de8a9016deb42c593f874e"
+  },
+  "nativeRequiredInputsProof": {
+    "path": "tools/author-source/native-required-shader-inputs.json",
+    "sha256": "5491b8aebacd8d504ffd12342889681d7f271d038655e5a69bcb8523c9b1c74d"
+  },
+  "runtimeAcceptanceReport": {
+    "path": "tools/author-source/runtime-1.0.0-report.json",
+    "sha256": "ded06f12d2af54edea5ae38173dfadcb528d5f589e0a72d26377197d9064ebf0"
+  }
+}

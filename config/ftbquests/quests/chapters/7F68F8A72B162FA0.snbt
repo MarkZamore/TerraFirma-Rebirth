@@ -314,5 +314,61 @@
 			x: 2.5d
 			y: 8.0d
 		}
+		{
+			dependencies: ["5D95BC05FB558E94"]
+			icon: {
+				id: "rocketnautics:lunar_regolith"
+			}
+			id: "6C30EA272020B7E0"
+			rewards: [
+				{
+					id: "218D2E60B917B4F7"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 16
+					id: "2C2F94C013237809"
+					item: {
+						count: 1
+						id: "minecraft:firework_rocket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4CB838477651EAFC"
+				item: { count: 1, id: "rocketnautics:lunar_regolith" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["58B6D43ABBD7C9FD"]
+			icon: {
+				id: "computercraft:computer_advanced"
+			}
+			id: "7B2E000000000051"
+			rewards: [{
+				id: "7B2E000000000251"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "7B2E000000000151"
+					item: { count: 1, id: "computercraft:computer_normal" }
+					type: "item"
+				}
+				{
+					id: "7B2E000000000152"
+					type: "checkmark"
+				}
+			]
+			x: 2.5d
+			y: 4.0d
+		}
 	]
 }

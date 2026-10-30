@@ -524,5 +524,30 @@
 			x: 7.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["5D23F7FDFBBEEA0F"]
+			icon: {
+				id: "aeroworks:gyroscope"
+			}
+			id: "5D23F7FDFBBEEA10"
+			rewards: [{
+				id: "7A104A11B00C0002"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [
+				{
+					id: "7A104A11B00C0001"
+					item: { count: 1, id: "aeroworks:gyroscope" }
+					type: "item"
+				}
+				{
+					id: "7A104A11B00C0003"
+					type: "checkmark"
+				}
+			]
+			x: 2.5d
+			y: 3.0d
+		}
 	]
 }

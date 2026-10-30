@@ -123,7 +123,6 @@
     "solar_drier": true,
     "pot": true,
     "oven_bottom": true,
-    "fruit_tree_sapling": true,
     "jarbnet": true,
     "hanger": true
   },
@@ -189,6 +188,9 @@
     "anemometer": true,
     "wet_concrete": true,
     "ingot_pile": true
+  },
+  "tfc_crude_crucible": {
+    "crude_crucible": true
   },
   "jadeaddons": {
     "equipment_requirement": ""

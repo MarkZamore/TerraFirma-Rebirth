@@ -1,0 +1,1365 @@
+{
+  "schemaVersion": 1,
+  "capture": {
+    "sha256": "f6cc977cb1d112f187a5b282e40b49310bc56397f7f7a31edbe20c8c8e1c2f98",
+    "sizeBytes": 151143,
+    "registeredAll": 223,
+    "options": 216
+  },
+  "optionsNames": [
+    "create.keyinfo.alt_modifier",
+    "create.keyinfo.ctrl_modifier",
+    "create.keyinfo.rotate_menu",
+    "create.keyinfo.shift_modifier",
+    "create.keyinfo.toolbelt",
+    "create.keyinfo.toolmenu",
+    "desc.seasonhud.keybind.options",
+    "gnetum.config.keyMapping",
+    "iris.keybind.reload",
+    "iris.keybind.shaderPackSelection",
+    "iris.keybind.toggleShaders",
+    "iris.keybind.wireframe",
+    "jei_swift_copy.item.id",
+    "jei_swift_copy.item.info",
+    "jei_swift_copy.recipe.json",
+    "key.advancements",
+    "key.aero_cam_sync.open_config",
+    "key.aero_cam_sync.toggle",
+    "key.aeronautics_curios_compat.remote_use",
+    "key.aeroworks.joystick.free_camera",
+    "key.area_cancel",
+    "key.area_confirm",
+    "key.astikorcartsredux.action",
+    "key.astikorcartsredux.slow",
+    "key.attack",
+    "key.back",
+    "key.carry.desc",
+    "key.chat",
+    "key.climbable_ropes.lock_rope_camera",
+    "key.command",
+    "key.corpse.death_history",
+    "key.curios.open.desc",
+    "key.dashpanels.hold_move_camera",
+    "key.dashpanels.hold_to_open_wiki",
+    "key.drop",
+    "key.dynamic_fps.toggle_disabled",
+    "key.dynamic_fps.toggle_forced",
+    "key.forward",
+    "key.ftbchunks.add_waypoint",
+    "key.ftbchunks.claim_manager",
+    "key.ftbchunks.map",
+    "key.ftbchunks.minimap.zoomIn",
+    "key.ftbchunks.minimap.zoomOut",
+    "key.ftbchunks.toggle_minimap",
+    "key.ftbchunks.waypoint_manager",
+    "key.ftbquests.gui.extended_info",
+    "key.ftbquests.gui.move_down",
+    "key.ftbquests.gui.move_left",
+    "key.ftbquests.gui.move_right",
+    "key.ftbquests.gui.move_up",
+    "key.ftbquests.gui.next_chapter",
+    "key.ftbquests.gui.player_prefs",
+    "key.ftbquests.gui.prev_chapter",
+    "key.ftbquests.gui.recenter",
+    "key.ftbquests.gui.search",
+    "key.ftbquests.gui.zoom_in",
+    "key.ftbquests.gui.zoom_out",
+    "key.ftbquests.gui.zoom_reset",
+    "key.ftbquests.gui_editor.copy",
+    "key.ftbquests.gui_editor.delete",
+    "key.ftbquests.gui_editor.force_delete",
+    "key.ftbquests.gui_editor.paste",
+    "key.ftbquests.gui_editor.redo",
+    "key.ftbquests.gui_editor.reload_theme",
+    "key.ftbquests.gui_editor.reward_tables",
+    "key.ftbquests.gui_editor.select_all",
+    "key.ftbquests.gui_editor.select_none",
+    "key.ftbquests.gui_editor.toggle_crosshairs",
+    "key.ftbquests.gui_editor.undo",
+    "key.ftbquests.gui_quest_panel.add_image",
+    "key.ftbquests.gui_quest_panel.add_line",
+    "key.ftbquests.gui_quest_panel.add_page_break",
+    "key.ftbquests.gui_quest_panel.edit_desc",
+    "key.ftbquests.gui_quest_panel.edit_quest_props",
+    "key.ftbquests.gui_quest_panel.edit_subtitle",
+    "key.ftbquests.gui_quest_panel.edit_title",
+    "key.ftbquests.quests",
+    "key.ftbteams.open_gui",
+    "key.fullscreen",
+    "key.hotbar.1",
+    "key.hotbar.2",
+    "key.hotbar.3",
+    "key.hotbar.4",
+    "key.hotbar.5",
+    "key.hotbar.6",
+    "key.hotbar.7",
+    "key.hotbar.8",
+    "key.hotbar.9",
+    "key.immersiveengineering.chemthrowerSwitch",
+    "key.immersiveengineering.magnetEquip",
+    "key.immersiveengineering.railgunZoom",
+    "key.inventory",
+    "key.jade.config",
+    "key.jade.narrate",
+    "key.jade.show_details",
+    "key.jade.show_overlay",
+    "key.jade.show_recipes",
+    "key.jade.show_uses",
+    "key.jade.toggle_liquid",
+    "key.jei.bookmark",
+    "key.jei.cheatItemStack",
+    "key.jei.cheatItemStack2",
+    "key.jei.cheatOneItem",
+    "key.jei.cheatOneItem2",
+    "key.jei.clearSearchBar",
+    "key.jei.closeRecipeGui",
+    "key.jei.copy.recipe.id",
+    "key.jei.focusSearch",
+    "key.jei.maxTransferRecipeBookmark",
+    "key.jei.nextCategory",
+    "key.jei.nextPage",
+    "key.jei.nextRecipePage",
+    "key.jei.nextSearch",
+    "key.jei.pauseRecipeCycling",
+    "key.jei.previousCategory",
+    "key.jei.previousPage",
+    "key.jei.previousRecipePage",
+    "key.jei.previousSearch",
+    "key.jei.quickMove",
+    "key.jei.recipeBack",
+    "key.jei.shareToChat",
+    "key.jei.showBookmarkTooltipFeatures",
+    "key.jei.showRecipe",
+    "key.jei.showRecipe2",
+    "key.jei.showUses",
+    "key.jei.showUses2",
+    "key.jei.toggleBookmarkOverlay",
+    "key.jei.toggleCheatMode",
+    "key.jei.toggleCheatModeConfigButton",
+    "key.jei.toggleEditMode",
+    "key.jei.toggleHideIngredient",
+    "key.jei.toggleOverlay",
+    "key.jei.toggleWildcardHideIngredient",
+    "key.jei.transferRecipeBookmark",
+    "key.journeymap.create_waypoint",
+    "key.journeymap.fullscreen.disable_buttons",
+    "key.journeymap.fullscreen.east",
+    "key.journeymap.fullscreen.north",
+    "key.journeymap.fullscreen.south",
+    "key.journeymap.fullscreen.west",
+    "key.journeymap.fullscreen_chat_position",
+    "key.journeymap.fullscreen_create_waypoint",
+    "key.journeymap.fullscreen_follow_player",
+    "key.journeymap.fullscreen_options",
+    "key.journeymap.fullscreen_waypoints",
+    "key.journeymap.map_toggle_alt",
+    "key.journeymap.minimap_preset",
+    "key.journeymap.minimap_toggle_alt",
+    "key.journeymap.minimap_type",
+    "key.journeymap.toggle_entity_names",
+    "key.journeymap.toggle_render_waypoints",
+    "key.journeymap.toggle_render_waypoints_map",
+    "key.journeymap.toggle_render_waypoints_world",
+    "key.journeymap.toggle_waypoints",
+    "key.journeymap.zoom_in",
+    "key.journeymap.zoom_out",
+    "key.jump",
+    "key.kaleidoscope_contraption.remove_block",
+    "key.kubejs.kubedex",
+    "key.left",
+    "key.liubai.open_config",
+    "key.loadToolbarActivator",
+    "key.modernui.openCenter",
+    "key.modernui.zoom",
+    "key.next_music",
+    "key.oneenoughitem.open_editor",
+    "key.pickItem",
+    "key.play_pause",
+    "key.playerlist",
+    "key.ponder.ponder",
+    "key.print_all",
+    "key.reload",
+    "key.right",
+    "key.rocketnautics.toggle_alignment",
+    "key.rocketnautics.toggle_dampeners",
+    "key.rocketnautics.toggle_jetpack",
+    "key.sable_schematic_api.blueprint_tool.open",
+    "key.sable_schematic_api.camera.open",
+    "key.sablecleanup.open_list",
+    "key.saveToolbarActivator",
+    "key.schematician.toggle_drafting_view",
+    "key.schematician.toggle_force_tooltip",
+    "key.screenshot",
+    "key.smoothCamera",
+    "key.sneak",
+    "key.socialInteractions",
+    "key.sophisticatedbackpacks.inventory_interaction",
+    "key.sophisticatedbackpacks.open_backpack",
+    "key.sophisticatedbackpacks.toggle_upgrade_1",
+    "key.sophisticatedbackpacks.toggle_upgrade_2",
+    "key.sophisticatedbackpacks.toggle_upgrade_3",
+    "key.sophisticatedbackpacks.toggle_upgrade_4",
+    "key.sophisticatedbackpacks.toggle_upgrade_5",
+    "key.sophisticatedbackpacks.tool_swap",
+    "key.sophisticatedcore.sort",
+    "key.sophisticatedcore.transfer_to_inventory",
+    "key.sophisticatedcore.transfer_to_storage",
+    "key.spectatorOutlines",
+    "key.sprint",
+    "key.swapOffhand",
+    "key.togglePerspective",
+    "key.toggle_areas",
+    "key.tracks.open_tuning",
+    "key.unlockIME",
+    "key.use",
+    "keyinfo.copycats.fill_copycat",
+    "lambdynlights.key.toggle_fps_dynamic_lighting",
+    "simulated.keyinfo.rotate_mode",
+    "simulated.keyinfo.scroll_down",
+    "simulated.keyinfo.scroll_up",
+    "tfc.key.cycle_chisel_mode",
+    "tfc.key.place_block",
+    "tfc.key.stack_food",
+    "tfcgenviewer.key.open_viewer",
+    "tfcgenviewer.key.preview_center_spawn",
+    "tfcgenviewer.key.preview_center_view"
+  ],
+  "allOnlyNames": [
+    "create.keyinfo.",
+    "key.aero_cam_sync.add_mainhand_item_client",
+    "key.jei.internal.enter.key",
+    "key.jei.internal.enter.key2",
+    "key.jei.internal.escape.key",
+    "key.jei.internal.left.click",
+    "key.jei.internal.right.click"
+  ],
+  "sourceFiles": [
+    {
+      "path": "configureddefaults/options.txt",
+      "sizeBytes": 13763,
+      "sha256": "0d7b081a7adbb10205b6d3b8e0e3250afbc65f9589bf42fd1e3933b2134adf91"
+    },
+    {
+      "path": "options.txt",
+      "sizeBytes": 13763,
+      "sha256": "0d7b081a7adbb10205b6d3b8e0e3250afbc65f9589bf42fd1e3933b2134adf91"
+    },
+    {
+      "path": "portable-pack.json",
+      "sizeBytes": 172,
+      "sha256": "dc2023a3afeb24e1f9f31076eaa1c014b50e8e2177a3313ecc27bc869f474d87"
+    }
+  ],
+  "sourceMods": [
+    {
+      "path": "mods/0Pack2Reload-NeoForge-1.21.1-1.0.1.jar",
+      "sizeBytes": 5561,
+      "sha256": "a0c5e1558db5c5bab7547cfe68f75b84ddaad3abcbe7b6a0eb72238e61ff610d"
+    },
+    {
+      "path": "mods/AdvancedTFCTech-NeoForge-1.21.1-3.3.jar",
+      "sizeBytes": 605525,
+      "sha256": "43f10f179dfa4410d0fe2fac9e824d0b5367b784bc5d9d78993dda51271b641a"
+    },
+    {
+      "path": "mods/AmbienceMini-1.21.1-2.7.10.jar",
+      "sizeBytes": 805314,
+      "sha256": "cfaf1e243d4ce5e693dcf8b393f416af6282055ac81ee6592ea0ecc30953ac52"
+    },
+    {
+      "path": "mods/AsyncParticles-21.1.4.2+1.21.1.jar",
+      "sizeBytes": 1259184,
+      "sha256": "14ee75f8cd028df0a08c929f3486fe8cd4e25af3b4670afbe0db9e7ca651d984"
+    },
+    {
+      "path": "mods/Barrels_2012-NeoForge-1.21.1-3.0.0.jar",
+      "sizeBytes": 32281,
+      "sha256": "1b2296a2c7144e03242bd2cb4f52c957588361f258c8371f74ca2e1e5641e472"
+    },
+    {
+      "path": "mods/Beneath-NeoForge-1.21.1-2.0.4.jar",
+      "sizeBytes": 1354485,
+      "sha256": "61672dba1dbedbcdd0db9276f3a85ccc960416510ca1dcb2bf171cd011703a6d"
+    },
+    {
+      "path": "mods/BetterAdvancements-NeoForge-1.21.1-0.4.3.21.jar",
+      "sizeBytes": 98641,
+      "sha256": "60b548bef04a2f0e1da686ee9035c2e3d4ed0459a17d7a4836fc26af6de6b60e"
+    },
+    {
+      "path": "mods/BlockRunner-v21.1.2-1.21.1-NeoForge.jar",
+      "sizeBytes": 107012,
+      "sha256": "ff337de308c0ac97f15cb774c08e28a009288eca6c5aaa25c898d0f698bae75c"
+    },
+    {
+      "path": "mods/CastIronGrill-NeoForge-1.21.1-3.1.jar",
+      "sizeBytes": 83912,
+      "sha256": "0c00f9fa5ae1e46a27c092f8e23085cd1b15501653cad497d98e52a4f7c618d5"
+    },
+    {
+      "path": "mods/Chunky-NeoForge-1.4.23.jar",
+      "sizeBytes": 340572,
+      "sha256": "d72f235cf1f56f2c374f52c00bdda5034524b28142305a84cfc123a3f92ad274"
+    },
+    {
+      "path": "mods/ColdSweat-2.4.2.jar",
+      "sizeBytes": 2717726,
+      "sha256": "5adef3ba6657db12030ba385391130bf778f5eb5964de0e337d76a8bd32c75a1"
+    },
+    {
+      "path": "mods/Controlling-neoforge-1.21.1-19.0.5.jar",
+      "sizeBytes": 77555,
+      "sha256": "cc525fb6b030d9e4d33176983f278919e17b33935e2ca568929bdfa98f2b44a0"
+    },
+    {
+      "path": "mods/CreateEntityControl-0.6.16.10-6.0.x-neoforge-1.21.1.jar",
+      "sizeBytes": 382499,
+      "sha256": "f4bc19c3cc386ac8bf2b777954cf47ec1eafc63846dfe5074d05fe2e09a5d49a"
+    },
+    {
+      "path": "mods/CreateFastSchematicCannon-1.4.1-neoforge-1.21.1.jar",
+      "sizeBytes": 74294,
+      "sha256": "5dbc33a64c01e8fef09585fae9d09c9ae04b800e3c4315ace85901a68eb5fae3"
+    },
+    {
+      "path": "mods/CreativeCore_NEOFORGE_v2.13.41_mc1.21.1.jar",
+      "sizeBytes": 1218640,
+      "sha256": "bd4164b9ec8e21775e34a99a8d21e5280ee8cc6d3bd003a1b32dc3ada59ae887"
+    },
+    {
+      "path": "mods/CustomSkinLoader_Universal-15.0.1.jar",
+      "sizeBytes": 218215,
+      "sha256": "026d8b38ea93edccd647f60568193e79801a377b7bd4e916dcfc0d5482b767fc"
+    },
+    {
+      "path": "mods/EuphoriaPatcher-1.9.3-r5.8.1-neoforge.jar",
+      "sizeBytes": 4210708,
+      "sha256": "9ff48c18cb5fd3425a6c15b16ce16656d6419fdb695e662d9a3cbe5604c40563"
+    },
+    {
+      "path": "mods/FarmersDelight-1.21.1-1.3.2.jar",
+      "sizeBytes": 3163042,
+      "sha256": "8ff438d62e1fce61542945faae45975d823e04bd6e73a07a121ea05ce2f03de7"
+    },
+    {
+      "path": "mods/Firmalife-NeoForge-1.21.1-3.0.14.jar",
+      "sizeBytes": 4488045,
+      "sha256": "e86a01f22b242ecd367b7b36599574b4db5895c121f141a6ffb78c175b0fe884"
+    },
+    {
+      "path": "mods/IMBlocker-5.5.4-neoforge+1.20.6-1.21.8.jar",
+      "sizeBytes": 196761,
+      "sha256": "08c5581bda0ab0fbfdbb10c51102685b403f64b0e712517c4b2d918b2c83cea3"
+    },
+    {
+      "path": "mods/Iceberg-1.21.1-neoforge-1.3.2.jar",
+      "sizeBytes": 213853,
+      "sha256": "0d620c975619b04110b94a73d5b42d252563ff59c1eae9d21ab2ee7e38460a3c"
+    },
+    {
+      "path": "mods/ImmediatelyFast-NeoForge-1.6.13+1.21.1.jar",
+      "sizeBytes": 362740,
+      "sha256": "fa3aec87e9880d0a8ab9663c96ad0206fd59de5e71acfccbebc264f7ad0ae153"
+    },
+    {
+      "path": "mods/ImmersiveEngineering-1.21.1-12.4.2-194.jar",
+      "sizeBytes": 14232121,
+      "sha256": "45942985a4a4aebf265b8e22a0c54a96208637471f36f2532ff5d4911322debc"
+    },
+    {
+      "path": "mods/Jade-1.21.1-NeoForge-15.10.4.jar",
+      "sizeBytes": 725725,
+      "sha256": "54856c2405f1302023991e315a5522eea3d60a6823b36286a5c4a102ba476120"
+    },
+    {
+      "path": "mods/JadeAddons-1.21.1-NeoForge-6.1.0.jar",
+      "sizeBytes": 74419,
+      "sha256": "5f242668ad710092964d4d9afda8a94fa2401665ea13eea67d55d07e4dff8a64"
+    },
+    {
+      "path": "mods/Kiwi-1.21.1-NeoForge-15.8.7.jar",
+      "sizeBytes": 1539578,
+      "sha256": "f1222ac3773b2814d40ee6e77129bb27a29d82ec76d7a878ba23d3f5f9f8a392"
+    },
+    {
+      "path": "mods/ModernUI-NeoForge-1.21.1-3.13.0.1-universal.jar",
+      "sizeBytes": 25228113,
+      "sha256": "258623778012daad6fdd8793add3324b970df62a07c477697c43fe85deef1db6"
+    },
+    {
+      "path": "mods/MouseTweaks-neoforge-mc1.21-2.26.1.jar",
+      "sizeBytes": 73938,
+      "sha256": "68e6f4201c5de97b77929a7215c9552495696ca6a3bf3ae4eacc34e135f6cc8b"
+    },
+    {
+      "path": "mods/NoChatReports-NEOFORGE-1.21.1-v2.9.1.jar",
+      "sizeBytes": 306668,
+      "sha256": "866ac9a47afcd829bdb03890b5d8f80bb4c6f47332c64717b6e909bee51337b6"
+    },
+    {
+      "path": "mods/OELib-neoforge-1.21.1-0.2.3.jar",
+      "sizeBytes": 840689,
+      "sha256": "876e7d8837be3e4471880a698fbced371f5094a8610d73f72cb87ae38b4dbcae"
+    },
+    {
+      "path": "mods/Opticores-1.0.9 - Neoforge-1.21.1.jar",
+      "sizeBytes": 92315,
+      "sha256": "b3146b9e4a18e291921adb79dabb16c0e4027ce6f03fa5f52276605a61c9caab"
+    },
+    {
+      "path": "mods/Patchouli-1.21.1-93-NEOFORGE.jar",
+      "sizeBytes": 646777,
+      "sha256": "959af52ed6640c316c3a8469203420be4aeea11ad6603890ba83bf48f5d9f993"
+    },
+    {
+      "path": "mods/PlayerRevive_NEOFORGE_v2.1.2_mc1.21.1.jar",
+      "sizeBytes": 5307768,
+      "sha256": "bb0f482c43156e9fbdea8e6309c707c62f301d673e5e5e5b268315d0b9272276"
+    },
+    {
+      "path": "mods/PuzzlesLib-v21.1.39-1.21.1-NeoForge.jar",
+      "sizeBytes": 1080389,
+      "sha256": "305c828c171a5b52867b56686665b525bcf286018496ece81f376806794ba914"
+    },
+    {
+      "path": "mods/Searchables-neoforge-1.21.1-1.0.2.jar",
+      "sizeBytes": 77326,
+      "sha256": "ca193f0c69033d8f709f9e073a7c1ef4ea46714e5c2f94eb23ace12781c6aa68"
+    },
+    {
+      "path": "mods/TFC Canes-1.21.1-3.0.0.jar",
+      "sizeBytes": 24695,
+      "sha256": "b78709594cc91aa7512a899249ee0389852b88783716ce5005c3c6d192ea3464"
+    },
+    {
+      "path": "mods/TFC-IE-Crossover-NeoForge-1.21.1-2.1.3.jar",
+      "sizeBytes": 1139674,
+      "sha256": "9c10394225be5e9cdab845cfb6192b88beb4cb6b21b66e3caeedf9c4982b486b"
+    },
+    {
+      "path": "mods/TFC-Real-World-NeoForge-1.21.1-4.0.6.jar",
+      "sizeBytes": 1928961,
+      "sha256": "1f368e6e2599c308d645ccbc97537e262008fe67c91d4812bf5dd0b7a1ed0596"
+    },
+    {
+      "path": "mods/TFCAgedAlcohol-NeoForge-1.21.1-3.1.jar",
+      "sizeBytes": 42890,
+      "sha256": "08a7eb5b25735c1b5cd6a249e70b79c03ad44697616c76ae138d44392d795f2f"
+    },
+    {
+      "path": "mods/TFCAstikorCarts-1.21.x-1.2.4.jar",
+      "sizeBytes": 717655,
+      "sha256": "692ead4bc518a142c288c9709ce4cdb49a42c0bc62ffdd65a9ea8a343e97bcfc"
+    },
+    {
+      "path": "mods/TFCBetterBlastFurnace-TFCR-1.21.1-2.0.0.jar",
+      "sizeBytes": 23383,
+      "sha256": "c0141381622b1c19c333aaf0e5b42baf7b6b97bf96b30a4764cd2c7bb2f7f507"
+    },
+    {
+      "path": "mods/TFCMusicMaker-1.1.0.jar",
+      "sizeBytes": 37296,
+      "sha256": "185b9eb491853b2a812edd5afc43445cf89f5df576103ac85b1b6fb4f83d9c0b"
+    },
+    {
+      "path": "mods/TFCRegistryAPI-1.21.x-1.2.jar",
+      "sizeBytes": 91559,
+      "sha256": "c546be1e27e78786a1c0b8749a41765824aab8fdd79ed31fcf01690e6335ada8"
+    },
+    {
+      "path": "mods/TFCVesselTooltip-NeoForge-1.21.1-2.0.jar",
+      "sizeBytes": 5983,
+      "sha256": "3bd42f8b8c38c9161d5500483eefbcd36c93e7c5ff1c974bd6e74b01740c2013"
+    },
+    {
+      "path": "mods/TerraBlender-neoforge-1.21.1-4.1.0.8.jar",
+      "sizeBytes": 120364,
+      "sha256": "edb34c388fe17ea88d0a7fd11174bbf8ae8f28a4c8ce886f1bf9a5cf0ebc36b8"
+    },
+    {
+      "path": "mods/TerraFirmaCraft-NeoForge-1.21.1-4.2.9.jar",
+      "sizeBytes": 65360027,
+      "sha256": "46582bee3ad7f9086abc648970a0d0acb62993bfa30cdaa68a7195f6daae08e3"
+    },
+    {
+      "path": "mods/TravelersTitles-1.21.1-NeoForge-5.1.3.jar",
+      "sizeBytes": 235345,
+      "sha256": "f7d6811b58a432e4d7f0e80bfcc48210f7a8da251d1c3e528a73c26d0f2a56ed"
+    },
+    {
+      "path": "mods/Waterflasks-1.21.1-4.0.1-beta.jar",
+      "sizeBytes": 939816,
+      "sha256": "aeee21c6a51337a7c5ef2fcb043e7663ee3487360a48cc5f3c5f8b4de40e8110"
+    },
+    {
+      "path": "mods/YungsApi-1.21.1-NeoForge-5.1.6.jar",
+      "sizeBytes": 388678,
+      "sha256": "08e1d21690d3213a4c62de6b6cf79f3527afb2e72e0cad0e1848d46eb8f682ca"
+    },
+    {
+      "path": "mods/aero_addition-1.0.2.jar",
+      "sizeBytes": 31395,
+      "sha256": "2d8a0280c55d12f81a0469b831e3487e557a9cc66cc05c81b1b24cef9b4a2e34"
+    },
+    {
+      "path": "mods/aero_cam_sync-1.3.6.jar",
+      "sizeBytes": 686062,
+      "sha256": "9cf4f2b8def02922b9ad10cbf1be444c998bb1dded8febe16d1745ae129eced6"
+    },
+    {
+      "path": "mods/aeronautics_modernui_compat-1.0.1.jar",
+      "sizeBytes": 34796,
+      "sha256": "f8b58a0a28b9ed8c6604e75cad7fb021660b33dc6bd2643d1fcb13dd93216f42"
+    },
+    {
+      "path": "mods/aeronauticshotairfix-1.1.0.jar",
+      "sizeBytes": 342762,
+      "sha256": "7e14856a11b1df80e8d44c0a6b32c0bdcd8d61c1f126e8405bd298e8cbfb680a"
+    },
+    {
+      "path": "mods/aeroworks-1.4.2.jar",
+      "sizeBytes": 680553,
+      "sha256": "001f085d3552e26edc6ec41c29bea464b86a32a143be6b55883a639d178a525b"
+    },
+    {
+      "path": "mods/afc-2.1.3-1.21.1.jar",
+      "sizeBytes": 6481449,
+      "sha256": "7b41d3ceb01ede983e4eafeede37b9befd4ccb6e2d2d626c3054a86c87db8320"
+    },
+    {
+      "path": "mods/alltheleaks-1.1.12+1.21.1-neoforge.jar",
+      "sizeBytes": 562895,
+      "sha256": "ca64ec07c29cadb0e7703e993fbaad26029ebc4203626d2638aefe989e5be74f"
+    },
+    {
+      "path": "mods/architectury-13.0.11-neoforge.jar",
+      "sizeBytes": 584734,
+      "sha256": "9cc92f2c09533fc5482c60f993bd891c655a0e32b637037cdcb7c2b23adedeeb"
+    },
+    {
+      "path": "mods/astikorcartsredux-1.2.4.jar",
+      "sizeBytes": 576717,
+      "sha256": "eb03ea0c246df3d465e7a7634e283c80489df91399075191f815f1b954a5e3fe"
+    },
+    {
+      "path": "mods/baguettelib-1.21.1-NeoForge-2.0.3.jar",
+      "sizeBytes": 74380,
+      "sha256": "98addfb68b1e92d4f40ef37cdea8f46217bf7188991cc7347a3fc510a410f1e5"
+    },
+    {
+      "path": "mods/bigcontraptions-neoforge-1.0.jar",
+      "sizeBytes": 5861,
+      "sha256": "7ed381abb65639833e8ddb708124c60387823cf3db95bdadc5fceb1b5c37fec8"
+    },
+    {
+      "path": "mods/bookshelf-neoforge-1.21.1-21.1.81.jar",
+      "sizeBytes": 328813,
+      "sha256": "19e88d40da2b6a114c2b808f7fb469d96e66a5379df0a8a43fcb7834498b3e76"
+    },
+    {
+      "path": "mods/burningblock-1.0.0.jar",
+      "sizeBytes": 92058,
+      "sha256": "eecb87995548ab53f759f961b784a4625ee25397c0d1dfba1194ed0a6bd31e9b"
+    },
+    {
+      "path": "mods/burningblocktfc-1.0.0.jar",
+      "sizeBytes": 36956,
+      "sha256": "3d3c7c4d0bf0dad60ff29040d7f18b8b9956b6b10f4b3148d539c3c355eb5580"
+    },
+    {
+      "path": "mods/byepregen-1.21.1-1.1.2.1.jar",
+      "sizeBytes": 889377,
+      "sha256": "096589b0722cd1718970e3e6367d3ceba03678b6e4856a214dfc2bb2656a8e65"
+    },
+    {
+      "path": "mods/c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar",
+      "sizeBytes": 3708380,
+      "sha256": "67fe384ae84f947e999a02ebde5f5e7de3a632803304a625beee9c4268509a76"
+    },
+    {
+      "path": "mods/c2tfc-1.1.0-1.21.1.jar",
+      "sizeBytes": 264229,
+      "sha256": "83d57c725b5d4a6d1f62bd6b2c792982a2a6924adf9bf9ffdd7c80d52feb7d7a"
+    },
+    {
+      "path": "mods/cacophony-0.1.0-1.21.1.jar",
+      "sizeBytes": 34132879,
+      "sha256": "a326f58e49915ef1a22e859b4ddcf46cc0a101bdcb2cad6f95b14f9f5701440c"
+    },
+    {
+      "path": "mods/carryon-neoforge-1.21.1-2.2.6.13.jar",
+      "sizeBytes": 361486,
+      "sha256": "d4f9576b6593db9486a89d35c1d84c31ee89141d99dbae2aa470350ab53c4e09"
+    },
+    {
+      "path": "mods/catalyst-0.17.0.jar",
+      "sizeBytes": 34078,
+      "sha256": "e7b61771e6d0dec95814037f61af3e7afd58e5c972d12ab87ca014a1510d3c12"
+    },
+    {
+      "path": "mods/cc-tweaked-1.21.1-forge-1.120.2.jar",
+      "sizeBytes": 3126327,
+      "sha256": "e8651fe24b384e925e563c9ad077644744474e2e7c0adb8e6d5b4757598dce9f"
+    },
+    {
+      "path": "mods/cc_sable-neoforge-1.3.4.jar",
+      "sizeBytes": 43338,
+      "sha256": "7504abc1666a03e25ee2b8f99c352571b84edc5f85db24fa492d7b70d77adfeb"
+    },
+    {
+      "path": "mods/cccbridge-mc1.21.1-v1.7.3-neoforge.jar",
+      "sizeBytes": 490733,
+      "sha256": "e78571c5c794e0fa6499331dd1b3ae9171f2f4af1b3b6a814343c5fadca04cbd"
+    },
+    {
+      "path": "mods/chat_heads-0.15.7-neoforge-1.21.jar",
+      "sizeBytes": 91948,
+      "sha256": "02e10437ceeed34e14e0efe206204658e4b8aa8ee7df10f2a9e28ac20f1b0391"
+    },
+    {
+      "path": "mods/chatanimation-neoforge-1.3.1+mc1.21.jar",
+      "sizeBytes": 1031865,
+      "sha256": "fb5ae4bf5588af538f1e268c9f5b927c3c5efbefea3b4c86d74952c30c77804b"
+    },
+    {
+      "path": "mods/climbable_ropes-2.1.1.jar",
+      "sizeBytes": 242108,
+      "sha256": "2094081bb1b7f9647955570f190e697dc713eb25f36a028a5a02e461c75d281e"
+    },
+    {
+      "path": "mods/cloth-config-15.0.140-neoforge.jar",
+      "sizeBytes": 1163890,
+      "sha256": "65e722e0d98431a07c45f8bdd8d529a217cc8c175fde1740248bd5c1b4f3c0d4"
+    },
+    {
+      "path": "mods/coldsweat_altitude-0.7.0.jar",
+      "sizeBytes": 107669,
+      "sha256": "c060b559f69baa2beab8609d10feabf1e7a27b5e524666b97dfa7a8c35a44775"
+    },
+    {
+      "path": "mods/collective-1.21.1-8.39.jar",
+      "sizeBytes": 1061931,
+      "sha256": "ae59b63790c3097fb01e7801c21f3e7feed13b151c2ad993895196c74381a8fe"
+    },
+    {
+      "path": "mods/colorwheel-neoforge-1.2.9+mc1.21.1.jar",
+      "sizeBytes": 398004,
+      "sha256": "9259e4adb5b091fe2bd60e57be7f0b2ec9872f1c97ff6d2ed3bb2a9a5ec6407f"
+    },
+    {
+      "path": "mods/connector-2.0.0-beta.16+1.21.1-full.jar",
+      "sizeBytes": 4533142,
+      "sha256": "0b2e16d4a3cb4d8a60001c5711738e747dcb1d682da5ca4106b9ffef595f41e8"
+    },
+    {
+      "path": "mods/continuity-3.0.0+0.0.1+1.21.1.neoforge-all.jar",
+      "sizeBytes": 1172399,
+      "sha256": "324b943f53b7843c225426ea0f4313f6bba8d4218f0dd76b872d55bcf22aa227"
+    },
+    {
+      "path": "mods/copycats-3.0.8+mc.1.21.1-neoforge.jar",
+      "sizeBytes": 1799269,
+      "sha256": "f0655f3afac3829d3cda7782f2c64e935fdd7667dda137c108dc9055fc1e5c71"
+    },
+    {
+      "path": "mods/coralstfc-1.21.1-neoforge-1.0.3.jar",
+      "sizeBytes": 81999,
+      "sha256": "c20119aea119c0f477fd259de4150f6b607b1b4d9665e595aa1dbd24e2bbd3d2"
+    },
+    {
+      "path": "mods/coroutil-neoforge-1.21.0-1.3.8.jar",
+      "sizeBytes": 63981,
+      "sha256": "9b32bcf2c793d33b93b5d4739c0dc4b64231025c7dc5fe40732b66d7cf4b2826"
+    },
+    {
+      "path": "mods/corpse-neoforge-1.21.1-1.1.13.jar",
+      "sizeBytes": 253695,
+      "sha256": "f61e750eb2cb49867483d34d6630e02597a52e41680fc38d1c65ece4ef36fd2b"
+    },
+    {
+      "path": "mods/corpsecurioscompat-1.21.1-NeoForge-4.0.1.jar",
+      "sizeBytes": 23659,
+      "sha256": "4fc4702868b51cbb94717f2c209373f2823fb1383a45c77ffdbeb6df96440d51"
+    },
+    {
+      "path": "mods/cosmonautics-26.08.307.jar",
+      "sizeBytes": 22566115,
+      "sha256": "3fd9dac868400905a55164d2c9d74abc2080ae3269ca51e54e1899874945973e"
+    },
+    {
+      "path": "mods/create-1.21.1-6.0.10.jar",
+      "sizeBytes": 19123767,
+      "sha256": "ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a"
+    },
+    {
+      "path": "mods/create-aeronautics-bundled-1.21.1-1.3.1.jar",
+      "sizeBytes": 33121810,
+      "sha256": "b531dbe1081ee354f6e47ba4e0443b9caa648dfb8c82013a591a20836245bd84"
+    },
+    {
+      "path": "mods/create-aeronautics-lift-patch-1.1.0.jar",
+      "sizeBytes": 6360,
+      "sha256": "1c88ad4acec065ded70d991f4788a445b8dbe4b5493d28d62be346b5d7ea3b3e"
+    },
+    {
+      "path": "mods/create-pickywheels-tfc-wind-0.1.0.jar",
+      "sizeBytes": 10334,
+      "sha256": "b726a69c3f12c724eb5f87e6d272cec90f4733660e8a6147c39b52ebe1ad3535"
+    },
+    {
+      "path": "mods/create_aeronautics_automated_logistics-0.6.2.jar",
+      "sizeBytes": 1567622,
+      "sha256": "b966fe666212da694ef19b292516643081b402c0af18549f94152dd387cc268e"
+    },
+    {
+      "path": "mods/create_aeronautics_roller_fix-1.0.4-neoforge-1.21.1.jar",
+      "sizeBytes": 8414,
+      "sha256": "032de2040e487a2f61dcee38299d1a50f8be45383ac9fc1001ff713800381b9e"
+    },
+    {
+      "path": "mods/create_aeronautics_throwable_rope_connector-0.4.3.jar",
+      "sizeBytes": 187714,
+      "sha256": "2c926061b2ace48446ea65193f44a56a5326f48da218c0e1fc5bc2d8182528c8"
+    },
+    {
+      "path": "mods/create_aeronautics_transmission_linkage-0.2.7.jar",
+      "sizeBytes": 733957,
+      "sha256": "d64d2b6aeec3ab12bfd9bf5e3dc32ea40b80e2da0e63dbeb783cfc6f24b54570"
+    },
+    {
+      "path": "mods/create_cold_sweat-1.1.2.jar",
+      "sizeBytes": 214958,
+      "sha256": "7b9260cef82a343e68c7fdbbfd8a955c1cf3bdf1f52b09989ca7971e3cce1224"
+    },
+    {
+      "path": "mods/create_connected-1.3.2-mc1.21.1.jar",
+      "sizeBytes": 6779410,
+      "sha256": "90bdceac63cb0ebd5e51351e22136182b996512edef937d0635d2857b0a3f24b"
+    },
+    {
+      "path": "mods/createaeronauticscurios-neoforge-1.21.1-2.2.jar",
+      "sizeBytes": 44697,
+      "sha256": "aa5bb11571a7100d596bad43d09473cae5d0e023fab932ae04ff0a065f634b3e"
+    },
+    {
+      "path": "mods/createbetterfps-1.21.1-1.1.4.jar",
+      "sizeBytes": 26547,
+      "sha256": "f0080f5cb186bf9f785dc5510babab94d97adc7918952cff780d2c5fadf2ac9a"
+    },
+    {
+      "path": "mods/createliquidfuel-2.1.1-1.21.1.jar",
+      "sizeBytes": 18140,
+      "sha256": "ccd44b069962890352dfee442508880a37eecd3c5625d74d668dd6eb7d39ee3d"
+    },
+    {
+      "path": "mods/createoreexcavation-1.21-1.6.8.jar",
+      "sizeBytes": 476990,
+      "sha256": "d3a2e1a6e65de7e50ae9e279de399b6535da407abc8e6b4688a56f2e461aab99"
+    },
+    {
+      "path": "mods/createpickywheels-neoforge-1.21.1-6.0.9-6.jar",
+      "sizeBytes": 86995,
+      "sha256": "01e68517cd830a1c80363c2cfaa35b354c0ae15721fac97c02b118aec5f7564a"
+    },
+    {
+      "path": "mods/createschematicchecker-2.27.45-6.0-neoforge-1.21.1.jar",
+      "sizeBytes": 348809,
+      "sha256": "115794ab9e9293dcdbe0db05d5e4ffbb68fa8eaca16ca8f2a5ef36079d50d098"
+    },
+    {
+      "path": "mods/cuisinedelight-1.2.10.jar",
+      "sizeBytes": 923074,
+      "sha256": "3c40a659da59112972f0d370826f8bfaccdd77a68fe6f7a25c0ab7ab42499e64"
+    },
+    {
+      "path": "mods/cuisinetfc-1.4.1-1.21.1.jar",
+      "sizeBytes": 141502,
+      "sha256": "c40defc6e87ddc11b04c268a979dd7886f256c6dc177f1fff35688da3b703982"
+    },
+    {
+      "path": "mods/curios-neoforge-9.5.1+1.21.1.jar",
+      "sizeBytes": 410690,
+      "sha256": "a45df2125c26219974aba7507ffc9afe7b83acc941a386af3faacb1cc0056fde"
+    },
+    {
+      "path": "mods/dashpanels-2.1+neoforge1.21.1.jar",
+      "sizeBytes": 891155,
+      "sha256": "2598d248c4820d58c5fb7e19ddf2106960d758b6ff7c419aa4bc57e176b2540b"
+    },
+    {
+      "path": "mods/deployer_got_dizzy-0.1.2.jar",
+      "sizeBytes": 5406,
+      "sha256": "0ff774efc6baf2a568a91e169893236b5a4765ad25e28a6ab27eab51e57faf5a"
+    },
+    {
+      "path": "mods/drivebywire-0.3.0.jar",
+      "sizeBytes": 273144,
+      "sha256": "256600adcd4c811dba480752d76048a053760038ff0a45b37d5d3a0164145f8f"
+    },
+    {
+      "path": "mods/drivebywire-typewriter-1.1.0-beta.2.jar",
+      "sizeBytes": 163273,
+      "sha256": "c0043973770bc298aae33062842295ca22a1ad2d3ab9c19c144fc319755c015d"
+    },
+    {
+      "path": "mods/dynamic-fps-3.11.4+minecraft-1.21.0-neoforge.jar",
+      "sizeBytes": 220193,
+      "sha256": "78cb67c9faeff5d1cb4da48d41e48ecc47baddaaec0f792e6edc8207aee0ab8e"
+    },
+    {
+      "path": "mods/e33chat-NeoForge-1.21.1-2.4.0.jar",
+      "sizeBytes": 447759,
+      "sha256": "8470d6ac24425cdbe0ede0efe7268866e14fa4180ef879d81e3651375006a5bf"
+    },
+    {
+      "path": "mods/electroenergetics-1.1.1-TFCR.jar",
+      "sizeBytes": 4771386,
+      "sha256": "09ca2425f642c5c888e6b63b4273033a97da38aed6c6c910aed16c1814080e51"
+    },
+    {
+      "path": "mods/emi-1.1.24+1.21.1+neoforge.jar",
+      "sizeBytes": 1111538,
+      "sha256": "b68691f94f0727fc517cac2ab55bd6658d1179cc8cc715fe610b60c37469bc4c"
+    },
+    {
+      "path": "mods/emi_accelerator-1.1.4.jar",
+      "sizeBytes": 49884,
+      "sha256": "001e602e9d418346f39661a841782a05efb05d3fde2bdd874c13cfe8505a8166"
+    },
+    {
+      "path": "mods/enchdesc-neoforge-1.21.1-21.1.10.jar",
+      "sizeBytes": 82629,
+      "sha256": "9424c9aff4edf4d8730c931df4253138aeaee745ec839af7078d292bb4eeaa16"
+    },
+    {
+      "path": "mods/fancymenu_neoforge_3.8.1_MC_1.21.1.jar",
+      "sizeBytes": 4297501,
+      "sha256": "d935c9862541a41083f0ab086684b0510a924c05f609f8935f7fab6fbe843613"
+    },
+    {
+      "path": "mods/farmerstfc-2.1.7-1.21.1.jar",
+      "sizeBytes": 342032,
+      "sha256": "db8ea8ed6c985512cc58d56ec169823af4e45cddac64b93e3298f1d233fa4015"
+    },
+    {
+      "path": "mods/fast-ip-ping-v1.0.11-mc1.21.1-neoforge.jar",
+      "sizeBytes": 10413,
+      "sha256": "c93500aa25eaa7bc473e753b8abf4234e7c46713d50bb82b30383ee47e646f5a"
+    },
+    {
+      "path": "mods/ferritecore-7.0.3-neoforge.jar",
+      "sizeBytes": 121559,
+      "sha256": "d87ea28262715ebff45b8a82d493e6b468e7a4521bc021df5d88302196d030a8"
+    },
+    {
+      "path": "mods/firmalifehardcore-neoforge-0.3.4-beta.jar",
+      "sizeBytes": 232563,
+      "sha256": "70a1eb1121298d5140280bec455ff0267889d802e47f4983d242b18061322524"
+    },
+    {
+      "path": "mods/forgified-fabric-api-0.116.15+2.3.2+1.21.1.jar",
+      "sizeBytes": 5609319,
+      "sha256": "0bb57c1f5f05fe709b08584dee95143b2f6c3ce1a193517886ac10bd5952733c"
+    },
+    {
+      "path": "mods/ftb-backups-3-21.1.5.jar",
+      "sizeBytes": 91354,
+      "sha256": "b769eb27e8a26c8a894d87ae0bea5c544ebb3ef6712af2f79cd6ef16afe685d4"
+    },
+    {
+      "path": "mods/ftb-chunks-neoforge-2101.1.21.jar",
+      "sizeBytes": 655753,
+      "sha256": "2cc32a613dd04d9355b88e6f455235aaf00768c270489657c9949f23b9195588"
+    },
+    {
+      "path": "mods/ftb-filter-system-neoforge-21.1.4.jar",
+      "sizeBytes": 211671,
+      "sha256": "b8700e8bfd9c78b09bc7819cb28a6318b20d2bf68969bc6894a0bfa39581a99b"
+    },
+    {
+      "path": "mods/ftb-library-neoforge-2101.1.35.jar",
+      "sizeBytes": 1439018,
+      "sha256": "be7b2bd0b5370a9951624a1d84fd802efecae88d5a0cd24552731f887430599d"
+    },
+    {
+      "path": "mods/ftb-quests-neoforge-2101.1.30.jar",
+      "sizeBytes": 1597057,
+      "sha256": "7d6ee49f42716eca803f2c68e70d9fe6cb5c0ded9f629ce28c5955ded46d4d51"
+    },
+    {
+      "path": "mods/ftb-teams-neoforge-2101.1.10.jar",
+      "sizeBytes": 302712,
+      "sha256": "a656f2aa0e11a933aab3ba697690aa0eb2041f65e6c5daa448897ee0a6d37a6c"
+    },
+    {
+      "path": "mods/ftb-xmod-compat-neoforge-21.1.10.jar",
+      "sizeBytes": 152024,
+      "sha256": "781cbeb22e932c7a44de6b0b6528d86fdd30295a44f1558bcd51864def755419"
+    },
+    {
+      "path": "mods/functionalstorage-1.21.1-1.5.4.jar",
+      "sizeBytes": 770603,
+      "sha256": "e32d625ace9e463e313627d2fe8d50b8648b11e34b3e48aa7f165687604c8b37"
+    },
+    {
+      "path": "mods/fwa+1.21.1-neoforge-1.2.31.jar",
+      "sizeBytes": 385558,
+      "sha256": "bb57d6ab7161b3ef0e72a67537728dfc4aee706b4b15a367362903623d8ce1b0"
+    },
+    {
+      "path": "mods/geckolib-neoforge-1.21.1-4.8.3.jar",
+      "sizeBytes": 622121,
+      "sha256": "f5bbf6f9f84021ff044e3debba00a0c03c3d3ffab3150bb72c0f92c8b8218a92"
+    },
+    {
+      "path": "mods/globalpacks-neoforge-1.21.1-21.0.6.jar",
+      "sizeBytes": 27239,
+      "sha256": "598781933726c596ac95a4dc960861af0746d5713a12fb8a05d4b8cef45ec48d"
+    },
+    {
+      "path": "mods/gnetum-3.3.6.jar",
+      "sizeBytes": 120726,
+      "sha256": "19471108f3c2d799831ee52bc9d04d99cf745f0c1699b992ee981508befb583b"
+    },
+    {
+      "path": "mods/iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
+      "sizeBytes": 2540723,
+      "sha256": "60d5f8bf52f25e9986440f4a4270a6bd986d9cff994510e1108ac1547063b314"
+    },
+    {
+      "path": "mods/jammies-1.21.1-1.1.0.jar",
+      "sizeBytes": 126002,
+      "sha256": "77a8742b4850062c417c6b2c259023426f5ce1928958b20bf8622a9d4e054e23"
+    },
+    {
+      "path": "mods/jecharacters-1.21.1-neoforge-4.5.27.jar",
+      "sizeBytes": 250817,
+      "sha256": "5bbaa5d3cda81e3b3ffe8e86a11208db2037daf25c7cb4ac976c304158341454"
+    },
+    {
+      "path": "mods/jei-1.21.1-neoforge-19.44.0.401.jar",
+      "sizeBytes": 1697362,
+      "sha256": "8491f902a3ff8a4170a2c4f64efbc0186b6665825f20daab4789cb5102c1ac9b"
+    },
+    {
+      "path": "mods/jei_swift_copy-1.0.0-1.21.1.jar",
+      "sizeBytes": 31346,
+      "sha256": "2bfc83a0b49d99be5a9885d82f7097d13edc2d9dc55b8a84e4917b830fce35cb"
+    },
+    {
+      "path": "mods/jmi-neoforge-1.21.1-1.9.jar",
+      "sizeBytes": 100241,
+      "sha256": "a0c62b1b55c0d9058340e39e96cecbe20d25222e87d7513b9dceb8cd45a6a849"
+    },
+    {
+      "path": "mods/jmsharedmaps-1.1.3-1.21.1-neoforge.jar",
+      "sizeBytes": 204838,
+      "sha256": "e5389125f1ba0052f073f0d97df94987c8d5fe09dd20346a8ea3edb2e79d9403"
+    },
+    {
+      "path": "mods/journeymap-neoforge-1.21.1-6.0.3.jar",
+      "sizeBytes": 4156889,
+      "sha256": "d20006d674b577f352c813ac0864581597f38f03bdc8cbd4d1f2501cf95f3b0a"
+    },
+    {
+      "path": "mods/journeymaptfcintegration-neoforge-1.0.3.jar",
+      "sizeBytes": 50758,
+      "sha256": "a189bcf1871d5ffb8e3e9db462467ae2daaa301a1ec7acd543648714c10430ca"
+    },
+    {
+      "path": "mods/jupiter-2.3.3-bugfix-1.21.1-neoforge.jar",
+      "sizeBytes": 313206,
+      "sha256": "8d6f8fb0050641bc39025bf8c451bc7b436375db32c8fb5a1c5b31e02e2380dd"
+    },
+    {
+      "path": "mods/justenoughbreeding-neoforge-1.21-1.21.1-1.6.2.jar",
+      "sizeBytes": 134388,
+      "sha256": "4857ff49f674dac569495eb6cd4252cf5bb075c0c2566923b44be434c4c401d2"
+    },
+    {
+      "path": "mods/kaleidoscope_contraption-1.0.3.jar",
+      "sizeBytes": 421978,
+      "sha256": "4f17ac841f6caafaf32e83746c4034b077093430e02b1b7eb307536bd2a343d7"
+    },
+    {
+      "path": "mods/kaleidoscopecookery-1.4.1-neoforge+mc1.21.1.jar",
+      "sizeBytes": 5018991,
+      "sha256": "04dd114f975df57fb8bb3f09e8c96d6de18587838ab5a019271b51a2aec24f74"
+    },
+    {
+      "path": "mods/kaleidoscopetavern-1.2.0-neoforge+mc1.21.1.jar",
+      "sizeBytes": 1708047,
+      "sha256": "03f35e1e614953b22cd1f5e34345613f3a6a283bf1b1c99659b57d58970edeff"
+    },
+    {
+      "path": "mods/kaleidoscopetfctavern-1.0.0-neoforge+mc1.21.1.jar",
+      "sizeBytes": 736692,
+      "sha256": "9c7d498a306e093529646bb626dc008d72dbfc60790b654a183f11041d90aa7b"
+    },
+    {
+      "path": "mods/konkrete_neoforge_1.9.9_MC_1.21.jar",
+      "sizeBytes": 618842,
+      "sha256": "791c5538751dd3015ef3a2ce92d98719e1a28a48ebbd817b78506771256654cd"
+    },
+    {
+      "path": "mods/krypton_fnp-neoforge-1.21.1-0.2.28.1-1.21.1.jar",
+      "sizeBytes": 1015871,
+      "sha256": "05ebe849611daafe533fc57ed9b5156edfa9157ced04d38a7860b1e2075984b9"
+    },
+    {
+      "path": "mods/ktfcc-1.2.5-1.21.1.jar",
+      "sizeBytes": 668673,
+      "sha256": "ede1566264d95509138b8ad192071107ee6f51250ebb0fd24b2bd05177eea8b0"
+    },
+    {
+      "path": "mods/kubejs-create-neoforge-2101.3.1-build.18.jar",
+      "sizeBytes": 38630,
+      "sha256": "60fab77c339e5757a97a9a1e2d4019ed2a610bd46583d4353c9a13596e01e614"
+    },
+    {
+      "path": "mods/kubejs-neoforge-2101.7.2-build.368.jar",
+      "sizeBytes": 2281720,
+      "sha256": "28867299e7a9f02cfd74e34745fdbbb073fe4887fddbc98fd6c1ed2e87b01482"
+    },
+    {
+      "path": "mods/kubejs_tfc-1.21.1-2.0.2.jar",
+      "sizeBytes": 745973,
+      "sha256": "32f3827910385396ff1031b9311f6518effd2203d9ceb10b93003174b013d427"
+    },
+    {
+      "path": "mods/lambdynamiclights-4.8.11+1.21.1.jar",
+      "sizeBytes": 2023375,
+      "sha256": "913b0358b1031828f1e060ea0ee361232dc2a1c82464f488a0a920739ce7c763"
+    },
+    {
+      "path": "mods/ldlib2-neoforge-1.21.1-2.2.33-all.jar",
+      "sizeBytes": 6820548,
+      "sha256": "3fc17e118e58727099a39748f82ae6f3a23a77613d5c6722fd88964916c06aa9"
+    },
+    {
+      "path": "mods/liubai-1.0.1-1.21.1.jar",
+      "sizeBytes": 214711,
+      "sha256": "db580353e07c0ed0e366826fb93128435f2c6feec106997db8ffaa983fd8bb54"
+    },
+    {
+      "path": "mods/lod-server-support-neoforge-0.14.0+1.21.1.jar",
+      "sizeBytes": 17500054,
+      "sha256": "ffcea086f319cb8562c9af44ad69f2239d620d809ecfcb58b9b1eeb4dbe3a3d4"
+    },
+    {
+      "path": "mods/melody_neoforge_1.0.10_MC_1.21.jar",
+      "sizeBytes": 36096,
+      "sha256": "6b973a4564703c531fc0eae09db08b07a38091e0a743c687b8d2049457e84871"
+    },
+    {
+      "path": "mods/moonlight-1.21-2.29.4-neoforge.jar",
+      "sizeBytes": 1499415,
+      "sha256": "2e84e0ff71501c72431e3c9f09bae41ace170196e27a9d87b61a13f0d95eae2b"
+    },
+    {
+      "path": "mods/oneenoughitem-neoforge-1.21.1-1.0.8.jar",
+      "sizeBytes": 260782,
+      "sha256": "f2bd5eeeefb7155f95d686a055d0c713da540c3ce6d2fd09fe18caea4f686583"
+    },
+    {
+      "path": "mods/packetfixer-3.3.1-1.20.5-1.21.X-merged.jar",
+      "sizeBytes": 46623,
+      "sha256": "2979a8a3f44e5d5df4f9f6315d18c220f3debf736bb8a2c2740acdfb13bd820f"
+    },
+    {
+      "path": "mods/polymorph-neoforge-1.1.0+1.21.1.jar",
+      "sizeBytes": 174972,
+      "sha256": "bec8118978adeb052de9c4eaf9a595830621d82515a764f32f9c8a4dd52ab94b"
+    },
+    {
+      "path": "mods/ponderforkc-1.0.0.jar",
+      "sizeBytes": 51739,
+      "sha256": "22d983182d2ad51729296bcd2a32c6e41fbf42278e70932d3eaec64e131438d2"
+    },
+    {
+      "path": "mods/portable_engine_liquid_fuel-2.0.0-neoforge-1.21.1.jar",
+      "sizeBytes": 133486,
+      "sha256": "39bd87ba2731d2f2416f464120f9019e733558156dbcf85552ef3d5e0703b11b"
+    },
+    {
+      "path": "mods/precisionprospecting-1.21.1-2.1.jar",
+      "sizeBytes": 381915,
+      "sha256": "049709b348002844a7e1cbf0d6a364a32b57bf9f7fbb795143e1309e7f7ea4cf"
+    },
+    {
+      "path": "mods/prickle-neoforge-1.21.1-21.1.11.jar",
+      "sizeBytes": 84812,
+      "sha256": "ccf46c442ed3c7fe41ad056f0940560829ec4dd88360985dfacd78f4614eb167"
+    },
+    {
+      "path": "mods/quest_enhance-1.21.1-neoforge-3.3.jar",
+      "sizeBytes": 318850,
+      "sha256": "a2ccb140a1fc3d83edb18dc04ed23a68befd95eabe50470bcf4257973e0df23d"
+    },
+    {
+      "path": "mods/randomoptimization-1.7.4-all.jar",
+      "sizeBytes": 151531,
+      "sha256": "65bf07eb173d62e0722130fa877187e5144bf52159335cc846dd77d7bbd3f19f"
+    },
+    {
+      "path": "mods/reeses-sodium-options-neoforge-2.2.3+mc1.21.1.jar",
+      "sizeBytes": 260876,
+      "sha256": "25812f308a87c04686de6ac9f24a8073101f81864f0eb9abf348f95d73a6629e"
+    },
+    {
+      "path": "mods/rhino-2101.2.8-build.91.jar",
+      "sizeBytes": 980936,
+      "sha256": "1d53d962aa4dac54bcbb4f998c1845980cf194318f1d6b1580ea6ac15cce5ef3"
+    },
+    {
+      "path": "mods/rnr-1.0.4-1.21.1.jar",
+      "sizeBytes": 3409313,
+      "sha256": "13f2c454e64181f3b053439dcf1a286ab728545360d4ff4d2cda72ab44011b06"
+    },
+    {
+      "path": "mods/roxy-1.21.1-NeoForge-0.2.0.jar",
+      "sizeBytes": 2340044,
+      "sha256": "203bd69d6d5b1530b4e1e975660de4f8f28a86c610bbf747bbf35e33b3c3f5bd"
+    },
+    {
+      "path": "mods/sable-dynamic-lights-1.21.1-1.0.0.jar",
+      "sizeBytes": 51851,
+      "sha256": "0c43172cde9970abccdd57e8e007e820719f155a5438b35491fef3599b66e37f"
+    },
+    {
+      "path": "mods/sable-neoforge-1.21.1-2.0.5.jar",
+      "sizeBytes": 12986136,
+      "sha256": "c8710f85bc780bbf523e6726ceaaf76dd0b8c61479db497b382c6bb34317e7ab"
+    },
+    {
+      "path": "mods/sable-photomancy-1.0.1.jar",
+      "sizeBytes": 1607474,
+      "sha256": "1d0805f537f27ce3160488331755497417514a3dfb30d5ca3fdca1b000e7e920"
+    },
+    {
+      "path": "mods/sable_fix_mod-1.1.0.jar",
+      "sizeBytes": 1016040,
+      "sha256": "3faa954be48d5057383342ea8988bdc1a0ce257187f2dae91d9d22d55ea2a31c"
+    },
+    {
+      "path": "mods/sablecleanup-0.3.0.jar",
+      "sizeBytes": 168719,
+      "sha256": "2d8c1a7ccae23a3ed90e2b5743e23f8745bcf7df0fda18c67263b2f3a05e8308"
+    },
+    {
+      "path": "mods/sablecollisiondamage-1.0.8.jar",
+      "sizeBytes": 42942,
+      "sha256": "a053bc5aba63563918608dd9a53077d7dc832ce32066322fc0f0235c0deda62a"
+    },
+    {
+      "path": "mods/sableexplosionfix-1.0.0.jar",
+      "sizeBytes": 4795,
+      "sha256": "456c257f1e4f176cce07b9bbd0e48c31338414a5ed0d277dc8ac57105c4c63cb"
+    },
+    {
+      "path": "mods/sablefloaters-1.0.0.jar",
+      "sizeBytes": 32777,
+      "sha256": "7086df8b3bca25c38d3db493ea9f999ee623e84b0056d3163cd8784bd701e643"
+    },
+    {
+      "path": "mods/sablejade-1.3.0.jar",
+      "sizeBytes": 301532,
+      "sha256": "f26e974115226d83ec363e3d327e739c87ded760d781ca0538181094eb4bb9a2"
+    },
+    {
+      "path": "mods/sablemassview-1.0.0.jar",
+      "sizeBytes": 5729,
+      "sha256": "8e5632e0ae6ce790b585dac2fd315c3ce58ae31441818f3adae3aa059b25d3af"
+    },
+    {
+      "path": "mods/schematician-0.10.0.jar",
+      "sizeBytes": 88238,
+      "sha256": "9034f669c43458ee420ba1e45018f8b7efb1409c2bf2666f58277683951bd74c"
+    },
+    {
+      "path": "mods/seasonhud-neoforge-1.21.1-2.0.9.jar",
+      "sizeBytes": 223159,
+      "sha256": "e691c22dbbc3729a6ce1f9a7198ad2f71664541605ca729af76b36233dcfe1e2"
+    },
+    {
+      "path": "mods/simulatedcoasters-0.1.5.jar",
+      "sizeBytes": 1892119,
+      "sha256": "f80b4c3cdf9fa6188804967147761b0373e150a6eadbdc53626e5ac9700b2049"
+    },
+    {
+      "path": "mods/skinlayers3d-neoforge-1.10.1-mc1.21.1.jar",
+      "sizeBytes": 1966859,
+      "sha256": "b3e10dd28ba72f2bee961e6e783749f15eca84aee804aad74a4d6c97ddde8a79"
+    },
+    {
+      "path": "mods/sodium-extra-neoforge-0.9.3+mc1.21.1.jar",
+      "sizeBytes": 465013,
+      "sha256": "fa553bce38bad6fdd478841a270a79a31dc05f87d7892b1cf839850602ac9186"
+    },
+    {
+      "path": "mods/sodium-neoforge-0.8.13-beta.1+mc1.21.1.jar",
+      "sizeBytes": 1292065,
+      "sha256": "f58f469ee52fad019c1678a463b2c3f27042a915fdf4029242d7d243e6c4eece"
+    },
+    {
+      "path": "mods/sophisticatedbackpacks-1.21.1-3.25.74.2043.jar",
+      "sizeBytes": 1166426,
+      "sha256": "3f560b474cde67a38afa8cd709449fbbfcb584044b53c224e459a6b606ff985b"
+    },
+    {
+      "path": "mods/sophisticatedcore-1.21.1-1.4.81.2206.jar",
+      "sizeBytes": 1675477,
+      "sha256": "8ed989034712b6d0508fb21f0629e0bd01abba750d5e1c189e2c98b8fa19ea18"
+    },
+    {
+      "path": "mods/sound-physics-remastered-neoforge-1.21.1-1.5.1.jar",
+      "sizeBytes": 202454,
+      "sha256": "65372ad64422a20f03ad6e39aabaa827c191abbe9be5c35631acc3a8105fe177"
+    },
+    {
+      "path": "mods/spark-1.10.124-neoforge.jar",
+      "sizeBytes": 3642581,
+      "sha256": "647e8a81afbe414dba1df4ba15fd06c5d32d4cb544e68828405e8e074c2e16db"
+    },
+    {
+      "path": "mods/tfc-ability-fix-1.0.0.jar",
+      "sizeBytes": 3206,
+      "sha256": "a02f1257103402c9624953be9060f66cbd1b156a05da22cbfee8605a1e524979"
+    },
+    {
+      "path": "mods/tfc-sable-rivers-0.1.0.jar",
+      "sizeBytes": 7165,
+      "sha256": "3e2f4a8f333d917f74a2d365afbda2da0f03d2435f2314da9e81905bb1fa76c5"
+    },
+    {
+      "path": "mods/tfc-tool-stats-tooltip-0.2.1.jar",
+      "sizeBytes": 10024,
+      "sha256": "54281cd8d5db79bdc53823d52debd830137fcdab6c1f632ceefdf6253a724ba5"
+    },
+    {
+      "path": "mods/tfc_aeronautics-0.2.0.jar",
+      "sizeBytes": 161287,
+      "sha256": "dd1d8349152333f0d6cdcad92d990d158dc51b7c6b4ab80dc9bb7ae508497b96"
+    },
+    {
+      "path": "mods/tfc_alloy_ext-neoforge-0.1.0-beta.jar",
+      "sizeBytes": 182743,
+      "sha256": "f3350fe95d48abe5376ff2e6130cadc272ce38d929584be9d1a3fccac7944d4d"
+    },
+    {
+      "path": "mods/tfc_cloche-1.1.30.jar",
+      "sizeBytes": 113574,
+      "sha256": "cf6b3103ec539cf9bea38e8bc7eb4a465d8ef4cba3fac4aea2e06d902e8a7985"
+    },
+    {
+      "path": "mods/tfc_coldsweat-2.1.2.jar",
+      "sizeBytes": 94092,
+      "sha256": "db725b0c47af95ec8d0e58c108df05990418d73019ea43fb5b9c8231efe3c2a1"
+    },
+    {
+      "path": "mods/tfc_eratosthenes-NeoForge-1.21.1-4.0.0.jar",
+      "sizeBytes": 35145,
+      "sha256": "a6e407aa1cb04fcd0d2eb99c093f9b638edd763a129ec3c3c1a8f018d60c7170"
+    },
+    {
+      "path": "mods/tfc_glass_workshop-0.0.2+1.21.1-neoforge.jar.jar",
+      "sizeBytes": 210780,
+      "sha256": "343e6a88aeddd9cf54e1e8c0f2e20822d58387a26b5fb6b7f1b0054460465407"
+    },
+    {
+      "path": "mods/tfc_support_indicator-1.0.7+mc1.21.1.jar",
+      "sizeBytes": 7699,
+      "sha256": "0451b79463b047310416c2294304c4575a36eedc59c4f0f485c33b61347ec91c"
+    },
+    {
+      "path": "mods/tfcgenviewer-1.21.1-2.1.2.jar",
+      "sizeBytes": 476499,
+      "sha256": "70f75139fe4f447afe041fe3eb30bb6530835d6754c280c2ad276eff7e306de3"
+    },
+    {
+      "path": "mods/tfcorewashing-1.21.1-neoforge-1.1.4.jar",
+      "sizeBytes": 816624,
+      "sha256": "10f245f601e70aac3f60dc984b25e00413e0a0fccfc3e1d7542a6d5c8b48fe05"
+    },
+    {
+      "path": "mods/tfcr-fixes-1.7.7.jar",
+      "sizeBytes": 36391,
+      "sha256": "2c1b940811dc689e3d38c5a8b6cf7fd44dadcc302784f831a2a2c3d731fa13cd"
+    },
+    {
+      "path": "mods/tfcsbu-0.3.1-1.21.1.jar",
+      "sizeBytes": 410876,
+      "sha256": "30b64a20f551578464f66b604347ea957cc1cd5440aaba57517742df3478b921"
+    },
+    {
+      "path": "mods/tfcsuperhammer-1.0.5-1.21.1.jar",
+      "sizeBytes": 377429,
+      "sha256": "fc867cc004a8caefee4b7f115809e808aa039539dd7c88e2ccedaa40336f0ac7"
+    },
+    {
+      "path": "mods/tfctrough-1.4.jar",
+      "sizeBytes": 228886,
+      "sha256": "5a3f4ff2b8250fe663e0c5fbe1ef90a63ccc87ee42d455291fd32fe907f1c4e7"
+    },
+    {
+      "path": "mods/tipsmod-neoforge-1.21.1-21.1.3.jar",
+      "sizeBytes": 121037,
+      "sha256": "242d7ed8d7b78e12be37c09d38ed0dc25e55d3af9d5f4395400b7c57cb30381b"
+    },
+    {
+      "path": "mods/titanium-1.21-4.0.45.jar",
+      "sizeBytes": 606801,
+      "sha256": "d224a9bd5cfb9e921ba644b2a7a2ce1041f879a9945f80dacebd87d95888530c"
+    },
+    {
+      "path": "mods/towed-1.2.0.jar",
+      "sizeBytes": 89134,
+      "sha256": "c50a63fb2dabc95a0ceb5892d04c5b4451290a3273950bccca74384e7f8d8406"
+    },
+    {
+      "path": "mods/tracks_plus-1.0.6b2.jar",
+      "sizeBytes": 612293,
+      "sha256": "eb85699ccf098f1c814d601e747c898543bceb5608381d1f8e266bdfcd3c382b"
+    },
+    {
+      "path": "mods/voxy-0.2.16-beta+1.21.11.jar",
+      "sizeBytes": 12620254,
+      "sha256": "7f8226cf64a4f5dc064e1075965714b718ac5f42fb28f826135a37c64e66e10b"
+    },
+    {
+      "path": "mods/wabbanode-companion-neoforge-1.21.1-1.0.1.jar",
+      "sizeBytes": 28719,
+      "sha256": "33789b7c8ac39b99dc5096b76b90fe16c646ba645ee7807d887d26db0f707e9b"
+    },
+    {
+      "path": "mods/warypredators-0.1.4.jar",
+      "sizeBytes": 96991,
+      "sha256": "3ccd7cc3e0f50b6d37621d8d72e7fc889b4d5b7937e7045e095a5cec7a61a2ed"
+    },
+    {
+      "path": "mods/watut-neoforge-1.21.0-1.2.7.jar",
+      "sizeBytes": 432269,
+      "sha256": "b1aac4b9832e16439ee86f27814f7b6a42f2f6bea0ea6949dfffffcd0599d88c"
+    },
+    {
+      "path": "mods/weight-1.2.0.jar",
+      "sizeBytes": 53427,
+      "sha256": "0f9e008148c0884dc784cd35c8b8c162f00b35058aa7958dfd30abd083165366"
+    },
+    {
+      "path": "mods/woodencog-1.2.18-1.21.1-TFCR.jar",
+      "sizeBytes": 760433,
+      "sha256": "eb0c572724e8809caf0044547895d908d287504cef46e31b9a3bfe2840be4db1"
+    },
+    {
+      "path": "mods/worldborder-1.21.1-4.8.jar",
+      "sizeBytes": 40314,
+      "sha256": "c00ae1e792d3c92738a9e191d5434dbba60ff60bf1a8aafa561f6092107851a8"
+    },
+    {
+      "path": "mods/xercamusic-neoforge-1.21.1-1.2.1.jar",
+      "sizeBytes": 9736521,
+      "sha256": "ad73febf4c93fa968bd4d691813d33c4109fd0ac5604452565359a9c375204c6"
+    }
+  ]
+}

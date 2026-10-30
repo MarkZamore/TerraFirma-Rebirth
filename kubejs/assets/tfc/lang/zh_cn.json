@@ -555,5 +555,6 @@
   "tfc.tooltip.flower_cutting": "§7%s的插条",
   "tfc.tooltip.hammer_required_to_weld": "需要锤子才能在砧上焊接！",
   "tfc.tooltip.plantable.climate.temperature_range": "§1温度：§r %s §7-§r %s",
-  "tfc.tooltip.rope.throw_me": "再次右击，将绳索朝你面对的方向抛出。"
+  "tfc.tooltip.rope.throw_me": "再次右击，将绳索朝你面对的方向抛出。",
+  "emi.category.tfc.pumpkin_knapping": "南瓜刻制"
 }

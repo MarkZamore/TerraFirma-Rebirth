@@ -1,3 +1,9 @@
+// 铁轨卷筒：iron_rail_component 标签只有原版铁活版门（配方已删、不可得），
+// 把群峦锻铁活版门加进标签，玩家打出来的活版门才能被识别
+ServerEvents.tags('item', event => {
+    event.add('electroenergetics:iron_rail_component', 'tfc:metal/trapdoor/wrought_iron')
+})
+
 ServerEvents.recipes(event => {
 
     // EE 配方材料替换：让电工时代真正可玩

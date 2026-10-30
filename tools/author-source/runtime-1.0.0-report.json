@@ -1,0 +1,557 @@
+{
+  "schemaVersion": 1,
+  "kind": "author-pack-native-runtime-report",
+  "packId": "terrafirma-rebirth",
+  "displayName": "TerraFirma Rebirth 2",
+  "publishedRelativePath": "TerraFirma Rebirth",
+  "authorVersion": "1.21.1-1.0.0-release",
+  "minecraftVersion": "1.21.1",
+  "neoForgeVersion": "21.1.248",
+  "sourceFidelity": {
+    "originalAuthorFiles": 2913,
+    "originalAuthorJars": 222,
+    "originalAuthorFilesChanged": 0,
+    "originalAuthorJarsExcluded": 0,
+    "explicitSupportFiles": 10,
+    "nativeRequiredShaderInputsAdded": 2,
+    "shaderInputsVersion": "r5.8.1",
+    "authorPatcherVersionKept": "1.9.3",
+    "popupSuppressed": false,
+    "authorShaderActivationChanged": false,
+    "authorIrisEnableShaders": false
+  },
+  "launcher": {
+    "release": 420,
+    "sourceRevision": "b130ef14f0fd9c8dfdca9e3dcc3bb916e1b8d8dc",
+    "testedManagedAssemblySha256": "b3862b052ab9d51e13e81e7f8b5f5b5685c12316b04d6075e3786f3b896a3d20",
+    "buildScope": "Independent Debug build of exact published420 source; not a public-EXE byte equality claim.",
+    "actualProductionRuntimeInstanceAndJvmHelpersUsed": true,
+    "ordinaryLauncherUiLaunchClaimed": false,
+    "packNativeMetadataResourceSha256": "2719ffe9a82a4c0f2acbd04d68b9043776fb824e87b983e226c8928a46bbf2b7",
+    "nativeMetadata357BytesZeroClasses": true,
+    "launcherCodeChangedForTheseFixes": false
+  },
+  "stages": [
+    {
+      "kind": "full-client-new-world-before-shader-input-completion",
+      "titleAtUtc": "2026-10-30T02:55:18.599391200Z",
+      "nativeWorldHealthAtUtc": "2026-10-30T02:56:36.441021Z",
+      "nativeGeneratorClass": "net.dries007.tfc.world.TFCChunkGenerator",
+      "privateIntegratedServer": true,
+      "playerCount": 1,
+      "expectedQaIdentityMatched": true,
+      "clientScreenAndOverlayAbsent": true,
+      "currentGlContext": true,
+      "advancingWorldSamples": 43,
+      "totalServerSamplesIncludingTwoLoadingScreenSamples": 45,
+      "firstReadyTick": 325,
+      "lastReadyTick": 2930,
+      "nativeSaveVerified": true,
+      "savedGenerator": "tfc:overworld",
+      "savedDataVersion": 3955,
+      "savedSeed": 20261030,
+      "savedLevelDatSha256": "1903665d3bc66ac7bea3a024554f1e25ca3fd87e7c198125795ad0feb2998027",
+      "savedLevelDatSizeBytes": 9594,
+      "nativeQuitExitCode": 0,
+      "exitAtUtc": "2026-10-30T02:58:51.9743743+00:00",
+      "errorSummary": {
+        "eventCount": 193,
+        "severityCounts": {
+          "ERROR": 192,
+          "FATAL": 1
+        },
+        "loggerCounts": [
+          {
+            "severity": "ERROR",
+            "logger": "net.neoforged.fml.loading.moddiscovery.ModFile",
+            "count": 3
+          },
+          {
+            "severity": "ERROR",
+            "logger": "mixin",
+            "count": 1
+          },
+          {
+            "severity": "ERROR",
+            "logger": "euphoria_patcher",
+            "count": 6
+          },
+          {
+            "severity": "ERROR",
+            "logger": "net.minecraft.client.Minecraft",
+            "count": 1
+          },
+          {
+            "severity": "ERROR",
+            "logger": "e4steam",
+            "count": 1
+          },
+          {
+            "severity": "ERROR",
+            "logger": "net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM",
+            "count": 14
+          },
+          {
+            "severity": "ERROR",
+            "logger": "net.minecraft.client.multiplayer.AccountProfileKeyPairManager",
+            "count": 1
+          },
+          {
+            "severity": "FATAL",
+            "logger": "ModernUI-MC",
+            "count": 1
+          },
+          {
+            "severity": "ERROR",
+            "logger": "Moonlight",
+            "count": 1
+          },
+          {
+            "severity": "ERROR",
+            "logger": "net.minecraft.client.resources.model.ModelManager",
+            "count": 1
+          },
+          {
+            "severity": "ERROR",
+            "logger": "Veil",
+            "count": 1
+          },
+          {
+            "severity": "ERROR",
+            "logger": "Tips",
+            "count": 30
+          },
+          {
+            "severity": "ERROR",
+            "logger": "com.mojang.realmsclient.RealmsAvailability",
+            "count": 1
+          },
+          {
+            "severity": "ERROR",
+            "logger": "net.minecraft.world.level.storage.loot.LootDataType",
+            "count": 22
+          },
+          {
+            "severity": "ERROR",
+            "logger": "net.minecraft.tags.TagLoader",
+            "count": 6
+          },
+          {
+            "severity": "ERROR",
+            "logger": "KubeJS",
+            "count": 6
+          },
+          {
+            "severity": "ERROR",
+            "logger": "net.minecraft.world.item.crafting.RecipeManager",
+            "count": 24
+          },
+          {
+            "severity": "ERROR",
+            "logger": "net.neoforged.neoforge.registries.DataMapLoader",
+            "count": 1
+          },
+          {
+            "severity": "ERROR",
+            "logger": "net.dries007.tfc.TerraFirmaCraft",
+            "count": 12
+          },
+          {
+            "severity": "ERROR",
+            "logger": "dev.ryanhcode.sable.Sable",
+            "count": 6
+          },
+          {
+            "severity": "ERROR",
+            "logger": "mezz.jei.library.load.registration.SubtypeRegistration",
+            "count": 2
+          },
+          {
+            "severity": "ERROR",
+            "logger": "mezz.jei.library.plugins.vanilla.ingredients.ItemStackListFactory",
+            "count": 43
+          },
+          {
+            "severity": "ERROR",
+            "logger": "net.dries007.tfc.compat.patchouli.component.CustomComponent",
+            "count": 7
+          },
+          {
+            "severity": "ERROR",
+            "logger": "me.molybdenum.ambience_mini.v1_21_1.AmbienceMini",
+            "count": 2
+          }
+        ]
+      }
+    },
+    {
+      "kind": "title-only-after-native-input-completion-and-window-title-data",
+      "titleAtUtc": "2026-10-30T03:52:02.325700600Z",
+      "nativeTitleStableSamples": 3,
+      "actualOsWindowTitle": "TerraFirma Rebirth 2",
+      "osTitleAtUtc": "2026-10-30T03:53:32.4255759+00:00",
+      "windowFolderOrStableIdRenamed": false,
+      "euphoriaMissingShaderErrorPresent": false,
+      "authorPatcherSuccessfullyGenerated": [
+        "ComplementaryUnbound_r5.8.1 + EuphoriaPatches_1.9.3",
+        "ComplementaryReimagined_r5.8.1 + EuphoriaPatches_1.9.3"
+      ],
+      "generatedPackFileProof": [
+        {
+          "name": "ComplementaryUnbound_r5.8.1 + EuphoriaPatches_1.9.3",
+          "absentBeforeNativeLaunch": true,
+          "filesAfterNativeExit": 616,
+          "totalBytes": 8978039,
+          "canonicalFileMapSha256": "2f5d1613c278821b8e3c610b26f9d5a85d8f45285d19e710e3fb7ea701dfbea3"
+        },
+        {
+          "name": "ComplementaryReimagined_r5.8.1 + EuphoriaPatches_1.9.3",
+          "absentBeforeNativeLaunch": true,
+          "filesAfterNativeExit": 616,
+          "totalBytes": 8978039,
+          "canonicalFileMapSha256": "6f037affd1c1556214435151cc3d1b33b7e9d2211cba970b3c504a59963b85d1"
+        }
+      ],
+      "nativeSodiumState": [
+        {
+          "phase": "first-native-title",
+          "available": true,
+          "activeCount": 1,
+          "queuedCount": 0,
+          "severeCount": 0
+        },
+        {
+          "phase": "third-stable-native-title",
+          "available": true,
+          "activeCount": 0,
+          "queuedCount": 0,
+          "severeCount": 0
+        }
+      ],
+      "firstSodiumMessageKind": "INFO: unchanged author EuphoriaPatcher reported successful installation",
+      "newWorldNotRepeatedForTitleAndInputOnlyData": true,
+      "nativeQuitExitCode": 0,
+      "exitAtUtc": "2026-10-30T03:53:37.1657402+00:00",
+      "errorSummary": {
+        "eventCount": 57,
+        "severityCounts": {
+          "ERROR": 56,
+          "FATAL": 1
+        },
+        "loggerCounts": [
+          {
+            "severity": "ERROR",
+            "logger": "net.neoforged.fml.loading.moddiscovery.ModFile",
+            "count": 3
+          },
+          {
+            "severity": "ERROR",
+            "logger": "mixin",
+            "count": 1
+          },
+          {
+            "severity": "ERROR",
+            "logger": "net.minecraft.client.Minecraft",
+            "count": 1
+          },
+          {
+            "severity": "ERROR",
+            "logger": "e4steam",
+            "count": 1
+          },
+          {
+            "severity": "ERROR",
+            "logger": "net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM",
+            "count": 14
+          },
+          {
+            "severity": "ERROR",
+            "logger": "net.minecraft.client.multiplayer.AccountProfileKeyPairManager",
+            "count": 1
+          },
+          {
+            "severity": "FATAL",
+            "logger": "ModernUI-MC",
+            "count": 1
+          },
+          {
+            "severity": "ERROR",
+            "logger": "Moonlight",
+            "count": 1
+          },
+          {
+            "severity": "ERROR",
+            "logger": "net.minecraft.client.resources.model.ModelManager",
+            "count": 1
+          },
+          {
+            "severity": "ERROR",
+            "logger": "Veil",
+            "count": 1
+          },
+          {
+            "severity": "ERROR",
+            "logger": "Tips",
+            "count": 30
+          },
+          {
+            "severity": "ERROR",
+            "logger": "com.mojang.realmsclient.RealmsAvailability",
+            "count": 1
+          },
+          {
+            "severity": "ERROR",
+            "logger": "me.molybdenum.ambience_mini.v1_21_1.AmbienceMini",
+            "count": 1
+          }
+        ]
+      }
+    }
+  ],
+  "nativeInventory": {
+    "loadedModsWithManagedSteamIntegration": 312,
+    "sourceTopLevelJars": 222,
+    "registeredAllMappings": 223,
+    "optionsMappings": 216,
+    "probeChangedBindings": false,
+    "presetUsedForNativeRunSha256": "d218322ffeaf680c38c1264aac4665013452f42adc1dd18311e824245fb48359",
+    "all216EditableNativeAssignmentsMatchedThatPreset": true,
+    "publishedPresetSha256": "dfa1a153069c433e3db403b94d9bfe00ff258aa2cef95503e8c1cd20d162b698",
+    "publishedPresetRows": 216,
+    "publishedBoundAssignments": 88,
+    "fivePreviouslyUnboundNonOptionsRowsRemovedAfterRun": true,
+    "all216PublishedEditableAssignmentsMatchNativeCapture": true,
+    "nonEditableOrStalePresetRowsReconciledSeparately": true
+  },
+  "atlas": {
+    "gpuVendor": "Intel",
+    "gpuRenderer": "Intel Arc B390",
+    "maxTextureSize": 16384,
+    "nativeBackend": "OpenGL4.6.0 Build32.0.101.8724; ordinary native client atlas creation/upload, no synthetic fit substitution",
+    "uniqueAtlases": 15,
+    "spriteRectangles": 18844,
+    "outOfBoundsRectangles": 0,
+    "geometryPrivateDumpBytes": 2689768,
+    "geometryPrivateDumpSha256": "cc7583a479929a1c59757dd8796e57cd03fbf2f9969fa20eee285f0bfccaee6d",
+    "geometryIdenticalBetweenBothRuns": true,
+    "pngDecodedByProbe": false,
+    "glStateChangedByProbe": false,
+    "overlapOrPaddingFitClaimed": false,
+    "records": [
+      {
+        "id": "jei:textures/atlas/gui.png",
+        "width": 256,
+        "height": 256,
+        "mipLevel": 0,
+        "spriteCount": 47,
+        "outOfBoundsRectangles": 0
+      },
+      {
+        "id": "minecraft:textures/atlas/armor_trims.png",
+        "width": 2048,
+        "height": 2048,
+        "mipLevel": 4,
+        "spriteCount": 1513,
+        "outOfBoundsRectangles": 0
+      },
+      {
+        "id": "minecraft:textures/atlas/banner_patterns.png",
+        "width": 1024,
+        "height": 512,
+        "mipLevel": 4,
+        "spriteCount": 74,
+        "outOfBoundsRectangles": 0
+      },
+      {
+        "id": "minecraft:textures/atlas/beds.png",
+        "width": 512,
+        "height": 256,
+        "mipLevel": 4,
+        "spriteCount": 17,
+        "outOfBoundsRectangles": 0
+      },
+      {
+        "id": "minecraft:textures/atlas/blocks.png",
+        "width": 4096,
+        "height": 2048,
+        "mipLevel": 4,
+        "spriteCount": 14866,
+        "outOfBoundsRectangles": 0
+      },
+      {
+        "id": "minecraft:textures/atlas/chest.png",
+        "width": 2048,
+        "height": 1024,
+        "mipLevel": 4,
+        "spriteCount": 300,
+        "outOfBoundsRectangles": 0
+      },
+      {
+        "id": "minecraft:textures/atlas/decorated_pot.png",
+        "width": 128,
+        "height": 64,
+        "mipLevel": 4,
+        "spriteCount": 26,
+        "outOfBoundsRectangles": 0
+      },
+      {
+        "id": "minecraft:textures/atlas/gui.png",
+        "width": 1024,
+        "height": 1024,
+        "mipLevel": 0,
+        "spriteCount": 727,
+        "outOfBoundsRectangles": 0
+      },
+      {
+        "id": "minecraft:textures/atlas/map_decorations.png",
+        "width": 256,
+        "height": 256,
+        "mipLevel": 0,
+        "spriteCount": 40,
+        "outOfBoundsRectangles": 0
+      },
+      {
+        "id": "minecraft:textures/atlas/mob_effects.png",
+        "width": 256,
+        "height": 256,
+        "mipLevel": 0,
+        "spriteCount": 87,
+        "outOfBoundsRectangles": 0
+      },
+      {
+        "id": "minecraft:textures/atlas/paintings.png",
+        "width": 512,
+        "height": 256,
+        "mipLevel": 0,
+        "spriteCount": 58,
+        "outOfBoundsRectangles": 0
+      },
+      {
+        "id": "minecraft:textures/atlas/particles.png",
+        "width": 2048,
+        "height": 2048,
+        "mipLevel": 0,
+        "spriteCount": 570,
+        "outOfBoundsRectangles": 0
+      },
+      {
+        "id": "minecraft:textures/atlas/shield_patterns.png",
+        "width": 1024,
+        "height": 512,
+        "mipLevel": 4,
+        "spriteCount": 75,
+        "outOfBoundsRectangles": 0
+      },
+      {
+        "id": "minecraft:textures/atlas/shulker_boxes.png",
+        "width": 512,
+        "height": 256,
+        "mipLevel": 4,
+        "spriteCount": 19,
+        "outOfBoundsRectangles": 0
+      },
+      {
+        "id": "minecraft:textures/atlas/signs.png",
+        "width": 1024,
+        "height": 1024,
+        "mipLevel": 4,
+        "spriteCount": 425,
+        "outOfBoundsRectangles": 0
+      }
+    ]
+  },
+  "fixedVisibleNotification": {
+    "cause": "Official export omitted Complementary5.8.1 base inputs required by the unchanged EuphoriaPatcher.",
+    "nativeRenderingPath": "Euphoria severity3 -> Sodium Console queue -> applied GameRenderer console hook, independent of Minecraft screen/overlay fields.",
+    "nativeSeverePaletteRgb": {
+      "text": [
+        220,
+        0,
+        0
+      ],
+      "background": [
+        25,
+        0,
+        0
+      ],
+      "border": [
+        160,
+        0,
+        0
+      ]
+    },
+    "repair": "Two exact officialr5.8.1 base ZIPs, no mod update or error/popup suppression.",
+    "verifiedBy": "Native Patcher success output + available active/queued message snapshots showing zero SEVERE + matching generated packs.",
+    "visualPixelInspectionClaimed": false
+  },
+  "remainingIssueScope": [
+    "ModernUI FATAL OK is a plain native logger call in the Kiwi-registration path, not an exception/dialog.",
+    "Veil indirect_sphere compute shader still fails compilation; visual-effect correctness is not accepted.",
+    "Other startup issues remain: missing native AT/mixin, Architectury wrong-dist resolution, Tips resources, Moonlight warning and Trackwork model.",
+    "The first full-world run additionally logs native recipe/tag/loot/datamap/mold/JEI/book issues; absence in a later Title-only run does not mean they were fixed.",
+    "Ambience Mini reports AL errors during native shutdown; audible playback was not tested.",
+    "Steam was not running and native SteamAPI_Init failed. No Steam readiness, peer connection or two-client test passed.",
+    "PacketFixer login-timeout ModifyConstant is skipped at the same site already redirected by common E4Steam networking integration; author JAR bytes stay exact, peer-login behavior untested."
+  ],
+  "acceptanceLimits": {
+    "allRemainingErrorsResolved": false,
+    "matchedAuthorOnlyBaselineAfterFixes": false,
+    "allGameplayMechanicsTested": false,
+    "visualEffectsOrSkinAppearanceTested": false,
+    "steamConnectionTested": false,
+    "existingPersonalWorldReadOrCopied": false,
+    "existingWorldMigrationWithoutLossPromised": false,
+    "worldIsDisposableQaFixtureNotPersonalBackup": true,
+    "rawUserLogsPublished": false
+  },
+  "privateEvidenceFilePins": [
+    {
+      "stage": "world",
+      "name": "observations.jsonl",
+      "sizeBytes": 32979,
+      "sha256": "4673cec7e9148e1b1c313560f799ad55542602bb4ebbd2cddf65d1fbd741034e"
+    },
+    {
+      "stage": "world",
+      "name": "loaded-mods.json",
+      "sizeBytes": 24899,
+      "sha256": "375140ea705b34167fd7d9e7c569701582883a23d4d0fb90c2e10006138119e8"
+    },
+    {
+      "stage": "world",
+      "name": "key-inventory.json",
+      "sizeBytes": 151143,
+      "sha256": "f6cc977cb1d112f187a5b282e40b49310bc56397f7f7a31edbe20c8c8e1c2f98"
+    },
+    {
+      "stage": "world",
+      "name": "native-nbt-proof-stdout.txt",
+      "sizeBytes": 284,
+      "sha256": "574c681f1eef6df859d96a9e57fff5b1e61057bb04c84975433fec54e977cd59"
+    },
+    {
+      "stage": "title-after-inputs",
+      "name": "observations.jsonl",
+      "sizeBytes": 12979,
+      "sha256": "e51195238b7355543ea40a2fd53c87ea8f19297737287b2a2f1ac42db63a58aa"
+    },
+    {
+      "stage": "title-after-inputs",
+      "name": "native-sodium-notifications.jsonl",
+      "sizeBytes": 1086,
+      "sha256": "12ace7fff448a853cc9f1aa038a7f248a3a0006b32121111cb8dee56585f600d"
+    },
+    {
+      "stage": "title-after-inputs",
+      "name": "native-os-window-title.json",
+      "sizeBytes": 262,
+      "sha256": "98bedaad6d257eedab3913a4fc65d085c11337763b9249a96f36881c211f5619"
+    },
+    {
+      "stage": "title-after-inputs",
+      "name": "native-patcher-output-proof.json",
+      "sizeBytes": 931,
+      "sha256": "57c0f1dc7db523eb17c211b36534551878da084286ce48a96f146947cc8f82f8"
+    }
+  ]
+}

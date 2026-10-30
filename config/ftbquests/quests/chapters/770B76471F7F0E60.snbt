@@ -39,11 +39,26 @@
 		{
 			dependencies: ["1F67CB96F0EF37A2"]
 			id: "0E9454F2656BBB89"
-			rewards: [{
-				id: "0EA9FE2D2F5A908F"
-				type: "xp"
-				xp: 20
-			}]
+			rewards: [
+				{
+					id: "0EA9FE2D2F5A908F"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "5126D447C9CEECBB"
+					item: {
+						components: {
+							"cold_sweat:armor_insulation": {
+								insulation: [ ]
+							}
+						}
+						count: 1
+						id: "schematician:schematicians_goggles"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "59B8F811E66BA5C7"
 				item: { count: 1, id: "simulated:physics_assembler" }
@@ -595,6 +610,25 @@
 			]
 			x: 3.0d
 			y: 5.0d
+		}
+		{
+			dependencies: ["70858B757E28F524"]
+			icon: {
+				id: "schematician:schematicians_goggles"
+			}
+			id: "7B2E00000000002B"
+			rewards: [{
+				id: "7B2E000000000116"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "7B2E000000000109"
+				item: { count: 1, id: "schematician:schematicians_goggles" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.0d
 		}
 	]
 }

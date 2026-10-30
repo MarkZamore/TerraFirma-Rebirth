@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "kind": "author-native-required-input-completion",
+  "authorPatcher": {
+    "path": "mods/EuphoriaPatcher-1.9.3-r5.8.1-neoforge.jar",
+    "sha256": "9ff48c18cb5fd3425a6c15b16ce16656d6419fdb695e662d9a3cbe5604c40563",
+    "version": "1.9.3",
+    "requiredBaseVersion": "r5.8.1"
+  },
+  "officialAuthorArchiveLacksTheseInputs": true,
+  "reason": "Missing base inputs produced visible native SodiumSEVERE error notifications; completing exact author requirements preserves all222JAR/2913authorfiles.",
+  "officialWorkflowSources": [
+    "https://www.euphoriapatches.com/how-to-install/",
+    "https://www.euphoriapatches.com/faq/",
+    "https://www.complementary.dev/shaders/"
+  ],
+  "files": [
+    {
+      "projectSlug": "complementary-unbound",
+      "projectId": "R6NEzAwj",
+      "versionId": "VMHXIk50",
+      "versionNumber": "r5.8.1",
+      "datePublished": "2026-05-21T14:50:33.267877Z",
+      "versionType": "release",
+      "sourceApiUrl": "https://api.modrinth.com/v2/project/complementary-unbound/version",
+      "fileName": "ComplementaryUnbound_r5.8.1.zip",
+      "url": "https://cdn.modrinth.com/data/R6NEzAwj/versions/VMHXIk50/ComplementaryUnbound_r5.8.1.zip",
+      "sizeBytes": 546928,
+      "sha256": "bb89b1fc54687d4147a837fb2e3c3f7261a13bee51819761e9b6a91cb7915965",
+      "sha512": "9098dd9e0c18b80f7aba2839cea33ce9a614d97665bbfcac87ccce6e4771667c41602d99088852cb1642ccab20b2ceff9b98af8f2e795bd0d3b90b7c9cbab914",
+      "nativePatcherOrGameRun": false
+    },
+    {
+      "projectSlug": "complementary-reimagined",
+      "projectId": "HVnmMxH1",
+      "versionId": "yCCduG44",
+      "versionNumber": "r5.8.1",
+      "datePublished": "2026-05-21T14:50:03.992642Z",
+      "versionType": "release",
+      "sourceApiUrl": "https://api.modrinth.com/v2/project/complementary-reimagined/version",
+      "fileName": "ComplementaryReimagined_r5.8.1.zip",
+      "url": "https://cdn.modrinth.com/data/HVnmMxH1/versions/yCCduG44/ComplementaryReimagined_r5.8.1.zip",
+      "sizeBytes": 546925,
+      "sha256": "3f1cd389e717b2e62f58edff222059b9c60de71b14bb49b517eb58318ce35b15",
+      "sha512": "6bd95215755d25812556ce790d976221f7d677d63112e3e4d3e70b08a62ed41348fa3792dd31bbe720d1e46fe2d525cadb4f66e6358118e1f4aa8e0d11f25c39",
+      "nativePatcherOrGameRun": false
+    }
+  ],
+  "authorModVersionsUpdated": false,
+  "popupOrErrorLoggingSuppressed": false,
+  "authorIrisEnableShadersChanged": false,
+  "shaderCodeEdited": false,
+  "nativePatcherRetestPending": false,
+  "nativeVerification": {
+    "authorPatcherVersion": "1.9.3",
+    "bothStylesGenerated": true,
+    "missingShaderErrorAbsent": true,
+    "sodiumSnapshotsAvailable": true,
+    "sodiumSevereAtFirstTitle": 0,
+    "sodiumSevereAtTitle3": 0,
+    "thirdTitleActiveAndQueuedCounts": [
+      0,
+      0
+    ],
+    "nativeQuitExitCode": 0,
+    "runtimeReport": "tools/author-source/runtime-1.0.0-report.json"
+  }
+}

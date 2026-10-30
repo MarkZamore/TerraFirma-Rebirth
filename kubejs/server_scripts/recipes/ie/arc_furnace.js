@@ -227,28 +227,30 @@ ServerEvents.recipes(event => {
             "minecraft:pink_stained_glass", "tfc:silica_glass_batch", "tfc:powder/native_gold"
         ],
         [
-            "2x tfc:volcanic_glass_bottle", "tfc:volcanic_glass_batch", "tfc:volcanic_glass_bottle"
+            "2x tfc:volcanic_glass_bottle", "tfc:volcanic_glass_batch", "tfc:powder/flux", "volcanic_bottle"
         ],
         [
-            "2x tfc:silica_glass_bottle", "tfc:silica_glass_batch", "tfc:silica_glass_bottle"
+            "2x tfc:silica_glass_bottle", "tfc:silica_glass_batch", "tfc:powder/flux", "silica_bottle"
         ],
         [
-            "2x tfc:hematitic_glass_bottle", "tfc:hematitic_glass_batch", "tfc:hematitic_glass_bottle"
+            "2x tfc:hematitic_glass_bottle", "tfc:hematitic_glass_batch", "tfc:powder/flux", "hematitic_bottle"
         ],
         [
-            "2x tfc:olivine_glass_bottle", "tfc:olivine_glass_batch", "tfc:olivine_glass_bottle"
+            "2x tfc:olivine_glass_bottle", "tfc:olivine_glass_batch", "tfc:powder/flux", "olivine_bottle"
         ],
         [
             '2x tfc:lamp_glass', "#tfc:glass_batches", 'tfc:lamp_glass'
         ],
+        // 强化玻璃/酒杯/透镜：辅料各不相同，避免与裸烧瓶子抢输入（IE电弧炉按输入+辅料匹配，
+        // 之前森罗空瓶无辅料，会抢走所有裸批次导致透镜等永远做不出；也顺手解掉自引用辅料的死锁）
         [
-            '2x firmalife:reinforced_glass', "tfc:silica_glass_batch", 'firmalife:reinforced_glass'
+            '2x firmalife:reinforced_glass', "tfc:silica_glass_batch", '#tfc:glassdusts/iron'
         ],
         [
-            '3x firmalife:wine_glass', "tfc:silica_glass_batch", 'firmalife:wine_glass'
+            '3x firmalife:wine_glass', "tfc:silica_glass_batch", 'tfc:powder/lime'
         ],
         [
-            '2x tfc:lens', "2x tfc:silica_glass_batch", 'tfc:lens'
+            '2x tfc:lens', "2x tfc:silica_glass_batch", 'tfc:powder/soda_ash'
         ],
         [
             '2x tfc:empty_jar', "#tfc:glass_batches_tier_2", 'tfc:empty_jar'
@@ -263,6 +265,10 @@ ServerEvents.recipes(event => {
             arc_furnace(r[0], r[1], r[2], 100, 51200).id(id)
         }
     })
+
+    //森罗酒馆空酒瓶电弧量产：只用橄榄石批次+盐粉（辅料防止抢走裸批次输入；
+    //原先四批次无辅料版本会劫持所有裸玻璃批次，导致透镜/瓶子配方全部失效）
+    arc_furnace("2x kaleidoscope_tavern:empty_bottle", "tfc:olivine_glass_batch", "tfc:powder/salt", 100, 51200).id(preId + 'tavern_empty_bottle_olivine')
 
     arc_furnace(
         'minecraft:brick',

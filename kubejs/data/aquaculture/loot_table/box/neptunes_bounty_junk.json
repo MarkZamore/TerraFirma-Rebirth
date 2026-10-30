@@ -33,7 +33,7 @@
             }
           ],
           "weight": 10,
-          "name": "minecraft:kelp"
+          "name": "tfc:plant/leafy_kelp"
         },
         {
           "type": "minecraft:item",

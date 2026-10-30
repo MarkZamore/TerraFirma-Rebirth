@@ -14,7 +14,7 @@
 	#Maximum stress capacity output at rated speed and maximum resistance.
 	# Default: 200000.0
 	# Range: 0.0 ~ 1.0E7
-	max_full_speed_stress_output = 200000.0
+	max_full_speed_stress_output = 32768.0
 	#Stress capacity cap while a blacklisted block is attached. Speed output is preserved.
 	# Default: 40000.0
 	# Range: 0.0 ~ 1.0E7

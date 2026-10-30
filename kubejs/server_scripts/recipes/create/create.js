@@ -91,6 +91,13 @@ ServerEvents.recipes(event => {
     //强力胶
     event.replaceInput({id:'create:crafting/kinetics/super_glue'},'minecraft:slime_ball','tfc:glue')
 
+    //货物蛙港：粘液球→群峦胶水（与强力胶同一替代口径）
+    event.replaceInput({id:'create:crafting/logistics/package_frogport'},'#c:slimeballs','tfc:glue')
+
+    //黏贴器、粘性机械活塞：同一替代口径，粘液球→群峦胶水
+    event.replaceInput({id:'create:crafting/kinetics/sticker'},'#c:slimeballs','tfc:glue')
+    event.replaceInput({id:'create:crafting/kinetics/sticky_mechanical_piston'},'#c:slimeballs','tfc:glue')
+
     //砂纸
     event.replaceInput({id:'create:crafting/materials/sand_paper'},'minecraft:sand','#c:sands')
     
@@ -181,14 +188,15 @@ ServerEvents.recipes(event => {
         "create:cinder_flour"
     ], "beneath:cobblerack").id('create:crushing/cobblerack')
 
-    //TFC防腐木（tag 成分需原生 JSON）
+    //IE线防腐木材量产（搅拌）：产物为 tfc_ie_addon 防腐木材（4个合成IE防腐木板，多方块结构用）
+    //firmalife 温室处理木材走自己的蜂蜡合成配方（8木材围蜂蜡），与本配方互不冲突
     event.custom({
         type: 'create:mixing',
         ingredients: [
             {tag: 'tfc:lumber', count: 8},
             {type: 'neoforge:single', fluid: 'immersiveengineering:creosote', amount: 1000}
         ],
-        results: [{id: 'firmalife:treated_lumber', count: 8}]
+        results: [{id: 'tfc_ie_addon:treated_wood_lumber', count: 8}]
     }).id('create:mixing/treated_lumber')
     
     //甜菜炼糖浆/糖浆制糖/清洗甘蔗 - 已移除：artisanal 模组不在包内（molasses、cleaned_sugarcane、non_perishable_sugar 均不存在）
@@ -221,6 +229,32 @@ ServerEvents.recipes(event => {
     event.replaceInput({ id: 'createoreexcavation:vein_finder' }, '#c:ores/redstone',
         ['tfc:gem/diamond', 'tfc:gem/emerald', 'tfc:gem/ruby', 'tfc:gem/sapphire', 'tfc:gem/topaz', 'tfc:gem/opal', 'tfc:gem/lapis_lazuli', 'tfc:gem/amethyst', 'tfc:gem/pyrite'])
     event.replaceInput({ id: 'createoreexcavation:vein_finder' }, 'minecraft:ender_eye', 'tfc:lens')
+
+    // 钻石钻头：原配方要 1 钻石块（#c:storage_blocks/diamond，本包禁止宝石压缩、标签为空、拿不到），
+    // 且合成台单格写不了数量，改为经典"环绕升级"布局：钻头居中、8 颗 TFC 钻石围一圈。
+    // 比原版 13 钻略省，但群峦钻石（金伯利岩金刚石）极稀有，8 颗已经是终局级投入。
+    event.remove({ id: 'createoreexcavation:diamond_drill' })
+    event.shaped('createoreexcavation:diamond_drill', [
+        'iii',
+        'idi',
+        'iii'
+    ], {
+        d: 'createoreexcavation:drill',
+        i: 'tfc:gem/diamond'
+    }).id('kubejs:crafting/diamond_drill')
+
+    // 矿脉图鉴：原配方四格有三格在包内拿不到——#c:chests 标签为空、地图要指南针（红石不可得）、
+    //  writable_book 要墨囊（无鱿鱼）。改为：紫水晶 + 书 + 木箱 + 群峦透镜（勘测主题，与探矿杖呼应）。
+    event.remove({ id: 'createoreexcavation:vein_atlas' })
+    event.shaped('createoreexcavation:vein_atlas', [
+        'ca',
+        'mb'
+    ], {
+        a: 'tfc:gem/amethyst',
+        b: 'minecraft:book',
+        c: '#c:chests/wooden',
+        m: 'tfc:lens'
+    }).id('kubejs:crafting/vein_atlas')
 
     // ===== 全套矿脉钻探 =====
     // 3.2 的矿脉来自已停更的附属 TFC Ore Excavation（仅 1.20），1.21 没有对应附属，这里自建。
@@ -278,6 +312,16 @@ ServerEvents.recipes(event => {
         .id('create:vein/ancient_debris')
     drilling([Item.of('2x minecraft:ancient_debris')], 'create:vein/ancient_debris', 1000)
         .id('create:drilling/ancient_debris')
+
+    // —— 下界专属：石英（玩家反馈石英没有增产手段，只能手挖下界石英矿）——
+    // 石英是玫瑰石英→电子管产业链的上游，需求量大，给到银矿级稀有度；
+    // 远低于远古残骸（512/256/1000），避免和毕业材料抢定位
+    vein(Text.of('石英矿脉'), 'minecraft:quartz')
+        .placement(320, 160, 64825185 + 27 * 7919)
+        .biomeWhitelist('minecraft:is_nether')
+        .id('create:vein/quartz')
+    drilling([Item.of('2x minecraft:quartz')], 'create:vein/quartz', 600)
+        .id('create:drilling/quartz')
 
     milling('4x tfc:powder/salt','tfc:ore/halite').id('create:milling/salt')
 
@@ -649,12 +693,13 @@ ServerEvents.recipes(event => {
     crushing("4x tfcorewashing:rock_powder", "tfc:rock/cobble/andesite")
     .id('create:crushing/andesite_cobble')
 
-    // 工程师护目镜：原版配方要玻璃块（本包没有原版玻璃），换成TFC浇注玻璃
+    // 工程师护目镜：原版配方要玻璃块（本包没有原版玻璃），浇筑玻璃无法以物品形式获取（锯下来是玻璃板）
+    // 换成TFC透镜（玻璃加工台盆吹制，玻璃工艺线产物）
     // 羊毛线和金板沿用原配方（金锭冲压金板、TFC羊毛线已进c:strings）
     event.replaceInput(
         {id: 'create:crafting/kinetics/goggles'},
         '#c:glass_blocks',
-        'tfc:poured_glass'
+        'tfc:lens'
     )
 
     // 蓝图大炮降配：原配方要2个铁块+发射器（原版圆石做不了），太后期

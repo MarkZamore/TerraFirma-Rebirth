@@ -5,8 +5,10 @@
 NativeEvents.onEvent('net.neoforged.neoforge.event.entity.EntityTravelToDimensionEvent', event => {
     try {
         let entity = event.entity
-        // 只处理玩家（ServerPlayer）
-        if (!entity || !String(entity.getClass().getSimpleName()).includes('Player')) return
+        // 只处理玩家（ServerPlayer）。KJS7 的 Rhino 禁止调 getClass()，用 instanceof 判定
+        if (!entity) return
+        let PlayerClass = Java.loadClass('net.minecraft.world.entity.player.Player')
+        if (!(entity instanceof PlayerClass)) return
 
         let toId = String(event.dimension.location())
         if (toId !== 'minecraft:overworld') return
@@ -28,11 +30,15 @@ NativeEvents.onEvent('net.neoforged.neoforge.event.entity.EntityTravelToDimensio
         let cz = Math.max(-LIMIT, Math.min(LIMIT, Math.round(tz)))
 
         // 手动找地表：从高处往下找第一个非空气方块
-        let level = Utils.server.getLevel('minecraft:overworld')
+        // 注意：NativeEvents 里拿到的是原生对象，没有 KJS 包装方法（getBlock/getLevel(String) 都不可用）
+        let LevelKeys = Java.loadClass('net.minecraft.world.level.Level')
+        let BlockPos = Java.loadClass('net.minecraft.core.BlockPos')
+        let mcServer = Utils.getServer()
+        let level = mcServer.getLevel(LevelKeys.OVERWORLD)
         let gy = 80
         for (let y = 260; y > -60; y--) {
-            let b = level.getBlock(cx, y, cz)
-            if (b && b.id !== 'minecraft:air' && b.id !== 'minecraft:cave_air' && b.id !== 'minecraft:void_air') {
+            let state = level.getBlockState(new BlockPos(cx, y, cz))
+            if (state && !state.isAir()) {
                 gy = y + 1
                 break
             }
@@ -40,7 +46,10 @@ NativeEvents.onEvent('net.neoforged.neoforge.event.entity.EntityTravelToDimensio
 
         // 用命令传送：不触发跨维度事件，避免递归；玩家离开下界传送门后不会重复触发
         let uuid = entity.getStringUUID()
-        Utils.server.runCommandSilent(`execute in minecraft:overworld run tp ${uuid} ${cx + 0.5} ${gy} ${cz + 0.5}`)
+        mcServer.getCommands().performPrefixedCommand(
+            mcServer.createCommandSourceStack(),
+            `execute in minecraft:overworld run tp ${uuid} ${cx + 0.5} ${gy} ${cz + 0.5}`
+        )
         try {
             entity.sendSystemMessage(Text.gold('投影边界之外没有可落脚的陆地，你被安全地传送回了世界边缘。'))
         } catch (ignored) {}

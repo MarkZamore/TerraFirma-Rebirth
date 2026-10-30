@@ -19,6 +19,12 @@ and a fresh build from actual jars. Do not commit API keys or private cache file
 Unavailable author pages are explicit objects: `{ "url": "https://…", "available": false }`.
 The last known author URL is retained for provenance, while the launcher renders plain text.
 
-## Bundled components without standalone project pages
+## Exact author release provenance
 
-`catalyst` (Rohan Verma) and `deployer_got_dizzy` (enxv233) are distributed inside the original TerraFirma Rebirth release. Their links use its official CurseForge pack page; similarly named standalone projects belong to different authors.
+The current 1.0.0 release has direct official project pages for every presented
+mod ID, including `catalyst` and `deployer_got_dizzy`. The earlier pack-page
+fallbacks have been replaced after checking the actual author and file origin.
+All 13 bundled JARs additionally match exact primary-source release bytes:
+seven Modrinth files and six TFCR GitHub release assets. See
+`tools/author-source/mod-pages-provenance.json` and
+`tools/author-source/official-fork-exact-hash-proof.json`.

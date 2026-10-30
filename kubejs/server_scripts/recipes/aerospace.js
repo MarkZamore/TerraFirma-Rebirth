@@ -9,6 +9,12 @@ ServerEvents.recipes(event => {
     // ---------- 2. 悬浮石：月岩路线 ----------
     // 官方：末地石 → 粉碎 → 末地石粉（末地不存在，断链）
     // 魔改：月壤 → 粉碎 → 月尘（复用 end_stone_powder 物品，已 lang 改名为"月尘"）
+    // 2.0 完整月壤保底途径：官方只有"精准采集掉本体/烧炼破碎月壤"两条路，
+    // 精准采集本包流程拿不到、烧炼被 remove.js 全局移除 smelting/blasting 误杀，
+    // 导致月尘（悬浮石）与浮空水晶全线断链（玩家实锤）。补 2x2 拼合：4 破碎 → 1 完整。
+    event.shaped('rocketnautics:lunar_regolith', ['XX', 'XX'], {
+        X: 'rocketnautics:lunar_shattered_regolith'
+    }).id('kubejs:crafting/lunar_regolith_from_shattered')
     event.remove({ id: 'aeronautics:crushing/end_stone_powder' })
     event.recipes.create.crushing(
         [

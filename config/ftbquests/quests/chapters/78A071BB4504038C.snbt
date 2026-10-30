@@ -100,6 +100,31 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["450A080198B48675"]
+			icon: {
+				id: "tfc:firebox"
+			}
+			id: "436FA5779CCC1FE4"
+			rewards: [{
+				id: "16CE0519D8447E5B"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [
+				{
+					id: "5D0D2D36B4B64F8F"
+					item: { count: 1, id: "tfc:firebox" }
+					type: "item"
+				}
+				{
+					id: "455B3B995FE65295"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
 			dependencies: [
 				"1061F636FD641E92"
 				"450A080198B48675"

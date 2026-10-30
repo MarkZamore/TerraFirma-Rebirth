@@ -180,4 +180,23 @@ ServerEvents.recipes(event => {
         result: { count: 1, id: 'tfc:metal/ingot/high_carbon_blue_steel' },
         tier: -1
     }).id('tfc:welding/metal/ingot/high_carbon_blue_steel')
+
+    // ===== 菠萝纤维补链（08-29）=====
+    // 之前删掉了 firmalife:drying/pineapple_fiber（鲜菠萝→纤维），解决与通用水果烘干
+    // （firmalife:drying/dry_fruits，鲜菠萝→干菠萝）的双配方冲突——按配方id排序
+    // dry_fruits 优先命中，鲜菠萝实际上只会变成干菠萝。
+    // 但删掉后 EMI 里菠萝纤维只剩小刀配方（tfc:advanced_shapeless_crafting 带特质条件，EMI 不显示），
+    // 玩家完全找不到纤维获取途径。补一条烘干配方：干菠萝（带 firmalife:dried 特质）→ 纤维。
+    // 与 dry_fruits 不冲突：干菠萝已带 dried 特质，不满足 dry_fruits 的 lacks_trait 条件。
+    event.custom({
+        type: 'firmalife:drying',
+        ingredient: {
+            type: 'tfc:and',
+            children: [
+                { item: 'firmalife:food/pineapple' },
+                { type: 'tfc:has_trait', trait: 'firmalife:dried' }
+            ]
+        },
+        result: { count: 1, id: 'firmalife:pineapple_fiber' }
+    }).id('kubejs:drying/pineapple_fiber_from_dried')
 })

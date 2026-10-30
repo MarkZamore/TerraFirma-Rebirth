@@ -187,6 +187,25 @@
 		{
 			dependencies: ["219E58F012A1322A"]
 			icon: {
+				id: "create:cogwheel"
+			}
+			id: "1DFA57F00DCEED01"
+			rewards: [{
+				id: "1DFA57F00DCEED03"
+				type: "xp"
+				xp: 10
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "1DFA57F00DCEED02"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["219E58F012A1322A"]
+			icon: {
 				id: "minecraft:filled_map"
 			}
 			id: "7D3E4A5B6C7D8E9F"

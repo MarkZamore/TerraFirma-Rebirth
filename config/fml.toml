@@ -13,7 +13,7 @@ earlyWindowProvider = "fmlearlywindow"
 #Early window width
 earlyWindowWidth = 854
 #Early window starts maximized
-earlyWindowMaximized = true
+earlyWindowMaximized = false
 #Default config path for servers
 defaultConfigPath = "defaultconfigs"
 #Disables Optimized DFU client-side - already disabled on servers
@@ -31,3 +31,4 @@ earlyWindowSquir = false
 #Example dependency override for the mod with the id 'targetMod': dependency constraints (incompatibility clauses or restrictive version ranges) against mod 'dep1' are removed, and the mod will now load after the mod 'dep2'
 #dependencyOverrides.targetMod = ["-dep1", "+dep2"]
 [dependencyOverrides]
+	sable = ["-scalablelux"]

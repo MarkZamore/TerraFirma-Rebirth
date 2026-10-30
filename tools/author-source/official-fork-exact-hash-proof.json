@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "exactMatchedBundledForks": 6,
+  "rows": [
+    {
+      "path": "mods/kaleidoscopetfctavern-1.0.0-neoforge+mc1.21.1.jar",
+      "sha256": "9c7d498a306e093529646bb626dc008d72dbfc60790b654a183f11041d90aa7b",
+      "sizeBytes": 736692,
+      "repo": "kaleidoscopetfctavern-TFCR",
+      "tag": "1.0.0-TFCR",
+      "officialReleaseAssetUrl": "https://github.com/GranniXXie/kaleidoscopetfctavern-TFCR/releases/download/1.0.0-TFCR/kaleidoscopetfctavern-1.0.0-neoforge.mc1.21.1.jar",
+      "assetName": "kaleidoscopetfctavern-1.0.0-neoforge.mc1.21.1.jar",
+      "authorPackFileNameMayDiffer": true
+    },
+    {
+      "path": "mods/tfc-ability-fix-1.0.0.jar",
+      "sha256": "a02f1257103402c9624953be9060f66cbd1b156a05da22cbfee8605a1e524979",
+      "sizeBytes": 3206,
+      "repo": "tfc-ability-fix",
+      "tag": "1.0.0",
+      "officialReleaseAssetUrl": "https://github.com/GranniXXie/tfc-ability-fix/releases/download/1.0.0/tfc-ability-fix-1.0.0.jar",
+      "assetName": "tfc-ability-fix-1.0.0.jar",
+      "authorPackFileNameMayDiffer": false
+    },
+    {
+      "path": "mods/TFCBetterBlastFurnace-TFCR-1.21.1-2.0.0.jar",
+      "sha256": "c0141381622b1c19c333aaf0e5b42baf7b6b97bf96b30a4764cd2c7bb2f7f507",
+      "sizeBytes": 23383,
+      "repo": "tfcbetterbf-TFCR",
+      "tag": "1.21.1-2.0.0-TFCR",
+      "officialReleaseAssetUrl": "https://github.com/GranniXXie/tfcbetterbf-TFCR/releases/download/1.21.1-2.0.0-TFCR/TFCBetterBlastFurnace-TFCR-1.21.1-2.0.0.jar",
+      "assetName": "TFCBetterBlastFurnace-TFCR-1.21.1-2.0.0.jar",
+      "authorPackFileNameMayDiffer": false
+    },
+    {
+      "path": "mods/woodencog-1.2.18-1.21.1-TFCR.jar",
+      "sha256": "eb0c572724e8809caf0044547895d908d287504cef46e31b9a3bfe2840be4db1",
+      "sizeBytes": 760433,
+      "repo": "woodencog-TFCR",
+      "tag": "1.2.18-1.21.1-TFCR",
+      "officialReleaseAssetUrl": "https://github.com/GranniXXie/woodencog-TFCR/releases/download/1.2.18-1.21.1-TFCR/woodencog-1.2.18-1.21.1-TFCR.jar",
+      "assetName": "woodencog-1.2.18-1.21.1-TFCR.jar",
+      "authorPackFileNameMayDiffer": false
+    },
+    {
+      "path": "mods/tfcr-fixes-1.7.7.jar",
+      "sha256": "2c1b940811dc689e3d38c5a8b6cf7fd44dadcc302784f831a2a2c3d731fa13cd",
+      "sizeBytes": 36391,
+      "repo": "tfcr-fixes",
+      "tag": "1.7.7",
+      "officialReleaseAssetUrl": "https://github.com/GranniXXie/tfcr-fixes/releases/download/1.7.7/tfcr-fixes-1.7.7.jar",
+      "assetName": "tfcr-fixes-1.7.7.jar",
+      "authorPackFileNameMayDiffer": false
+    },
+    {
+      "path": "mods/electroenergetics-1.1.1-TFCR.jar",
+      "sha256": "09ca2425f642c5c888e6b63b4273033a97da38aed6c6c910aed16c1814080e51",
+      "sizeBytes": 4771386,
+      "repo": "electroenergetics-TFCR",
+      "tag": "1.1.1-TFCR",
+      "officialReleaseAssetUrl": "https://github.com/GranniXXie/electroenergetics-TFCR/releases/download/1.1.1-TFCR/electroenergetics-1.1.1-TFCR.jar",
+      "assetName": "electroenergetics-1.1.1-TFCR.jar",
+      "authorPackFileNameMayDiffer": false
+    }
+  ]
+}

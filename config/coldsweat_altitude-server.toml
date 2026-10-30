@@ -3,6 +3,211 @@
 # Band id is a user-defined stable name used by commands, logs, messages, and runtime state.
 # Leave maxY unset to make a band open-ended upward.
 # These defaults are intended for a mostly vanilla-style overworld height range.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Enable extra diagnostic log entries for altitude and shelter transitions.
+debugLogging = false
+
+# Controls how temperature changes between altitude bands.
+# NONE=abrupt; LINEAR=across the whole band; BOUNDARY=only near each band edge.
+bandGradientMode = "BOUNDARY"
+
 # Aeronautics heat-source tuning applies to both normal world blocks and Sable ship interiors.
 # Performance guard: shelterCheckRadius and Aeronautics heat ranges above 16 are rewritten to 16 when loaded.
 
@@ -22,16 +227,9 @@ temperatureModifier = 0.08
 modifierMode = "ADD"
 priority = 10
 # Use plain text:
-# onEnterMessage = "The cave air feels warmer here."
 # Use a translation key instead:
-# onEnterMessage = "coldsweat_altitude.band.deep_caves.on_enter"
-onEnterMessage = ""
-# Use plain text:
-# actionbarMessage = "Deep cave warmth"
-# Use a translation key instead:
-# actionbarMessage = "coldsweat_altitude.band.deep_caves.actionbar"
 actionbarMessage = ""
-messageCooldownTicks = 100
+actionbarDisplayTicks = 100
 protectionTag = ""
 requiredPieces = 0
 protectionReductionPerPiece = 0.0
@@ -51,16 +249,9 @@ temperatureModifier = 0.03
 modifierMode = "ADD"
 priority = 5
 # Use plain text:
-# onEnterMessage = "The underground air is calm."
 # Use a translation key instead:
-# onEnterMessage = "coldsweat_altitude.band.underground.on_enter"
-onEnterMessage = ""
-# Use plain text:
-# actionbarMessage = "Underground air"
-# Use a translation key instead:
-# actionbarMessage = "coldsweat_altitude.band.underground.actionbar"
 actionbarMessage = ""
-messageCooldownTicks = 100
+actionbarDisplayTicks = 100
 protectionTag = ""
 requiredPieces = 0
 protectionReductionPerPiece = 0.0
@@ -80,16 +271,9 @@ temperatureModifier = 0.0
 modifierMode = "ADD"
 priority = 0
 # Use plain text:
-# onEnterMessage = "You return to the surface."
 # Use a translation key instead:
-# onEnterMessage = "coldsweat_altitude.band.surface.on_enter"
-onEnterMessage = ""
-# Use plain text:
-# actionbarMessage = "Surface conditions"
-# Use a translation key instead:
-# actionbarMessage = "coldsweat_altitude.band.surface.actionbar"
 actionbarMessage = ""
-messageCooldownTicks = 100
+actionbarDisplayTicks = 100
 protectionTag = ""
 requiredPieces = 0
 protectionReductionPerPiece = 0.0
@@ -109,16 +293,9 @@ temperatureModifier = -0.08
 modifierMode = "ADD"
 priority = 15
 # Use plain text:
-# onEnterMessage = "The mountain air grows colder."
 # Use a translation key instead:
-# onEnterMessage = "coldsweat_altitude.band.high_peaks.on_enter"
-onEnterMessage = ""
-# Use plain text:
-# actionbarMessage = "High altitude chill"
-# Use a translation key instead:
-# actionbarMessage = "coldsweat_altitude.band.high_peaks.actionbar"
 actionbarMessage = ""
-messageCooldownTicks = 100
+actionbarDisplayTicks = 100
 protectionTag = ""
 requiredPieces = 0
 protectionReductionPerPiece = 0.0
@@ -138,16 +315,11 @@ temperatureModifier = -0.20
 modifierMode = "ADD"
 priority = 20
 # Use plain text:
-# onEnterMessage = "The air grows colder at this altitude."
-# Use a translation key instead:
-# onEnterMessage = "coldsweat_altitude.band.low_sky.on_enter"
-onEnterMessage = "The air grows colder at this altitude."
-# Use plain text:
 # actionbarMessage = "Altitude chill"
 # Use a translation key instead:
 # actionbarMessage = "coldsweat_altitude.band.low_sky.actionbar"
 actionbarMessage = "Altitude chill"
-messageCooldownTicks = 100
+actionbarDisplayTicks = 100
 protectionTag = ""
 requiredPieces = 0
 protectionReductionPerPiece = 0.0
@@ -167,16 +339,11 @@ temperatureModifier = -0.45
 modifierMode = "ADD"
 priority = 30
 # Use plain text:
-# onEnterMessage = "The air grows thin and bitter."
-# Use a translation key instead:
-# onEnterMessage = "coldsweat_altitude.band.extreme_sky.on_enter"
-onEnterMessage = "The air grows thin and bitter."
-# Use plain text:
 # actionbarMessage = "Extreme altitude exposure"
 # Use a translation key instead:
 # actionbarMessage = "coldsweat_altitude.band.extreme_sky.actionbar"
 actionbarMessage = "Extreme altitude exposure"
-messageCooldownTicks = 100
+actionbarDisplayTicks = 100
 protectionTag = ""
 requiredPieces = 0
 protectionReductionPerPiece = 0.0

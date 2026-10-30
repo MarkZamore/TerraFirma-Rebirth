@@ -27,7 +27,10 @@
 	# • dimension_id: The ID of the dimension (e.g. "minecraft:the_nether")
 	# • temperature: The temperature of the dimension
 	# • *units: The units of the temperature ("f", "c", or "mc"). Defaults to Minecraft units (mc))
-	"Dimension Temperatures" = []
+	"Dimension Temperatures" = [
+	    ["rocketnautics:moon", -50, "c"],
+	    ["rocketnautics:deep_space", -273, "c"]
+	]
 
 [Biomes]
 	#─────────────────────────────────────────────────────────────────────────//v

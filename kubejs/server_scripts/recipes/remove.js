@@ -17,10 +17,8 @@ ServerEvents.recipes(event => {
         'minecraft:diorite',
         'minecraft:andesite',
 
-        "cold_sweat:hoglin_headpiece",
-        "cold_sweat:hoglin_tunic",
-        "cold_sweat:hoglin_trousers",
-        "cold_sweat:hoglin_hooves",
+        // 疣猪皮甲配方已恢复：疣猪皮通过 Cold Sweat 全局掉落修饰器由疣猪掉落（Beneath 下界有疣猪）
+        // 下界抗热装备需求真实存在，删除会导致下界热浪期无甲可穿
 
         //ban捕鱼、运输(会刷物品)和物品搜集(还是区块加载？)船
         'littlelogistics:fishing_barge',

@@ -1,0 +1,537 @@
+{
+  "schemaVersion": 1,
+  "kind": "exact-author-update-impact-not-native-loaded-inventory",
+  "oldPublishedSourceRevision": "c8b19fe05fb5188ac39d0eae11f74c970e79098c",
+  "oldPublishedBaseVersion": "4.1.21",
+  "newAuthorVersion": "1.21.1-1.0.0-release",
+  "newOfficialFileId": 8843176,
+  "newAuthorArchiveSha256": "51fc02aaee49ed9668e97923f9b4714acb5bf1fb4fe6f225652e4e2874372d19",
+  "topLevelJars": {
+    "old": 200,
+    "new": 222
+  },
+  "staticMetadataModIds": {
+    "old": 202,
+    "new": 224
+  },
+  "counts": {
+    "new": 26,
+    "removed": 4,
+    "replaced": 14,
+    "byteIdentical": 184
+  },
+  "newMods": [
+    {
+      "path": "mods/createaeronauticscurios-neoforge-1.21.1-2.2.jar",
+      "sha256": "aa5bb11571a7100d596bad43d09473cae5d0e023fab932ae04ff0a065f634b3e",
+      "id": "aeronautics_curios_compat",
+      "name": "Create Aeronautics Curios Compat",
+      "version": "2.0"
+    },
+    {
+      "path": "mods/byepregen-1.21.1-1.1.2.1.jar",
+      "sha256": "096589b0722cd1718970e3e6367d3ceba03678b6e4856a214dfc2bb2656a8e65",
+      "id": "byepregen",
+      "name": "ByePregen",
+      "version": "1.1.2.1"
+    },
+    {
+      "path": "mods/cc_sable-neoforge-1.3.4.jar",
+      "sha256": "7504abc1666a03e25ee2b8f99c352571b84edc5f85db24fa492d7b70d77adfeb",
+      "id": "cc_sable",
+      "name": "CC: Sable",
+      "version": "1.3.4"
+    },
+    {
+      "path": "mods/cccbridge-mc1.21.1-v1.7.3-neoforge.jar",
+      "sha256": "e78571c5c794e0fa6499331dd1b3ae9171f2f4af1b3b6a814343c5fadca04cbd",
+      "id": "cccbridge",
+      "name": "CC:C Bridge",
+      "version": "1.7.3"
+    },
+    {
+      "path": "mods/cc-tweaked-1.21.1-forge-1.120.2.jar",
+      "sha256": "e8651fe24b384e925e563c9ad077644744474e2e7c0adb8e6d5b4757598dce9f",
+      "id": "computercraft",
+      "name": "CC: Tweaked",
+      "version": "1.120.2"
+    },
+    {
+      "path": "mods/copycats-3.0.8+mc.1.21.1-neoforge.jar",
+      "sha256": "f0655f3afac3829d3cda7782f2c64e935fdd7667dda137c108dc9055fc1e5c71",
+      "id": "copycats",
+      "name": "Create: Copycats+",
+      "version": "3.0.8+mc.1.21.1-neoforge"
+    },
+    {
+      "path": "mods/CustomSkinLoader_Universal-15.0.1.jar",
+      "sha256": "026d8b38ea93edccd647f60568193e79801a377b7bd4e916dcfc0d5482b767fc",
+      "id": "customskinloader-bootstrap",
+      "name": "CustomSkinLoader Bootstrap",
+      "version": "15.0.1"
+    },
+    {
+      "path": "mods/emi-1.1.24+1.21.1+neoforge.jar",
+      "sha256": "b68691f94f0727fc517cac2ab55bd6658d1179cc8cc715fe610b60c37469bc4c",
+      "id": "emi",
+      "name": "EMI",
+      "version": "1.1.24+1.21.1+neoforge"
+    },
+    {
+      "path": "mods/emi_accelerator-1.1.4.jar",
+      "sha256": "001e602e9d418346f39661a841782a05efb05d3fde2bdd874c13cfe8505a8166",
+      "id": "emi_accelerator",
+      "name": "EMI Accelerator",
+      "version": "1.1.4"
+    },
+    {
+      "path": "mods/EuphoriaPatcher-1.9.3-r5.8.1-neoforge.jar",
+      "sha256": "9ff48c18cb5fd3425a6c15b16ce16656d6419fdb695e662d9a3cbe5604c40563",
+      "id": "euphoria_patcher",
+      "name": "Euphoria Patcher",
+      "version": "1.9.3-r5.8.1-neoforge"
+    },
+    {
+      "path": "mods/gnetum-3.3.6.jar",
+      "sha256": "19471108f3c2d799831ee52bc9d04d99cf745f0c1699b992ee981508befb583b",
+      "id": "gnetum",
+      "name": "Gnetum",
+      "version": "3.3.6"
+    },
+    {
+      "path": "mods/kaleidoscope_contraption-1.0.3.jar",
+      "sha256": "4f17ac841f6caafaf32e83746c4034b077093430e02b1b7eb307536bd2a343d7",
+      "id": "kaleidoscope_contraption",
+      "name": "Kaleidoscope Contraption",
+      "version": "1.0.3"
+    },
+    {
+      "path": "mods/liubai-1.0.1-1.21.1.jar",
+      "sha256": "db580353e07c0ed0e366826fb93128435f2c6feec106997db8ffaa983fd8bb54",
+      "id": "liubai",
+      "name": "Liubai",
+      "version": "1.0.1-1.21.1"
+    },
+    {
+      "path": "mods/lod-server-support-neoforge-0.14.0+1.21.1.jar",
+      "sha256": "ffcea086f319cb8562c9af44ad69f2239d620d809ecfcb58b9b1eeb4dbe3a3d4",
+      "id": "lss",
+      "name": "LOD Server Support",
+      "version": "0.14.0"
+    },
+    {
+      "path": "mods/0Pack2Reload-NeoForge-1.21.1-1.0.1.jar",
+      "sha256": "a0c5e1558db5c5bab7547cfe68f75b84ddaad3abcbe7b6a0eb72238e61ff610d",
+      "id": "opack2reload",
+      "name": "0Pack2Reload",
+      "version": "1.21.1-1.0.1"
+    },
+    {
+      "path": "mods/Opticores-1.0.9 - Neoforge-1.21.1.jar",
+      "sha256": "b3146b9e4a18e291921adb79dabb16c0e4027ce6f03fa5f52276605a61c9caab",
+      "id": "opticores",
+      "name": "OptiCore",
+      "version": ""
+    },
+    {
+      "path": "mods/randomoptimization-1.7.4-all.jar",
+      "sha256": "65bf07eb173d62e0722130fa877187e5144bf52159335cc846dd77d7bbd3f19f",
+      "id": "randomoptimization",
+      "name": "Random Optimization",
+      "version": "1.7.4"
+    },
+    {
+      "path": "mods/roxy-1.21.1-NeoForge-0.2.0.jar",
+      "sha256": "203bd69d6d5b1530b4e1e975660de4f8f28a86c610bbf747bbf35e33b3c3f5bd",
+      "id": "roxy",
+      "name": "Roxy",
+      "version": "0.2.0"
+    },
+    {
+      "path": "mods/schematician-0.10.0.jar",
+      "sha256": "9034f669c43458ee420ba1e45018f8b7efb1409c2bf2666f58277683951bd74c",
+      "id": "schematician",
+      "name": "Schematician",
+      "version": "0.10.0"
+    },
+    {
+      "path": "mods/TFCMusicMaker-1.1.0.jar",
+      "sha256": "185b9eb491853b2a812edd5afc43445cf89f5df576103ac85b1b6fb4f83d9c0b",
+      "id": "tfcmusicmaker",
+      "name": "TFC Music Maker",
+      "version": "1.1.0"
+    },
+    {
+      "path": "mods/tfcr-fixes-1.7.7.jar",
+      "sha256": "2c1b940811dc689e3d38c5a8b6cf7fd44dadcc302784f831a2a2c3d731fa13cd",
+      "id": "tfcr_fixes",
+      "name": "TFCR Fixes",
+      "version": "1.7.7"
+    },
+    {
+      "path": "mods/towed-1.2.0.jar",
+      "sha256": "c50a63fb2dabc95a0ceb5892d04c5b4451290a3273950bccca74384e7f8d8406",
+      "id": "towed",
+      "name": "Create: Towed",
+      "version": "1.2.0"
+    },
+    {
+      "path": "mods/voxy-0.2.16-beta+1.21.11.jar",
+      "sha256": "7f8226cf64a4f5dc064e1075965714b718ac5f42fb28f826135a37c64e66e10b",
+      "id": "voxy",
+      "name": "Voxy",
+      "version": "0.2.16-beta"
+    },
+    {
+      "path": "mods/woodencog-1.2.18-1.21.1-TFCR.jar",
+      "sha256": "eb0c572724e8809caf0044547895d908d287504cef46e31b9a3bfe2840be4db1",
+      "id": "woodencog",
+      "name": "Wooden Cog",
+      "version": "1.2.18"
+    },
+    {
+      "path": "mods/worldborder-1.21.1-4.8.jar",
+      "sha256": "c00ae1e792d3c92738a9e191d5434dbba60ff60bf1a8aafa561f6092107851a8",
+      "id": "worldborder",
+      "name": "World Border",
+      "version": "4.8"
+    },
+    {
+      "path": "mods/xercamusic-neoforge-1.21.1-1.2.1.jar",
+      "sha256": "ad73febf4c93fa968bd4d691813d33c4109fd0ac5604452565359a9c375204c6",
+      "id": "xercamusic",
+      "name": "Music Maker Mod",
+      "version": "1.21.1-1.2.1"
+    }
+  ],
+  "removedMods": [
+    {
+      "path": "mods/cosmo-return-clamp-1.0.0.jar",
+      "sha256": "497c9cfc0bdde06b10fcde913ed360c569c3189aed0f241f101a4ad23bf4cf57",
+      "id": "cosmo_return_clamp",
+      "name": "TFCR Cosmonautics Return Clamp",
+      "version": "1.0.0"
+    },
+    {
+      "path": "mods/create_aeronautics_ftb_chunks-1.21.1-NeoForge-1.1.1.jar",
+      "sha256": "e9faa73f056b964c2399b8badb7e8c7664a1db754dcfd16e02e1eec4136adcdd",
+      "id": "create_aeronautics_ftb_chunks",
+      "name": "Create Aeronautics: FTB Chunks",
+      "version": "1.1.1"
+    },
+    {
+      "path": "mods/entityculling-neoforge-1.10.5-mc1.21.1.jar",
+      "sha256": "2eacd2bada39bf1d1ef695736646790c619c0e6cdeaf3d7e3cfc9139d26fae02",
+      "id": "entityculling",
+      "name": "EntityCulling",
+      "version": "1.10.5"
+    },
+    {
+      "path": "mods/nowheel-1.0.6+1.21.1neoforge.jar",
+      "sha256": "0b1379cbef442c6c21e2ab7a5da5d29e9959fe62fd83aef3e8a77b039cdf6b4d",
+      "id": "nowheel",
+      "name": "Nowheel",
+      "version": "1.0.6"
+    }
+  ],
+  "replacedMods": [
+    {
+      "id": "alltheleaks",
+      "old": {
+        "path": "mods/alltheleaks-1.1.11+1.21.1-neoforge.jar",
+        "sha256": "a5bf9bdb3a52b09b1521cdee46735a6e2265438a5084284d037e0042306bd6bd",
+        "id": "alltheleaks",
+        "name": "All The Leaks",
+        "version": "1.1.11+1.21.1-neoforge"
+      },
+      "new": {
+        "path": "mods/alltheleaks-1.1.12+1.21.1-neoforge.jar",
+        "sha256": "ca64ec07c29cadb0e7703e993fbaad26029ebc4203626d2638aefe989e5be74f",
+        "id": "alltheleaks",
+        "name": "All The Leaks",
+        "version": "1.1.12+1.21.1-neoforge"
+      },
+      "reason": "Exact complete author1.0.0 manifest/overrides; no individual library/mod upgrades added.",
+      "oldRegistryIdImpact": "Existing personal worlds were not loaded. Registry preservation/loss-free migration is not verified; author files remain exact."
+    },
+    {
+      "id": "asyncparticles",
+      "old": {
+        "path": "mods/AsyncParticles-21.1.4.0-beta.3+1.21.1.jar",
+        "sha256": "eb494fa707c9f0bebb3b59130087ea93c80ce26f7d6489d91059978b3d3b65fb",
+        "id": "asyncparticles",
+        "name": "AsyncParticles",
+        "version": "21.1.4.0-beta.3"
+      },
+      "new": {
+        "path": "mods/AsyncParticles-21.1.4.2+1.21.1.jar",
+        "sha256": "14ee75f8cd028df0a08c929f3486fe8cd4e25af3b4670afbe0db9e7ca651d984",
+        "id": "asyncparticles",
+        "name": "AsyncParticles",
+        "version": "21.1.4.2"
+      },
+      "reason": "Exact complete author1.0.0 manifest/overrides; no individual library/mod upgrades added.",
+      "oldRegistryIdImpact": "Existing personal worlds were not loaded. Registry preservation/loss-free migration is not verified; author files remain exact."
+    },
+    {
+      "id": "coldsweat_altitude",
+      "old": {
+        "path": "mods/coldsweat_altitude-0.6.3.jar",
+        "sha256": "3aad97e52199caac457334caa65fafa8f919ceedd988a30a1720f595dbadcc5f",
+        "id": "coldsweat_altitude",
+        "name": "Cold Sweat: Altitude",
+        "version": "0.6.3"
+      },
+      "new": {
+        "path": "mods/coldsweat_altitude-0.7.0.jar",
+        "sha256": "c060b559f69baa2beab8609d10feabf1e7a27b5e524666b97dfa7a8c35a44775",
+        "id": "coldsweat_altitude",
+        "name": "Cold Sweat: Altitude",
+        "version": "0.7.0"
+      },
+      "reason": "Exact complete author1.0.0 manifest/overrides; no individual library/mod upgrades added.",
+      "oldRegistryIdImpact": "Existing personal worlds were not loaded. Registry preservation/loss-free migration is not verified; author files remain exact."
+    },
+    {
+      "id": "firmalife",
+      "old": {
+        "path": "mods/Firmalife-NeoForge-1.21.1-3.0.12.jar",
+        "sha256": "a13e266986566fcf11bed71370b6ba1a67ca2e6306dbb69699a21d36b68fcad8",
+        "id": "firmalife",
+        "name": "Firmalife",
+        "version": "3.0.12"
+      },
+      "new": {
+        "path": "mods/Firmalife-NeoForge-1.21.1-3.0.14.jar",
+        "sha256": "e86a01f22b242ecd367b7b36599574b4db5895c121f141a6ffb78c175b0fe884",
+        "id": "firmalife",
+        "name": "Firmalife",
+        "version": "3.0.14"
+      },
+      "reason": "Exact complete author1.0.0 manifest/overrides; no individual library/mod upgrades added.",
+      "oldRegistryIdImpact": "Existing personal worlds were not loaded. Registry preservation/loss-free migration is not verified; author files remain exact."
+    },
+    {
+      "id": "firmalifehardcore",
+      "old": {
+        "path": "mods/firmalifehardcore-neoforge-0.3.3-beta.jar",
+        "sha256": "a37093d8eadf783e0ae1018af623de3e36bfe2a4193a63f2e2f6f87958da7787",
+        "id": "firmalifehardcore",
+        "name": "FirmaLife HardCore",
+        "version": "0.3.2-beta"
+      },
+      "new": {
+        "path": "mods/firmalifehardcore-neoforge-0.3.4-beta.jar",
+        "sha256": "70a1eb1121298d5140280bec455ff0267889d802e47f4983d242b18061322524",
+        "id": "firmalifehardcore",
+        "name": "FirmaLife HardCore",
+        "version": "0.3.4-beta"
+      },
+      "reason": "Exact complete author1.0.0 manifest/overrides; no individual library/mod upgrades added.",
+      "oldRegistryIdImpact": "Existing personal worlds were not loaded. Registry preservation/loss-free migration is not verified; author files remain exact."
+    },
+    {
+      "id": "imblocker",
+      "old": {
+        "path": "mods/IMBlocker-5.4.6.1-neoforge+1.20.6-1.21.8.jar",
+        "sha256": "7497358adc6de533ce9b5b55c984ebc47f3013f42731296eca813e39d0dee033",
+        "id": "imblocker",
+        "name": "IMBlocker",
+        "version": "5.4.6.1"
+      },
+      "new": {
+        "path": "mods/IMBlocker-5.5.4-neoforge+1.20.6-1.21.8.jar",
+        "sha256": "08c5581bda0ab0fbfdbb10c51102685b403f64b0e712517c4b2d918b2c83cea3",
+        "id": "imblocker",
+        "name": "IMBlocker",
+        "version": "5.5.4"
+      },
+      "reason": "Exact complete author1.0.0 manifest/overrides; no individual library/mod upgrades added.",
+      "oldRegistryIdImpact": "Existing personal worlds were not loaded. Registry preservation/loss-free migration is not verified; author files remain exact."
+    },
+    {
+      "id": "immediatelyfast",
+      "old": {
+        "path": "mods/ImmediatelyFast-NeoForge-1.6.11+1.21.1.jar",
+        "sha256": "336df12f099d1a441a3e06850bea86e9c2d0c8bc022d3d9a201870a201562a04",
+        "id": "immediatelyfast",
+        "name": "ImmediatelyFast",
+        "version": "1.6.11+1.21.1"
+      },
+      "new": {
+        "path": "mods/ImmediatelyFast-NeoForge-1.6.13+1.21.1.jar",
+        "sha256": "fa3aec87e9880d0a8ab9663c96ad0206fd59de5e71acfccbebc264f7ad0ae153",
+        "id": "immediatelyfast",
+        "name": "ImmediatelyFast",
+        "version": "1.6.13+1.21.1"
+      },
+      "reason": "Exact complete author1.0.0 manifest/overrides; no individual library/mod upgrades added.",
+      "oldRegistryIdImpact": "Existing personal worlds were not loaded. Registry preservation/loss-free migration is not verified; author files remain exact."
+    },
+    {
+      "id": "jmsharedmaps",
+      "old": {
+        "path": "mods/jmsharedmaps-1.1.1-1.21.1-neoforge.jar",
+        "sha256": "d25a3a8974296ba10f18a63f66b6aae0798b2876920cf4677c836e34af5f9c9f",
+        "id": "jmsharedmaps",
+        "name": "JourneyMap Shared Maps",
+        "version": "1.1.1-neoforge"
+      },
+      "new": {
+        "path": "mods/jmsharedmaps-1.1.3-1.21.1-neoforge.jar",
+        "sha256": "e5389125f1ba0052f073f0d97df94987c8d5fe09dd20346a8ea3edb2e79d9403",
+        "id": "jmsharedmaps",
+        "name": "JourneyMap Shared Maps",
+        "version": "1.1.3-neoforge"
+      },
+      "reason": "Exact complete author1.0.0 manifest/overrides; no individual library/mod upgrades added.",
+      "oldRegistryIdImpact": "Existing personal worlds were not loaded. Registry preservation/loss-free migration is not verified; author files remain exact."
+    },
+    {
+      "id": "ktfcc",
+      "old": {
+        "path": "mods/ktfcc-1.2.3-1.21.1.jar",
+        "sha256": "d0f4cdd9ff28d1395508ee523bde2c2fc1a63d13d4415afd4b9a580a93c9ab48",
+        "id": "ktfcc",
+        "name": "Kaleidoscope TFC Cookery",
+        "version": "1.2.3-1.21.1"
+      },
+      "new": {
+        "path": "mods/ktfcc-1.2.5-1.21.1.jar",
+        "sha256": "ede1566264d95509138b8ad192071107ee6f51250ebb0fd24b2bd05177eea8b0",
+        "id": "ktfcc",
+        "name": "Kaleidoscope TFC Cookery",
+        "version": "1.2.5-1.21.1"
+      },
+      "reason": "Exact complete author1.0.0 manifest/overrides; no individual library/mod upgrades added.",
+      "oldRegistryIdImpact": "Existing personal worlds were not loaded. Registry preservation/loss-free migration is not verified; author files remain exact."
+    },
+    {
+      "id": "lambdynlights",
+      "old": {
+        "path": "mods/lambdynamiclights-4.8.10+1.21.1.jar",
+        "sha256": "94e955443ce3817f798c74cbbbb4973e7b55c8b6dec12808b9378e74376b2eb9",
+        "id": "lambdynlights",
+        "name": "LambDynamicLights",
+        "version": "4.8.10+1.21.1"
+      },
+      "new": {
+        "path": "mods/lambdynamiclights-4.8.11+1.21.1.jar",
+        "sha256": "913b0358b1031828f1e060ea0ee361232dc2a1c82464f488a0a920739ce7c763",
+        "id": "lambdynlights",
+        "name": "LambDynamicLights",
+        "version": "4.8.11+1.21.1"
+      },
+      "reason": "Exact complete author1.0.0 manifest/overrides; no individual library/mod upgrades added.",
+      "oldRegistryIdImpact": "Existing personal worlds were not loaded. Registry preservation/loss-free migration is not verified; author files remain exact."
+    },
+    {
+      "id": "seasonhud",
+      "old": {
+        "path": "mods/seasonhud-neoforge-1.21.1-2.0.8.jar",
+        "sha256": "61b7ba27e72e7031cb64c7f3be07c0c7d6f58b8f6f818be4c4cbf554a7c97a68",
+        "id": "seasonhud",
+        "name": "SeasonHud",
+        "version": "2.0.8"
+      },
+      "new": {
+        "path": "mods/seasonhud-neoforge-1.21.1-2.0.9.jar",
+        "sha256": "e691c22dbbc3729a6ce1f9a7198ad2f71664541605ca729af76b36233dcfe1e2",
+        "id": "seasonhud",
+        "name": "SeasonHud",
+        "version": "2.0.9"
+      },
+      "reason": "Exact complete author1.0.0 manifest/overrides; no individual library/mod upgrades added.",
+      "oldRegistryIdImpact": "Existing personal worlds were not loaded. Registry preservation/loss-free migration is not verified; author files remain exact."
+    },
+    {
+      "id": "tfc",
+      "old": {
+        "path": "mods/TerraFirmaCraft-NeoForge-1.21.1-4.2.8.jar",
+        "sha256": "9f290455a9ae84f04be46dc0ee5fd9e72b48be09a7226a5a6b163bb00d4fba17",
+        "id": "tfc",
+        "name": "TerraFirmaCraft",
+        "version": "4.2.8"
+      },
+      "new": {
+        "path": "mods/TerraFirmaCraft-NeoForge-1.21.1-4.2.9.jar",
+        "sha256": "46582bee3ad7f9086abc648970a0d0acb62993bfa30cdaa68a7195f6daae08e3",
+        "id": "tfc",
+        "name": "TerraFirmaCraft",
+        "version": "4.2.9"
+      },
+      "reason": "Exact complete author1.0.0 manifest/overrides; no individual library/mod upgrades added.",
+      "oldRegistryIdImpact": "Existing personal worlds were not loaded. Registry preservation/loss-free migration is not verified; author files remain exact."
+    },
+    {
+      "id": "tfc_cloche_compat",
+      "old": {
+        "path": "mods/tfc_cloche-1.1.2.jar",
+        "sha256": "0a7a55f37668c45aad9d157efc19b1a588d9e4841f7a6ac0602cf6457ab6a870",
+        "id": "tfc_cloche_compat",
+        "name": "TFC Cloche Compat",
+        "version": "1.1.1"
+      },
+      "new": {
+        "path": "mods/tfc_cloche-1.1.30.jar",
+        "sha256": "cf6b3103ec539cf9bea38e8bc7eb4a465d8ef4cba3fac4aea2e06d902e8a7985",
+        "id": "tfc_cloche_compat",
+        "name": "TFC Cloche Compat",
+        "version": "1.1.1"
+      },
+      "reason": "Exact complete author1.0.0 manifest/overrides; no individual library/mod upgrades added.",
+      "oldRegistryIdImpact": "Existing personal worlds were not loaded. Registry preservation/loss-free migration is not verified; author files remain exact."
+    },
+    {
+      "id": "tracks",
+      "old": {
+        "path": "mods/tracks_plus-1.0.6b.jar",
+        "sha256": "324bac4a5a5d2773305c2924bcca8b04e725897ccd6d22eb9bb75e0837b32e11",
+        "id": "tracks",
+        "name": "Create Tracks+",
+        "version": "1.0.6b"
+      },
+      "new": {
+        "path": "mods/tracks_plus-1.0.6b2.jar",
+        "sha256": "eb85699ccf098f1c814d601e747c898543bceb5608381d1f8e266bdfcd3c382b",
+        "id": "tracks",
+        "name": "Create Tracks+",
+        "version": "1.0.6b2"
+      },
+      "reason": "Exact complete author1.0.0 manifest/overrides; no individual library/mod upgrades added.",
+      "oldRegistryIdImpact": "Existing personal worlds were not loaded. Registry preservation/loss-free migration is not verified; author files remain exact."
+    }
+  ],
+  "confirmedRemovedRegistryEntries": [
+    {
+      "id": "create_aeronautics_ftb_chunks:contraption_claim_block",
+      "types": [
+        "block",
+        "item"
+      ]
+    },
+    {
+      "id": "create_aeronautics_ftb_chunks:contraption_claim_block_entity",
+      "types": [
+        "block_entity_type"
+      ]
+    }
+  ],
+  "removedNativeFunctions": [
+    "Create Aeronautics: FTB Chunks ship claims/contraption-claim block, force-load cleanup and packet claim checks are absent from the new exact author stock. Unchanged native FTB Chunks is not proof that these separate functions survive."
+  ],
+  "safetyDecision": {
+    "ownSafetyChangeNeeded": false,
+    "reason": "The launcher-owned NEW-mod/player-only terrain policy is scoped to ATM9 Modified and is not enabled/delivered in TerraFirma Rebirth. Adding a helper would alter the authorized exact author stock.",
+    "newChangedRemovedArtifactsReviewed": 44,
+    "nativeFtbChunksSha256": "2cc32a613dd04d9355b88e6f455235aaf00768c270489657c9949f23b9195588",
+    "nativeFtbChunksByteIdentical": true,
+    "nativeFtbChunksClassReviewCount": 17,
+    "nativeClaimsOverworldOnly": true,
+    "functionalProtectionMatrixTested": false,
+    "universalTerrainProtectionClaimed": false
+  },
+  "personalWorldReadOrCopied": false,
+  "oldSourceUsedAsBuildInput": false,
+  "nativeClientWorldAcceptanceClaimedByThisStaticReport": false
+}

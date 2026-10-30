@@ -27,6 +27,10 @@
     "context": "UNIVERSAL",
     "source": "assumed"
   },
+  "gnetum.config.keyMapping": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
   "iris.keybind.reload": {
     "context": "UNIVERSAL",
     "source": "assumed"
@@ -59,10 +63,6 @@
     "context": "UNIVERSAL",
     "source": "assumed"
   },
-  "key.aero_cam_sync.add_mainhand_item_client": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
-  },
   "key.aero_cam_sync.open_config": {
     "context": "UNIVERSAL",
     "source": "assumed"
@@ -70,6 +70,10 @@
   "key.aero_cam_sync.toggle": {
     "context": "UNIVERSAL",
     "source": "assumed"
+  },
+  "key.aeronautics_curios_compat.remote_use": {
+    "context": "IN_GAME",
+    "source": "bytecode"
   },
   "key.aeroworks.joystick.free_camera": {
     "context": "UNIVERSAL",
@@ -140,10 +144,6 @@
     "source": "assumed"
   },
   "key.dynamic_fps.toggle_forced": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
-  },
-  "key.entityculling.toggle": {
     "context": "UNIVERSAL",
     "source": "assumed"
   },
@@ -431,10 +431,6 @@
     "context": "UNIVERSAL",
     "source": "assumed"
   },
-  "key.jei.internal.enter.key": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
-  },
   "key.jei.maxTransferRecipeBookmark": {
     "context": "UNIVERSAL",
     "source": "assumed"
@@ -631,11 +627,19 @@
     "context": "UNIVERSAL",
     "source": "assumed"
   },
+  "key.kaleidoscope_contraption.remove_block": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
   "key.kubejs.kubedex": {
     "context": "UNIVERSAL",
     "source": "bytecode"
   },
   "key.left": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.liubai.open_config": {
     "context": "UNIVERSAL",
     "source": "assumed"
   },
@@ -652,10 +656,6 @@
     "source": "bytecode"
   },
   "key.next_music": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
-  },
-  "key.oelib.open_fluid_example": {
     "context": "UNIVERSAL",
     "source": "assumed"
   },
@@ -718,6 +718,14 @@
   "key.saveToolbarActivator": {
     "context": "UNIVERSAL",
     "source": "assumed"
+  },
+  "key.schematician.toggle_drafting_view": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "key.schematician.toggle_force_tooltip": {
+    "context": "IN_GAME",
+    "source": "bytecode"
   },
   "key.screenshot": {
     "context": "UNIVERSAL",
@@ -808,6 +816,10 @@
     "source": "assumed"
   },
   "key.use": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "keyinfo.copycats.fill_copycat": {
     "context": "UNIVERSAL",
     "source": "assumed"
   },

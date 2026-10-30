@@ -618,6 +618,9 @@
 		}
 		{
 			dependencies: ["7B2E000000000022"]
+			icon: {
+				id: "astikorcartsredux:oak_plow"
+			}
 			id: "7B2E000000000023"
 			rewards: [{
 				id: "00007B2E20000023"
@@ -646,6 +649,39 @@
 			}]
 			x: 3.0d
 			y: 7.5d
+		}
+		{
+			dependencies: ["7B2E000000000024"]
+			id: "7B2E000000000025"
+			rewards: [{
+				id: "00007B2E20000025"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "00007B2E10000025"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7B2E000000000022"]
+			icon: {
+				id: "minecraft:lead"
+			}
+			id: "7B2E00000000002A"
+			rewards: [{
+				id: "7B2E000000000115"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7B2E000000000108"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 6.0d
 		}
 	]
 }

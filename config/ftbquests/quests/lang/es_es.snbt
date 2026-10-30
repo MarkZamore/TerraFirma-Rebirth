@@ -4,11 +4,11 @@
 	chapter.02A13B679E524809.title: "Cold Sweat "
 	chapter.05B5D2183DDEE205.title: "Capítulo III: La Edad del Cobre"
 	chapter.0655694423AEC222.title: "Guía de exploración"
-	chapter.081A4C6416F8C6F4.title: "Logística \& trenes"
+	chapter.081A4C6416F8C6F4.title: "Logística \\& trenes"
 	chapter.0F2A70CF8F3C0BC9.title: "Create en TerraFirma"
 	chapter.1310690AC5EB6412.title: "Capítulo V: La Edad del Hierro"
 	chapter.1499271D1ACD9589.title: "Logros"
-	chapter.14D88E05BCC5293E.title: "Calor \& combustible"
+	chapter.14D88E05BCC5293E.title: "Calor \\& combustible"
 	chapter.1DB0103735EB5676.title: "Conservación de alimentos"
 	chapter.1EA3634FEF38F514.title: "Capítulo II: La Edad de Piedra"
 	chapter.2E41E9AC61B614BD.title: "Guía de forja"
@@ -24,10 +24,10 @@
 	chapter.5ECD77B1CFE80E47.title: "Capítulo VI: La Edad del Acero"
 	chapter.5F52D8A9F8E1917A.title: "Guía del minero"
 	chapter.6297E5687F69BB17.title: "Guía del artesano"
-	chapter.63A52A33C8BCC3E0.title: "Almacenamiento \& logística"
+	chapter.63A52A33C8BCC3E0.title: "Almacenamiento \\& logística"
 	chapter.67F400134F02AEF7.title: "Antes de jugar"
 	chapter.6B17A41CA8B64EFB.title: "Guía del cocinero"
-	chapter.6E436A1DF98C1A1A.title: "Estrés \& transmisión"
+	chapter.6E436A1DF98C1A1A.title: "Estrés \\& transmisión"
 	chapter.6E63D2E12D7AADD8.title: "Create"
 	chapter.714F689E91085F1A.title: "Guía de apicultura"
 	chapter.763725A3E967AF9C.title: "Guía de ganadería"
@@ -36,7 +36,7 @@
 	chapter.7F68F8A72B162FA0.title: "Cosmonáutica"
 	chapter_group.47652EC60BA7B927.title: "Capítulos secundarios: cosas que conviene aprender"
 	chapter_group.7230BCDFA3557B8C.title: "Historia principal: TerraFirma y tú"
-	chapter_group.787619235D44E5B6.title: "Create \& Immersive Engineering"
+	chapter_group.787619235D44E5B6.title: "Create \\& Immersive Engineering"
 	quest.00572026F4A12262.quest_desc: [
 		"Nota: ¡este capítulo aún está en construcción!"
 		""
@@ -60,7 +60,7 @@
 	quest.00DDF32FC3452477.quest_desc: [
 		"Create añade toda una serie de bloques de almacenamiento y logística. Es tanto que un capítulo dedicado de la sección Create los cubre."
 	]
-	quest.00DDF32FC3452477.title: "Almacenamiento \& logística de Create"
+	quest.00DDF32FC3452477.title: "Almacenamiento \\& logística de Create"
 	quest.00E9E6C8653D0E65.quest_desc: [
 		"Al abrir un yunque verás esta interfaz:"
 		"{image:kubejs:textures/quests/smith.png width:170 height:90 align:1}"
@@ -176,10 +176,10 @@
 		"Dos guías recomendadas por este pack:"
 		""
 		"1. «The Evolution of a TFC Player — a complete 1.20.1 TerraFirmaCraft: Next Generation tutorial», del usuario de mcmod '推窗子' (basada en 1.20.1, pero la mayoría de las mecánicas siguen vigentes en 1.21.1)."
-		"{\"text\":\"Abrir página\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.mcmod.cn/post/3123.html\"},\"underlined\":true,\"color\":\"aqua\"}"
+		"{\\\"text\\\":\\\"Abrir página\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"open_url\\\",\\\"value\\\":\\\"https://www.mcmod.cn/post/3123.html\\\"},\\\"underlined\\\":true,\\\"color\\\":\\\"aqua\\\"}"
 		""
 		"2. «[Zero-to-hero TerraFirmaCraft guide] 2024 full babysitter tutorial», del creador de Bilibili '猪人喜欢朋友'."
-		"{\"text\":\"Abrir página\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://space.bilibili.com/13243373/channel/collectiondetail?sid=3399778\"},\"underlined\":true,\"color\":\"aqua\"}"
+		"{\\\"text\\\":\\\"Abrir página\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"open_url\\\",\\\"value\\\":\\\"https://space.bilibili.com/13243373/channel/collectiondetail?sid=3399778\\\"},\\\"underlined\\\":true,\\\"color\\\":\\\"aqua\\\"}"
 	]
 	quest.0405DAAE5B61A651.quest_subtitle: "Apoya las guías que otros veteranos crearon con esfuerzo: la comunidad de TFC prospera gracias a ellos"
 	quest.0405DAAE5B61A651.title: "Otras guías"
@@ -188,10 +188,6 @@
 	]
 	quest.0436DD294285DBC9.quest_subtitle: "La oveja no tiene objeciones"
 	quest.0436DD294285DBC9.title: "Esquilar ovejas"
-	quest.0458A743C19344B5.quest_desc: [
-		"Calentar polvo de grafito pirolítico altamente orientado al blanco brillante en una forja (hacen falta fuelles) lo convierte en un lingote de HOPG (esto tarda un rato: ten paciencia). El lingote es solo una forma intermedia: los electrodos de grafito se prensan directamente con polvo y creosota en la embotelladora, sin necesidad del lingote. Los lingotes que sobren pueden triturarse de vuelta a polvo sin pérdidas."
-	]
-	quest.0458A743C19344B5.quest_subtitle: "HOPG"
 	quest.045DD6FE26295735.quest_desc: [
 		"Haz clic derecho con un tarro de cristal vacío en una colmena que rezuma miel para llenarlo. Las abejas pueden atacarte en el proceso, según lo tranquilas que estén."
 		""
@@ -227,7 +223,8 @@
 	]
 	quest.055FFAB83C1BE571.quest_desc: [
 		"El bloque de controles de artilugio opera las máquinas montadas en un artilugio. Instálalo, haz clic derecho y alterna si las máquinas del artilugio funcionan. Pon un filtro para controlar solo máquinas concretas."
-	]
+			"El mando vinculado funciona en la mano con cualquier artefacto vinculado. Si quieres fijarlo a un atril, hazlo en el suelo ANTES de ensamblar: los atriles dentro de una estructura física no se pueden convertir. Ojo: ensamblar y desarmar repetidamente hace que el atril pierda los datos del mando; en aeronaves usa preferentemente el timón y los controles."
+]
 	quest.055FFAB83C1BE571.title: "Artilugios avanzados"
 	quest.057BFABF2D5AED4C.quest_desc: [
 		"El generador diésel es el generador de mayor potencia de Immersive Engineering: quema biodiésel a 4096 FE/t."
@@ -264,7 +261,7 @@
 		"Consejo: la mayoría de los aparatos de este capítulo incluyen tutoriales animados de Ponder. Mantén W sobre ellos en tu inventario o en JEI: mucho más claro que cualquier texto."
 		""
 		"Nota: este capítulo aún está en construcción. ¡Puedes ver el vídeo tutorial de TrueAnnYpsT!"
-		"{\"text\":\"Tutorial video (Bilibili)\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.bilibili.com/video/BV1ck3p6AEDY/\"},\"underlined\":true,\"color\":\"aqua\"}"
+		"{\\\"text\\\":\\\"Tutorial video (Bilibili)\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"open_url\\\",\\\"value\\\":\\\"https://www.bilibili.com/video/BV1ck3p6AEDY/\\\"},\\\"underlined\\\":true,\\\"color\\\":\\\"aqua\\\"}"
 	]
 	quest.075AE6BBAE11F698.quest_subtitle: "De la chispa a la red"
 	quest.075AE6BBAE11F698.title: "Ingeniería eléctrica"
@@ -590,7 +587,7 @@
 		"Un comparador de redstone detrás del volante lee el ángulo de dirección. Configura bien el modo del rodamiento, o tu estructura puede volver a ser bloques en plena conducción."
 	]
 	quest.142140E2E271B7D2.quest_subtitle: "¿Ya tienes el carnet de conducir?"
-	quest.142140E2E271B7D2.title: "Volante \& acelerador"
+	quest.142140E2E271B7D2.title: "Volante \\& acelerador"
 	quest.144A45B3C280CA58.quest_desc: [
 		"La salmuera es agua salada mezclada con vinagre en proporción 9:1."
 		""
@@ -618,7 +615,7 @@
 	quest.14A11CD892C4F1F3.quest_desc: [
 		"La azuela es una herramienta para pavimentar caminos y techar con más eficiencia: los tejados hechos con ella cuestan menos material, y sus caminos dan un impulso de velocidad."
 	]
-	quest.14A11CD892C4F1F3.title: "Tejados \& caminos"
+	quest.14A11CD892C4F1F3.title: "Tejados \\& caminos"
 	quest.14AB9880993734CD.quest_desc: [
 		"La máquina de escribir enlazada es el núcleo de la redstone inalámbrica: dos máquinas enlazadas transmiten señales de redstone a cualquier distancia, y cuando está activa una asume los controles de movimiento y todas las teclas asignadas."
 		"Agáchate y haz clic derecho para abrir su configuración; en modo vinculación, pulsa cualquier tecla para vincularla a una frecuencia inalámbrica. Pilota una aeronave a distancia desde el suelo — o al revés."
@@ -703,7 +700,7 @@
 		"Llevar dos objetos así te da el efecto de sobrecarga y apenas puedes andar. No los transportes durante mucho tiempo."
 	]
 	quest.1768230458B173BE.quest_subtitle: "Dile adiós al Steve que cruza un río con nueve cerdos"
-	quest.1768230458B173BE.title: "Tamaño \& peso"
+	quest.1768230458B173BE.title: "Tamaño \\& peso"
 	quest.17A717AD41AEB01E.quest_desc: [
 		"Suelda un lingote de acero débil con un lingote de arrabio para obtener un lingote de acero negro de alto carbono; fórjalo para obtener acero negro."
 		""
@@ -776,8 +773,10 @@
 	]
 	quest.1963C4D0F2C52430.title: "Velocidad de rotación"
 	quest.19908A9AD562B70D.quest_desc: [
-		"Los propulsores de pierna de cobre queman aire comprimido para un vuelo estilo creativo; pulsa Z para activar o desactivar el amortiguador de inercia. Doble eficiencia en el agua, cuádruple en el espacio — básicamente es un propulsor submarino reconvertido."
-		"Las botas de ancla de cobre te dan una gravedad tenue al estar sobre bloques: sube escaleras con normalidad en una estación espacial sin gravedad, y además sirven de botas de buceo."
+		"Los propulsores de pierna de cobre queman aire comprimido para volar como en creativo; pulsa Z para el amortiguador inercial. Doble eficiencia en agua, cuádruple en el espacio — en el fondo es un propulsor de buceo que cambió de oficio."
+		"Las botas de anclaje de cobre te dan una leve gravedad sobre bloques: sube escaleras con normalidad en una estación ingrávida, y además sirven de botas de buceo."
+		"Juntas son más lentas que un jetpack pero mucho más baratas — mientras el titanio escasee, son tu primera entrada al cielo."
+		"Consejo: amortiguador activado para atraques de precisión, desactivado para viajar. Ponte las botas antes de cualquier paseo espacial, o un impulso descuidado te mandará a la deriva."
 	]
 	quest.19908A9AD562B70D.quest_subtitle: "Barato por algo"
 	quest.19908A9AD562B70D.title: "Equipo de movilidad de cobre"
@@ -823,7 +822,7 @@
 		""
 		"Los capítulos principales marcan las etapas de progresión — tras la Edad de Piedra, cada etapa está ligada a un metal: cobre, aleaciones de cobre, hierro forjado, acero. Obtén el metal de la etapa y su capítulo se desbloquea automáticamente; no hace falta terminar el final del capítulo anterior."
 	]
-	quest.1AE74184E202E553.title: "Tipos de misiones \& etapas"
+	quest.1AE74184E202E553.title: "Tipos de misiones \\& etapas"
 	quest.1AF92C46694147BF.quest_desc: [
 		"Muele maíz nixtamalizado en un molino de mano para harina de masa: como otras harinas, debe hacerse masa."
 	]
@@ -893,9 +892,11 @@
 	]
 	quest.1D31CA89AF9F2910.title: "Árboles frutales"
 	quest.1D8A3B061E9F7EA8.quest_desc: [
-		"Los moldes de arcilla también se tallan de la arcilla e igualmente necesitan cocción antes de usarse."
+		"Los moldes de arcilla también se tallan de la arcilla: sostén al menos cinco arcillas en la mano y haz clic derecho para abrir la interfaz de tallado, y luego quita los cuadros sobrantes siguiendo el patrón. Lo que obtienes aún es un molde sin cocer: hay que cocerlo en un horno de hoyo antes de poder usarlo."
 		""
 		"Moldes recomendados por ahora: pico, hacha, lingote, sierra, cincel, pico de prospección."
+		""
+		"Consejo: si EMI no te muestra cómo se hacen los moldes, no te preocupes: las recetas de tallado están ligadas a los moldes SIN COCER; busca «sin cocer» y aparecerán. También puedes consultar JEI o el capítulo de alfarería de la guía de campo de TFC."
 	]
 	quest.1D8A3B061E9F7EA8.title: "Más alfarería"
 	quest.1D8D0D09087A335F.quest_desc: [
@@ -959,7 +960,7 @@
 		"Como siempre: casi todas las piezas de este capítulo tienen un tutorial animado de Ponder — mantén W para verlo."
 		""
 		"Nota: este capítulo aún está en construcción. ¡Puedes ver el videotutorial de XeKr!"
-		"{\"text\":\"Tutorial en Bilibili\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.bilibili.com/video/BV1y8dZBVEEX/\"},\"underlined\":true,\"color\":\"aqua\"}"
+		"{\\\"text\\\":\\\"Tutorial en Bilibili\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"open_url\\\",\\\"value\\\":\\\"https://www.bilibili.com/video/BV1y8dZBVEEX/\\\"},\\\"underlined\\\":true,\\\"color\\\":\\\"aqua\\\"}"
 	]
 	quest.1F67CB96F0EF37A2.quest_subtitle: "A continuación: el momento en que la gravedad falla"
 	quest.1F67CB96F0EF37A2.title: "Aeronautics"
@@ -997,33 +998,58 @@
 	]
 	quest.2121C8FA109E1C34.title: "Lingote de plata de ley"
 	quest.2199434138EE8F2D.quest_desc: [
-		"El casco espacial, alimentado por un suministro de aire presurizado, te permite respirar en el espacio y bajo el agua. La mochila propulsora se activa con G, quema combustible para empujar, mantén Espacio para desafiar la gravedad brevemente, y puede suministrar aire a equipo neumático como el casco."
-		"Recarga la mochila propulsora con un cubo de biocombustible (sujeta el cubo de combustible y haz Alt-clic), o llénala a través de una ventila de fluidos. Nuestros ingenieros lo aseguran: usada como casco, ha recibido cero críticas negativas."
+		"El casco espacial, alimentado por aire presurizado, te permite respirar en el espacio y bajo el agua; el jetpack se activa con G, quema combustible para empujar, desafía la gravedad al mantener espacio y además alimenta de aire al casco."
+		"Recarga el jetpack con un cubo de biocombustible (sostén el cubo y Alt+clic) o mediante una boca de fluidos. Nuestros ingenieros aseguran: usarlo como casco no ha recibido ni una queja."
+		"La carcasa laminada del casco también aísla del frío extremo: ni los -50°C de la Luna ni el casi cero absoluto del espacio profundo pueden contigo. Casco puesto antes de salir."
+		"El combustible del jetpack se cobra por segundo: haz cuentas antes de un vuelo largo y deja margen para despegue, vuelo estacionario y aterrizaje. Un piloto estrellado no se llama piloto; se llama meteoro."
+		"La trinidad de supervivencia espacial: casco para respirar, jetpack para moverse, botas de anclaje para no salir flotando. Revisa las tres antes de abrir la escotilla — si falta una, no la abras."
 	]
 	quest.2199434138EE8F2D.quest_subtitle: "El espacio no admite nudistas"
 	quest.2199434138EE8F2D.title: "Traje espacial"
+	quest.1DFA57F00DCEED01.quest_desc: [
+		"¿Pocos FPS? Si tu PC tiene gráficos integrados o es de gama baja, estos pasos ofrecen la mayor mejora:"
+		""
+		"&e&lPaso 1: Desactiva dos mods"
+		"Desmárcalos en el gestor de mods de tu launcher (o renombra los .jar de la carpeta mods a .jar.disabled):"
+		"&7- aeronautics_modernui_compat"
+		"&7- ModernUI"
+		"Son mods puramente estéticos con un alto costo de renderizado. Tras desactivarlos, las pantallas de Aeronautics volverán al estilo vanilla: es normal."
+		""
+		"&e&lPaso 2: Ajustes de vídeo"
+		"Baja la distancia de renderizado a 6-8 chunks y la distancia de simulación a 6."
+		"En los ajustes de Sodium Extra: reduce la calidad de partículas y la distancia de renderizado de entidades."
+		""
+		"&e&lPaso 3: Luces dinámicas"
+		"¡No uses el nivel \"Fancy\"! Configura LambDynamicLights en fastest o desactívalo por completo."
+		""
+		"&e&lOtros consejos"
+		"Asigna unos 6 GB de RAM; asignar más empeora el rendimiento (las iGPU comparten la memoria del sistema)."
+		"No uses shaders. Voxy viene integrado y activado por defecto: asegúrate de desactivarlo en los ajustes de vídeo."
+	]
+	quest.1DFA57F00DCEED01.quest_subtitle: "El secreto para ganar FPS"
+	quest.1DFA57F00DCEED01.title: "Guía de optimización para PC de gama baja"
 	quest.219E58F012A1322A.quest_desc: [
 		"¡Bienvenido a TerraFirma: Rebirth (TFCR)!"
-		"Estás jugando la versión: 1.21.1-4.1.21 Release"
+		"Estás jugando: TerraFirma Rebirth 2 · 1.0.0-release"
 		""
 		"&l&aEsta es la build Release — estable y recomendada para partidas largas de supervivencia. Si encuentras errores, ¡infórmalos al equipo del pack!"
 		""
 		"Reporta bugs en nuestro Discord:"
-		"{\"text\":\"Únete a nuestro Discord\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://discord.gg/Fc7v5EXmkK\"},\"underlined\":true,\"color\":\"aqua\"}"
+		"{\\\"text\\\":\\\"Únete a nuestro Discord\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"open_url\\\",\\\"value\\\":\\\"https://discord.gg/Fc7v5EXmkK\\\"},\\\"underlined\\\":true,\\\"color\\\":\\\"aqua\\\"}"
 		""
-		"&c&l¡No instales ScalableLux por tu cuenta! El aviso que aparece al iniciar el juego es normal y no afecta la partida."
+		"&c&l¡No instales ScalableLux por tu cuenta!"
 		""
 		"&e&lConsejo: si las recetas no funcionan, la búsqueda del inventario creativo deja de responder u ocurren otros problemas extraños al entrar al mundo, simplemente vuelve a entrar a la partida para solucionarlo. Si eso no ayuda, ¡reiniciar el juego resuelve el 99% de los errores!"
 		""
 		"&8Dificultad de TFCR: media-baja"
 		""
 		"Si eres nuevo en los modpacks, consulta la línea de misiones integrada siempre que te sientas perdido — también contiene información útil para mejorar tu experiencia. La Guía de campo, el Manual del ingeniero y otros libros te guían paso a paso por cada mod; la wiki MCMOD tiene tutoriales aún más detallados — busca 'TFCR' allí para encontrar la página de este pack."
-		"{\"text\":\"Wiki MCMOD\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.mcmod.cn\"},\"underlined\":true,\"color\":\"aqua\"}"
+		"{\\\"text\\\":\\\"Wiki MCMOD\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"open_url\\\",\\\"value\\\":\\\"https://www.mcmod.cn\\\"},\\\"underlined\\\":true,\\\"color\\\":\\\"aqua\\\"}"
 		""
 		"&6&l☆ Patrocinado por Wabbanode ☆"
 		"&7Nuestro servidor oficial de Norteamérica está orgullosamente alojado por Wabbanode."
 		"¿Quieres tu propio servidor para jugar TFCR con amigos? Usa el código &b&lTFCR&r y obtén un &a20% de DESCUENTO&r en cualquier plan:"
-		"{\"text\":\"wabbanode.com/affiliate/terrafirmarebirth\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wabbanode.com/affiliate/terrafirmarebirth\"},\"underlined\":true,\"color\":\"aqua\"}"
+		"{\\\"text\\\":\\\"wabbanode.com/affiliate/terrafirmarebirth\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"open_url\\\",\\\"value\\\":\\\"https://wabbanode.com/affiliate/terrafirmarebirth\\\"},\\\"underlined\\\":true,\\\"color\\\":\\\"aqua\\\"}"
 	]
 	quest.219E58F012A1322A.quest_subtitle: "Autor: Club de Minecraft de ZJWEU"
 	quest.219E58F012A1322A.title: "¡Lectura obligatoria!"
@@ -1109,9 +1135,12 @@
 	quest.2643DF4CC466346D.quest_subtitle: "Un lago de lava subterráneo de TerraFirma basta"
 	quest.2643DF4CC466346D.title: "Lava infinita"
 	quest.269CABDFE57142E2.quest_desc: [
-		"El motor cohete de propelente líquido se ensambla con Create: planchas de titanio, tobera de aleación de titanio, placas de obsidiana... un motor cuesta una fortuna en titanio, así que abastece."
-		"El motor en sí no almacena combustible — las bombas deben alimentar propelente continuamente, y la velocidad de las bombas controla el empuje."
-		"Advertencia: el escape está extremadamente caliente. En el encendido, no te pongas debajo del motor — debajo en CUALQUIER sentido."
+		"El motor de cohete líquido es modular: soporte, ciclo y tobera apilados en tres bloques axiales. Usa la llave para cambiar de ciclo — cerrado, abierto, flujo total, expansión — cada uno equilibra empuje y eficiencia."
+		"El propelente se bombea sin parar: 1000mB en cada tanque, combustible y oxidante; el agua y el aire sirven de oxidante. El empuje depende de las RPM de la bomba; el manómetro de empuje lo muestra en vivo."
+		"Las toberas de cobre se sobrecalientan a gran empuje; las de aleación de titanio no. Referencias: cobre cerrado 10000N, titanio abierto 20800N, titanio flujo total 26000N. Las gafas de ingeniero leen los parámetros del motor directamente."
+		"El motor no almacena combustible. Lista previa al encendido: ¿tanque de combustible lleno? ¿oxidante lleno? ¿bomba con energía?"
+		"Con un ordenador de CC el motor es programable: setThrust, setGimbal, getFluidAmount — tu programa orbital automático empieza aquí."
+		"Aviso: la llamarada es extremadamente caliente. No te pongas bajo el motor al encenderlo — bajo ningún sentido de la palabra."
 	]
 	quest.269CABDFE57142E2.quest_subtitle: "Comprobación final antes del encendido"
 	quest.269CABDFE57142E2.title: "Motor cohete"
@@ -1154,8 +1183,9 @@
 	]
 	quest.2703BCA3E265C338.title: "Cajones"
 	quest.27042E3F6BBBCAD8.quest_desc: [
-		"El titanio puro no es de grado espacial. La aleación de titanio se mezcla en supercalentamiento con 3 lingotes de titanio más 1 lingote de netherita — en este pack la netherita se funde en el horno de arco a partir de acero rojo, acero azul y verruga del Nether; el logro Magnate minero y los taladros de escombros antiguos también la producen."
-		"La aleación de titanio tiene una resistencia y una tolerancia al calor soberbias — el material designado para toberas de motor y piezas portantes. Prensa algo de titanio en planchas ya que estás; el casco del cohete las necesita."
+		"El titanio puro no basta para un cohete. La aleación son 3 lingotes de titanio más 1 de netherita mezclados en supercalor — en este pack la netherita se funde en horno de arco con acero rojo, acero azul y verrugas del infierno, además del logro Magnate Minero y los taladros de escombros ancestrales."
+		"Mezclar requiere un quemador de blaze sobrecalentado, es decir, pasteles de blaze. Las RPM y el estrés no son el problema — los pasteles sí. Monta una línea de pasteles cuanto antes; tu yo futuro te lo agradecerá."
+		"Su resistencia mecánica y térmica lo convierten en el material obligado para toberas y piezas estructurales — las toberas de cobre se sobrecalientan a gran empuje, las de aleación no. Y lamina titanio en placas de paso; el casco las necesita."
 	]
 	quest.27042E3F6BBBCAD8.quest_subtitle: "Metal de primera categoría"
 	quest.27042E3F6BBBCAD8.title: "Aleación de titanio"
@@ -1228,8 +1258,10 @@
 	]
 	quest.29868E685B95DCE5.quest_subtitle: "CaO"
 	quest.29A4B21CB648052D.quest_desc: [
-		"El separador de etapas es un perno explosivo activado por redstone: cuando un acelerador sólido se agota o una etapa inferior se queda seca, una señal — bang — el peso muerto cae y el cohete vuela ligero."
-		"La versión cargada con explosivos separa con más decisión; la versión de eje transmite la rotación entre etapas. El arte de las etapas: nunca dudes en soltar."
+		"El separador de etapa es un perno explosivo activado por pulso de redstone: propulsores agotados, etapa inferior seca — una señal, bang, el peso muerto cae y el cohete sigue ligero."
+		"La variante con carga separa de forma más limpia; la de eje transmite rotación entre etapas, de modo que el motor superior aprovecha la potencia que sube desde abajo."
+		"Conectar la señal a un botón es el modo fácil; conectarla a un ordenador CC permite separar por altitud, velocidad o margen de combustible — así es como de verdad vuelan los cohetes multietapa."
+		"El arte de las etapas consiste en no lamentarlo cuando toca soltar."
 	]
 	quest.29A4B21CB648052D.quest_subtitle: "Suelta el equipaje"
 	quest.29A4B21CB648052D.title: "Separación de etapas"
@@ -1274,7 +1306,7 @@
 		"Alimenta rotación al cabrestante para enrollar o soltar la cuerda; haz clic derecho en la cuerda con una llave inglesa para deslizarte por ella, y las tijeras la cortan."
 	]
 	quest.2AAA5BC1B8F2C8C9.quest_subtitle: "Volar cometas se aprende desde niño"
-	quest.2AAA5BC1B8F2C8C9.title: "Cuerdas \& cabrestantes"
+	quest.2AAA5BC1B8F2C8C9.title: "Cuerdas \\& cabrestantes"
 	quest.2ADA31FF3CDC6B85.quest_desc: [
 		"Las caras opuestas de una caja de engranajes cruzada giran en direcciones opuestas: naturalmente útil para invertir la rotación."
 	]
@@ -1352,7 +1384,7 @@
 		"Con cuerda puedes hacer un arco: recuerda abastecerte también de flechas."
 	]
 	quest.2D12A78196D788A3.quest_subtitle: "Daño perforante, así que no lo uses contra esqueletos"
-	quest.2D12A78196D788A3.title: "Arco \& flechas"
+	quest.2D12A78196D788A3.title: "Arco \\& flechas"
 	quest.2D159EE393AECF97.quest_desc: [
 		"Para abrir un portal al Nether, prepara siete ofrendas: cráneos de esqueleto; yunques; pilas de lingotes que contengan oro, arrabio o acero negro (basta un lingote en la pila); o bloques chapados en acero negro o en oro. No necesitas todos los tipos — valen siete ofrendas cualesquiera."
 		""
@@ -1411,7 +1443,7 @@
 		""
 		"No pongas comida en bloques de almacenamiento normales como cofres."
 	]
-	quest.2F4813E06F69E1A2.title: "Recipientes grandes \& pequeños"
+	quest.2F4813E06F69E1A2.title: "Recipientes grandes \\& pequeños"
 	quest.2F5F3B7D868CD534.quest_desc: [
 		"La generación de minerales del Nether está rehecha para igualar la del mundo normal: vetas concentradas. Seis minerales se generan en el Nether: oro, pirita, silvinita, limo, cuarzo del Nether y carbón maldito."
 		""
@@ -1436,7 +1468,7 @@
 		"El frecuencímetro vigila la estabilidad de la frecuencia de la red. Cuando la velocidad del generador oscila, es el primero en decírtelo."
 	]
 	quest.3010455F84F0E7AA.quest_subtitle: "El salpicadero de la red"
-	quest.3010455F84F0E7AA.title: "Contadores de energía \& frecuencia"
+	quest.3010455F84F0E7AA.title: "Contadores de energía \\& frecuencia"
 	quest.308C74C2017D7D52.quest_desc: [
 		"Por desgracia, TerraFirmaCraft no ofrece forma de llegar al End, pero el portal al Nether aún puede abrirse mediante un ritual especial, detallado en misiones posteriores."
 		""
@@ -1477,7 +1509,7 @@
 		""
 		"Suelta un tronco y tres palos con Q en el mismo punto, luego mantén clic derecho con un encendedor en la parte superior del bloque bajo los objetos. A veces debes seguir manteniendo clic derecho hasta que la hoguera por fin se enciende."
 		""
-		"Completar esta misión desbloquea el capítulo secundario 'Calor \& combustible'."
+		"Completar esta misión desbloquea el capítulo secundario 'Calor \\& combustible'."
 		""
 		"Advertencia: nunca coloques una hoguera cerca de heno o bloques de madera — ¡su calor puede prenderles fuego!"
 	]
@@ -1500,7 +1532,7 @@
 		"Cada cable tiene una corriente máxima — sobrecárgalo y se quema. Para redes de alta potencia, usa cable más grueso, o haz como en la vida real: sube el voltaje, baja la corriente."
 	]
 	quest.3234CA6489B308BF.quest_subtitle: "Autopistas de la electricidad"
-	quest.3234CA6489B308BF.title: "Cables \& carretes"
+	quest.3234CA6489B308BF.title: "Cables \\& carretes"
 	quest.3270EADED45FCD0F.quest_desc: [
 		"Paso tres: mete trozos de mineral en el molino de mano y muélelos en polvo sucio. El molino acepta entrada por los lados y saca por abajo. Prueba tolvas de madera para automatizar."
 		""
@@ -1517,7 +1549,7 @@
 	quest.32972ACE7076CD4F.quest_desc: [
 		"El rodamiento de molino trata la zona pegada frente a él como un molino de viento y la hace girar, siempre que la zona cumpla los requisitos del molino. Una vez girando, el rodamiento se convierte en fuente de estrés."
 		""
-		"Ver el capítulo 'Estrés \& transmisión' para la aplicación."
+		"Ver el capítulo 'Estrés \\& transmisión' para la aplicación."
 	]
 	quest.32CCA4DFDD85BD46.quest_subtitle: "Roca metamórfica o intrusiva cerca de lava"
 	quest.32CCA4DFDD85BD46.title: "Azufre"
@@ -1537,7 +1569,7 @@
 		"Minimapa de Xaero etc.: si JourneyMap (incluido, con integración TFC) no te convence, cámbialo por el mod de mapas que prefieras."
 		"&8Por favor, borra/desactiva también:"
 		"&8jmi-neoforge-1.21.1-1.9.jar"
-		"&8journeymaptfcintegration-neoforge-1.0.2.jar"
+		"&8journeymaptfcintegration-neoforge-1.0.3.jar"
 		"&8journeymap-neoforge-1.21.1-6.0.3.jar"
 		""
 		"Carry On: integrado desde esta versión — Shift+clic derecho para cargar cofres, ganado y más. Está desactivado cargar criaturas hostiles o agresivas, bloques de Create/Aeronautics/Immersive Engineering y cualquier estructura multibloque."
@@ -1633,8 +1665,10 @@
 	]
 	quest.34CF2CC505369BDE.quest_subtitle: "Aquí viene la parte más agotadora"
 	quest.34FFDE76B445328D.quest_desc: [
-		"El titanio es el esqueleto del cohete. Las vetas de titanio son raras, generándose en diabasa, basalto, diorita y granito (y=-60 a 30), y los indicadores de superficie también escasean — localiza vetas con la varilla de prospección, o monta directamente un taladro de minerales y bombea."
-		"La vía de fundición más rápida es el horno de arco de IE: tritura el mineral de titanio y electrofúndelo directamente en lingotes. La cadena oficial triturar–lavar–calcinar también funciona, pero es mucho más lenta. No recomendada."
+		"El titanio es el esqueleto del cohete. Sus vetas son raras y se generan en diabasa, basalto, diorita y granito (y=-60 a 30); los indicadores superficiales también escasean — localiza las vetas con la varilla de prospección o monta un taladro minero."
+		"La vía de fundición más rápida es el horno de arco de IE: tritura el mineral y funde directamente en lingotes. La cadena oficial de triturar–lavar–calcinar también funciona, pero es mucho más lenta. No recomendada."
+		"Los lingotes de titanio tienen dos destinos: laminarse en placas para el casco del cohete, o reservarse para la aleación. Haz cuentas antes de producir en masa — necesitarás mucho. Más de lo que crees."
+		"Las herramientas de titanio existen, pero no desperdicies el metal. En este pack, cada lingote pertenece a la plataforma de lanzamiento."
 	]
 	quest.34FFDE76B445328D.quest_subtitle: "El metal aeroespacial"
 	quest.34FFDE76B445328D.title: "Titanio"
@@ -1655,7 +1689,7 @@
 	quest.353810193654E546.quest_desc: [
 		"La velocidad escala con la velocidad de la máquina: más rápido es más eficiente, y algunas máquinas ni siquiera funcionan por debajo de una velocidad mínima. Pero más rápido también significa más estrés consumido: en cuanto el consumo supera la producción, todo el sistema se sobrecarga y se detiene."
 	]
-	quest.353810193654E546.title: "Velocidad \& eficiencia de máquinas"
+	quest.353810193654E546.title: "Velocidad \\& eficiencia de máquinas"
 	quest.354C40286C33986F.quest_desc: [
 		"Combina mortero con ladrillos para obtener bloques de ladrillo. «Ladrillos» pueden ser ladrillos de barro, ladrillos de piedra de piedra suelta más cincel, o ladrillos de alabastro de yeso más cincel."
 	]
@@ -1670,7 +1704,7 @@
 		"El inductor hace que la salida siga suavemente a la entrada. Son los bloques lógicos de la automatización de vehículos — control de crucero, autoestacionario."
 	]
 	quest.35B744A70CF5346E.quest_subtitle: "El arte de las señales analógicas"
-	quest.35B744A70CF5346E.title: "Acumulador \& inductor"
+	quest.35B744A70CF5346E.title: "Acumulador \\& inductor"
 	quest.35EB4D21853E71CD.quest_desc: [
 		"La piedra levitante (cristal flotante) permite a las estructuras físicas ignorar la gravedad: con suficientes, una estructura flota; a baja velocidad amortigua el movimiento, a alta velocidad la resistencia se desvanece. Solo mantiene altitud — no puede ganarla — así que combínala con hélices o globos."
 		"Punto clave: en este pack viene de la Luna. Tras alunizar, tritura suelo lunar en polvo de luna, mézclalo en caliente con pepitas de zinc y agua hasta obtener una mezcla levitante, y luego cristalízala en caliente. Es un material de fin de juego posterior al capítulo Cosmonautics — por ahora solo conócelo."
@@ -1716,14 +1750,18 @@
 	quest.36541C2252B8E3CF.quest_subtitle: "Esta cosa te mata de un golpe a través de la armadura"
 	quest.36541C2252B8E3CF.title: "Leñador"
 	quest.36635352EDEFED02.quest_desc: [
-		"El eje se fabrica con dos aleaciones de andesita en columna (rinde 8): el medio de transmisión de potencia, uniendo fuentes de energía con máquinas. Abarca como máximo cinco bloques en una dirección antes de romperse; para llegar más lejos, usa cajas de engranajes."
+		"El eje se fabrica con dos aleaciones de andesita en columna (rinde 8): el medio de transmisión de potencia, uniendo fuentes de energía con máquinas."
+		"Al principio también puedes forjarlos en un yunque de cobre: 1 lingote de aleación de andesita produce 4 ejes."
+		"Cuando necesites cambiar de dirección, unir o dividir la rotación, recurre a la caja de engranajes."
+		""
+		"Consejo: el superpegamento para las estructuras dinámicas se hace con pegamento de TFC — 600 mB de agua de cal más 1 polvo de hueso, sellado en un barril durante unos 6 minutos (o mézclalo directamente cuando tengas una batidora mecánica). Las bolas de slime se fabrican con masa y tinte verde lima (masa = harina de trigo + agua)."
 	]
 	quest.36635352EDEFED02.quest_subtitle: "Poder primitivo"
 	quest.36635352EDEFED02.title: "Ejes"
 	quest.36A613F0590DA6C6.quest_desc: [
 		"Combina granos de cacao tostados con un cuchillo para obtener una manteca de cacao y un polvo de cacao."
 	]
-	quest.36A613F0590DA6C6.title: "Cacao en polvo \& manteca de cacao"
+	quest.36A613F0590DA6C6.title: "Cacao en polvo \\& manteca de cacao"
 	quest.36E9E8D7BFAA90D5.quest_desc: [
 		"El cuero hace una potente mochila con las 27 ranuras de un cofre, ampliable aún más después, además de complementos funcionales. Pero necesitas hierro forjado para fabricarla."
 	]
@@ -1732,7 +1770,7 @@
 		""
 		"Todo lo demás está igual — comercia con piglins, cultiva varas de blaze para soportes de pociones, incluso colecciona cráneos de esqueleto wither para desafiar al Wither."
 	]
-	quest.37121B8A35C25813.title: "Fortaleza \& bastión del Nether"
+	quest.37121B8A35C25813.title: "Fortaleza \\& bastión del Nether"
 	quest.3719F7703554F320.quest_desc: [
 		"El injerto te permite plantar varios retoños en un mismo sitio — solo sujeta retoños en la mano secundaria al plantar. Cuantos más retoños injertados juntos, más alto el árbol frutal."
 		""
@@ -1740,7 +1778,7 @@
 		""
 		"Nota: ambas técnicas solo funcionan dentro de la misma especie."
 	]
-	quest.3719F7703554F320.title: "Injerto \& injerto de ramas"
+	quest.3719F7703554F320.title: "Injerto \\& injerto de ramas"
 	quest.380699080752117C.quest_desc: [
 		"La geografía y geología de TerraFirma — en esta versión incluso los contornos de los continentes, el clima y la elevación — se parecen a la Tierra real, y el mundo se envuelve de este a oeste: camina al oeste lo bastante y regresas por el este."
 		""
@@ -1754,7 +1792,7 @@
 	quest.380699080752117C.title: "Geografía"
 	quest.3868F993DA506EFB.quest_desc: [
 		"&8*Tutorial completo en"
-		" {\"text\":\"Sistema de planos\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"5A304CBBF873084F/1\"},\"underlined\":true,\"color\":\"aqua\"}"
+		" {\\\"text\\\":\\\"Sistema de planos\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"5A304CBBF873084F/1\\\"},\\\"underlined\\\":true,\\\"color\\\":\\\"aqua\\\"}"
 		""
 		"Para que tu casa no se convierta en un cráter, este cañón ha sido estrictamente educado. Por favor, ten en cuenta:"
 		""
@@ -1860,9 +1898,12 @@
 		""
 		"¡El pack ya incluye el mod EuphoriaPatches; descarga los shaderpacks en los enlaces de abajo!"
 		""
-		"{\"text\":\"Complementary Shaders - Reimagined\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://modrinth.com/shader/complementary-reimagined/version/r5.8.1\"},\"underlined\":true,\"color\":\"aqua\"}"
+		"{\\\"text\\\":\\\"Complementary Shaders - Reimagined\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"open_url\\\",\\\"value\\\":\\\"https://modrinth.com/shader/complementary-reimagined/version/r5.8.1\\\"},\\\"underlined\\\":true,\\\"color\\\":\\\"aqua\\\"}"
 		""
-		"{\"text\":\"Complementary Shaders - Unbound\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://modrinth.com/shader/complementary-unbound/version/r5.8.1\"},\"underlined\":true,\"color\":\"aqua\"}"
+		"{\\\"text\\\":\\\"Complementary Shaders - Unbound\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"open_url\\\",\\\"value\\\":\\\"https://modrinth.com/shader/complementary-unbound/version/r5.8.1\\\"},\\\"underlined\\\":true,\\\"color\\\":\\\"aqua\\\"}"
+		""
+		"¿FPS bajos con shaders? Ve a Opciones de vídeo → Paquetes de shaders → Configuración del paquete y baja el perfil de calidad (arriba a la izquierda) a Medium o Low: las sombras, los reflejos del agua y las nubes volumétricas son lo que más cuesta."
+		"Si el contador marca FPS altos pero el juego da tirones, asegúrate de estar en la última versión: 1.0.0-release corrigió dos picos del hilo de renderizado que causaban tirones periódicos."
 	]
 	quest.3BE8BA6DBF8C0672.quest_subtitle: "El aroma de una tarjeta gráfica"
 	quest.3BE8BA6DBF8C0672.title: "Compatibilidad de shaders"
@@ -1915,7 +1956,7 @@
 		"El ensamblaje secuenciado funciona como una línea de producción: un objeto pasa por cada paso de procesamiento mostrado en la receta para completar una secuencia, y completar el número requerido de secuencias termina la receta."
 	]
 	quest.3CE7C06DCC97A989.quest_subtitle: "Fundamentos de la cadena de montaje"
-	quest.3CE7C06DCC97A989.title: "Mecanismos de precisión \& ensamblaje secuenciado"
+	quest.3CE7C06DCC97A989.title: "Mecanismos de precisión \\& ensamblaje secuenciado"
 	quest.3D212DF3C92D3A48.quest_desc: [
 		"El puerto rana trabaja con cadenas de transmisión para transportar paquetes, pero primero debe vincularse a un punto de la cadena."
 		""
@@ -2009,22 +2050,18 @@
 	quest.4073B1CE55962375.quest_desc: [
 		"Tubo de soplado de vidrio en la mano principal y paleta en la secundaria aplana; la tela de lana voltea."
 	]
-	quest.4073B1CE55962375.title: "Paleta \& tela de lana"
+	quest.4073B1CE55962375.title: "Paleta \\& tela de lana"
 	quest.408992F05F89C9EC.quest_desc: [
 		"La tubería de fluido inteligente filtra qué fluido puede pasar: su ranura de filtro acepta cubos llenos de fluido o filtros para controlar la admisión."
 	]
 	quest.4097F05E5EEADD26.quest_desc: [
-		"¡Atención! Debido a un error de un mod, ¡no puedes crear un mundo superplano por defecto!"
-		"Solución: desactiva journeymaptfcintegration-neoforge-1.0.2.jar"
-		"Recomendamos NO borrar este mod, ¡ya que es muy útil en el juego normal!"
-		""
-		"Esta versión soporta Voxy en supervivencia. Considerando el hardware variado de los jugadores, el renderizado LOD de Voxy está desactivado por defecto. Para activarlo, consulta la guía en nuestro Discord:"
-		"{\"text\":\"Únete a nuestro Discord\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://discord.gg/Fc7v5EXmkK\"},\"underlined\":true,\"color\":\"aqua\"}"
+		"El renderizado de terreno lejano Voxy ahora viene integrado (funciona en NeoForge mediante la capa de traducción Roxy) y activado por defecto: listo para usar."
+		"En equipos modestos, desactiva Voxy en Ajustes > Vídeo para ganar FPS. Con Voxy activado, asigna 8 GB o más de RAM; desactivado, 6 GB bastan."
 		""
 		"Abajo: una demo en vivo de Voxy activado en esta versión:"
 		"{image:kubejs:textures/quest/voxypic.png width:199 height:105 align:center fit:true}"
 	]
-	quest.4097F05E5EEADD26.quest_subtitle: "Mundos superplanos \& VOXY"
+	quest.4097F05E5EEADD26.quest_subtitle: "Terreno lejano con VOXY"
 	quest.4097F05E5EEADD26.title: "¡Información importante!"
 	quest.40DF0E9B77C38D92.quest_desc: [
 		"TerraFirmaCraft tiene un sistema de energía rotacional integrado — incompatible con el de Create, y solo capaz de impulsar ciertos bloques de TFC. En este pack, lo usarás para el procesado de minerales inicial."
@@ -2124,11 +2161,11 @@
 		""
 		"Una cosa más:"
 		"La mayor parte de la música de TFCR está compuesta por el autor del pack; a petición de los jugadores, los temas clásicos de la 3.1.2 se mezclan en la rotación."
-		"¡Pulsa \"Re Pág\" (por defecto) para saltar la pista actual!"
+		"¡Pulsa \\\"Re Pág\\\" (por defecto) para saltar la pista actual!"
 		""
 		"Álbumes:"
-		"{\"text\":\"Banda sonora original de TerraFirma: Rebirth\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://music.163.com/album?id=357966421&uct2=U2FsdGVkX1/rFe7nS3Z6XJkbTLczZTH5d7xl3yu519U=\"},\"underlined\":true,\"color\":\"aqua\"}"
-		"{\"text\":\"Música clásica de TFCR 3.1.2\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://music.163.com/playlist?id=13680143559&uct2=U2FsdGVkX1+0Dhqwse6DBuO2cpnMGK6m6l73HlZL/l4=\"},\"underlined\":true,\"color\":\"aqua\"}"
+		"{\\\"text\\\":\\\"Banda sonora original de TerraFirma: Rebirth\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"open_url\\\",\\\"value\\\":\\\"https://music.163.com/album?id=357966421&uct2=U2FsdGVkX1/rFe7nS3Z6XJkbTLczZTH5d7xl3yu519U=\\\"},\\\"underlined\\\":true,\\\"color\\\":\\\"aqua\\\"}"
+		"{\\\"text\\\":\\\"Música clásica de TFCR 3.1.2\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"open_url\\\",\\\"value\\\":\\\"https://music.163.com/playlist?id=13680143559&uct2=U2FsdGVkX1+0Dhqwse6DBuO2cpnMGK6m6l73HlZL/l4=\\\"},\\\"underlined\\\":true,\\\"color\\\":\\\"aqua\\\"}"
 	]
 	quest.4525DB7844975EC1.quest_subtitle: "¡Gracias a cada jugador por apoyar este modpack!"
 	quest.4525DB7844975EC1.title: "¡Diviértete!"
@@ -2208,7 +2245,7 @@
 		"Rodea una mochila de hierro forjado con lingotes de acero para mejorarla a una mochila de acero."
 	]
 	quest.47893AFAA75E6084.title: "Mejora de mochila"
-	quest.478AAC782ABD463B.quest_subtitle: "Roca extrusiva \& metamórfica bajo y=75"
+	quest.478AAC782ABD463B.quest_subtitle: "Roca extrusiva \\& metamórfica bajo y=75"
 	quest.478AAC782ABD463B.title: "Pechblenda"
 	quest.47AF6FB29788705A.quest_desc: [
 		"Solo usable en hogueras. Baja temperatura de combustión, duración decente, pero la comida cocinada con él se estropea más rápido. Útil cuando necesitas procesar objetos en masa sobre una hoguera."
@@ -2257,14 +2294,14 @@
 	quest.48E61577434BAE55.quest_desc: [
 		"El pico funciona como en vanilla — excava bloques de tipo piedra. Vale notar: en TerraFirmaCraft, un pico de hierro forjado ya puede excavar obsidiana."
 		""
-		"Completar esta misión desbloquea el capítulo secundario \"Guía del minero\"."
+		"Completar esta misión desbloquea el capítulo secundario \\\"Guía del minero\\\"."
 	]
 	quest.48E61577434BAE55.quest_subtitle: "¿Y quién es más digna de confianza que la mujer de un minero? — Merle Travis"
 	quest.48E61577434BAE55.title: "Pico de cobre"
 	quest.48F4F67F7CE0B7A9.quest_desc: [
 		"Por ahora, montar a caballo es la forma más rápida de viajar por tierra. Ignora la nieve y la hierba — el compañero más fiable para los viajes largos."
 		""
-		"Si aún no sabes montar, consulta el capítulo secundario \"Guía de ganadería\"."
+		"Si aún no sabes montar, consulta el capítulo secundario \\\"Guía de ganadería\\\"."
 	]
 	quest.48F4F67F7CE0B7A9.title: "Equitación"
 	quest.49192023FED0246F.quest_desc: [
@@ -2275,9 +2312,9 @@
 	quest.49545DEE6C45E26B.quest_desc: [
 		"Logística — el único sistema sin el que ningún mod tecnológico puede vivir, y Create lo hace con variedad y belleza."
 		""
-		"Completar esta misión desbloquea el capítulo secundario \"Logística \& trenes\"."
+		"Completar esta misión desbloquea el capítulo secundario \\\"Logística \\& trenes\\\"."
 	]
-	quest.49545DEE6C45E26B.title: "Logística \& trenes"
+	quest.49545DEE6C45E26B.title: "Logística \\& trenes"
 	quest.497C472062AAA77F.quest_desc: [
 		"Cuando todo esté listo, agáchate y haz clic derecho en la cubeta de prensado para embotellar el vino. El vino empieza a envejecer en cuanto se embotella — aunque eso sirve de poco más que para presumir."
 		""
@@ -2292,7 +2329,7 @@
 		"Ambos son reconocidos por los artilugios como bloques de almacenamiento — las cámaras guardan objetos, los tanques guardan fluidos."
 	]
 	quest.49E9A981425AB2FC.quest_desc: [
-		"Cuando talas un árbol con un hacha de TerraFirma, todo el árbol se cosecha en cadena — pero las hojas \"desaparecen\" en lugar de \"romperse\". Solo las hojas rotas pueden soltar retoños, así que rompe las hojas antes de talar."
+		"Cuando talas un árbol con un hacha de TerraFirma, todo el árbol se cosecha en cadena — pero las hojas \\\"desaparecen\\\" en lugar de \\\"romperse\\\". Solo las hojas rotas pueden soltar retoños, así que rompe las hojas antes de talar."
 		""
 		"La herramienta recomendada es la guadaña, que rompe todas las hojas en un área de 3x3x3. Además, las tasas de caída de retoños son mayores en otoño e invierno que en primavera y verano."
 	]
@@ -2361,17 +2398,20 @@
 	quest.4B9C11A6C3097BD9.quest_subtitle: "No querrás comer comida podrida todo el día, ¿verdad?"
 	quest.4B9C11A6C3097BD9.title: "Conservación de alimentos"
 	quest.4BADFA04EF810F23.quest_desc: [
-		"Las tuberías del motor determinan el ciclo termodinámico del motor — cambia con una llave inglesa en mano: ciclo cerrado, abierto, de flujo completo o expansor, intercambiando empuje por eficiencia. La tobera del motor dirige el escape de alta presión para maximizar la eficiencia del empuje."
-		"Esto es ajuste avanzado — no pasa nada si te suena a chino. La configuración por defecto basta para ponerte en la Luna."
+		"Un motor modular es una estructura axial de tres bloques: soporte de motor, tuberías de ciclo y tobera. Cuelga un tanque a cada lado del soporte con 1.000 mB de combustible y 1.000 mB de oxidante — el agua y el aire también sirven de oxidante."
+		"Haz clic derecho con una llave en las tuberías para cambiar el ciclo termodinámico: cerrado, abierto, flujo total o expansión, equilibrando empuje y eficiencia."
+		"Empuje de referencia: ciclo cerrado + tobera de cobre ~10.000 N; ciclo abierto + tobera de titanio ~20.800 N; flujo total + tobera de titanio hasta 26.000 N."
+		"Las toberas de cobre se sobrecalientan y se rompen a alto empuje; las de titanio no — otra razón para dominar primero el titanio."
+		"Los motores en paralelo equilibran fluidos automáticamente. Con las gafas de ingeniero lees empuje, eficiencia e impulso específico en vivo."
 	]
 	quest.4BADFA04EF810F23.quest_subtitle: "Ingeniería de cohetes, curso avanzado"
 	quest.4BADFA04EF810F23.title: "Ciclos de motor"
 	quest.4BFBFADA2F05761D.quest_desc: [
-		"Cuando un lingote de cobre está lo bastante caliente, su temperatura dice \"Soldable\" — lo que significa que puede soldarse a ese calor. La soldadura fusiona dos lingotes en un lingote doble para trabajo más avanzado."
+		"Cuando un lingote de cobre está lo bastante caliente, su temperatura dice \\\"Soldable\\\" — lo que significa que puede soldarse a ese calor. La soldadura fusiona dos lingotes en un lingote doble para trabajo más avanzado."
 		""
 		"Toma los lingotes dobles de cobre: coloca dos lingotes de cobre soldables en un yunque de piedra con un martillo y un flujo, luego pulsa el botón de soldar de la derecha. El flujo se fabrica con un martillo más objetos de carbonato cálcico — rocas de caliza, dolomita o creta."
 	]
-	quest.4BFBFADA2F05761D.quest_subtitle: "Existe una misión del mismo nombre en el capítulo secundario \"Guía de forja\""
+	quest.4BFBFADA2F05761D.quest_subtitle: "Existe una misión del mismo nombre en el capítulo secundario \\\"Guía de forja\\\""
 	quest.4BFBFADA2F05761D.title: "Soldadura"
 	quest.4C0F061FE6239576.quest_desc: [
 		"La esterilla de secado seca objetos al sol. La fruta seca se conserva el doble; los bloques de paja secos pueden compostarse."
@@ -2382,7 +2422,7 @@
 	quest.4C395797A48CBFFF.quest_desc: [
 		"Como mod tecnológico, Create tiene naturalmente un sistema de transporte de fluidos para mover fluidos automáticamente."
 		""
-		"Completar esta misión desbloquea el capítulo secundario \"Transporte de fluidos\"."
+		"Completar esta misión desbloquea el capítulo secundario \\\"Transporte de fluidos\\\"."
 	]
 	quest.4C395797A48CBFFF.title: "Transporte de fluidos"
 	quest.4C42A21E7B59CC9F.quest_desc: [
@@ -2392,7 +2432,7 @@
 	]
 	quest.4C42A21E7B59CC9F.quest_subtitle: "¿Dónde estoy? ¿Por qué no puedo golpear árboles? ¿Por qué mi barra de salud es tan larga?? ¿Qué son esas barras azul y verde de la derecha?? ¿Por qué el suelo está cubierto de piedras y palos??"
 	quest.4C42A21E7B59CC9F.title: "Llegada a TerraFirma"
-	quest.4C79708B45817652.quest_subtitle: "Caliza \& mármol a y=20~80"
+	quest.4C79708B45817652.quest_subtitle: "Caliza \\& mármol a y=20~80"
 	quest.4C79708B45817652.title: "Lapislázuli"
 	quest.4C915E1A95A2EB1A.quest_desc: [
 		"Las tuberías de acero y la bomba de acero pueden mover bloques de fuente de fluido. Conecta un cigüeñal al extremo estrecho de la bomba con varillas de acero — si ves bloques de madera dentro de la bomba moviéndose con las varillas, está funcionando. Tiende tuberías de acero desde el fondo de la bomba hasta una fuente de agua; el extremo de la tubería debe estar en el agua, a no más de 16 bloques de la bomba."
@@ -2418,7 +2458,7 @@
 	quest.4D54513E21ADC4B6.quest_desc: [
 		"Puedes fundir el mineral directamente, pero eso pierde 5mB de metal. O puedes procesar el mineral un poco primero — más pasos, pero también algunos subproductos. Más adelante, el procesado avanzado de minerales aumentará aún más los rendimientos."
 		""
-		"Completar esta misión desbloquea el capítulo secundario \"Procesado de minerales\"."
+		"Completar esta misión desbloquea el capítulo secundario \\\"Procesado de minerales\\\"."
 	]
 	quest.4D54513E21ADC4B6.title: "Procesado de minerales"
 	quest.4DC9620F74CF73F0.quest_desc: [
@@ -2488,7 +2528,7 @@
 	quest.5105F3A8FA8B8991.quest_desc: [
 		"El addon Create: Electrical Engineering convierte el estrés rotacional de Create en electricidad usable por otros mods tecnológicos — eficientemente — permitiéndole interconectarse con Immersive Engineering."
 		""
-		"Completar esta misión desbloquea el capítulo secundario \"Create: Electrical Engineering\"."
+		"Completar esta misión desbloquea el capítulo secundario \\\"Create: Electrical Engineering\\\"."
 	]
 	quest.5105F3A8FA8B8991.title: "Create: Electrical Engineering"
 	quest.51119806AB5BC1FB.quest_desc: [
@@ -2567,7 +2607,7 @@
 		"También existen barriles metálicos — contienen dos fluidos que los barriles de madera no pueden: ácido sulfúrico y zumo de limón. El barril de acero azul puede incluso contener lava, sirviendo de cubo de basura."
 	]
 	quest.536B325277444A5F.title: "Barril"
-	quest.5375F4D5C6207816.quest_subtitle: "Roca extrusiva \& intrusiva, -64~60, más en profundidad"
+	quest.5375F4D5C6207816.quest_subtitle: "Roca extrusiva \\& intrusiva, -64~60, más en profundidad"
 	quest.5375F4D5C6207816.title: "Oro nativo"
 	quest.53EBC57A2404CC13.quest_desc: [
 		"Sella árido con tinte para obtener polvo de hormigón de ese color, y luego deja que toque agua para convertirse en hormigón."
@@ -2579,7 +2619,7 @@
 	quest.540385BF2750046C.title: "Afinidad de cultivos"
 	quest.54149DFBE04F9DCE.quest_desc: [
 		"El modpack tiene una comunidad internacional en Discord: comparte tu experiencia, pide ayuda, reporta bugs, da tu opinión y consigue recursos y noticias. ¡Lee los anuncios al unirte!"
-		"{\"text\":\"Únete a nuestro Discord\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://discord.gg/Fc7v5EXmkK\"},\"underlined\":true,\"color\":\"aqua\"}"
+		"{\\\"text\\\":\\\"Únete a nuestro Discord\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"open_url\\\",\\\"value\\\":\\\"https://discord.gg/Fc7v5EXmkK\\\"},\\\"underlined\\\":true,\\\"color\\\":\\\"aqua\\\"}"
 	]
 	quest.54149DFBE04F9DCE.quest_subtitle: "La discusión es bienvenida"
 	quest.54149DFBE04F9DCE.title: "Comunidad"
@@ -2596,7 +2636,7 @@
 	quest.543F2A726CFEC300.quest_desc: [
 		"Para soplar, mira al frente con el tubo de soplado en la mano y haz clic derecho; para estirar, mira directamente hacia abajo. Cuidado de no soplar sobre una cubeta o mesa de fundición."
 	]
-	quest.543F2A726CFEC300.title: "Soplado \& estirado"
+	quest.543F2A726CFEC300.title: "Soplado \\& estirado"
 	quest.54427CE3F2BA4109.quest_desc: [
 		"Algunos bloques montados en artilugios son reconocidos como almacenamiento."
 		""
@@ -2625,11 +2665,11 @@
 	quest.54A6F21FD436B7A2.quest_desc: [
 		"El recipiente grande es un contenedor de nueve ranuras que almacena objetos de tamaño normal o menor."
 		""
-		"Agáchate y haz clic derecho para sellarlo, de modo que conserve su contenido al romperse. \"Extremadamente grande, muy pesado\" — llevar uno te inflige efectos negativos."
+		"Agáchate y haz clic derecho para sellarlo, de modo que conserve su contenido al romperse. \\\"Extremadamente grande, muy pesado\\\" — llevar uno te inflige efectos negativos."
 		""
-		"La comida en un recipiente sellado gana el efecto \"Conservado\", duplicando su vida útil. En un recipiente sin sellar, las ratas vendrán a comer tu comida."
+		"La comida en un recipiente sellado gana el efecto \\\"Conservado\\\", duplicando su vida útil. En un recipiente sin sellar, las ratas vendrán a comer tu comida."
 		""
-		"Completar esta misión desbloquea el capítulo secundario \"Conservación de alimentos\"."
+		"Completar esta misión desbloquea el capítulo secundario \\\"Conservación de alimentos\\\"."
 	]
 	quest.54DE12BD51525A1F.quest_desc: [
 		"El pan de verdad necesita levadura para fermentar. Para conseguirla, sella fruta seca con agua dulce en un barril: cada fruta rinde 100 mB de levadura. Después, sellar harina con levadura la multiplica."
@@ -2648,7 +2688,7 @@
 		"El controlador de velocidad de rotación ajusta la velocidad con precisión. Requiere un engranaje grande para funcionar."
 	]
 	quest.559339871A4A7287.quest_desc: [
-		"El pedernal del inicio ya no viene de romper grava. Se genera como las rocas en lechos de lagos de agua dulce y lechos fluviales poco profundos. El pedernal hace herramientas de pedernal, talladas muy parecido a las de piedra."
+		"El pedernal del inicio ya no viene de romper grava. Se genera como las rocas en lechos de lagos de agua dulce y lechos fluviales poco profundos. El pedernal no se puede tallar en herramientas: es un material clave para hacer fuego — combínalo con pirita para un pedernal con pirita, o con un lingote de hierro para un pedernal con acero."
 	]
 	quest.55949E9ACBE9E133.quest_desc: [
 		"Combina cuatro trozos de mena para obtener un conglomerado de mena."
@@ -2666,7 +2706,7 @@
 	quest.55AC70FCD93F2F64.quest_desc: [
 		"Tubo de soplado de vidrio en la mano principal con una sierra en la secundaria realiza el serrado; el gato realiza el prensado."
 	]
-	quest.55AC70FCD93F2F64.title: "Sierra \& gato"
+	quest.55AC70FCD93F2F64.title: "Sierra \\& gato"
 	quest.55B61AF8ADD0794C.quest_desc: [
 		"Cuando tengas hierro forjado podrás usar cofres vanilla: libres de los límites de tamaño y peso de TFC, pura experiencia vanilla."
 	]
@@ -2678,7 +2718,7 @@
 		""
 		"Si el artilugio tiene almacenamiento, los objetos se transfieren a él."
 	]
-	quest.5635F6BCFB5B4838.quest_subtitle: "Sobre y=40, roca sedimentaria \& metamórfica bajo cauces de ríos"
+	quest.5635F6BCFB5B4838.quest_subtitle: "Sobre y=40, roca sedimentaria \\& metamórfica bajo cauces de ríos"
 	quest.5635F6BCFB5B4838.title: "Amatista"
 	quest.566687685C6612A2.quest_desc: [
 		"La forja de carbón es una instalación de mediados-finales del juego para calentar objetos de alta demanda como alfarería y metales — no comida. Las diez ranuras centrales aceptan combustible y materiales; el lado derecho acepta contenedores."
@@ -2770,11 +2810,14 @@
 	quest.5897ED90F5479263.quest_subtitle: "La alfarería lo ha estado cargando todo"
 	quest.5897ED90F5479263.title: "Endureciéndose"
 	quest.58B6D43ABBD7C9FD.quest_desc: [
-		"El motor vectorial bascula su tobera bajo control lateral de redstone, ajustando el rumbo sin motores de control de actitud extra."
-		"El propulsor RCS funciona con gas comprimido — el núcleo del control fino de actitud en el vacío. En la atmósfera, confía en la basculación; más allá, confía en el RCS. Necesitas ambos."
+		"Un motor vectorial bascula su tobera con señal de redstone lateral, guiando el cohete sin bloques RCS adicionales."
+		"Los motores RCS funcionan con gas comprimido y ajustan la actitud en el vacío. Vectorial dentro de la atmósfera, RCS fuera de ella: necesitas ambos."
+		"Tres reglas de oro: centro de masa centrado, motores simétricos y relación empuje-peso entre 1 y 1.5 — por debajo de 1 no despegas, por encima de 1.8 te descontrolas."
+		"Advertencia: NO montes un giroscopio de Aeronautics en tu cohete: bloquea la actitud y anula todos los motores vectoriales."
+		"¿Quieres un control más fino? Una computadora puede tomar el mando de la tobera: mira la misión Computadora de vuelo."
 	]
 	quest.58B6D43ABBD7C9FD.quest_subtitle: "El volante del cohete"
-	quest.58B6D43ABBD7C9FD.title: "Vectorización \& control de actitud"
+	quest.58B6D43ABBD7C9FD.title: "Vectorización \\& control de actitud"
 	quest.58CA9F3CFFBF9F48.quest_desc: [
 		"Ya tienes 14 lingotes de acero esperando, ¿verdad?"
 	]
@@ -2807,7 +2850,7 @@
 	quest.5A304CBBF873084F.quest_desc: [
 		"El sistema de esquemas de Create te permite copiar y pegar un área de bloques."
 		""
-		"Primero, haz un esquema con el Esquema y la Pluma: haz clic derecho en dos bloques para marcar una selección cúbica. Al guardar se crea un archivo nbt en el directorio \"carpeta de versión/schematics\". Para compartir un esquema, simplemente envía el archivo."
+		"Primero, haz un esquema con el Esquema y la Pluma: haz clic derecho en dos bloques para marcar una selección cúbica. Al guardar se crea un archivo nbt en el directorio \\\"carpeta de versión/schematics\\\". Para compartir un esquema, simplemente envía el archivo."
 		""
 		"Desplegar uno necesita la mesa de esquemas y el cañón de esquemas. Selecciona tu esquema en la mesa, insértalo y espera la importación. Luego elige un sitio donde desplegar, y finalmente carga el esquema en el cañón de esquemas."
 		""
@@ -2835,7 +2878,7 @@
 		"Haz clic derecho en el plano para configurar recetas; la receta se muestra entonces en él, y hacer clic derecho consume objetos de tu inventario para fabricar automáticamente."
 	]
 	quest.5AA66C0488CCD153.quest_desc: [
-		"La fuente de estrés más potente. Mira el capítulo secundario «Dispositivos de Estrés \& Transmisión» para su uso."
+		"La fuente de estrés más potente. Mira el capítulo secundario «Dispositivos de Estrés \\& Transmisión» para su uso."
 	]
 	quest.5AACBBDDE7A39F4C.quest_desc: [
 		"El horno tiene varios accesorios. El bloque colector de ceniza recoge automáticamente la ceniza que produce, mientras que la tolva de horno automatiza la entrada de troncos."
@@ -2886,7 +2929,7 @@
 	quest.5B2FCE4917369975.quest_desc: [
 		"Tienes un sistema de temperatura corporal, mostrado por la barra de temperatura a la derecha de tu inventario. El calor corporal se ve afectado por la hora del día, el bioma, los bloques cercanos y la estación. La temperatura anormal — demasiado frío o demasiado calor — te daña, así que mantenerse térmicamente estable es una preocupación mayor de supervivencia."
 		""
-		"El sistema de temperatura completo se cubre en el capítulo secundario \"Cold Sweat\"."
+		"El sistema de temperatura completo se cubre en el capítulo secundario \\\"Cold Sweat\\\"."
 	]
 	quest.5B2FCE4917369975.quest_subtitle: "Eres el legendario rey de la resistencia al frío y al calor"
 	quest.5B2FCE4917369975.title: "Temperatura corporal"
@@ -2922,7 +2965,7 @@
 	quest.5CA2336EA00F02B0.quest_desc: [
 		"Los perros y los gatos pueden acompañarte en la caza; los gatos también cazan peces, pero no pueden con grandes depredadores. Los gatos en reposo incluso cazarán ratas para ti automáticamente."
 		""
-		"Agáchate y haz clic derecho para abrir el panel de órdenes de la mascota — la mayoría de las órdenes se explican solas. \"Estamos en casa\" hace que la mascota trate los alrededores como hogar; las mascotas ociosas vagarán entonces dentro de él."
+		"Agáchate y haz clic derecho para abrir el panel de órdenes de la mascota — la mayoría de las órdenes se explican solas. \\\"Estamos en casa\\\" hace que la mascota trate los alrededores como hogar; las mascotas ociosas vagarán entonces dentro de él."
 	]
 	quest.5CA2336EA00F02B0.quest_subtitle: "¡Compañero, vamos!"
 	quest.5CA2336EA00F02B0.title: "Buenos compañeros"
@@ -2961,8 +3004,12 @@
 	quest.5D6BE2A315BFBD2A.quest_subtitle: "Cuando te encuentres en un agujero, deja de cavar. — Will Rogers"
 	quest.5D6BE2A315BFBD2A.title: "&cFundamentos de minería"
 	quest.5D95BC05FB558E94.quest_desc: [
-		"Monta el Sputnik en la cima de tu cohete. Encendido, despegue, separación de etapas, órbita. Una vez que tu satélite circunda el planeta, tu base gana un par de ojos siempre en línea — y un chunk siempre cargado."
-		"Completar esta misión requiere entregar realmente el satélite a órbita — que tu lanzamiento tenga éxito."
+		"Monta el Sputnik en la punta de tu cohete. Este es el perfil de lanzamiento estándar — memorízalo:"
+		"Fase 1, ascenso propulsado: enciende y asciende; a altitud segura inicia el giro de gravedad, inclinándote unos 45 grados para ganar velocidad horizontal."
+		"Fase 2, planeo: apaga el motor principal y sigue subiendo por inercia. Vigila la consola holográfica: el vértice de la parábola es tu punto de inserción."
+		"Fase 3, circularización: cerca del vértice, enciende de nuevo para redondear la órbita. ¡El periapsis debe quedar sobre la atmósfera! Encender antes solo alarga la parábola, no la circulariza."
+		"En el espacio profundo puedes ajustar el tiempo con /rn timescale — acelera el planeo en vez de esperar."
+		"Esta misión solo se completa cuando el satélite está realmente en órbita — buena suerte, director de lanzamiento."
 	]
 	quest.5D95BC05FB558E94.quest_subtitle: "Activos espaciales +1"
 	quest.5D95BC05FB558E94.title: "Lanzar un satélite"
@@ -2983,7 +3030,7 @@
 		"Pega un globo rojo a una estructura física y se eleva ligeramente del suelo, manteniéndose erguida — útil para mover barcos, carros o casas. Los proyectiles revientan un parche entero de globos a la vez; para recuperarlos a salvo, agáchate con una llave inglesa."
 	]
 	quest.5E1C8A072D4F6B93.quest_subtitle: "Hora de acrobacias"
-	quest.5E1C8A072D4F6B93.title: "Remaches \& globos rojos"
+	quest.5E1C8A072D4F6B93.title: "Remaches \\& globos rojos"
 	quest.5E2ABBBF1C21DBB3.quest_subtitle: "Roca intrusiva, extrusiva o metamórfica bajo y=75"
 	quest.5E2ABBBF1C21DBB3.title: "Galena"
 	quest.5E2EF32B142A1F00.quest_desc: [
@@ -3010,21 +3057,22 @@
 	quest.5E673992EF7CBA4C.quest_desc: [
 		"La sala de encalado y la máquina desgranadora automatizan el procesado de cuero, con entrada y salida automatizadas. Los pasos reflejan los manuales de TFC — mete pieles de cada estado más el fluido correspondiente en la sala de encalado, mientras la máquina desgranadora se ocupa del paso de raspado sobre tronco."
 		""
-		"Las pieles procesadas a máquina reciben la etiqueta \"Hecho a máquina\"; cuando una piel etiquetada finalmente se convierte en cuero, el rendimiento se duplica. Pero cualquier paso hecho a mano quita la etiqueta."
+		"Las pieles procesadas a máquina reciben la etiqueta \\\"Hecho a máquina\\\"; cuando una piel etiquetada finalmente se convierte en cuero, el rendimiento se duplica. Pero cualquier paso hecho a mano quita la etiqueta."
 	]
 	quest.5E673992EF7CBA4C.quest_subtitle: "Generalmente querrás tres salas de encalado"
 	quest.5E673992EF7CBA4C.title: "Sala de encalado"
 	quest.5EC0DE11FE000002.quest_desc: [
-		"¿Los motores líquidos son demasiado caros? El acelerador sólido es el evangelio del astronauta sin blanca — lo creas o no, quema bloques de carbón."
-		"Una vez encendido, el empuje está al máximo, sin acelerador y sin apagado — quemar y desechar. Monta unos a los lados de tu motor principal para un gran empuje de despegue, y luego suelta las carcasas gastadas con separadores de etapas. Esa es la jugada estándar."
-		"La montura de motor canaliza el inmenso empuje suavemente hacia el casco — no la olvides."
+		"¿Motores líquidos muy caros? Los propulsores sólidos son la salvación del astronauta pobre: aunque no lo creas, queman bloques de carbón."
+		"Una vez encendidos, empuje al máximo: sin regulación, sin apagado, se desechan al agotarse. Móntalos siempre en pares simétricos — el par de un propulsor descentrado convertirá tu cohete en una peonza."
+		"Doctrina estándar: propulsores a los lados del motor principal para el impulso inicial del despegue; al agotarse, sepáralos con los separadores de etapa y deja que el motor principal siga el ascenso."
+		"Los soportes de motor transmiten ese empuje enorme al fuselaje sin sobresaltos. No los olvides."
 	]
 	quest.5EC0DE11FE000002.quest_subtitle: "La fuerza bruta hace milagros"
 	quest.5EC0DE11FE000002.title: "Aceleradores sólidos"
 	quest.5ED9F15870E8BD9F.quest_desc: [
 		"Create parte de una pequeña aleación. Con tu imaginación, este mod te permite construir ricas y variadas líneas de producción automatizadas."
 		""
-		"Completa esta misión para desbloquear el capítulo secundario \"Create\"."
+		"Completa esta misión para desbloquear el capítulo secundario \\\"Create\\\"."
 	]
 	quest.5ED9F15870E8BD9F.title: "Create"
 	quest.5EDC59121C7C0BE5.quest_desc: [
@@ -3033,7 +3081,7 @@
 	quest.5EDC9490C9358F90.quest_desc: [
 		"Una plancha doble de hierro forjado puede forjarse en una parrilla de hierro forjado, que se asienta sobre una hoguera."
 		""
-		"La parrilla ejecuta todas las recetas de cocina de hoguera, calienta dos objetos a la vez, y da a la carne cocida el efecto \"Asada al leño\" — ¡vida útil un 66% mayor que cruda!"
+		"La parrilla ejecuta todas las recetas de cocina de hoguera, calienta dos objetos a la vez, y da a la carne cocida el efecto \\\"Asada al leño\\\" — ¡vida útil un 66% mayor que cruda!"
 	]
 	quest.5EDC9490C9358F90.quest_subtitle: "Una fabricación, cien usos"
 	quest.5EE8F779D4D53AC8.quest_desc: [
@@ -3042,7 +3090,7 @@
 		"La piedra lisa resultante sirve para construir y fabricar. Es un bloque antigravedad — nunca cae naturalmente — pero los derrumbes aún la afectan."
 	]
 	quest.5EE8F779D4D53AC8.quest_subtitle: "No sirve contra los derrumbes"
-	quest.5EE8F779D4D53AC8.title: "Liso \& llano"
+	quest.5EE8F779D4D53AC8.title: "Liso \\& llano"
 	quest.5F0253B6892FD526.quest_desc: [
 		"El polvo de gema se muele de gemas en un molino de mano — material para la sierra de gemas y uno de los ingredientes de la fabricación de vidrio. La mayoría de las gemas necesitan un pico de acero o mejor para minarse, con una excepción: la pirita. Si tienes pirita, ponla a trabajar."
 		""
@@ -3115,7 +3163,7 @@
 		"El fertilizante añade nutrientes directamente — los comunes incluyen compost, harina de hueso, escoria, más algunos hallados en entornos específicos. Consulta la guía de campo y JEI para detalles."
 		"La tierra misma también viene en grados: la buena tierra aumenta el efecto del fertilizante un 20%, la pobre lo descuenta. Encuentra buena tierra antes de empezar."
 	]
-	quest.617276B60F099919.title: "Nutrientes \& fertilizante"
+	quest.617276B60F099919.title: "Nutrientes \\& fertilizante"
 	quest.61730A756764E281.quest_desc: [
 		"Fabrica un termómetro para leer la temperatura ambiente, mostrada a la derecha de tu inventario. Puedes llevarlo en la ranura de amuleto."
 	]
@@ -3225,9 +3273,9 @@
 	]
 	quest.658F3DB91D05D43A.quest_subtitle: "Agricultura eléctrica"
 	quest.65A7A76B0E1D979E.quest_desc: [
-		"Esto cubre la logística propia de Create; para otros métodos logísticos, mira el capítulo secundario «Almacenamiento \& Logística»."
+		"Esto cubre la logística propia de Create; para otros métodos logísticos, mira el capítulo secundario «Almacenamiento \\& Logística»."
 	]
-	quest.65A7A76B0E1D979E.title: "Logística \& trenes"
+	quest.65A7A76B0E1D979E.title: "Logística \\& trenes"
 	quest.65EA9C50849C6157.quest_desc: [
 		"Suelda acero azul débil con acero negro para obtener acero azul de alto carbono, y trabájalo luego en lingotes de acero azul."
 		""
@@ -3253,7 +3301,7 @@
 		""
 		"Así que este pack añade bloques de almacenamiento para servir a sus mods tecnológicos. Al presentarlos, este capítulo también cubre logística, para ayudarte a jugar mejor esos mods."
 	]
-	quest.665E4D6991D4423F.title: "Almacenamiento \& logística"
+	quest.665E4D6991D4423F.title: "Almacenamiento \\& logística"
 	quest.6683F85B13BEC586.quest_desc: [
 		"La colmena cría abejas y produce miel y cera de abeja. Se hace de un bloque de paja, madera aserrada y panales — puede alojar hasta un número fijo de panales dentro."
 		""
@@ -3268,7 +3316,7 @@
 		""
 		"1. Cómo se genera  2. Cómo se transmite  3. Velocidad de giro  4. Dirección de giro"
 	]
-	quest.66A9DD15750C952E.title: "Energía \& transmisión"
+	quest.66A9DD15750C952E.title: "Energía \\& transmisión"
 	quest.66E91517B379FE16.quest_desc: [
 		"La tolva mejora el embudo de madera: ahora cinco ranuras de almacenamiento, y dos objetos por segundo."
 	]
@@ -3331,7 +3379,7 @@
 	quest.68FAF5722D9330E6.quest_desc: [
 		"El cofre es un contenedor de 18 ranuras que guarda objetos de tamaño grande o menor — una fila menos que en vanilla. Como los cofres vanilla, dos se combinan en un cofre doble."
 		""
-		"Completar esta misión desbloquea el capítulo secundario «Almacenamiento \& logística»."
+		"Completar esta misión desbloquea el capítulo secundario «Almacenamiento \\& logística»."
 	]
 	quest.68FAF5722D9330E6.quest_subtitle: "Ningún mod hardcore deja escapar a los cofres del nerf"
 	quest.68FAF5722D9330E6.title: "Cofre"
@@ -3345,6 +3393,7 @@
 	quest.691426FDDF1DBEE8.title: "Trenes"
 	quest.697A86EBB3FDC50C.quest_desc: [
 		"Los electrodos de grafito se prensan en la embotelladora: inserta un molde de varilla y 4 porciones de polvo de grafito pirolítico altamente orientado, y luego bombea 1000 mB de creosota (los electrodos pueden encantarse con Irrompible). Los electrodos se desgastan lentamente mientras el horno de arco funciona: revísalos y reemplázalos con regularidad."
+		"Por cierto: el polvo también puede calentarse al blanco brillante en una forja (hacen falta fuelles) para obtener un lingote de HOPG, pero es solo una forma intermedia: los electrodos no necesitan el lingote, y los lingotes sobrantes pueden triturarse de vuelta a polvo sin pérdidas."
 	]
 	quest.69A8552ABEA84FCD.quest_desc: [
 		"Fundir aleaciones significa mezclar metales en las proporciones correctas. El bronce, por ejemplo: 18 polvos de cobre nativo de cinco mB más 2 polvos de casiterita de cinco mB se funden en 100 mB de bronce (90% cobre, justo dentro de la ventana del 88%~92%)."
@@ -3377,7 +3426,7 @@
 		"El disyuntor de SF6 corta de forma segura la corriente pesada durante fallos: entrada arriba, salida abajo, cerrado por defecto — aplica una señal de redstone para dispararlo abierto."
 	]
 	quest.6A4F03F6CAE9D73E.quest_subtitle: "Tirando del interruptor"
-	quest.6A4F03F6CAE9D73E.title: "Interruptor AT \& disyuntor"
+	quest.6A4F03F6CAE9D73E.title: "Interruptor AT \\& disyuntor"
 	quest.6A64F6EBAE7BFD8B.quest_desc: [
 		"Bombear fluidos a larga distancia con la bomba de fluidos necesita tuberías de fluido: las tuberías en sí no tienen límite de distancia."
 	]
@@ -3430,6 +3479,8 @@
 	]
 	quest.6C2A997579F144FB.quest_desc: [
 		"El pegamento funciona casi exactamente como las bolas de slime, y además participa en algunas recetas exclusivas de TFC."
+		"Receta clásica: 600 mB de agua de cal + 1 polvo de hueso, en un barril sellado durante unos 6 minutos. Con Create, una batidora mecánica lo hace al instante."
+		"Consejo: las recetas de barril sellado no aparecen al consultar un objeto en JEI; búscalas en la lista completa de recetas o usa EMI."
 	]
 	quest.6D0D57C8EED694B0.quest_desc: [
 		"Calienta fundente para obtener cal. Además de mezclarse con agua dulce para agua de cal, se usa en vidriería, papel y algunos materiales de construcción."
@@ -3546,9 +3597,9 @@
 	]
 	quest.7125F7DE94A46FA7.title: "Hacha de piedra"
 	quest.715669E7D546E425.quest_desc: [
-		"El yunque de hierro se fabrica a partir de un yunque de hierro forjado."
+		"Junta siete lingotes dobles de cobre y colócalos en forma de yunque en la mesa de trabajo para fabricar un yunque de cobre. Es un yunque de nivel I: en él se forjan los lingotes de cobre y se sueldan los lingotes dobles de las aleaciones de cobre. Los lingotes dobles se sueldan a partir de dos lingotes del mismo metal sobre cualquier yunque de piedra con fundente."
 	]
-	quest.715669E7D546E425.quest_subtitle: "¿Un yunque de hierro, o un yunque de hierro?"
+	quest.715669E7D546E425.quest_subtitle: "El yunque que lo empieza todo"
 	quest.7182903ED2EA8F35.quest_desc: [
 		"La caldera de vapor produce un estrés colosal, pero construir una es una verdadera faena."
 		""
@@ -3728,7 +3779,7 @@
 		""
 		"Engranajes y ejes pueden encerrarse en carcasa de andesita."
 	]
-	quest.75ADB32D28D01951.title: "Conexiones laterales \& rectas"
+	quest.75ADB32D28D01951.title: "Conexiones laterales \\& rectas"
 	quest.761A2980CF36CC0E.quest_desc: [
 		"La polea de cuerda convierte el área pegada directamente debajo en un artilugio y lo mueve verticalmente. Un artilugio que mueve se detiene en cuanto un bloque lo obstruye."
 		""
@@ -3752,10 +3803,10 @@
 		"- Bugs que bloquean el progreso por completo"
 		""
 		"Reporta bugs en nuestro Discord:"
-		"{\"text\":\"Únete a nuestro Discord\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://discord.gg/Fc7v5EXmkK\"},\"underlined\":true,\"color\":\"aqua\"}"
+		"{\\\"text\\\":\\\"Únete a nuestro Discord\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"open_url\\\",\\\"value\\\":\\\"https://discord.gg/Fc7v5EXmkK\\\"},\\\"underlined\\\":true,\\\"color\\\":\\\"aqua\\\"}"
 	]
 	quest.764432C063391A2C.quest_subtitle: "Arreglamos los bugs reportados por jugadores tan rápido como podemos"
-	quest.764432C063391A2C.title: "Feedback \& sugerencias"
+	quest.764432C063391A2C.title: "Feedback \\& sugerencias"
 	quest.76A888D663A57A86.quest_desc: [
 		"La mesa de crafteo — tu mejor amiga, no distinta de vanilla."
 		""
@@ -3834,7 +3885,7 @@
 		"Construye tu base de combustible así: coloca dos anclas de manguera, luego haz clic derecho en ellas en secuencia con una manguera de fluido en mano para trazar una línea flexible cuyos extremos se autonivelan. Esa es tu línea de combustible de la plataforma al tanque."
 	]
 	quest.791B4E8780BEA31C.quest_subtitle: "Lo que beben los cohetes"
-	quest.791B4E8780BEA31C.title: "Combustible \& oxidante"
+	quest.791B4E8780BEA31C.title: "Combustible \\& oxidante"
 	quest.7932CF2B21C63A6A.quest_desc: [
 		"El alternador convierte la rotación de Create en electricidad. Estructura simple: un rotor, imanes de estator a su alrededor, y escobillas para sacar la corriente. Aliméntalo con rotación y genera."
 		"El voltaje sube con la velocidad — una unidad pelada emite fácilmente más de cien voltios, lo que quemaría una bombilla al instante. A continuación probaremos con la carga más simple; los transformadores llegan en breve."
@@ -3924,7 +3975,7 @@
 		""
 		"Las fuentes de calor necesitan ciertos objetos para funcionar — objetos etiquetados «arde hasta una temperatura dada por una duración». Colectivamente: combustible."
 	]
-	quest.7AB3B0971A26532F.title: "Calentamiento \& combustible"
+	quest.7AB3B0971A26532F.title: "Calentamiento \\& combustible"
 	quest.7AC9CE65945FF732.quest_desc: [
 		"El grifo de árbol se forja con una lámina de hierro forjado en un yunque de nivel 3 (golpe al final y repujado en los dos pasos anteriores). Móntalo en medio de un tronco natural de al menos tres bloques de alto y coloca un barril mirando hacia arriba justo debajo; si las condiciones son las adecuadas, la savia empezará a gotear en el barril."
 		""
@@ -3959,7 +4010,7 @@
 		"Si no te resignas a cortar cables, craftea una pinza amperimétrica: engánchala a un cable para leer el tamaño y dirección de la corriente."
 	]
 	quest.7B2F1F1B385A6B97.quest_subtitle: "Formación básica de electricista"
-	quest.7B2F1F1B385A6B97.title: "Amperímetro \& voltímetro"
+	quest.7B2F1F1B385A6B97.title: "Amperímetro \\& voltímetro"
 	quest.7B339888D26E793E.quest_desc: [
 		"Forja hierro forjado en el martillo de ingeniero y los alicates de ingeniero — las herramientas básicas de Immersive Engineering."
 		""
@@ -3974,7 +4025,8 @@
 		""
 		"Un hogar puede afectar un volumen total de hasta 12,000 bloques, con un radio máximo de 96 bloques. Pero solo funciona en una habitación cerrada."
 	]
-	quest.7B91F6170388E9D8.quest_subtitle: "Roca sedimentaria \& metamórfica a cualquier altura, más en profundidad"
+	quest.7B91F6170388E9D8.quest_desc: ["Echa la bauxita directamente en el crisol para fundir aluminio. Ojo con su alto punto de fusión de 1550 °C: una forja de carbón sin fuelles solo alcanza 1415 °C, así que acciona los fuelles sin parar hasta superar los 1550 °C (la barra marca blanco brillante). Después vierte el metal en moldes de lingote con una canaleta. Los lingotes de aluminio sirven sobre todo para baterías y cables."]
+	quest.7B91F6170388E9D8.quest_subtitle: "Roca sedimentaria \\& metamórfica a cualquier altura, más en profundidad"
 	quest.7B91F6170388E9D8.title: "Bauxita"
 	quest.7BC7AB9444785C70.quest_desc: [
 		"La guadaña hace daño cortante y, sobre todo, sustituye al cuchillo para romper plantas: limpia un área de 3x3x3 de plantas de un golpe, perdiendo durabilidad al mismo ritmo."
@@ -3984,7 +4036,7 @@
 		"Uuu — ¡el tren electrificado parte! El pantógrafo puede teñirse, los trenes motorizados cambian su sonido, y colocar ciertos bloques cerca cambia el estilo del sonido."
 	]
 	quest.7BE07429076DD5A5.quest_subtitle: "Electrificación ferroviaria"
-	quest.7BE07429076DD5A5.title: "Catenaria \& pantógrafo"
+	quest.7BE07429076DD5A5.title: "Catenaria \\& pantógrafo"
 	quest.7BE7CAB908F1EB40.quest_desc: [
 		"La cubeta asiste principalmente a otras máquinas. Almacena nueve objetos y dos fluidos de hasta 1000 mB, y las seis caras aceptan entrada y salida. También auto-emite a ciertos bloques colocados en diagonal debajo."
 		""
@@ -4025,11 +4077,12 @@
 		"Solo para fundir hierro forjado. Proporción de alimentación: dos carbones vegetales por 100 mB de hierro."
 	]
 	quest.7D4CB2C7344BFAAC.quest_desc: [
-		"El estabilizador magnético amortigua vía campos magnéticos ambientales — una vez activo, cancela el momento angular de un vehículo y suprime el giro. Vuela fuera de la atmósfera sin uno y aprenderás lo que se siente en una secadora."
-		"La holo-mesa proyecta un holograma a escala del cosmos circundante; toca puntos para hacer zoom. Mírala antes del lanzamiento — al menos sabrás a dónde vuelas."
+		"El estabilizador magnético frena contra el campo magnético ambiental, cancelando el momento angular al activarse. Sal de la atmósfera sin uno y sabrás cómo se siente una lavadora."
+		"La consola holográfica proyecta el cosmos cercano a escala; toca los puntos de ajuste para acercar y alejar."
+		"Tras el lanzamiento vigila el holograma: tu trayectoria es una parábola y su vértice es tu punto de inserción orbital. Enciende de nuevo en el vértice para circularizar — el periapsis debe quedar sobre la atmósfera, o solo habrás lanzado un fuego artificial carísimo."
 	]
 	quest.7D4CB2C7344BFAAC.quest_subtitle: "No gires — lee el mapa"
-	quest.7D4CB2C7344BFAAC.title: "Estabilizador magnético \& holo-mesa"
+	quest.7D4CB2C7344BFAAC.title: "Estabilizador magnético \\& holo-mesa"
 	quest.7D5E480E38E98AD5.quest_desc: [
 		"Los imanes de redstone alimentados se atraen o repelen entre sí: polos opuestos se atraen, polos iguales se repelen, y los imanes que se atraen intentan alinearse."
 		"Úsalos para acoplamiento suave de vehículos, exhibiciones de levitación magnética — o simplemente para birlar la nave de un amigo."
@@ -4062,9 +4115,9 @@
 	quest.7E4A47E018C581AD.quest_desc: [
 		"El estrés es la energía con la que funcionan las máquinas de Create. Es único de Create, así que necesita dispositivos únicos para transmitirse."
 		""
-		"Completar esta misión desbloquea el capítulo secundario «Estrés \& dispositivos de transmisión»."
+		"Completar esta misión desbloquea el capítulo secundario «Estrés \\& dispositivos de transmisión»."
 	]
-	quest.7E4A47E018C581AD.title: "Estrés \& transmisión"
+	quest.7E4A47E018C581AD.title: "Estrés \\& transmisión"
 	quest.7E668B651B6954CB.quest_desc: [
 		"El horno de arco es la cúspide de la fundición de metales en este pack. Un enorme consumo eléctrico te compra casi todas las recetas de fundición. Algunas recetas también hacen escoria."
 		""
@@ -4099,10 +4152,11 @@
 		""
 		"Cargar objetos extremadamente grandes y muy pesados hace que tanto el hambre como la sed se drenen más rápido."
 	]
-	quest.7F29BD740D749BDB.title: "Comida \& agua"
+	quest.7F29BD740D749BDB.title: "Comida \\& agua"
 	quest.7F3BD13A6D3468CF.quest_desc: [
-		"Sputnik es un satélite artificial simple: una vez en órbita, carga permanentemente su chunk, sincroniza datos de color de bioma, y puede acoplarse con mods de computadoras para mapear las estrellas."
-		"Hazlo la primera carga útil de tu cohete — ligero, genuinamente útil, el inicio perfecto de un programa espacial."
+		"El Sputnik es un satélite sencillo: en órbita mantiene su chunk cargado para siempre, transmite los colores del bioma y puede acoplarse a una computadora para cartografiar las estrellas."
+		"Conecta una computadora por cable y se vuelve un periférico: getPosition() para coordenadas, getOrbitalPeriod() para el periodo orbital, getDistanceToPlanet() para la altitud, getBiomeName() para el bioma bajo tus pies — una estación de telemetría completa."
+		"Hazlo la primera carga útil de tu cohete: ligero, útil, el comienzo perfecto de un programa espacial."
 	]
 	quest.7F3BD13A6D3468CF.quest_subtitle: "El primer satélite artificial"
 	quest.7F3BD13A6D3468CF.title: "Sputnik"
@@ -4117,6 +4171,7 @@
 		"Los cables tienen resistencia: cuanto más largo el tendido y mayor la corriente, mayor la pérdida (pérdida = resistencia × corriente²). El arreglo es el mismo que en la vida real: sube el voltaje para transmitir, bájalo para usar."
 		"Primero haz un núcleo de transformador y fija la relación de espiras de la bobina en ambos lados, luego ensambla el transformador — la relación de espiras es la relación de voltaje. Radiadores alrededor del núcleo, o inmersión en aceite de transformador, elevan su potencia nominal; corre más allá y se sobrecarga."
 		"El tutorial de Ponder tiene una demo completa — muy recomendado antes de construir."
+		"Cómo conseguir aceite de transformador: mezcla aceite vegetal con agua en una tina de mezclado caliente y recógelo con un cubo de madera de TFC — ese cubo lleno es lo que acepta la receta del transformador."
 	]
 	quest.7F53EF08F17732CE.quest_subtitle: "El traductor del voltaje"
 	quest.7F53EF08F17732CE.title: "Transformador"
@@ -4162,7 +4217,7 @@
 		"El inductor hace que su salida siga suavemente a la entrada. Son los bloques lógicos de la automatización de vehículos — control de crucero, auto-flotación."
 	]
 	quest.939562E355C42578.quest_subtitle: "El arte de las señales analógicas"
-	quest.939562E355C42578.title: "Acumulador \& inductor"
+	quest.939562E355C42578.title: "Acumulador \\& inductor"
 	quest.9D483B5771954B7D.quest_desc: [
 		"La piedra levitante (cristal flotante) deja a una estructura física ignorar la gravedad: con suficientes la estructura flota en su sitio; a baja velocidad arrastra contra el movimiento, a alta velocidad el arrastre se desvanece. Solo mantiene altitud, nunca la gana — así que emparéjala con hélices o globos."
 		"Punto clave: en este pack viene de la Luna. Tras el alunizaje, tritura suelo lunar en polvo de luna, mézclalo en caliente con pepitas de zinc y agua en una mezcla levitante, luego cristaliza con calor. Es el material definitivo tras el capítulo de Cosmonáutica — conócelo aquí primero."
@@ -4174,7 +4229,7 @@
 		"La holo-mesa proyecta un holograma a escala del cosmos circundante; toca puntos para hacer zoom. Mírala antes del lanzamiento — al menos sabrás a dónde vuelas."
 	]
 	quest.9F1E878C9C32B164.quest_subtitle: "No gires — lee el mapa"
-	quest.9F1E878C9C32B164.title: "Estabilizador magnético \& holo-mesa"
+	quest.9F1E878C9C32B164.title: "Estabilizador magnético \\& holo-mesa"
 	quest.B51D1AA532DD20C3.quest_desc: [
 		"El sensor de altitud emite redstone según la elevación (presión del aire), el sensor de velocidad según la velocidad, y el sensor de actitud según la orientación — los rangos y direcciones se configuran en sus paneles de valores."
 		"Son los sentidos del piloto automático: p. ej. empareja un sensor de altitud con un receptor para que la aeronave apague su quemador al alcanzar la altura fijada."
@@ -4251,9 +4306,11 @@
 	quest.F330DDFC884A370D.quest_subtitle: "Destino: el mar de estrellas"
 	quest.F330DDFC884A370D.title: "Cosmonáutica"
 	quest.F427343F00ADE53B.quest_desc: [
-		"Ajusta tu órbita, alinea la Luna, desacelera y desciende. En el momento en que tus botas toquen el suelo lunar, el viaje de este modpack llega a su fin."
-		"No tires el suelo lunar — llévalo a casa y tritúralo en polvo de luna para hacer piedras levitantes, inaugurando para tus aeronaves la verdadera era de la antigravedad."
-		"Este es el logro final de TerraFirma: Rebirth 4.1. Enhorabuena, cosmonauta."
+		"Ajusta la órbita, apunta a la Luna, desacelera y desciende. Recuerda las patas de aterrizaje y recuerda matar la velocidad — la Luna no tiene atmósfera; frenar es solo retropropulsión."
+		"En el instante en que tus botas tocan el suelo lunar, el viaje de este modpack llega a su fin."
+		"No tires el regolito: llévalo a casa y tritúralo en polvo lunar para fabricar piedra flotante, y tus aeronaves entrarán en la verdadera era antigravedad."
+		"El regreso es tranquilo: el cohete te devuelve al mundo normal y el punto de aterrizaje queda limitado a un rango razonable alrededor del spawn — nada de búsquedas por todo el mapa. El verdadero desafío nunca fue volver, sino atreverse a partir."
+		"Este es el logro final de TerraFirma: Rebirth 4.1. Enhorabuena, astronauta."
 	]
 	quest.F427343F00ADE53B.quest_subtitle: "Un pequeño paso para un hombre"
 	quest.F427343F00ADE53B.title: "Alunizaje"
@@ -4268,7 +4325,7 @@
 		"Un comparador detrás del timón lee el ángulo de dirección. Recuerda fijar bien el modo del rodamiento — no dejes que la estructura vuelva a ser bloques a mitad de la conducción."
 	]
 	quest.F7BDE8E6DF156D2D.quest_subtitle: "¿Tienes licencia de conducir?"
-	quest.F7BDE8E6DF156D2D.title: "Timón \& acelerador"
+	quest.F7BDE8E6DF156D2D.title: "Timón \\& acelerador"
 	task.002284142525AC27.title: "Cualquier eje"
 	task.006A00010FF5FB7A.title: "Lee lo siguiente y luego haz clic en Confirmar"
 	task.009CB287F083F41A.title: "Lee lo siguiente y luego haz clic en Confirmar"
@@ -4293,7 +4350,7 @@
 	task.0A2B681CDDE82E91.title: "Lee lo siguiente y luego haz clic en Confirmar"
 	task.0A458100D1C70382.title: "Lee lo siguiente y luego haz clic en Confirmar"
 	task.0A55B04EA456D432.title: "Lee lo siguiente y luego haz clic en Confirmar"
-	task.0A988046524873A5.title: "Pala de piedra o pedernal"
+	task.0A988046524873A5.title: "Pala de piedra"
 	task.0AAA30746E7B46DE.title: "Lee lo siguiente y luego haz clic en Confirmar"
 	task.0B1D267229904C51.title: "Cualquier brote de árbol frutal"
 	task.0B52835048B4377E.title: "Lee lo siguiente y luego haz clic en Confirmar"
@@ -4301,7 +4358,7 @@
 	task.0DFD74ED8AC40B01.title: "Lee lo siguiente y luego haz clic en Confirmar"
 	task.0E30F531B5DC62DD.title: "Cualquier gema tallada"
 	task.0E6195DCA3BD21B9.title: "Lee lo siguiente y luego haz clic en Confirmar"
-	task.0EC0F6E8AFAFEAAA.title: "Azada de piedra o pedernal"
+	task.0EC0F6E8AFAFEAAA.title: "Azada de piedra"
 	task.0F3001E4F874D271.title: "Lee lo siguiente y luego haz clic en Confirmar"
 	task.0F847F7DC02C8761.title: "Lee lo siguiente y luego haz clic en Confirmar"
 	task.0FF2DF478389DD54.title: "Lee lo siguiente y luego haz clic en Confirmar"
@@ -4339,7 +4396,7 @@
 	task.1C96A5178D4B4CBC.title: "Lee lo siguiente y luego haz clic en Confirmar"
 	task.1CBE8B9C3CB0F60B.title: "Lee lo siguiente y luego haz clic en Confirmar"
 	task.1CFAF7974F7DD58D.title: "Lee lo siguiente y luego haz clic en Confirmar"
-	task.1D1D67A5499C168B.title: "Hoja de cuchillo de piedra o pedernal"
+	task.1D1D67A5499C168B.title: "Hoja de cuchillo de piedra"
 	task.1D21CFBA90714566.title: "Lee lo siguiente y luego haz clic en Confirmar"
 	task.1D8C3A53A8CC9D95.title: "Lee lo siguiente y luego haz clic en Confirmar"
 	task.1DA5FE394B8C0D74.title: "Recipiente grande"
@@ -4390,7 +4447,7 @@
 	task.2CB3CF4831DD5636.title: "Lee lo siguiente y luego haz clic en Confirmar"
 	task.2D33C55AC71BC906.title: "Lee lo siguiente y luego haz clic en Confirmar"
 	task.2D68FC14A54D978E.title: "Cualquier ladrillo de piedra"
-	task.2DE1EB171B656897.title: "Hacha de piedra o pedernal"
+	task.2DE1EB171B656897.title: "Hacha de piedra"
 	task.2DFC7DECC338069A.title: "Cualquier yunque de aleación de cobre"
 	task.2E20EAA56D24764C.title: "Lee lo siguiente y luego haz clic en Confirmar"
 	task.2EAB2E8FA3167767.title: "Lee lo siguiente y luego haz clic en Confirmar"
@@ -4436,7 +4493,7 @@
 	task.3F6B7D443F20C468.title: "Cualquier objeto de aleación de cobre"
 	task.3F863B66741F2532.title: "Lee lo siguiente y luego haz clic en Confirmar"
 	task.3F8C79609858F241.title: "Cualquier conglomerado de mena"
-	task.3F8E96FE10D84D70.title: "Jabalina de piedra o pedernal"
+	task.3F8E96FE10D84D70.title: "Jabalina de piedra"
 	task.4002438E588F6260.title: "Lee lo siguiente y luego haz clic en Confirmar"
 	task.404F4E1ED8A78737.title: "Lee lo siguiente y luego haz clic en Confirmar"
 	task.41301B5AEF2EA9F1.title: "Lee lo siguiente y luego haz clic en Confirmar"
@@ -4464,7 +4521,7 @@
 	task.4AD1EA05D258B07B.title: "Lee lo siguiente y luego haz clic en Confirmar"
 	task.4B31CAB513F2C930.title: "Lee lo siguiente y luego haz clic en Confirmar"
 	task.4B8D91115159149A.title: "Lee lo siguiente y luego haz clic en Confirmar"
-	task.4BAAAC8FF459A3B6.title: "Jabalina de piedra o pedernal"
+	task.4BAAAC8FF459A3B6.title: "Jabalina de piedra"
 	task.4BCC611A0A18E650.title: "Lee lo siguiente y luego haz clic en Confirmar"
 	task.4BD23ADC1D39B4B5.title: "Lee lo siguiente y luego haz clic en Confirmar"
 	task.4C8402313AE0DC04.title: "Cualquier barril"
@@ -4602,7 +4659,6 @@
 	task.8BD7EDD02119AFD2.title: "Lee lo siguiente y luego haz clic en Confirmar"
 	task.C19A713EE1B0B3A6.title: "Lee lo siguiente y luego haz clic en Confirmar"
 	task.D3510180393C8CB8.title: "Lee lo siguiente y luego haz clic en Confirmar"
-
 	chapter.7B2E000000000100.title: "Guía de elaboración de bebidas"
 	quest.7B2E000000000001.quest_desc: [
 		"Las parras silvestres cuelgan de los troncos en bosques donde la temperatura media se mantiene por encima de 5 °C."
@@ -4656,7 +4712,7 @@
 	quest.7B2E00000000000A.quest_desc: [
 		"Dos formas de ir más allá de lo básico: añade dieciséis flores cualquiera al barril para vino de flores, o dieciséis bloques de hielo para vino de hielo."
 		"Los licores elaborados en barriles de TFC —cerveza, sidra, whisky, whisky de centeno, whisky de maíz, vodka, ron y sake— también pueden embotellarse en el barril de elaboración."
-		"Forja una plancha de hierro forjado en un yunque de nivel 2 para hacer un grifo, instálalo en el barril, y servir una copa ganará algo de ceremonia."
+		"Forja una plancha de hierro colado en un yunque de nivel 2 para hacer un grifo, instálalo en el barril, y servir una copa ganará algo de ceremonia."
 	]
 	quest.7B2E00000000000A.quest_subtitle: "Vinos de flores, vinos de hielo y licores"
 	quest.7B2E00000000000A.title: "Un ramo de sabores"
@@ -4668,7 +4724,8 @@
 	quest.7B2E00000000000C.quest_desc: [
 		"Barras de bar, taburetes, sofás, armarios, portavasos, menús de pizarra, cálidas guirnaldas de luces... el conjunto Kaleidoscope tiene cada accesorio de madera que una taberna necesita."
 		"Construye tu propia tabernita, llena los botelleros con tus cosechas y da la bienvenida a los viajeros del camino."
-	]
+			"Las ollas, vaporeras, tablas de cortar, barriles, grifos y taburetes de Kaleidoscope funcionan en artefactos de Create: un camión de comida o una taberna voladora, tú eliges."
+]
 	quest.7B2E00000000000C.title: "Abre tu propia taberna"
 	quest.7B2E000000000020.quest_desc: [
 		"Ocho palos alrededor de un solo tablón forman una rueda resistente. Las ruedas son compartidas por todos los carros, así que guarda algunas de repuesto."
@@ -4695,6 +4752,13 @@
 		"Para largas distancias, rutas de mena y mudanzas, carga el doble que una carretilla de mano."
 	]
 	quest.7B2E000000000024.title: "El carro de suministros"
+	quest.7B2E000000000025.quest_desc: [
+		"La barca de TFC se fabrica con cinco tablones de TFC. Colócala en el agua y haz clic derecho para subir: la forma más barata de cruzar ríos al principio."
+		"¿Quieres transportar carga por agua? Sujeta un cofre de TFC y haz clic derecho en una barca que ya flote: se convertirá en una barca con cofre, con el espacio de un cofre completo."
+		"No busques las recetas de las barcas vanilla: las tablas vanilla no existen en este mundo y esas recetas son solo residuos. Las barcas de TFC son el camino."
+	]
+	quest.7B2E000000000025.quest_subtitle: "Barcas y barcas con cofre"
+	quest.7B2E000000000025.title: "Transporte fluvial"
 	quest.436FA5779CCC1FE4.quest_desc: [
 		"El horno es una estructura multibloque para cocer objetos en masa: su corazón es un fogón, revestido con ladrillos de arcilla o ladrillos refractarios (los de arcilla son mucho más baratos). El fogón debe quedar totalmente cerrado, con una rejilla encima para que el calor suba a la cámara."
 		""
@@ -4703,6 +4767,8 @@
 		"Por debajo del rojo brillante el fogón calienta 64 bloques a la vez; por encima, 128. Si la estructura se rompe durante el calentamiento, todo el progreso se pierde y hay que volver a sellarla; y si la temperatura se desvía del punto fijado, el temporizador se reinicia."
 		""
 		"Consejo: conecta un fuelle al fogón, como en la imagen, para subir la temperatura. La puerta ignífuga cuesta chapas de hierro fundido — si aún no te llega, sella la pared entera y rompe un bloque cuando necesites entrar."
+		""
+		"Cómo usarlo: mete la cerámica, los moldes o los ladrillos crudos en la cámara, sella el horno, llena el fogón de combustible y enciéndelo (un fuelle lo calienta más rápido), espera a que termine el temporizador y recoge el producto. La entrada «Hornos» de la guía de campo de TFC tiene todos los detalles."
 		"{image:kubejs:textures/quest/kiln.png width:200 height:125 align:center}"
 	]
 	quest.436FA5779CCC1FE4.quest_subtitle: "Cocción por lotes, hasta 128 piezas"
@@ -4725,4 +4791,193 @@
 	]
 	quest.7D3E4A5B6C7D8E9F.quest_subtitle: "Apareces en las coordenadas de Pekín"
 	quest.7D3E4A5B6C7D8E9F.title: "Un mundo real"
+	quest.7B2E000000000026.quest_desc: [
+		"La partitura es el corazón de Music Maker: un papel, un saco de tinta y una pluma. Sostén la partitura y haz clic derecho para abrir el compositor: los tiempos van de izquierda a derecha y el tono de abajo arriba. Haz clic izquierdo en una casilla para colocar una nota; haz clic de nuevo para quitarla."
+		""
+		"La barra superior ajusta el tempo (BPM) y el intervalo de compás; ▶ previsualiza y ■ detiene. Pulsa N para mostrar las partituras vecinas: lleva varias partituras juntas en la barra rápida y se encadenarán en una canción larga."
+		""
+		"Al terminar, pulsa «Firmar y cerrar»: una partitura firmada ya no se puede editar, pero lleva tu nombre. Combina una partitura firmada con una en blanco para clonar copias para tus compañeros de banda."
+		""
+		"{\\\"text\\\":\\\"▶ Página del mod y vídeo de demostración (CurseForge)\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"open_url\\\",\\\"value\\\":\\\"https://www.curseforge.com/minecraft/mc-mods/music-maker-mod\\\"},\\\"underlined\\\":true,\\\"color\\\":\\\"aqua\\\"}"
+	]
+	quest.7B2E000000000026.quest_subtitle: "Tinta sobre papel, y se vuelve canción"
+	quest.7B2E000000000026.title: "Partituras y composición"
+	quest.7B2E000000000027.quest_desc: [
+		"Una partitura necesita intérpretes. Todos los instrumentos de este pack están adaptados a materiales de TFC: tablones y palos de TFC para el cuerpo, hilo de lana para las cuerdas y varillas de cobre, oro o hierro forjado para las voces metálicas. Guitarras, banjos, violines, violonchelos, flautas, oboes, saxofones, trompetas, trompas, xilófonos, campanillas, sansulas, címbalos... busca xercamusic en JEI para ver todas las recetas."
+		""
+		"Sostén un instrumento y haz clic derecho para tocar en directo: pulsa las teclas o los parches en la interfaz. Reúne a unos amigos, un instrumento cada uno, y ya tenéis una banda."
+		""
+		"En el compositor puedes fijar un «instrumento de previsualización» para oír tu obra con su timbre mientras escribes."
+		""
+		"Dos miembros especiales: la guitarra redstone y el piano redstone suenan al recibir una señal de redstone. Y la Voz de Dios —forjada con una chapa de oro, un diamante, una esmeralda y una trompa— es el instrumento más lujoso del pack, con diferencia."
+	]
+	quest.7B2E000000000027.quest_subtitle: "Quince instrumentos, todos suenan"
+	quest.7B2E000000000027.title: "El taller de instrumentos"
+	quest.7B2E000000000028.quest_desc: [
+		"La caja de música es un reproductor automático: inserta una partitura firmada y haz clic derecho o dale un pulso de redstone para que toque la pieza, con el timbre del instrumento que elegiste al componer."
+		""
+		"El metrónomo emite pulsos de redstone al tempo fijado: úsalo para sincronizar varias cajas de música o para llevar el ritmo de tu banda en directo."
+		""
+		"Truco avanzado: reparte las distintas voces de una misma canción entre varias cajas de música y tendrás una orquesta automática. Añade un reloj de redstone y tu base tocará su himno a cada hora en punto."
+	]
+	quest.7B2E000000000028.quest_subtitle: "Que el pueblo escuche tu canción"
+	quest.7B2E000000000028.title: "La caja de música y el metrónomo"
+	quest.7B2E00000000002A.quest_desc: [
+		"Create: Towed enseña al ganado a arrastrar estructuras móviles: ata con una rienda una vaca, un caballo u otro animal grande a un vehículo o mecanismo fisicalizado y lo arrastrará."
+		""
+		"¿Una cosechadora demasiado pesada para el carro? ¿Una base rodante? Prueba con un par de bueyes fornidos. Eso sí, déjales margen en las cuestas."
+	]
+	quest.7B2E00000000002A.quest_subtitle: "Hasta un buey puede tirar de un tren"
+	quest.7B2E00000000002A.title: "Tiro animal"
+	quest.7B2E00000000002B.quest_desc: [
+		"Unas gafas de aviador más un diagrama de artilugio forman las gafas de delineante. Al llevarlas puestas se activa la vista de dibujo técnico: el mundo se muestra con contornos de plano, y cualquier estructura fisicalizada que mires (barcos, aeronaves) marca su centro de masa y dibuja sus grupos de fuerzas —sustentación, resistencia, empuje, gravedad— como vectores de colores."
+		""
+		"¿Se volcará la aeronave? ¿Es estable el centro de masa? Un vistazo basta. Haz clic derecho con ellas en la mano o usa el atajo (busca «Schematician» en los controles) para activar o desactivar la vista."
+	]
+	quest.7B2E00000000002B.quest_subtitle: "Ve las fuerzas y el centro de masa"
+	quest.7B2E00000000002B.title: "Gafas de delineante"
+	quest.7B2E00000000002C.quest_desc: [
+		"Create: Copycats+ trae toda una familia de bloques estructurales disfrazables: bloques, losas, escaleras, rampas, vallas, puertas, engranajes, tuberías de fluidos imitadores... Coloca uno y haz clic derecho con cualquier bloque completo para copiar su textura."
+		""
+		"Esconde tus máquinas dentro de muros de roca o haz ejes con vetas de maderas raras: los imitadores lo permiten todo. Las recetas cuestan sobre todo lingotes de zinc de TFC; busca copycats en JEI para ver el elenco completo."
+	]
+	quest.7B2E00000000002C.quest_subtitle: "Mil caras para un bloque"
+	quest.7B2E00000000002C.title: "Bloques imitadores"
+	task.7B2E000000000102.title: "Lee lo siguiente y luego pulsa Confirmar"
+	task.7B2E000000000105.title: "Lee lo siguiente y luego pulsa Confirmar"
+	task.7B2E000000000108.title: "Lee lo siguiente y luego pulsa Confirmar"
+	task.7B2E000000000110.title: "Lee lo siguiente y luego pulsa Confirmar"
+	quest.7B2E000000000040.title: "Computadora doméstica"
+	quest.7B2E000000000040.quest_subtitle: "Chasis de piedra, alma de Lua"
+	quest.7B2E000000000040.quest_desc: [
+		"Roca lisa para el chasis, redstone para los circuitos y un panel de vidrio para la pantalla: nace tu primera computadora."
+		"Haz clic derecho para iniciar CraftOS. Escribe help para ver los comandos y programs para ver lo que incluye."
+		"Escribe lua y luego print(\"Hello, TFCR!\") para saludarte."
+		"Las computadoras no tienen disco duro: los programas sobreviven al reinicio, pero para guardar de verdad necesitas una unidad de disco y disquetes."
+	]
+	task.7B2E000000000140.title: "Fabrica una computadora"
+	quest.7B2E000000000041.title: "Unidad de disco"
+	quest.7B2E000000000041.quest_subtitle: "Un disco duro para tu computadora"
+	quest.7B2E000000000041.quest_desc: [
+		"La unidad de disco permite a la computadora leer y escribir disquetes, programas y archivos incluidos."
+		"Los disquetes se fabrican con papel, polvo de redstone y tinte: dieciséis tintes, dieciséis colores."
+		"Inserta un disquete y usa copy para respaldar tu código; label set le pone nombre."
+	]
+	task.7B2E000000000141.title: "Unidad de disco"
+	task.7B2E000000000142.title: "Cualquier disquete"
+	quest.7B2E000000000042.title: "Monitor"
+	quest.7B2E000000000042.quest_subtitle: "Cuanto más grande, mejor"
+	quest.7B2E000000000042.quest_desc: [
+		"Un monitor funciona con clic derecho, pero junta varios del mismo nivel y se fusionan en una gran pantalla."
+		"Usa el comando monitor para mostrar en ella: monitor right hello enciende el monitor de la derecha."
+		"Los monitores avanzados (borde de oro) admiten color y tacto: toca la pantalla y tu programa recibe el evento."
+	]
+	task.7B2E000000000143.title: "Monitor"
+	task.7B2E000000000144.title: "Une dos o más monitores en una gran pantalla"
+	quest.7B2E000000000043.title: "Impresora"
+	quest.7B2E000000000043.quest_subtitle: "Poner palabras en papel"
+	quest.7B2E000000000043.quest_desc: [
+		"La impresora pone texto en papel: carga papel y tinte, escribe con edit en la computadora y ejecuta el programa print."
+		"Las páginas impresas se pueden encuadernar en libros para tus estanterías: imprenta al estilo TerraFirma."
+	]
+	task.7B2E000000000145.title: "Impresora"
+	quest.7B2E000000000044.title: "Computadora de bolsillo"
+	quest.7B2E000000000044.quest_subtitle: "Una computadora en tu bolsillo"
+	quest.7B2E000000000044.quest_desc: [
+		"Una computadora reducida al tamaño de un bolsillo, lista en cualquier lugar. La manzana dorada de la receta es su batería y carcasa: no preguntes, es tecnología."
+		"Equípala con un módem inalámbrico y controla toda la red de tu base desde el bolsillo."
+	]
+	task.7B2E000000000146.title: "Computadora de bolsillo"
+	quest.7B2E000000000045.title: "Tortuga"
+	quest.7B2E000000000045.quest_subtitle: "Un robot que trabaja por ti"
+	quest.7B2E000000000045.quest_desc: [
+		"Una tortuga es una computadora sobre orugas: escribe un programa y minará, talará, cultivará y construirá por ti."
+		"Una tortuga solo rinde con una buena herramienta: las normales usan herramientas de acero rojo, las avanzadas de acero azul. Solo obedecen a quien domina el fuego de la forja más profunda."
+		"Escribe excavate 5 en una tortuga y cavará un pozo de 5x5 sola; consulta help para más programas."
+		"Las tortugas queman combustible: pon carbón en su inventario y escribe refuel."
+	]
+	task.7B2E000000000147.title: "Tortuga"
+	task.7B2E000000000148.title: "Pon combustible en una tortuga y escribe refuel"
+	quest.7B2E000000000046.title: "Red cableada"
+	quest.7B2E000000000046.quest_subtitle: "Conéctalo todo"
+	quest.7B2E000000000046.quest_desc: [
+		"Los cables y módems cableados unen los periféricos en red: fija un módem al lado de una unidad de disco o monitor, actívalo con clic derecho y conéctalo por cable a la computadora."
+		"En red, los disquetes de la unidad pueden leerse de forma remota."
+	]
+	task.7B2E000000000149.title: "Cable de red"
+	task.7B2E00000000014A.title: "Módem cableado"
+	quest.7B2E000000000047.title: "Módem inalámbrico"
+	quest.7B2E000000000047.quest_subtitle: "Mensajes por el aire"
+	quest.7B2E000000000047.quest_desc: [
+		"Los módems inalámbricos conectan computadoras por el aire. Ambos extremos necesitan uno y el modelo normal tiene alcance limitado."
+		"El módem inalámbrico avanzado, con una lágrima de ghast como núcleo, alcanza a través de las dimensiones: verdadera comunicación a larga distancia en el mundo de TerraFirma."
+		"Abre rednet.open(\"right\") en ambas computadoras, luego rednet.send en una y rednet.receive en la otra para enviar mensajes."
+	]
+	task.7B2E00000000014B.title: "Módem inalámbrico"
+	quest.7B2E000000000048.title: "Bloques fuente y objetivo"
+	quest.7B2E000000000048.quest_subtitle: "Haz que las máquinas de Create hablen"
+	quest.7B2E000000000048.quest_desc: [
+		"CC:C Bridge es el puente entre Create y las computadoras."
+		"Un bloque objetivo con un enlace de visualización entrega velocidad de rotación, estrés y niveles de fluido a la computadora; un bloque fuente hace lo contrario, permitiendo que la computadora escriba texto en los enlaces."
+		"Es hora de construir un panel en vivo para tus máquinas de vapor."
+	]
+	task.7B2E00000000014C.title: "Bloque fuente"
+	task.7B2E00000000014D.title: "Bloque objetivo"
+	quest.7B2E000000000049.title: "RedRouter y Animatrónico"
+	quest.7B2E000000000049.quest_subtitle: "Circuitos que se mueven, solo por diversión"
+	quest.7B2E000000000049.quest_desc: [
+		"El bloque RedRouter permite a una computadora leer y escribir señales de redstone directamente: enciende toda una pared de lámparas con una llamada de API."
+		"El panel deslizante es un pequeño dial para elegir números; las computadoras pueden leerlo y ajustarlo, perfecto como perilla de control."
+		"El animatrónico es un juguete puro: controla su cuerpo y su cara desde una computadora y monta tu propio teatro de títeres."
+	]
+	task.7B2E00000000014E.title: "Bloque RedRouter"
+	task.7B2E00000000014F.title: "Panel deslizante"
+	task.7B2E000000000150.title: "Animatrónico"
+
+	quest.7B2E000000000051.title: "Computadora de vuelo"
+	quest.7B2E000000000051.quest_subtitle: "Dale un cerebro a tu cohete"
+	quest.7B2E000000000051.quest_desc: [
+		"ComputerCraft está integrado nativamente con Cosmonautics: conecta una computadora a un motor de cohete y se convierte en tu computadora de vuelo."
+		"Lista de métodos: setThrust() o throttle() para el acelerador; setComputerGimbal() para tomar la tobera vectorial; isIgnited() para el estado de ignición; getFuelTicks() para estimar el tiempo de combustión restante."
+		"Dispara los separadores de etapas con la API de redstone y podrás programar un lanzamiento totalmente automático: ignición, giro de gravedad, planeo, circularización, separación de impulsores — todo de una vez."
+		"Para más métodos de periféricos, escribe lua y consulta help, o repasa las misiones de computadoras en el capítulo de utilidades."
+	]
+	task.7B2E000000000151.title: "Cualquier computadora"
+	task.7B2E000000000152.title: "Lee el empuje en vivo de un motor con una computadora"
+	quest.7B2E00000000004A.quest_desc: [
+		"CC:Sable incorpora cuatro API de aeronáutica en todos los ordenadores, sin periféricos: listas al encender. Lleva un ordenador a bordo de una aeronave fisicalizada y leerá su estado en tiempo real."
+		""
+		"&6aero&f — datos atmosféricos: getAirPressure(pos) para la presión, getGravity(), getMagneticNorth() y getUniversalDrag()."
+		""
+		"&6sublevel&f — estado de la estructura física (solo da lecturas si el ordenador está en una nave fisicalizada): getVelocity(), getAngularVelocity(), getCenterOfMass(), getMass(), getInertiaTensor(), y setName() para bautizar tu nave."
+		""
+		"&6matrix / quaternion&f — librerías matemáticas para calcular la actitud; la rom también incluye el módulo advanced_math con controlador PID, estadística y funciones avanzadas."
+		""
+		"Uso típico: un ordenador de bolsillo avanzado con módem inalámbrico, retransmitiendo altitud, velocidad y actitud en vivo — o escribe un PID que equilibre solo el globo. Escribe &6help aero&f o &6help sublevel&f en el juego para ver la documentación completa."
+	]
+	quest.7B2E00000000004A.quest_subtitle: "Dale un cerebro a tu aeronave"
+	quest.7B2E00000000004A.title: "Ordenador de Vuelo"
+	quest.5D23F7FDFBBEEA10.quest_desc: [
+		"Alimenta un giroscopio con potencia rotacional y limitará la actitud de tu nave, resistiendo balanceo y cabeceo: el núcleo de estabilización de cualquier aeronave o barco grande."
+		""
+		"Ojo con la nueva física, ya no funciona como antes:"
+		"· El volante tiene inercia de arranque: tarda unos diez segundos en alcanzar plenas revoluciones, no es instantáneo;"
+		"· La eficacia escala con las RPM: potencia plena a 128 RPM (ajustado desde 256 en este pack), proporcionalmente menor por debajo;"
+		"· Un solo giroscopio cubre una inercia limitada: los cascos grandes necesitan varios en paralelo. Si el tooltip dice &6Underpowered&f, añade más."
+		""
+		"Consulta el tooltip para ver el estado: Off / Unstable / Underpowered / Steady / Level."
+		""
+		"La regla de siempre: nunca lo montes en un cohete — una actitud bloqueada inutiliza todos los motores vectoriales."
+	]
+	quest.5D23F7FDFBBEEA10.quest_subtitle: "Firme mientras gire"
+	quest.5D23F7FDFBBEEA10.title: "Giroscopio"
+	quest.7B2E000000000050.quest_desc: [
+		"La magia está a tu alcance: un libro, lana roja, tres obsidianas y dos placas de hierro forjado forman una mesa de encantamientos."
+		"Rodéala de librerías — cualquier librería de madera de TFC la alimenta, pero solo si tiene libros dentro: cada libro suma medio punto de poder, una librería llena de 6 libros equivale a tres librerías normales, y cinco librerías llenas desbloquean los encantamientos más potentes."
+		"Encantar cuesta experiencia y polvo: cualquier polvo de gema sirve de combustible (el lapislázuli también funciona). La experiencia viene de minar: los minerales más ricos sueltan más."
+		"Todo el equipo metálico de TFC se puede encantar: cobre, bronces, hierro forjado, acero y acero negro; el acero rojo y el azul aceptan mejor los encantamientos."
+		"Cinco encantamientos exclusivos: protección contra perforación, aplastamiento y tajo (armadura, mutuamente excluyentes, cinco niveles); Aspecto lento (arma, ralentiza al objetivo golpeado); Caza (arma, gran daño extra contra depredadores)."
+	]
+	quest.7B2E000000000050.quest_subtitle: "Hierro forjado y polvo de gema"
+	quest.7B2E000000000050.title: "Mesa de encantamientos"
 }

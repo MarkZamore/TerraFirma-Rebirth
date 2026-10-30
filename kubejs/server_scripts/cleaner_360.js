@@ -29,11 +29,31 @@ ServerEvents.tick(function (event) {
     var pos = cleanerTick % CLEAR_INTERVAL
     var remain = CLEAR_INTERVAL - pos
 
-    // 到点清理：kill 命令返回被清除的实体数量
+    // 到点清理：遍历所有维度的掉落物实体，逐一 discard 并计数
+    // 注意：level.getEntities() 返回 LevelEntityGetter（不可迭代），必须用 ServerLevel.getAllEntities()
+    //（kill 命令的返回值不可靠，会永远显示 0）
+    // KJS7(2101.7.x) 正确取法：event.server 即 MinecraftServer，用原生 getAllLevels()
+    // （event.server.levels 不存在；Utils.getServer() 也不存在——UtilsWrapper 没这个方法）
     if (pos === 0) {
         var count = 0
         try {
-            count = Math.max(0, event.server.runCommandSilent('kill @e[type=minecraft:item]') | 0)
+            var ItemEntityClass = Java.loadClass('net.minecraft.world.entity.item.ItemEntity')
+            var levelIt = event.server.getAllLevels().iterator()
+            while (levelIt.hasNext()) {
+                var level = levelIt.next()
+                try {
+                    var entityIt = level.getAllEntities().iterator()
+                    while (entityIt.hasNext()) {
+                        var e = entityIt.next()
+                        if (e && e instanceof ItemEntityClass && e.isAlive()) {
+                            e.discard()
+                            count++
+                        }
+                    }
+                } catch (err2) {
+                    console.error('[360卫士] 清理维度 ' + level.dimension().location() + ' 时出错: ' + err2)
+                }
+            }
         } catch (err) {
             console.error('[360卫士] 清理掉落物时出错: ' + err)
         }

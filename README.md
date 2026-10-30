@@ -1,124 +1,148 @@
 # TerraFirma Rebirth 2
 
-TerraFirma: Rebirth by MerMerrr, release `1.21.1-4.1.21release`, for Minecraft
-1.21.1 on NeoForge 21.1.248, laid out as a portable pack the LANMinecraft
-launcher can install and update.
+Полная авторская `1.21.1-1.0.0-release`, Minecraft 1.21.1 / NeoForge 21.1.248,
+для LANMinecraft. Источник — [официальный выпуск Granni_Xie / TFCR Dev Team](https://www.curseforge.com/minecraft/modpacks/terrafirma-rebirth/files/8843176).
+Архив: 489 344 319 байт, SHA256 `51fc02aaee49ed9668e97923f9b4714acb5bf1fb4fe6f225652e4e2874372d19`.
 
-The tree is the CurseForge release. Its manifest names 195 mods by project and
-file id; 187 came from CurseForge and five more - EntityCulling, 3D Skin
-Layers, Create Aeronautics, TFC Sable Rivers and E33 Chat - from Modrinth,
-because their authors switched off API distribution on CurseForge and Modrinth
-serves the same file names. Seven further mods ride inside the release's own
-`overrides/mods`, so the folder holds 199 before the three below.
+Все 209 файлов manifest и 13 встроенных JAR сохранены: 222 основных JAR.
+Каждый из 2 913 авторских файлов совпадает с оригиналом по размеру и SHA256.
+В составе остаются CustomSkinLoader, Euphoria Patcher, Voxy/Roxy, авторские
+конфиги, скрипты, музыка, ресурсы и шейдеры. Авторские JAR не заменены и не исключены.
 
-Three more came from CurseForge by hand, because their authors blocked API
-distribution and they exist nowhere else - `coralstfc` 1.0.3, `tfcorewashing`
-1.1.4 and `simulatedcoasters` 0.1.5, each checked against the SHA-1 CurseForge
-publishes for it. So the folder held 202; one came back out, for the reason below.
+Стабильный ID — `terrafirma-rebirth`, опубликованный путь — `TerraFirma Rebirth`,
+источник обновлений — `MarkZamore/TerraFirma-Rebirth-2`. Видимое название не
+переносит и не пересоздаёт личные миры.
 
-## What comes from the release and what does not
+## Подготовка для лаунчера
 
-`config/`, `kubejs/`, `shaderpacks/`, `journeymap/`, `global_packs/` and
-`ambience_music/` are the release's own overrides, and its root `options.txt`
-is `configureddefaults/options.txt` here, which is where the launcher seeds an
-instance from. The client jar is Mojang's own 1.21.1, byte for byte the one the
-other packs carry.
+Проверено 30 октября 2026 года с лаунчером 420; точный коммит и границы
+проверки указаны в runtime-отчёте ниже.
 
-`servers.dat` is left out. It is a player's server list, not something the pack
-decides.
+Авторский `options.txt` сохранён в исходниках и побайтово скопирован в
+`configureddefaults/options.txt`. Кнопка управления использует его, только
+когда личных настроек ещё нет. В существующем файле меняются назначения клавиш,
+остальные параметры сохраняются. Прежний дополнительный seed языка удалён;
+авторские переводы квестов остаются без изменений.
 
-`ambience_music/` is 380 MB of the 838, and `global_packs/` carries the
-resource packs the Global Packs mod force-loads - including a Chinese mod
-translation of 1092 files, which is the author's and does nothing to a player
-reading anything else. Both are roots the template's publisher did not know
-about, so `tools/generate_manifest.py` names them: a root missing from
-`SCAN_ROOTS` is never published, and the pack would arrive quietly short.
+Пресет содержит ровно 216 действий из настоящего Options-реестра игры.
+88 назначений используют различные физические клавиши, 128 строк свободны.
+Пять прежних свободных строк вне Options удалены; все 88 назначений сохранены.
+Авторский `options.txt` остаётся побайтово неизменным. Настоящие
+InputConstants/KeyMapping NeoForge 21.1.248 под Java 21 проверили исходный
+пресет и 3 828 пар назначений без конфликтов; окончательный набор является его
+подмножеством и совпадает со всеми 216 нативными редактируемыми действиями.
+Публикация проверяет закреплённый нативный реестр и точные исходные JAR;
+статическое сканирование служит поиском новых действий. Руководство и происхождение:
+[tools/keybinds/design.md](tools/keybinds/design.md).
 
-## The questbook is already Russian
+Общий транспорт Steam и адаптер идентичности устанавливаются лаунчером в
+экземпляр игры. В исходной папке `mods` остаются только 222 авторских JAR.
+Данные поставки включают описание платформы, пресет, копию авторских начальных
+настроек и ownership для полного авторского `config/fml.toml`.
+Дальность и качество остаются авторскими и личными.
+Заголовок окна `TerraFirma Rebirth 2` задаётся одной JVM-строкой сборки;
+стабильный ID, опубликованный путь, имена экземпляров и миры не переименованы.
 
-FTB Quests, 36 chapters, and the release ships
-`config/ftbquests/quests/lang/ru_ru.snbt` alongside English, Spanish and
-Chinese. It is complete: the same 1958 keys as `en_us.snbt`, none missing in
-either direction, and Cyrillic in 1214 of its 1231 strings. Nothing here
-translates anything - the work is the author's, and it only had to be carried
-through rather than dropped.
+Для CustomSkinLoader сохранены его авторский JAR и обязательные проверки.
+`config/native-version-metadata.jar` содержит только исходный 357-байтовый
+`version.json` Minecraft, без классов, mod descriptors и агентов. Одна строка
+`-Xbootclasspath/a:config/native-version-metadata.jar` делает родные метаданные
+видимыми системному classloader. Это данные самой сборки, подготовленные из
+закреплённого исходного client JAR; общего переписывания модов в лаунчере нет.
+Инструмент, проверка при обновлении платформы и границы:
+[tools/native-version-metadata/README.md](tools/native-version-metadata/README.md).
 
-`options.txt` sets no language, so the game opens in English and follows
-whatever the player picks; the questbook follows with it.
+В авторском экспорте есть Euphoria Patcher 1.9.3 и настройки Complementary
+r5.8.1, но отсутствуют требуемые базовые ZIP Complementary. Это вызывало видимое
+красное уведомление Sodium поверх меню. Добавлены два точных официальных
+входных файла `ComplementaryUnbound_r5.8.1.zip` и
+`ComplementaryReimagined_r5.8.1.zip`; неизменённый авторский Patcher создаёт
+свои пакеты штатно. Происхождение, размеры и SHA256/SHA512:
+[native-required-shader-inputs.json](tools/author-source/native-required-shader-inputs.json).
+Моды не обновлены, показ ошибок не отключён, авторский `enableShaders=false`
+и остальные параметры качества сохранены. Эти два дополнения явно входят в
+support-поставку, а не выдаются за содержимое исходного архива.
 
-## CustomSkinLoader is out
+`config/log4j2.xml` и одна строка `launcher/jvm-args.txt` сохраняют прежний общий
+журнал как данные сборки. Шаблон SHA256
+`6752b55f7a2ede24cef57d8bab70cfeec8f471f7adb72b6fb13b46853151c65d`
+проверен с настоящими зависимостями Minecraft/NeoForge; исключения и уровни
+журнала сохранены. JVM-параметр сборки применяется после нативных значений.
 
-The release shipped CustomSkinLoader 15.0.1 and the game would not start with
-it:
+Авторский `servers.dat` сохранён в исходниках как часть снимка, но не включён
+в runtime-поставку: личный список серверов принадлежит экземпляру игры.
+Личные миры и настройки при подготовке не читались и не копировались.
 
-    Patch 'customskinloader:skin-manager-patch:skin-manager.<init>.v1'
-    matched protocol 0 but did not modify any bytecode
+## Авторские изменения и миры
 
-It patches `net.minecraft.client.resources.SkinManager`, and so does the
-launcher's identity agent - `createSkinLookup` and the lambda inside it are
-named in the arguments every launch is given. The agent is a `-javaagent`, so
-it runs before ModLauncher's transformers; by the time CustomSkinLoader looks
-at the constructor it is no longer the shape it expects, and it refuses rather
-than guess.
+Прежняя опубликованная основа содержала 200 JAR, новая содержит 222.
+Изменились 14 mod ID, добавились 26 и исчезли четыре: `cosmo_return_clamp`,
+`create_aeronautics_ftb_chunks`, `entityculling`, `nowheel`.
+Это состав точного авторского архива, без индивидуальных обновлений поверх него.
+Версии, старые и новые SHA256 каждого заменённого JAR и все добавленные/удалённые
+mod ID закреплены в
+[author-update-impact.json](tools/author-source/author-update-impact.json).
+Вопреки упоминанию 1.3.2 в changelog автора, manifest закрепляет Create
+Aeronautics 1.3.1; сохранён именно этот файл.
 
-Two skin systems cannot both own that class, and the launcher's is the one this
-whole setup rests on: skins follow a player across machines and across a LAN
-from their Steam identity. CustomSkinLoader answers the same question for skin
-servers this setup does not use, and nothing in the pack declares it - no mod
-here names it as a dependency. So it is out rather than silenced with
-`-Dcustomskinloader.ignorePatchFailure=true`, which would have let the game
-start with the mod loaded and its one job undone.
+Автор убрал отдельную защиту кораблей Create Aeronautics: FTB Chunks.
+Её `SubLevelClaimHandler`/`ProtectionHelper`, проверки корабельных пакетов,
+блок и предмет `create_aeronautics_ftb_chunks:contraption_claim_block`, а также
+block entity `create_aeronautics_ftb_chunks:contraption_claim_block_entity`
+больше не входят в состав. Неизменённый FTB Chunks не сохраняет автоматически
+эти отдельные функции. Собственная политика Safety из ATM9 Modified на TFR
+не распространяется.
 
-mods/ holds 201.
+Автор называет 1.0 преемником 4.1.24-hotfix2. Перенос прежних личных миров из
+нашей 4.1.21 без утраты старых registry ID не проверялся. Личные файлы и миры
+хранятся отдельно от обновляемой сборки.
 
-## Shaders work out of the box, and Complementary is gone
+## Источники модов
 
-The release shipped Euphoria Patcher and two settings files named for
-Complementary, but not Complementary itself - its licence lets a modpack
-include it only through Modrinth's or CurseForge's own systems and forbids
-redistributing it by direct file upload, which is what a git repository of
-files is. So the patcher opened every game with SHADER NOT FOUND and Iris was
-pointed at a folder that only exists once the player has fetched the base
-shader themselves.
+[library/mod-pages.json](library/mod-pages.json) связывает настоящие mod ID
+с официальными страницами. Все 13 встроенных JAR дополнительно найдены
+побайтово в первичных источниках: семь файлов Modrinth и шесть GitHub releases
+команды TFCR. Ссылки TFCR-форков ведут на их собственные репозитории, включая
+`electroenergetics-TFCR` и `woodencog-TFCR`, а не на похожие исходные проекты.
+Подтверждения:
+[mod-pages-provenance.json](tools/author-source/mod-pages-provenance.json).
 
-That whole arrangement is out: the patcher, its config, and the two settings
-files. What is left is the two shaders the pack really ships, `TFCR-Bliss` and
-`TFCR-photon-voxy-support`, both the author's own edits, and `iris.properties`
-opens on Bliss - the smaller of the two, and the one that does not carry
-support for Voxy, a mod this pack does not have.
+## Проверки
 
-A player who wants the Complementary look can still have it: install Euphoria
-Patcher and Complementary r5.9 into their own instance. Nothing here fights
-them. It is simply not something this pack can hand out.
+```sh
+python -B tools/verify_author_stock.py
+python -B -m unittest discover -s tools -p test_verify_author_stock.py
+python -B tools/native-version-metadata/prepare.py --pack . --check
+python -B -m unittest discover -s tools/native-version-metadata -p "test_*.py"
+python -B tools/keybinds/validate_native_registry.py
+python -B -m unittest discover -s tools/keybinds -p test_native_registry.py
+python -B tools/keybinds/build_preset.py --check
+python -B tools/keybinds/check_preset.py
+python -m unittest discover -s tools -p test_pack_library.py
+```
 
-## One warning removed
+Происхождение закрепляют [tools/upstream-lock.json](tools/upstream-lock.json),
+оригинальный [manifest](tools/author-source/manifest.json) и полный
+[stock-snapshot](tools/author-source/stock-snapshot.json). Git не преобразует
+концы строк (`* -text`). Публикуются также авторские каталоги музыки, Global
+Packs и JourneyMap.
 
-`config/fml.toml` held `sable = ["-scalablelux"]`, softening Sable's declared
-incompatibility with ScalableLux. ScalableLux is not in this pack, so the
-override matched nothing and NeoForge said so on every load - the one warning
-on the mod-loading screen. It is gone.
+Прогон с ресурсной проекцией подтвердил загрузку клиента, три нативных замера
+главного меню и новый приватный мир с `TFCChunkGenerator`: 43 последовательных
+замера с продвижением сервера, без GUI/overlay, затем штатный выход 0 и проверка
+сохранения настоящим NBT serializer. Измерены 15 атласов, 18 844 спрайта и предел
+GPU 16 384, без выходов прямоугольников за границы.
 
-The file is claimed in `launcher/pack-owned.txt`, because NeoForge rewrites it
-itself: it looks player-edited from the first launch, and nothing shipped could
-otherwise reach an instance that already has it.
+Повторный запуск после дополнения shader-входов подтвердил штатное создание
+обоих пакетов неизменённым EuphoriaPatcher 1.9.3 и настоящее название окна
+Windows `TerraFirma Rebirth 2`. Нативные снимки независимой консоли Sodium
+доступны: первый содержит только INFO об успешной установке, третий пуст;
+SEVERE отсутствуют. Проверка пикселей экрана не заявляется. Оба запуска
+завершились штатным выходом 0; мир для изменения входных файлов и заголовка
+повторно не создавался.
 
-## Publishing
-
-`tools/generate_manifest.py` writes `pack-manifest.json` and stages the zipped
-roots; `.github/workflows/publish.yml` runs it on every push to `main` and
-rolls the `pack-latest` release. The manifest carries `modCount` - jars plus
-the mods nested inside them - so the launcher's memory estimate reads the same
-before the download and after.
-
-
-## Launcher library
-
-`library/content.json` owns the player-facing description, stable identity, additional library IDs and curated addon relationships; `library/preview.jpg` is the original menu background resized for cards and the detail banner. `tools/pack_library.py` reads the actual shipped jars and builds a deterministic, content-addressed library bundle. The optional `library` field of `pack-manifest.json` names its size, SHA-256 and revision. It is published before the manifest, separately from installed game files, and ignored by older launchers.
-
-## Controls preset
-
-The launcher offers a complete 213-mapping controls preset for this pack. It keeps vanilla controls, gives TFC and engineering actions separate keys, and is validated before every GitHub release. See [the layout and maintenance instructions](tools/keybinds/design.md). Applying the preset is optional; later changes are distributed as pack data without a launcher update.
-
-## Rename compatibility
-
-TerraFirma Rebirth 2 updates the existing pack. The stable catalogue ID `terrafirma-rebirth` and published installation key `TerraFirma Rebirth` are retained so existing launchers receive the renamed library card and subsequent pack updates at startup without a new executable. The source repository and authoring folder use the new name. Newer launchers also recognise the old installation key after migrating their local folders; worlds continue to belong to the same pack.
+Полный [отчёт](tools/author-source/runtime-1.0.0-report.md) разделяет этапы и
+оставшиеся ошибки. Компиляция одного Veil compute shader всё ещё завершается
+ошибкой, а полный прогон мира содержит проблемы авторских recipes/tags/JEI.
+Подключение Steam, два клиента, внешний вид скинов и визуальные эффекты не
+проверены. Оставшиеся ERROR не объявлены исправленными.

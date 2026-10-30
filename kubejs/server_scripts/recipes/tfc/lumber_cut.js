@@ -65,17 +65,23 @@ ServerEvents.recipes(event => {
     }
     Object.keys(afc_alias_lumber).forEach(wood => {
         const lumber = afc_alias_lumber[wood]
-        create.cutting([`12x ${lumber}`, "farmersdelight:tree_bark"], `afc:wood/log/${wood}`)
-        .id(`tfc:lumber_cut/create/cutting/${wood}_alias_log`)
+        // 输入用 AFC 官方原木标签（含 原木/木块/远古原木/远古木块 四种变体，
+        // 与 AFC 自带 fig_from_rubber_fig_logs 等合成配方同一口径），
+        // 避免单个物品ID在特殊状态下匹配不上
+        // 注意：KJS 的 create.cutting 对标签输入序列化有 bug（会把物品标签塞进流体槽位
+        // 产出 amount:1000 的畸形 JSON），必须 event.custom 手写
+        event.custom({
+            type: 'create:cutting',
+            ingredients: [Ingredient.of(`#afc:${wood}_logs`).toJson()],
+            results: [
+                { id: lumber, count: 12 },
+                { id: 'farmersdelight:tree_bark' }
+            ],
+            processing_time: 100
+        }).id(`tfc:lumber_cut/create/cutting/${wood}_alias_log`)
 
-        create.cutting([`12x ${lumber}`, "farmersdelight:tree_bark"], `afc:wood/wood/${wood}`)
-        .id(`tfc:lumber_cut/create/cutting/${wood}_alias_wood`)
-
-        cutting([`12x ${lumber}`, "farmersdelight:tree_bark"], `afc:wood/log/${wood}`, "axe_dig")
+        cutting([`12x ${lumber}`, "farmersdelight:tree_bark"], `#afc:${wood}_logs`, "axe_dig")
         .id(`tfc:lumber_cut/farmersdelight/cutting/${wood}_alias_log`)
-
-        cutting([`12x ${lumber}`, "farmersdelight:tree_bark"], `afc:wood/wood/${wood}`, "axe_dig")
-        .id(`tfc:lumber_cut/farmersdelight/cutting/${wood}_alias_wood`)
     })
 
     //Beneath 下界木（绯红/诡异菌木）：砧板与动力锯切割补齐，规格与 TFC/AFC 完全一致

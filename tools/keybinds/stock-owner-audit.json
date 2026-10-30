@@ -1,0 +1,2942 @@
+{
+  "scope": "Exact219author option-name sourceownership; currentJARdeclaration/lang matches and4embeddedfactory proofs, not fresh game registration proof",
+  "rows": [
+    {
+      "id": "key.jei.nextRecipePage",
+      "inVanilla": false,
+      "languageJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "keyClassLiteralJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "namespaceJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.jei.clearSearchBar",
+      "inVanilla": false,
+      "languageJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "keyClassLiteralJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "namespaceJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.loadToolbarActivator",
+      "inVanilla": true,
+      "languageJars": [],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.schematician.toggle_drafting_view",
+      "inVanilla": false,
+      "languageJars": [
+        "schematician-0.10.0.jar"
+      ],
+      "keyClassLiteralJars": [
+        "schematician-0.10.0.jar"
+      ],
+      "namespaceJars": [
+        "schematician-0.10.0.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.ftbquests.gui_editor.force_delete",
+      "inVanilla": false,
+      "languageJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.reload",
+      "inVanilla": false,
+      "languageJars": [
+        "AmbienceMini-1.21.1-2.7.10.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.friendship.prank",
+      "inVanilla": false,
+      "languageJars": [],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [],
+      "orphanNamespace": true
+    },
+    {
+      "id": "key.sablecleanup.open_list",
+      "inVanilla": false,
+      "languageJars": [
+        "sablecleanup-0.3.0.jar"
+      ],
+      "keyClassLiteralJars": [
+        "sablecleanup-0.3.0.jar"
+      ],
+      "namespaceJars": [
+        "sablecleanup-0.3.0.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.friendship.interact",
+      "inVanilla": false,
+      "languageJars": [],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [],
+      "orphanNamespace": true
+    },
+    {
+      "id": "key.dynamic_fps.toggle_disabled",
+      "inVanilla": false,
+      "languageJars": [
+        "dynamic-fps-3.11.4+minecraft-1.21.0-neoforge.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "dynamic-fps-3.11.4+minecraft-1.21.0-neoforge.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.sprint",
+      "inVanilla": true,
+      "languageJars": [],
+      "keyClassLiteralJars": [
+        "create-1.21.1-6.0.10.jar"
+      ],
+      "namespaceJars": [],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.ftbteams.open_gui",
+      "inVanilla": false,
+      "languageJars": [
+        "ftb-teams-neoforge-2101.1.10.jar"
+      ],
+      "keyClassLiteralJars": [
+        "ftb-teams-neoforge-2101.1.10.jar"
+      ],
+      "namespaceJars": [
+        "ftb-teams-neoforge-2101.1.10.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.aeronautics_curios_compat.remote_use",
+      "inVanilla": false,
+      "languageJars": [
+        "createaeronauticscurios-neoforge-1.21.1-2.2.jar"
+      ],
+      "keyClassLiteralJars": [
+        "createaeronauticscurios-neoforge-1.21.1-2.2.jar"
+      ],
+      "namespaceJars": [
+        "createaeronauticscurios-neoforge-1.21.1-2.2.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.curios.open.desc",
+      "inVanilla": false,
+      "languageJars": [
+        "curios-neoforge-9.5.1+1.21.1.jar"
+      ],
+      "keyClassLiteralJars": [
+        "curios-neoforge-9.5.1+1.21.1.jar"
+      ],
+      "namespaceJars": [
+        "curios-neoforge-9.5.1+1.21.1.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.area_cancel",
+      "inVanilla": false,
+      "languageJars": [
+        "AmbienceMini-1.21.1-2.7.10.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.dashpanels.hold_to_open_wiki",
+      "inVanilla": false,
+      "languageJars": [
+        "dashpanels-2.1+neoforge1.21.1.jar"
+      ],
+      "keyClassLiteralJars": [
+        "dashpanels-2.1+neoforge1.21.1.jar"
+      ],
+      "namespaceJars": [
+        "dashpanels-2.1+neoforge1.21.1.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "jei_swift_copy.item.info",
+      "inVanilla": false,
+      "languageJars": [
+        "jei_swift_copy-1.0.0-1.21.1.jar"
+      ],
+      "keyClassLiteralJars": [
+        "jei_swift_copy-1.0.0-1.21.1.jar"
+      ],
+      "namespaceJars": [
+        "jei_swift_copy-1.0.0-1.21.1.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.area_confirm",
+      "inVanilla": false,
+      "languageJars": [
+        "AmbienceMini-1.21.1-2.7.10.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [],
+      "orphanNamespace": false
+    },
+    {
+      "id": "keyinfo.copycats.fill_copycat",
+      "inVanilla": false,
+      "languageJars": [
+        "copycats-3.0.8+mc.1.21.1-neoforge.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "copycats-3.0.8+mc.1.21.1-neoforge.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.jei.cheatOneItem2",
+      "inVanilla": false,
+      "languageJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "keyClassLiteralJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "namespaceJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.astikorcartsredux.action",
+      "inVanilla": false,
+      "languageJars": [
+        "astikorcartsredux-1.2.4.jar"
+      ],
+      "keyClassLiteralJars": [
+        "astikorcartsredux-1.2.4.jar"
+      ],
+      "namespaceJars": [
+        "astikorcartsredux-1.2.4.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.ftbquests.gui.move_down",
+      "inVanilla": false,
+      "languageJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.carry.desc",
+      "inVanilla": false,
+      "languageJars": [
+        "carryon-neoforge-1.21.1-2.2.6.13.jar"
+      ],
+      "keyClassLiteralJars": [
+        "carryon-neoforge-1.21.1-2.2.6.13.jar"
+      ],
+      "namespaceJars": [],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.sophisticatedbackpacks.open_backpack",
+      "inVanilla": false,
+      "languageJars": [
+        "sophisticatedbackpacks-1.21.1-3.25.74.2043.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "sophisticatedbackpacks-1.21.1-3.25.74.2043.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.jei.toggleWildcardHideIngredient",
+      "inVanilla": false,
+      "languageJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "keyClassLiteralJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "namespaceJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.journeymap.fullscreen_create_waypoint",
+      "inVanilla": false,
+      "languageJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "keyClassLiteralJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "namespaceJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.ftbchunks.waypoint_manager",
+      "inVanilla": false,
+      "languageJars": [
+        "ftb-chunks-neoforge-2101.1.21.jar"
+      ],
+      "keyClassLiteralJars": [
+        "ftb-chunks-neoforge-2101.1.21.jar"
+      ],
+      "namespaceJars": [
+        "ftb-chunks-neoforge-2101.1.21.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.jei.copy.recipe.id",
+      "inVanilla": false,
+      "languageJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "keyClassLiteralJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "namespaceJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.journeymap.minimap_toggle_alt",
+      "inVanilla": false,
+      "languageJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "keyClassLiteralJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "namespaceJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.ftbquests.gui_editor.reload_theme",
+      "inVanilla": false,
+      "languageJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "create.keyinfo.alt_modifier",
+      "inVanilla": false,
+      "languageJars": [
+        "create-1.21.1-6.0.10.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "create-1.21.1-6.0.10.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.ftbquests.gui.move_left",
+      "inVanilla": false,
+      "languageJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.immersiveengineering.railgunZoom",
+      "inVanilla": false,
+      "languageJars": [
+        "ImmersiveEngineering-1.21.1-12.4.2-194.jar"
+      ],
+      "keyClassLiteralJars": [
+        "ImmersiveEngineering-1.21.1-12.4.2-194.jar"
+      ],
+      "namespaceJars": [
+        "ImmersiveEngineering-1.21.1-12.4.2-194.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.ftbquests.gui.zoom_reset",
+      "inVanilla": false,
+      "languageJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.jei.toggleEditMode",
+      "inVanilla": false,
+      "languageJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "keyClassLiteralJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "namespaceJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.journeymap.fullscreen_follow_player",
+      "inVanilla": false,
+      "languageJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "keyClassLiteralJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "namespaceJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.jei.recipeBack",
+      "inVanilla": false,
+      "languageJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "keyClassLiteralJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "namespaceJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.socialInteractions",
+      "inVanilla": true,
+      "languageJars": [],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.hotbar.4",
+      "inVanilla": true,
+      "languageJars": [],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [],
+      "orphanNamespace": false
+    },
+    {
+      "id": "simulated.keyinfo.scroll_down",
+      "inVanilla": false,
+      "languageJars": [],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [],
+      "orphanNamespace": false,
+      "nestedFactoryOwner": {
+        "parentJar": "create-aeronautics-bundled-1.21.1-1.3.1.jar",
+        "parentSha256": "b531dbe1081ee354f6e47ba4e0443b9caa648dfb8c82013a591a20836245bd84",
+        "nestedPath": "META-INF/jarjar/dev.simulated_team.simulated.simulated-neoforge-1.21.1-1.3.1.jar",
+        "nestedSha256": "fbfc1bba51a0115e26556e374e9cf9776b0ba969f866d6c7020489b4d93a814e",
+        "factoryClass": "dev/simulated_team/simulated/index/SimKeys.class",
+        "factoryClassSha256": "df3a69e9b38b6eb9aa9bd824df5cffc14865f6701264f82b5385b47211c99b8e"
+      }
+    },
+    {
+      "id": "gnetum.config.keyMapping",
+      "inVanilla": false,
+      "languageJars": [
+        "gnetum-3.3.6.jar"
+      ],
+      "keyClassLiteralJars": [
+        "gnetum-3.3.6.jar"
+      ],
+      "namespaceJars": [
+        "gnetum-3.3.6.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.ftbchunks.minimap.zoomOut",
+      "inVanilla": false,
+      "languageJars": [
+        "ftb-chunks-neoforge-2101.1.21.jar"
+      ],
+      "keyClassLiteralJars": [
+        "ftb-chunks-neoforge-2101.1.21.jar"
+      ],
+      "namespaceJars": [
+        "ftb-chunks-neoforge-2101.1.21.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.ftbchunks.add_waypoint",
+      "inVanilla": false,
+      "languageJars": [
+        "ftb-chunks-neoforge-2101.1.21.jar"
+      ],
+      "keyClassLiteralJars": [
+        "ftb-chunks-neoforge-2101.1.21.jar"
+      ],
+      "namespaceJars": [
+        "ftb-chunks-neoforge-2101.1.21.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.jei.quickMove",
+      "inVanilla": false,
+      "languageJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "keyClassLiteralJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "namespaceJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.ftbquests.gui_editor.delete",
+      "inVanilla": false,
+      "languageJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.next_music",
+      "inVanilla": false,
+      "languageJars": [
+        "AmbienceMini-1.21.1-2.7.10.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.fullscreen",
+      "inVanilla": true,
+      "languageJars": [],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.hotbar.8",
+      "inVanilla": true,
+      "languageJars": [],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.ftbquests.gui.recenter",
+      "inVanilla": false,
+      "languageJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.pickItem",
+      "inVanilla": true,
+      "languageJars": [],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.liubai.open_config",
+      "inVanilla": false,
+      "languageJars": [
+        "liubai-1.0.1-1.21.1.jar"
+      ],
+      "keyClassLiteralJars": [
+        "liubai-1.0.1-1.21.1.jar"
+      ],
+      "namespaceJars": [
+        "liubai-1.0.1-1.21.1.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.advancements",
+      "inVanilla": true,
+      "languageJars": [],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.jade.toggle_liquid",
+      "inVanilla": false,
+      "languageJars": [
+        "Jade-1.21.1-NeoForge-15.10.4.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "Jade-1.21.1-NeoForge-15.10.4.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.jade.config",
+      "inVanilla": false,
+      "languageJars": [
+        "Jade-1.21.1-NeoForge-15.10.4.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "Jade-1.21.1-NeoForge-15.10.4.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "tfcgenviewer.key.preview_center_spawn",
+      "inVanilla": false,
+      "languageJars": [
+        "tfcgenviewer-1.21.1-2.1.2.jar"
+      ],
+      "keyClassLiteralJars": [
+        "tfcgenviewer-1.21.1-2.1.2.jar"
+      ],
+      "namespaceJars": [
+        "tfcgenviewer-1.21.1-2.1.2.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.aero_cam_sync.toggle",
+      "inVanilla": false,
+      "languageJars": [
+        "aero_cam_sync-1.3.6.jar"
+      ],
+      "keyClassLiteralJars": [
+        "aero_cam_sync-1.3.6.jar"
+      ],
+      "namespaceJars": [
+        "aero_cam_sync-1.3.6.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.ponder.ponder",
+      "inVanilla": false,
+      "languageJars": [],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [],
+      "orphanNamespace": false,
+      "nestedFactoryOwner": {
+        "parentJar": "create-1.21.1-6.0.10.jar",
+        "parentSha256": "ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a",
+        "nestedPath": "META-INF/jarjar/ponder-neoforge-1.0.82+mc1.21.1.jar",
+        "nestedSha256": "0cf4611ad853042b689ac386184c5bbe02950efcffddb49e5f604e82baddb0dc",
+        "factoryClass": "net/createmod/ponder/enums/PonderKeybinds.class",
+        "factoryClassSha256": "b2684271befd35098adc4531a60db8ac3149b698abe7e3de3201f954f37fc07e"
+      }
+    },
+    {
+      "id": "simulated.keyinfo.scroll_up",
+      "inVanilla": false,
+      "languageJars": [],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [],
+      "orphanNamespace": false,
+      "nestedFactoryOwner": {
+        "parentJar": "create-aeronautics-bundled-1.21.1-1.3.1.jar",
+        "parentSha256": "b531dbe1081ee354f6e47ba4e0443b9caa648dfb8c82013a591a20836245bd84",
+        "nestedPath": "META-INF/jarjar/dev.simulated_team.simulated.simulated-neoforge-1.21.1-1.3.1.jar",
+        "nestedSha256": "fbfc1bba51a0115e26556e374e9cf9776b0ba969f866d6c7020489b4d93a814e",
+        "factoryClass": "dev/simulated_team/simulated/index/SimKeys.class",
+        "factoryClassSha256": "df3a69e9b38b6eb9aa9bd824df5cffc14865f6701264f82b5385b47211c99b8e"
+      }
+    },
+    {
+      "id": "key.jei.showRecipe",
+      "inVanilla": false,
+      "languageJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "keyClassLiteralJars": [
+        "Patchouli-1.21.1-93-NEOFORGE.jar",
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "namespaceJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.chat",
+      "inVanilla": true,
+      "languageJars": [],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.journeymap.fullscreen_options",
+      "inVanilla": false,
+      "languageJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "keyClassLiteralJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "namespaceJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.ftbquests.gui.move_up",
+      "inVanilla": false,
+      "languageJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.sophisticatedbackpacks.toggle_upgrade_5",
+      "inVanilla": false,
+      "languageJars": [
+        "sophisticatedbackpacks-1.21.1-3.25.74.2043.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "sophisticatedbackpacks-1.21.1-3.25.74.2043.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.sophisticatedbackpacks.toggle_upgrade_4",
+      "inVanilla": false,
+      "languageJars": [
+        "sophisticatedbackpacks-1.21.1-3.25.74.2043.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "sophisticatedbackpacks-1.21.1-3.25.74.2043.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.playerlist",
+      "inVanilla": true,
+      "languageJars": [],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.sophisticatedbackpacks.toggle_upgrade_1",
+      "inVanilla": false,
+      "languageJars": [
+        "sophisticatedbackpacks-1.21.1-3.25.74.2043.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "sophisticatedbackpacks-1.21.1-3.25.74.2043.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.jade.show_recipes",
+      "inVanilla": false,
+      "languageJars": [
+        "Jade-1.21.1-NeoForge-15.10.4.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "Jade-1.21.1-NeoForge-15.10.4.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.sophisticatedbackpacks.toggle_upgrade_3",
+      "inVanilla": false,
+      "languageJars": [
+        "sophisticatedbackpacks-1.21.1-3.25.74.2043.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "sophisticatedbackpacks-1.21.1-3.25.74.2043.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.sophisticatedbackpacks.toggle_upgrade_2",
+      "inVanilla": false,
+      "languageJars": [
+        "sophisticatedbackpacks-1.21.1-3.25.74.2043.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "sophisticatedbackpacks-1.21.1-3.25.74.2043.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.jei.previousPage",
+      "inVanilla": false,
+      "languageJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "keyClassLiteralJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "namespaceJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "lambdynlights.key.toggle_fps_dynamic_lighting",
+      "inVanilla": false,
+      "languageJars": [
+        "lambdynamiclights-4.8.11+1.21.1.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "lambdynamiclights-4.8.11+1.21.1.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.jade.narrate",
+      "inVanilla": false,
+      "languageJars": [
+        "Jade-1.21.1-NeoForge-15.10.4.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "Jade-1.21.1-NeoForge-15.10.4.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.jei.toggleCheatMode",
+      "inVanilla": false,
+      "languageJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "keyClassLiteralJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "namespaceJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.jei.cheatItemStack2",
+      "inVanilla": false,
+      "languageJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "keyClassLiteralJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "namespaceJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.rocketnautics.toggle_dampeners",
+      "inVanilla": false,
+      "languageJars": [
+        "cosmonautics-26.08.307.jar"
+      ],
+      "keyClassLiteralJars": [
+        "cosmonautics-26.08.307.jar"
+      ],
+      "namespaceJars": [
+        "cosmonautics-26.08.307.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.jei.cheatItemStack",
+      "inVanilla": false,
+      "languageJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "keyClassLiteralJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "namespaceJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.jei.closeRecipeGui",
+      "inVanilla": false,
+      "languageJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "keyClassLiteralJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "namespaceJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.jade.show_overlay",
+      "inVanilla": false,
+      "languageJars": [
+        "Jade-1.21.1-NeoForge-15.10.4.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "Jade-1.21.1-NeoForge-15.10.4.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "tfc.key.place_block",
+      "inVanilla": false,
+      "languageJars": [
+        "TerraFirmaCraft-NeoForge-1.21.1-4.2.9.jar"
+      ],
+      "keyClassLiteralJars": [
+        "TerraFirmaCraft-NeoForge-1.21.1-4.2.9.jar"
+      ],
+      "namespaceJars": [
+        "TerraFirmaCraft-NeoForge-1.21.1-4.2.9.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.immersiveengineering.chemthrowerSwitch",
+      "inVanilla": false,
+      "languageJars": [
+        "ImmersiveEngineering-1.21.1-12.4.2-194.jar"
+      ],
+      "keyClassLiteralJars": [
+        "ImmersiveEngineering-1.21.1-12.4.2-194.jar"
+      ],
+      "namespaceJars": [
+        "ImmersiveEngineering-1.21.1-12.4.2-194.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.hotbar.3",
+      "inVanilla": true,
+      "languageJars": [],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.jump",
+      "inVanilla": true,
+      "languageJars": [],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.smoothCamera",
+      "inVanilla": true,
+      "languageJars": [],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.jei.nextPage",
+      "inVanilla": false,
+      "languageJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "keyClassLiteralJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "namespaceJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "iris.keybind.reload",
+      "inVanilla": false,
+      "languageJars": [
+        "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar"
+      ],
+      "keyClassLiteralJars": [
+        "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar"
+      ],
+      "namespaceJars": [
+        "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.ftbquests.gui_quest_panel.edit_subtitle",
+      "inVanilla": false,
+      "languageJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.ftbquests.gui_editor.redo",
+      "inVanilla": false,
+      "languageJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.screenshot",
+      "inVanilla": true,
+      "languageJars": [],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.jei.bookmark",
+      "inVanilla": false,
+      "languageJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "keyClassLiteralJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "namespaceJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.journeymap.fullscreen.east",
+      "inVanilla": false,
+      "languageJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "keyClassLiteralJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "namespaceJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.back",
+      "inVanilla": true,
+      "languageJars": [],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.immersiveengineering.magnetEquip",
+      "inVanilla": false,
+      "languageJars": [
+        "ImmersiveEngineering-1.21.1-12.4.2-194.jar"
+      ],
+      "keyClassLiteralJars": [
+        "ImmersiveEngineering-1.21.1-12.4.2-194.jar"
+      ],
+      "namespaceJars": [
+        "ImmersiveEngineering-1.21.1-12.4.2-194.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.print_all",
+      "inVanilla": false,
+      "languageJars": [
+        "AmbienceMini-1.21.1-2.7.10.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.journeymap.toggle_render_waypoints_world",
+      "inVanilla": false,
+      "languageJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "keyClassLiteralJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "namespaceJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.toggle_areas",
+      "inVanilla": false,
+      "languageJars": [
+        "AmbienceMini-1.21.1-2.7.10.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.journeymap.fullscreen_chat_position",
+      "inVanilla": false,
+      "languageJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "keyClassLiteralJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "namespaceJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "iris.keybind.wireframe",
+      "inVanilla": false,
+      "languageJars": [
+        "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar"
+      ],
+      "keyClassLiteralJars": [
+        "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar"
+      ],
+      "namespaceJars": [
+        "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.journeymap.toggle_entity_names",
+      "inVanilla": false,
+      "languageJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "keyClassLiteralJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "namespaceJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.journeymap.toggle_render_waypoints_map",
+      "inVanilla": false,
+      "languageJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "keyClassLiteralJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "namespaceJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.sophisticatedcore.sort",
+      "inVanilla": false,
+      "languageJars": [
+        "sophisticatedcore-1.21.1-1.4.81.2206.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "sophisticatedcore-1.21.1-1.4.81.2206.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.ftbquests.gui_editor.reward_tables",
+      "inVanilla": false,
+      "languageJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.jei.nextCategory",
+      "inVanilla": false,
+      "languageJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "keyClassLiteralJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "namespaceJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.hotbar.6",
+      "inVanilla": true,
+      "languageJars": [],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.ftbquests.gui_editor.select_none",
+      "inVanilla": false,
+      "languageJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "create.keyinfo.rotate_menu",
+      "inVanilla": false,
+      "languageJars": [
+        "create-1.21.1-6.0.10.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "create-1.21.1-6.0.10.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.ftbquests.gui_editor.undo",
+      "inVanilla": false,
+      "languageJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.inventory",
+      "inVanilla": true,
+      "languageJars": [],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.astikorcartsredux.slow",
+      "inVanilla": false,
+      "languageJars": [
+        "astikorcartsredux-1.2.4.jar"
+      ],
+      "keyClassLiteralJars": [
+        "astikorcartsredux-1.2.4.jar"
+      ],
+      "namespaceJars": [
+        "astikorcartsredux-1.2.4.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.journeymap.zoom_out",
+      "inVanilla": false,
+      "languageJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "keyClassLiteralJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "namespaceJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "tfcgenviewer.key.preview_center_view",
+      "inVanilla": false,
+      "languageJars": [
+        "tfcgenviewer-1.21.1-2.1.2.jar"
+      ],
+      "keyClassLiteralJars": [
+        "tfcgenviewer-1.21.1-2.1.2.jar"
+      ],
+      "namespaceJars": [
+        "tfcgenviewer-1.21.1-2.1.2.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.jei.toggleCheatModeConfigButton",
+      "inVanilla": false,
+      "languageJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "keyClassLiteralJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "namespaceJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.ftbquests.gui_quest_panel.edit_quest_props",
+      "inVanilla": false,
+      "languageJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.rocketnautics.toggle_alignment",
+      "inVanilla": false,
+      "languageJars": [
+        "cosmonautics-26.08.307.jar"
+      ],
+      "keyClassLiteralJars": [
+        "cosmonautics-26.08.307.jar"
+      ],
+      "namespaceJars": [
+        "cosmonautics-26.08.307.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.journeymap.minimap_preset",
+      "inVanilla": false,
+      "languageJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "keyClassLiteralJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "namespaceJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "tfc.key.stack_food",
+      "inVanilla": false,
+      "languageJars": [
+        "TerraFirmaCraft-NeoForge-1.21.1-4.2.9.jar"
+      ],
+      "keyClassLiteralJars": [
+        "TerraFirmaCraft-NeoForge-1.21.1-4.2.9.jar"
+      ],
+      "namespaceJars": [
+        "TerraFirmaCraft-NeoForge-1.21.1-4.2.9.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.ftbchunks.claim_manager",
+      "inVanilla": false,
+      "languageJars": [
+        "ftb-chunks-neoforge-2101.1.21.jar"
+      ],
+      "keyClassLiteralJars": [
+        "ftb-chunks-neoforge-2101.1.21.jar"
+      ],
+      "namespaceJars": [
+        "ftb-chunks-neoforge-2101.1.21.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.ftbquests.gui_quest_panel.edit_title",
+      "inVanilla": false,
+      "languageJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.togglePerspective",
+      "inVanilla": true,
+      "languageJars": [],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.sable_schematic_api.blueprint_tool.open",
+      "inVanilla": false,
+      "languageJars": [
+        "sable-photomancy-1.0.1.jar"
+      ],
+      "keyClassLiteralJars": [
+        "sable-photomancy-1.0.1.jar"
+      ],
+      "namespaceJars": [
+        "sable-photomancy-1.0.1.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.ftbquests.gui.zoom_out",
+      "inVanilla": false,
+      "languageJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.sneak",
+      "inVanilla": true,
+      "languageJars": [],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.ftbchunks.toggle_minimap",
+      "inVanilla": false,
+      "languageJars": [
+        "ftb-chunks-neoforge-2101.1.21.jar"
+      ],
+      "keyClassLiteralJars": [
+        "ftb-chunks-neoforge-2101.1.21.jar"
+      ],
+      "namespaceJars": [
+        "ftb-chunks-neoforge-2101.1.21.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.jei.shareToChat",
+      "inVanilla": false,
+      "languageJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "keyClassLiteralJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "namespaceJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.journeymap.fullscreen.north",
+      "inVanilla": false,
+      "languageJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "keyClassLiteralJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "namespaceJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "iris.keybind.toggleShaders",
+      "inVanilla": false,
+      "languageJars": [
+        "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar"
+      ],
+      "keyClassLiteralJars": [
+        "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar"
+      ],
+      "namespaceJars": [
+        "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "simulated.keyinfo.rotate_mode",
+      "inVanilla": false,
+      "languageJars": [],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [],
+      "orphanNamespace": false,
+      "nestedFactoryOwner": {
+        "parentJar": "create-aeronautics-bundled-1.21.1-1.3.1.jar",
+        "parentSha256": "b531dbe1081ee354f6e47ba4e0443b9caa648dfb8c82013a591a20836245bd84",
+        "nestedPath": "META-INF/jarjar/dev.simulated_team.simulated.simulated-neoforge-1.21.1-1.3.1.jar",
+        "nestedSha256": "fbfc1bba51a0115e26556e374e9cf9776b0ba969f866d6c7020489b4d93a814e",
+        "factoryClass": "dev/simulated_team/simulated/index/SimKeys.class",
+        "factoryClassSha256": "df3a69e9b38b6eb9aa9bd824df5cffc14865f6701264f82b5385b47211c99b8e"
+      }
+    },
+    {
+      "id": "key.use",
+      "inVanilla": true,
+      "languageJars": [],
+      "keyClassLiteralJars": [
+        "create-1.21.1-6.0.10.jar"
+      ],
+      "namespaceJars": [],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.ftbquests.gui_editor.toggle_crosshairs",
+      "inVanilla": false,
+      "languageJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.jei.showUses",
+      "inVanilla": false,
+      "languageJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "keyClassLiteralJars": [
+        "Patchouli-1.21.1-93-NEOFORGE.jar",
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "namespaceJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.jei.toggleOverlay",
+      "inVanilla": false,
+      "languageJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "keyClassLiteralJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "namespaceJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.ftbquests.gui.zoom_in",
+      "inVanilla": false,
+      "languageJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.jei.toggleHideIngredient",
+      "inVanilla": false,
+      "languageJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "keyClassLiteralJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "namespaceJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.drop",
+      "inVanilla": true,
+      "languageJars": [],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.schematician.toggle_force_tooltip",
+      "inVanilla": false,
+      "languageJars": [
+        "schematician-0.10.0.jar"
+      ],
+      "keyClassLiteralJars": [
+        "schematician-0.10.0.jar"
+      ],
+      "namespaceJars": [
+        "schematician-0.10.0.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "tfc.key.cycle_chisel_mode",
+      "inVanilla": false,
+      "languageJars": [
+        "TerraFirmaCraft-NeoForge-1.21.1-4.2.9.jar"
+      ],
+      "keyClassLiteralJars": [
+        "TerraFirmaCraft-NeoForge-1.21.1-4.2.9.jar"
+      ],
+      "namespaceJars": [
+        "TerraFirmaCraft-NeoForge-1.21.1-4.2.9.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.aeroworks.joystick.free_camera",
+      "inVanilla": false,
+      "languageJars": [
+        "aeroworks-1.4.2.jar"
+      ],
+      "keyClassLiteralJars": [
+        "aeroworks-1.4.2.jar"
+      ],
+      "namespaceJars": [
+        "aeroworks-1.4.2.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.ftbquests.quests",
+      "inVanilla": false,
+      "languageJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.ftbquests.gui_quest_panel.add_line",
+      "inVanilla": false,
+      "languageJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.ftbquests.gui_editor.copy",
+      "inVanilla": false,
+      "languageJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.play_pause",
+      "inVanilla": false,
+      "languageJars": [
+        "AmbienceMini-1.21.1-2.7.10.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.sophisticatedcore.transfer_to_storage",
+      "inVanilla": false,
+      "languageJars": [
+        "sophisticatedcore-1.21.1-1.4.81.2206.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "sophisticatedcore-1.21.1-1.4.81.2206.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.attack",
+      "inVanilla": true,
+      "languageJars": [],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.modernui.zoom",
+      "inVanilla": false,
+      "languageJars": [
+        "ModernUI-NeoForge-1.21.1-3.13.0.1-universal.jar"
+      ],
+      "keyClassLiteralJars": [
+        "ModernUI-NeoForge-1.21.1-3.13.0.1-universal.jar"
+      ],
+      "namespaceJars": [
+        "ModernUI-NeoForge-1.21.1-3.13.0.1-universal.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.jei.previousRecipePage",
+      "inVanilla": false,
+      "languageJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "keyClassLiteralJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "namespaceJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "iris.keybind.shaderPackSelection",
+      "inVanilla": false,
+      "languageJars": [
+        "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar"
+      ],
+      "keyClassLiteralJars": [
+        "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar"
+      ],
+      "namespaceJars": [
+        "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.dynamic_fps.toggle_forced",
+      "inVanilla": false,
+      "languageJars": [
+        "dynamic-fps-3.11.4+minecraft-1.21.0-neoforge.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "dynamic-fps-3.11.4+minecraft-1.21.0-neoforge.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.journeymap.fullscreen.disable_buttons",
+      "inVanilla": false,
+      "languageJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "keyClassLiteralJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "namespaceJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.ftbquests.gui_quest_panel.edit_desc",
+      "inVanilla": false,
+      "languageJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.jei.cheatOneItem",
+      "inVanilla": false,
+      "languageJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "keyClassLiteralJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "namespaceJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.hotbar.5",
+      "inVanilla": true,
+      "languageJars": [],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.kubejs.kubedex",
+      "inVanilla": false,
+      "languageJars": [],
+      "keyClassLiteralJars": [
+        "kubejs-neoforge-2101.7.2-build.368.jar"
+      ],
+      "namespaceJars": [
+        "kubejs-neoforge-2101.7.2-build.368.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.rocketnautics.toggle_jetpack",
+      "inVanilla": false,
+      "languageJars": [
+        "cosmonautics-26.08.307.jar"
+      ],
+      "keyClassLiteralJars": [
+        "cosmonautics-26.08.307.jar"
+      ],
+      "namespaceJars": [
+        "cosmonautics-26.08.307.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.tracks.open_tuning",
+      "inVanilla": false,
+      "languageJars": [
+        "tracks_plus-1.0.6b2.jar"
+      ],
+      "keyClassLiteralJars": [
+        "tracks_plus-1.0.6b2.jar"
+      ],
+      "namespaceJars": [
+        "tracks_plus-1.0.6b2.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.spectatorOutlines",
+      "inVanilla": true,
+      "languageJars": [],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.dashpanels.hold_move_camera",
+      "inVanilla": false,
+      "languageJars": [
+        "dashpanels-2.1+neoforge1.21.1.jar"
+      ],
+      "keyClassLiteralJars": [
+        "dashpanels-2.1+neoforge1.21.1.jar"
+      ],
+      "namespaceJars": [
+        "dashpanels-2.1+neoforge1.21.1.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.ftbquests.gui.extended_info",
+      "inVanilla": false,
+      "languageJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.ftbchunks.minimap.zoomIn",
+      "inVanilla": false,
+      "languageJars": [
+        "ftb-chunks-neoforge-2101.1.21.jar"
+      ],
+      "keyClassLiteralJars": [
+        "ftb-chunks-neoforge-2101.1.21.jar"
+      ],
+      "namespaceJars": [
+        "ftb-chunks-neoforge-2101.1.21.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.ftbquests.gui_editor.paste",
+      "inVanilla": false,
+      "languageJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.unlockIME",
+      "inVanilla": false,
+      "languageJars": [
+        "IMBlocker-5.5.4-neoforge+1.20.6-1.21.8.jar"
+      ],
+      "keyClassLiteralJars": [
+        "IMBlocker-5.5.4-neoforge+1.20.6-1.21.8.jar"
+      ],
+      "namespaceJars": [],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.jei.focusSearch",
+      "inVanilla": false,
+      "languageJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "keyClassLiteralJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "namespaceJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.jei.transferRecipeBookmark",
+      "inVanilla": false,
+      "languageJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "keyClassLiteralJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "namespaceJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "create.keyinfo.shift_modifier",
+      "inVanilla": false,
+      "languageJars": [
+        "create-1.21.1-6.0.10.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "create-1.21.1-6.0.10.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.sable_schematic_api.camera.open",
+      "inVanilla": false,
+      "languageJars": [
+        "sable-photomancy-1.0.1.jar"
+      ],
+      "keyClassLiteralJars": [
+        "sable-photomancy-1.0.1.jar"
+      ],
+      "namespaceJars": [
+        "sable-photomancy-1.0.1.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.journeymap.minimap_type",
+      "inVanilla": false,
+      "languageJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "keyClassLiteralJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "namespaceJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.saveToolbarActivator",
+      "inVanilla": true,
+      "languageJars": [],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [],
+      "orphanNamespace": false
+    },
+    {
+      "id": "create.keyinfo.toolmenu",
+      "inVanilla": false,
+      "languageJars": [
+        "create-1.21.1-6.0.10.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "create-1.21.1-6.0.10.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.swapOffhand",
+      "inVanilla": true,
+      "languageJars": [],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.ftbquests.gui.next_chapter",
+      "inVanilla": false,
+      "languageJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.jei.showRecipe2",
+      "inVanilla": false,
+      "languageJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "keyClassLiteralJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "namespaceJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "create.keyinfo.ctrl_modifier",
+      "inVanilla": false,
+      "languageJars": [
+        "create-1.21.1-6.0.10.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "create-1.21.1-6.0.10.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.ftbquests.gui.player_prefs",
+      "inVanilla": false,
+      "languageJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.jade.show_uses",
+      "inVanilla": false,
+      "languageJars": [
+        "Jade-1.21.1-NeoForge-15.10.4.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "Jade-1.21.1-NeoForge-15.10.4.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.sophisticatedbackpacks.inventory_interaction",
+      "inVanilla": false,
+      "languageJars": [
+        "sophisticatedbackpacks-1.21.1-3.25.74.2043.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "sophisticatedbackpacks-1.21.1-3.25.74.2043.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.jei.showBookmarkTooltipFeatures",
+      "inVanilla": false,
+      "languageJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "keyClassLiteralJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "namespaceJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.hotbar.2",
+      "inVanilla": true,
+      "languageJars": [],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.journeymap.fullscreen.west",
+      "inVanilla": false,
+      "languageJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "keyClassLiteralJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "namespaceJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "create.keyinfo.toolbelt",
+      "inVanilla": false,
+      "languageJars": [
+        "create-1.21.1-6.0.10.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "create-1.21.1-6.0.10.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "jei_swift_copy.item.id",
+      "inVanilla": false,
+      "languageJars": [
+        "jei_swift_copy-1.0.0-1.21.1.jar"
+      ],
+      "keyClassLiteralJars": [
+        "jei_swift_copy-1.0.0-1.21.1.jar"
+      ],
+      "namespaceJars": [
+        "jei_swift_copy-1.0.0-1.21.1.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.aero_cam_sync.open_config",
+      "inVanilla": false,
+      "languageJars": [
+        "aero_cam_sync-1.3.6.jar"
+      ],
+      "keyClassLiteralJars": [
+        "aero_cam_sync-1.3.6.jar"
+      ],
+      "namespaceJars": [
+        "aero_cam_sync-1.3.6.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.modernui.openCenter",
+      "inVanilla": false,
+      "languageJars": [
+        "ModernUI-NeoForge-1.21.1-3.13.0.1-universal.jar"
+      ],
+      "keyClassLiteralJars": [
+        "ModernUI-NeoForge-1.21.1-3.13.0.1-universal.jar"
+      ],
+      "namespaceJars": [
+        "ModernUI-NeoForge-1.21.1-3.13.0.1-universal.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.command",
+      "inVanilla": true,
+      "languageJars": [],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.ftbquests.gui.search",
+      "inVanilla": false,
+      "languageJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.journeymap.fullscreen.south",
+      "inVanilla": false,
+      "languageJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "keyClassLiteralJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "namespaceJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.journeymap.toggle_waypoints",
+      "inVanilla": false,
+      "languageJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "keyClassLiteralJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "namespaceJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.jei.pauseRecipeCycling",
+      "inVanilla": false,
+      "languageJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "keyClassLiteralJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "namespaceJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.corpse.death_history",
+      "inVanilla": false,
+      "languageJars": [
+        "corpse-neoforge-1.21.1-1.1.13.jar"
+      ],
+      "keyClassLiteralJars": [
+        "corpse-neoforge-1.21.1-1.1.13.jar"
+      ],
+      "namespaceJars": [
+        "corpse-neoforge-1.21.1-1.1.13.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.ftbquests.gui_quest_panel.add_image",
+      "inVanilla": false,
+      "languageJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.journeymap.toggle_render_waypoints",
+      "inVanilla": false,
+      "languageJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "keyClassLiteralJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "namespaceJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.journeymap.zoom_in",
+      "inVanilla": false,
+      "languageJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "keyClassLiteralJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "namespaceJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.jei.showUses2",
+      "inVanilla": false,
+      "languageJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "keyClassLiteralJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "namespaceJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.ftbquests.gui.move_right",
+      "inVanilla": false,
+      "languageJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.journeymap.fullscreen_waypoints",
+      "inVanilla": false,
+      "languageJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "keyClassLiteralJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "namespaceJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "desc.seasonhud.keybind.options",
+      "inVanilla": false,
+      "languageJars": [
+        "seasonhud-neoforge-1.21.1-2.0.9.jar"
+      ],
+      "keyClassLiteralJars": [
+        "seasonhud-neoforge-1.21.1-2.0.9.jar"
+      ],
+      "namespaceJars": [
+        "seasonhud-neoforge-1.21.1-2.0.9.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.climbable_ropes.lock_rope_camera",
+      "inVanilla": false,
+      "languageJars": [
+        "climbable_ropes-2.1.1.jar"
+      ],
+      "keyClassLiteralJars": [
+        "climbable_ropes-2.1.1.jar"
+      ],
+      "namespaceJars": [
+        "climbable_ropes-2.1.1.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.kaleidoscope_contraption.remove_block",
+      "inVanilla": false,
+      "languageJars": [
+        "kaleidoscope_contraption-1.0.3.jar"
+      ],
+      "keyClassLiteralJars": [
+        "kaleidoscope_contraption-1.0.3.jar"
+      ],
+      "namespaceJars": [
+        "kaleidoscope_contraption-1.0.3.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.oneenoughitem.open_editor",
+      "inVanilla": false,
+      "languageJars": [
+        "oneenoughitem-neoforge-1.21.1-1.0.8.jar"
+      ],
+      "keyClassLiteralJars": [
+        "oneenoughitem-neoforge-1.21.1-1.0.8.jar"
+      ],
+      "namespaceJars": [
+        "oneenoughitem-neoforge-1.21.1-1.0.8.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.forward",
+      "inVanilla": true,
+      "languageJars": [],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.jei.maxTransferRecipeBookmark",
+      "inVanilla": false,
+      "languageJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "keyClassLiteralJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "namespaceJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "tfcgenviewer.key.open_viewer",
+      "inVanilla": false,
+      "languageJars": [
+        "tfcgenviewer-1.21.1-2.1.2.jar"
+      ],
+      "keyClassLiteralJars": [
+        "tfcgenviewer-1.21.1-2.1.2.jar"
+      ],
+      "namespaceJars": [
+        "tfcgenviewer-1.21.1-2.1.2.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.jei.previousCategory",
+      "inVanilla": false,
+      "languageJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "keyClassLiteralJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "namespaceJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.aero_cam_sync.add_mainhand_item_client",
+      "inVanilla": false,
+      "languageJars": [],
+      "keyClassLiteralJars": [
+        "aero_cam_sync-1.3.6.jar"
+      ],
+      "namespaceJars": [
+        "aero_cam_sync-1.3.6.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.hotbar.9",
+      "inVanilla": true,
+      "languageJars": [],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.right",
+      "inVanilla": true,
+      "languageJars": [],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.sophisticatedcore.transfer_to_inventory",
+      "inVanilla": false,
+      "languageJars": [
+        "sophisticatedcore-1.21.1-1.4.81.2206.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "sophisticatedcore-1.21.1-1.4.81.2206.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.jei.previousSearch",
+      "inVanilla": false,
+      "languageJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "keyClassLiteralJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "namespaceJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "jei_swift_copy.recipe.json",
+      "inVanilla": false,
+      "languageJars": [
+        "jei_swift_copy-1.0.0-1.21.1.jar"
+      ],
+      "keyClassLiteralJars": [
+        "jei_swift_copy-1.0.0-1.21.1.jar"
+      ],
+      "namespaceJars": [
+        "jei_swift_copy-1.0.0-1.21.1.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.hotbar.7",
+      "inVanilla": true,
+      "languageJars": [],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.sophisticatedbackpacks.tool_swap",
+      "inVanilla": false,
+      "languageJars": [
+        "sophisticatedbackpacks-1.21.1-3.25.74.2043.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "sophisticatedbackpacks-1.21.1-3.25.74.2043.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.journeymap.create_waypoint",
+      "inVanilla": false,
+      "languageJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "keyClassLiteralJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "namespaceJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.jei.nextSearch",
+      "inVanilla": false,
+      "languageJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "keyClassLiteralJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "namespaceJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.jade.show_details",
+      "inVanilla": false,
+      "languageJars": [
+        "Jade-1.21.1-NeoForge-15.10.4.jar"
+      ],
+      "keyClassLiteralJars": [
+        "Jade-1.21.1-NeoForge-15.10.4.jar"
+      ],
+      "namespaceJars": [
+        "Jade-1.21.1-NeoForge-15.10.4.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.jei.toggleBookmarkOverlay",
+      "inVanilla": false,
+      "languageJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "keyClassLiteralJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "namespaceJars": [
+        "jei-1.21.1-neoforge-19.44.0.401.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.ftbchunks.map",
+      "inVanilla": false,
+      "languageJars": [
+        "ftb-chunks-neoforge-2101.1.21.jar"
+      ],
+      "keyClassLiteralJars": [
+        "ftb-chunks-neoforge-2101.1.21.jar"
+      ],
+      "namespaceJars": [
+        "ftb-chunks-neoforge-2101.1.21.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.left",
+      "inVanilla": true,
+      "languageJars": [],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.journeymap.map_toggle_alt",
+      "inVanilla": false,
+      "languageJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "keyClassLiteralJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "namespaceJars": [
+        "journeymap-neoforge-1.21.1-6.0.3.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.ftbquests.gui.prev_chapter",
+      "inVanilla": false,
+      "languageJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.ftbquests.gui_quest_panel.add_page_break",
+      "inVanilla": false,
+      "languageJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.hotbar.1",
+      "inVanilla": true,
+      "languageJars": [],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [],
+      "orphanNamespace": false
+    },
+    {
+      "id": "key.ftbquests.gui_editor.select_all",
+      "inVanilla": false,
+      "languageJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "keyClassLiteralJars": [],
+      "namespaceJars": [
+        "ftb-quests-neoforge-2101.1.30.jar"
+      ],
+      "orphanNamespace": false
+    }
+  ],
+  "orphans": [
+    "key.friendship.prank",
+    "key.friendship.interact"
+  ],
+  "currentModIds": [
+    "advancedtfctech",
+    "aero_addition",
+    "aero_cam_sync",
+    "aeronautics_bundled",
+    "aeronautics_curios_compat",
+    "aeronautics_modernui_compat",
+    "aeronautics_utility_objects",
+    "aeronauticshotairfix",
+    "aeroworks",
+    "afc",
+    "alltheleaks",
+    "ambience_mini",
+    "architectury",
+    "astikorcartsredux",
+    "asyncparticles",
+    "baguettelib",
+    "barrels_2012",
+    "beneath",
+    "betteradvancements",
+    "bigcontraptions",
+    "blockrunner",
+    "bookshelf",
+    "burningblock",
+    "burningblocktfc",
+    "byepregen",
+    "c2me",
+    "c2tfc",
+    "cacophony",
+    "carryon",
+    "castirongrill",
+    "catalyst",
+    "cc_sable",
+    "cccbridge",
+    "chat_heads",
+    "chatanimation",
+    "chunky",
+    "climbable_ropes",
+    "cloth_config",
+    "cold_sweat",
+    "coldsweat_altitude",
+    "collective",
+    "colorwheel",
+    "computercraft",
+    "continuity",
+    "controlling",
+    "copycats",
+    "coralstfc",
+    "coroutil",
+    "corpse",
+    "corpsecurioscompat",
+    "create",
+    "create_aeronautics_automated_logistics",
+    "create_aeronautics_roller_fix",
+    "create_aeronautics_throwable_rope_connector",
+    "create_cold_sweat",
+    "create_connected",
+    "create_pickywheels_tfc_wind",
+    "createbetterfps",
+    "createentitycontrol",
+    "createfastschematiccannon",
+    "createliquidfuel",
+    "createoreexcavation",
+    "createpickywheels",
+    "createschematicchecker",
+    "creativecore",
+    "cuisinedelight",
+    "cuisinetfc",
+    "curios",
+    "dashpanels",
+    "deployer_got_dizzy",
+    "dimensional_sable",
+    "drivebywire",
+    "drivebywiretypewriter",
+    "dynamic_fps",
+    "e33chat",
+    "electroenergetics",
+    "emi",
+    "emi_accelerator",
+    "enchdesc",
+    "euphoria_patcher",
+    "fabric_api",
+    "fancymenu",
+    "farmersdelight",
+    "farmerstfc",
+    "fastipping",
+    "ferritecore",
+    "firmalife",
+    "firmalifehardcore",
+    "forgified_fabric_api",
+    "ftbbackups3",
+    "ftbchunks",
+    "ftbfiltersystem",
+    "ftblibrary",
+    "ftbquests",
+    "ftbteams",
+    "ftbxmodcompat",
+    "functionalstorage",
+    "fwa",
+    "geckolib",
+    "globalpacks",
+    "gnetum",
+    "iceberg",
+    "imblocker",
+    "immediatelyfast",
+    "immersiveengineering",
+    "iris",
+    "jade",
+    "jadeaddons",
+    "jammies",
+    "jecharacters",
+    "jei",
+    "jei_swift_copy",
+    "jmi",
+    "jmsharedmaps",
+    "journeymap",
+    "journeymaptfcintegration",
+    "jupiter",
+    "justenoughbreeding",
+    "kaleidoscope_contraption",
+    "kaleidoscope_cookery",
+    "kaleidoscope_tavern",
+    "kaleidoscopetfctavern",
+    "kiwi",
+    "konkrete",
+    "krypton_fnp",
+    "ktfcc",
+    "kubejs",
+    "kubejs_create",
+    "kubejs_tfc",
+    "lambdynlights",
+    "ldfix",
+    "ldlib2",
+    "liubai",
+    "lss",
+    "melody",
+    "modernui",
+    "moonlight",
+    "mousetweaks",
+    "nochatreports",
+    "oelib",
+    "oneenoughitem",
+    "opack2reload",
+    "opticores",
+    "packetfixer",
+    "patchouli",
+    "playerrevive",
+    "polymorph",
+    "ponderforkc",
+    "portable_engine_liquid_fuel",
+    "precisionprospecting",
+    "prickle",
+    "puzzleslib",
+    "quest_enhance",
+    "randomoptimization",
+    "reeses_sodium_options",
+    "rhino",
+    "rnr",
+    "rocketnautics",
+    "roxy",
+    "sable",
+    "sable_fix_mod",
+    "sable_schematic_api",
+    "sablecleanup",
+    "sablecollisiondamage",
+    "sabledynlights",
+    "sableexplosionfix",
+    "sablefloaters",
+    "sablejade",
+    "sablemassview",
+    "schematician",
+    "searchables",
+    "seasonhud",
+    "simulatedcoasters",
+    "skinlayers3d",
+    "sodium",
+    "sodium_extra",
+    "sophisticatedbackpacks",
+    "sophisticatedcore",
+    "sound_physics_remastered",
+    "spark",
+    "terrablender",
+    "tfc",
+    "tfc_ability_fix",
+    "tfc_aeronautics",
+    "tfc_alloy_ext",
+    "tfc_cloche_compat",
+    "tfc_coldsweat",
+    "tfc_eratosthenes",
+    "tfc_glass_workshop",
+    "tfc_ie_addon",
+    "tfc_real_world",
+    "tfc_sable_rivers",
+    "tfc_support_indicator",
+    "tfc_tool_stats_tooltip",
+    "tfcagedalcohol",
+    "tfcastikorcarts",
+    "tfcbetterbf",
+    "tfccanes",
+    "tfcgenviewer",
+    "tfcmusicmaker",
+    "tfcorewashing",
+    "tfcr_fixes",
+    "tfcregistryapi",
+    "tfcsbu",
+    "tfcsuperhammer",
+    "tfctrough",
+    "tfcvesseltooltip",
+    "tipsmod",
+    "titanium",
+    "towed",
+    "tracks",
+    "travelerstitles",
+    "wabbanodecompanion",
+    "warypredators",
+    "waterflasks",
+    "watut",
+    "weight",
+    "woodencog",
+    "worldborder",
+    "xercamusic",
+    "yungsapi"
+  ]
+}

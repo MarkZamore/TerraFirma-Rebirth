@@ -27,6 +27,23 @@ ServerEvents.recipes(event => {
     //森罗砂锅海带配方：原版海带在群峦世界不存在，换成群峦海带标签
     event.replaceInput({mod: 'kaleidoscope_cookery'}, 'minecraft:kelp', '#tfc:plants/kelp')
 
+    // ===== 海带统一：全包统一为群峦海带（世界生成、打掉即得的 TFC 海带）=====
+    // 砂锅烘干产出统一为群峦干海带（原来产 minecraft:dried_kelp，和加热烘干产物不一致，两种干海带并存）
+    event.replaceOutput({mod: 'kaleidoscope_cookery'}, 'minecraft:dried_kelp', 'tfc:food/dried_kelp')
+    // 农夫乐事面条汤：原版干海带 → 群峦干海带
+    event.replaceInput({id: 'farmersdelight:cooking/noodle_soup'}, 'minecraft:dried_kelp', 'tfc:food/dried_kelp')
+    // 残留工业配方里的原版干海带/干海带块 → 橡胶条（对齐 create/drivebywire/rocketnautics 的既有替换）
+    event.replaceInput({mod: 'dashpanels'}, 'minecraft:dried_kelp', 'afc:rubber_bar')
+    event.replaceInput({mod: 'simulatedcoasters'}, 'minecraft:dried_kelp', 'afc:rubber_bar')
+    event.replaceInput({mod: 'aeronautics_utility_objects'}, 'minecraft:dried_kelp', 'afc:rubber_bar')
+    event.replaceInput({mod: 'create'}, 'minecraft:dried_kelp_block', 'afc:rubber_bar')
+
+    //金竹也能做脚手架（对标TFC原版 tfc:scaffolding_from_tfc_bamboo 配方）
+    event.shaped('minecraft:scaffolding', ['ISI', 'I I', 'I I'], {
+        I: 'tfc:plant/golden_bamboo',
+        S: '#c:strings'
+    }).id('kubejs:crafting/scaffolding_from_golden_bamboo')
+
     //金竹块也能上砧板：砍出草杆（对标农夫乐事的竹块切割，金竹块没有去皮变体，多给一个草杆）
     //草杆是栓绳的原料，金竹从此也能做栓绳
     event.custom({

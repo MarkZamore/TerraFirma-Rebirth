@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Generate the Create & Ars pack distribution manifest and staged release assets.
+"""Generate the TerraFirma Rebirth 2 pack distribution manifest and staged release assets.
 
 Usage:
     python tools/generate_manifest.py --pack <packRoot> --out <distDir> [--revision <rev>]
     python tools/generate_manifest.py --pack <packRoot> --out <distDir> --verify-only
+    python tools/generate_manifest.py --pack <packRoot> --out <distDir> --verify-all
 
 Behavior:
     * Collects the shipped file set: everything under the roots
@@ -19,8 +20,8 @@ Behavior:
         - portable-pack.json and the client jar become individual assets.
     * Writes <distDir>/pack-manifest.json after validating that every shipped
       file is covered by exactly one asset and all asset names are unique.
-    * --verify-only re-hashes 5 random staged assets against the manifest
-      (CI self-check) instead of generating anything.
+    * --verify-only re-hashes a sample of staged assets against the manifest;
+      --verify-all checks every staged asset instead of generating anything.
 
 Python 3.12, standard library only.
 """
@@ -313,7 +314,7 @@ def generate(pack: Path, out: Path, revision: str) -> None:
           f"staged bytes: {total:,}, revision: {revision}")
 
 
-def verify_only(out: Path) -> None:
+def verify_only(out: Path, verify_all: bool = False) -> None:
     manifest_path = out / "pack-manifest.json"
     if not manifest_path.is_file():
         fail(f"manifest not found: {manifest_path}")
@@ -323,7 +324,7 @@ def verify_only(out: Path) -> None:
     assets = manifest.get("assets") or []
     if not assets:
         fail("manifest contains no assets")
-    sample = random.sample(assets, min(VERIFY_SAMPLE, len(assets)))
+    sample = assets if verify_all else random.sample(assets, min(VERIFY_SAMPLE, len(assets)))
     for asset in sample:
         staged = out / "assets" / asset["name"]
         if not staged.is_file():
@@ -372,13 +373,15 @@ def count_loaded_mods(pack: pathlib.Path, shipped: list[str]) -> int:
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Generate (or verify) the LL8 pack release manifest and assets.")
+        description="Generate (or verify) the TerraFirma Rebirth 2 release manifest and assets.")
     parser.add_argument("--pack", required=True, help="pack root directory")
     parser.add_argument("--out", required=True, help="dist output directory")
     parser.add_argument("--revision", default=None,
                         help="revision string (default: $GITHUB_SHA or 'local')")
     parser.add_argument("--verify-only", action="store_true",
                         help="re-hash a random sample of staged assets against the manifest")
+    parser.add_argument("--verify-all", action="store_true",
+                        help="re-hash every staged asset against the manifest without generating")
     args = parser.parse_args()
 
     pack = Path(args.pack).resolve()
@@ -386,8 +389,8 @@ def main() -> None:
     if not pack.is_dir():
         fail(f"pack root does not exist: {pack}")
 
-    if args.verify_only:
-        verify_only(out)
+    if args.verify_only or args.verify_all:
+        verify_only(out, args.verify_all)
         return
 
     revision = args.revision or os.environ.get("GITHUB_SHA") or "local"

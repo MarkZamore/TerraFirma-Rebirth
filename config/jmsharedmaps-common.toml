@@ -2,9 +2,9 @@
 enabled = true
 #Max shared map chunks applied to JourneyMap per client tick.
 #Lower values reduce hitching; the rest stay buffered.
-# Default: 2
+# Default: 4
 # Range: 1 ~ 16
-maxAppliesPerTick = 2
+maxAppliesPerTick = 1
 #Max incoming map chunks buffered on the client.
 #If exceeded, farthest chunks from the player are dropped.
 # Default: 16384

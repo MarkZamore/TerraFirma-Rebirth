@@ -503,33 +503,6 @@
 		}
 		{
 			dependencies: ["689E0B54747D7F59"]
-			id: "0458A743C19344B5"
-			rewards: [
-				{
-					id: "016E3FB79DA77701"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 8
-					id: "3664D9C8D912420E"
-					item: {
-						count: 1
-						id: "immersiveengineering:ingot_hop_graphite"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "5A1DA900112226E1"
-				item: { count: 1, id: "immersiveengineering:ingot_hop_graphite" }
-				type: "item"
-			}]
-			x: 16.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["0458A743C19344B5"]
 			id: "697A86EBB3FDC50C"
 			rewards: [{
 				id: "3278AC5DC4CE1E70"
@@ -541,7 +514,7 @@
 				item: { count: 1, id: "immersiveengineering:graphite_electrode" }
 				type: "item"
 			}]
-			x: 18.0d
+			x: 16.5d
 			y: 1.5d
 		}
 		{

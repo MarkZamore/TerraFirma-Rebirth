@@ -3,7 +3,9 @@ ServerEvents.recipes(event => {
         "artisanal:vat/perishable_sugar",
         'artisanal:crafting/animal_fat',
 
-        'firmalife:crafting/pineapple_fiber',
+        // 菠萝纤维改回官方链：鲜菠萝烘干→干菠萝（永不腐烂食品），干菠萝+小刀→纤维
+        // 删除的是 firmalife:drying/pineapple_fiber（鲜菠萝直接烘干成纤维的捷径，与干果配方冲突）
+        'firmalife:drying/pineapple_fiber',
 
         'tfcbetterbf:heating/metal/insulation',
         

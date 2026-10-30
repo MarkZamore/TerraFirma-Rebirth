@@ -22,6 +22,10 @@ const EXTRA_GRAVITY = new Set(['tfc:peat', 'tfc:peat_grass', 'tfc:kaolin_clay_gr
 for (const fam of ['grass', 'clay_grass', 'grass_path', 'clay', 'muddy_roots']) {
     for (const soil of SOIL_TYPES) EXTRA_GRAVITY.add(`tfc:${fam}/${soil}`)
 }
+// 机械动力物品保险库：物理化后会概率生成实体副本（拆掉双倍获取），
+// 组装阶段由 kubejs/data/simulated/tags/block/non_movable.json 拦截，
+// 这里拦截"已物理化结构上直接放置"的第二条路
+EXTRA_GRAVITY.add('create:item_vault')
 
 NativeEvents.onEvent($EntityPlaceEvent, function (e) {
     try {

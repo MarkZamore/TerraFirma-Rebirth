@@ -1,13 +1,10 @@
-#Enable mod
+#Turn off the mod's own camera tilt.
+#This is not a full off switch: the mixins stay loaded, and a tilt
+#another mod drives through the API keeps running. Use suppressAll
+#for that one, or remove the jar to rule the mod out completely.
 enabled = true
-#Allow in 3rd person view (BETA)
-allow3rdPerson = false
 #Force use client
 clientOnly = false
-#Toggle mod keybind
-toggleKey = "key.keyboard.i"
-#Open config screen keybind
-openConfigKey = ""
 #Rotate camera
 rotateCamera = true
 #Move camera
@@ -68,10 +65,8 @@ considerOffhand = true
 #throwables, buckets, bows, etc. and fixes their wrong throw/placement direction
 #while standing on a tilted sub-level.
 autoDisableForRaycastItems = true
-#Add mainhand item to blacklist if not already present
-addMainhandItemKey = ""
 #Item IDs that disable camera tilt (client-side), e.g. minecraft:bow
-clientBlacklistIds = ["create:handheld_worldshaper", "create:potato_cannon"]
+clientBlacklistIds = ["create:potato_cannon"]
 #Number of raycasts (10 is usually enough)
 # Default: 10
 # Range: 1 ~ 10000
@@ -84,8 +79,6 @@ downLength = 7.0
 # Default: 0.2
 # Range: -1.0 ~ 1.0
 upLength = 0.2
-#Immediately forgot sublevel when player step off
-dropOnAllMiss = true
 #Stop camera tilt when flying (Creative or Spectator)
 disableOnFlying = true
 #Render debug raycasts
@@ -102,4 +95,16 @@ debugMessages = false
 #Used to detect when a config reset prompt should be shown.
 # Default: 0
 # Range: > 0
-configSchemaVersion = 3
+configSchemaVersion = 5
+#Vote weight of the ray straight under the player (0 disables it)
+# Default: 3
+# Range: 0 ~ 64
+centerWeight = 3
+#How many more rays a neighbouring deck needs before it takes the player over
+# Default: 1
+# Range: 1 ~ 64
+voteMargin = 1
+#Diagnostic: force the tilt off, including a tilt another mod drives
+#through the API. This silences the tilt, not the mod — to rule
+#ACS out entirely, remove it from the mods folder.
+suppressAll = false

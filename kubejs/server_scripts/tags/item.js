@@ -31,6 +31,29 @@ ServerEvents.tags('item', event => {
         'tfc:powder/tetrahedrite'
     ])
 
+    //花生酱修复：TFC 用 remove 把花生罐从 sealed_preserves/preserves 里剔掉了（NeoForge remove 无法数据包覆盖，KJS标签事件在其后生效）
+    //补回 jars 链 → 带盖/开封花生酱罐都能放进 firmalife 罐头柜；补回 preserves/jam → 花生酱能做三明治主酱料
+    event.add('tfc:foods/jars', ['tfc:jar/peanut', 'tfc:jar/peanut_unsealed'])
+    event.add('tfc:foods/sealed_preserves', 'tfc:jar/peanut')
+    event.add('tfc:foods/preserves', 'tfc:jar/peanut_unsealed')
+    event.add('tfc:foods/jam', 'tfc:peanut_jam')
+
+    //EnchantingWithTFC 移植：群峦盔甲/武器纳入原版可附魔标签（附魔定义JSON的 supported_items 认这两个标签）
+    //同时让原版盔甲/武器附魔也能上群峦装备（锋利/保护等，还原旧版群峦附魔生态）
+    const tfcrArmorMetals = ['copper','bismuth_bronze','bronze','black_bronze','wrought_iron','steel','black_steel','blue_steel','red_steel']
+    tfcrArmorMetals.forEach(m => {
+        event.add('minecraft:enchantable/armor', [
+            `tfc:metal/helmet/${m}`, `tfc:metal/chestplate/${m}`, `tfc:metal/greaves/${m}`, `tfc:metal/boots/${m}`
+        ])
+        event.add('minecraft:enchantable/weapon', [
+            `tfc:metal/sword/${m}`, `tfc:metal/mace/${m}`, `tfc:metal/javelin/${m}`
+        ])
+        event.add('minecraft:enchantable/sword', `tfc:metal/sword/${m}`)
+    })
+
+    //EnchantingWithTFC 移植：宝石粉可作附魔燃料（青金石保留，两者都可用）
+    event.add('neoforge:enchanting_fuels', '#tfc:gem_powders')
+
     // tfcr tags removed - mod not installed
     // event.add('tfcr:powdered_milk', [
     //     'artisanal:powdered_milk',
@@ -69,7 +92,31 @@ ServerEvents.tags('item', event => {
         "tfc:wood/log/kapok",
         "afc:wood/log/hevea",
         "afc:wood/log/rubber_fig",
-        "tfc:wood/log/palm"
+        "tfc:wood/log/palm",
+        // 木/去皮变体也允许进纸浆序列组装（玩家反馈木棉木块投不进去）
+        "tfc:wood/wood/kapok",
+        "tfc:wood/stripped_log/kapok",
+        "tfc:wood/stripped_wood/kapok",
+        "afc:wood/wood/hevea",
+        "afc:wood/stripped_log/hevea",
+        "afc:wood/stripped_wood/hevea",
+        "afc:wood/wood/rubber_fig",
+        "tfc:wood/wood/palm",
+        "tfc:wood/stripped_log/palm",
+        "tfc:wood/stripped_wood/palm"
+    ])
+
+    // 料理乐事锅铲、农夫乐事平底锅可以挂上TFC工具架（与森罗锅铲对齐）
+    event.add('tfc:usable_on_tool_rack', [
+        'cuisinedelight:spatula',
+        'farmersdelight:skillet'
+    ])
+
+    // 森罗厨具架（kitchenware_racks）只认 c:tools 标签（硬编码，反编译实锤），
+    // 料理乐事锅铲/农夫乐事平底锅不在其中导致放不上去，这里补齐
+    event.add('c:tools', [
+        'cuisinedelight:spatula',
+        'farmersdelight:skillet'
     ])
 
     //群峦圆石标签（侦测器等红石元件配方用，TFC 挖矿基础石料）
@@ -111,6 +158,11 @@ ServerEvents.tags('item', event => {
     ])
 
     event.remove('firmalife:foods/washable', 'minecraft:pumpkin_pie', "firmalife:food/raw_pumpkin_pie")
+
+    // 南瓜片补进水果标签：TFC 官方只把南瓜片登记为蔬菜（#c:foods/vegetable），
+    // 导致马/羊驼/骆驼等"吃水果"的牲畜不吃南瓜片（南瓜块却可以吃，玩家实锤不对等）。
+    // 瓜类切片喂牲口符合直觉，双标签共存无冲突（堆肥标签同时引用两类）。
+    event.add('c:foods/fruit', 'tfc:food/pumpkin_chunks')
 
     event.add('farmerstfc:cant_place_when_rotten', "cold_sweat:soul_sprout")
 

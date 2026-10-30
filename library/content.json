@@ -60,7 +60,14 @@
     "tfctrough": "tfc",
     "tfcvesseltooltip": "tfc",
     "tracks": "create",
-    "kubejs_create": "create"
+    "kubejs_create": "create",
+    "aeronautics_curios_compat": "create",
+    "cc_sable": "computercraft",
+    "cccbridge": "computercraft",
+    "emi_accelerator": "emi",
+    "tfcmusicmaker": "tfc",
+    "towed": "create",
+    "woodencog": "create"
   },
   "relativePath": "TerraFirma Rebirth"
 }

@@ -139,20 +139,20 @@
 		entity_heads: true
 		entity_icon: {
 			"tfc:largemouth_bass": true
-			"minecraft:spider": true
-			"minecraft:skeleton": true
-			"minecraft:creeper": true
-			"minecraft:zombie": true
-			"tfc:bison": true
-			"tfc:smallmouth_bass": true
-			"tfc:rainbow_trout": true
-			"tfc:bluegill": true
-			"tfc:pig": true
-			"tfc:wolf": true
-			"tfc:horse": true
-			"tfc:duck": true
-			"tfc:crappie": true
 			"tfc:cougar": true
+			"minecraft:creeper": true
+			"tfc:horse": true
+			"tfc:smallmouth_bass": true
+			"tfc:duck": true
+			"minecraft:zombie": true
+			"minecraft:skeleton": true
+			"tfc:pig": true
+			"minecraft:spider": true
+			"tfc:rainbow_trout": true
+			"tfc:bison": true
+			"tfc:wolf": true
+			"tfc:bluegill": true
+			"tfc:crappie": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)

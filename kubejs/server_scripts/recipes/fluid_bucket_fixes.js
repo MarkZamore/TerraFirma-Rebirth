@@ -6,8 +6,9 @@ ServerEvents.recipes(event => {
     // 流体成分定义（tfc:fluid_content 匹配任何装有该流体的容器，即木桶）
     const water1000 = { type: 'tfc:fluid_content', fluid: { amount: 1000, fluid: 'minecraft:water' } }
     const water100 = { type: 'tfc:fluid_content', fluid: { amount: 100, fluid: 'minecraft:water' } }
-    const milk1000 = { type: 'tfc:fluid_content', fluid: { amount: 1000, fluid: 'minecraft:milk' } }
-    const milk250 = { type: 'tfc:fluid_content', fluid: { amount: 250, fluid: 'minecraft:milk' } }
+    // 奶统一走 kubejs:milks 标签（牛奶/牦牛奶/山羊奶），终端消费配方不再只认原版奶
+    const milk1000 = { type: 'tfc:fluid_content', fluid: { amount: 1000, tag: 'kubejs:milks' } }
+    const milk250 = { type: 'tfc:fluid_content', fluid: { amount: 250, tag: 'kubejs:milks' } }
 
     // ===== 1. 删除原版铁桶的产出配方（铁桶不可得，水桶走 TFC 木料配方）=====
     event.remove({ id: 'create:pressing/bucket' }) // 双锻铁板压铁桶（与 ban 铁桶原则冲突）
@@ -254,6 +255,60 @@ ServerEvents.recipes(event => {
             { amount: 1000, id: 'minecraft:water' }
         ]
     }).id('kubejs:emptying/wooden_bucket_water')
+
+    // ===== 16. 电力学三个"油桶合成"配方：原版 EE 油桶不可得，换成装变压器油的群峦木桶 =====
+    // 玩家反馈：变压器/稳压器/六氟化硫断路器配方要 electroenergetics:transformer_oil_bucket（本包无法获得），
+    // 玩家实际能做出的是带 tfc:fluid 组件的群峦木桶。删掉原配方，原样重建、油桶位换成群峦木桶。
+    const OIL_BUCKET = {
+        type: 'neoforge:components',
+        items: 'tfc:wooden_bucket',
+        components: { 'tfc:fluid': { amount: 1000, id: 'electroenergetics:transformer_oil' } }
+    }
+
+    event.remove({ id: 'electroenergetics:crafting/transformer' })
+    event.custom({
+        type: 'minecraft:crafting_shaped',
+        category: 'misc',
+        pattern: ['C C', 'WOW', 'T T'],
+        key: {
+            C: { item: 'electroenergetics:double_connector' },
+            O: OIL_BUCKET,
+            T: { item: 'electroenergetics:transformer_core_lamination' },
+            W: { item: 'electroenergetics:copper_wire_spool' }
+        },
+        result: { count: 1, id: 'electroenergetics:transformer' }
+    }).id('kubejs:crafting/transformer')
+
+    event.remove({ id: 'electroenergetics:crafting/voltage_regulator' })
+    event.custom({
+        type: 'minecraft:crafting_shaped',
+        category: 'misc',
+        pattern: [' P ', 'WTW', ' O '],
+        key: {
+            O: OIL_BUCKET,
+            P: { item: 'create:precision_mechanism' },
+            T: { item: 'electroenergetics:transformer_core' },
+            W: { item: 'electroenergetics:copper_wire_spool' }
+        },
+        result: { count: 1, id: 'electroenergetics:voltage_regulator' }
+    }).id('kubejs:crafting/voltage_regulator')
+
+    event.remove({ id: 'electroenergetics:mechanical_crafting/sulfur_hexafluoride_breaker' })
+    event.custom({
+        type: 'create:mechanical_crafting',
+        accept_mirrored: false,
+        category: 'misc',
+        pattern: ['sCs', ' I ', ' S ', ' P ', 'sCs'],
+        key: {
+            C: { item: 'electroenergetics:connector' },
+            I: { item: 'electroenergetics:insulator' },
+            P: { item: 'create:precision_mechanism' },
+            S: OIL_BUCKET,
+            s: { tag: 'c:plates/iron' }
+        },
+        result: { count: 1, id: 'electroenergetics:sulfur_hexafluoride_breaker' },
+        show_notification: false
+    }).id('kubejs:mechanical_crafting/sulfur_hexafluoride_breaker')
 })
 
 // JEI 隐藏原版流体桶（本包不可得，显示会造成误导）
@@ -262,4 +317,21 @@ RecipeViewerEvents.removeEntries('item', event => {
     event.remove('minecraft:milk_bucket')
     event.remove('minecraft:lava_bucket')
     event.remove('minecraft:powder_snow_bucket')
+    // 电力学变压器油桶同样不可得（合成已改用群峦木桶），一并隐藏
+    event.remove('electroenergetics:transformer_oil_bucket')
+})
+
+// woodencog 序列组装中间态物品：无名字/紫黑贴图，是动力锯与冲压工序的内部产物
+// ⚠️ 不用带斜杠正则（KubeJS 谓词转换会吞路径段导致误伤），枚举注册表 + 纯字符串匹配
+RecipeViewerEvents.removeEntries('item', event => {
+    var itemReg = Java.loadClass('net.minecraft.core.registries.BuiltInRegistries').ITEM
+    var wcCount = 0
+    itemReg.forEach(item => {
+        var key = String(itemReg.getKey(item))
+        if (key.indexOf('woodencog:') == 0 && key.indexOf('unfinished') != -1) {
+            event.remove(key)
+            wcCount++
+        }
+    })
+    console.log('[TFCR] woodencog unfinished entries hidden: ' + wcCount)
 })

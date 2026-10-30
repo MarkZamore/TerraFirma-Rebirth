@@ -688,7 +688,7 @@
 			}]
 			tasks: [{
 				id: "5621F98C3C14C93E"
-				item: { components: { "tfc:food": { creation_date: -2L } }, count: 1, id: "firmalife:food/cocoa_beans" }
+				item: { components: { "tfc:food": { creation_date: -2L }, "tfc:heat": { } }, count: 1, id: "firmalife:food/cocoa_beans" }
 				type: "item"
 			}]
 			x: 5.0d

@@ -19,7 +19,9 @@ ServerEvents.tags('fluid', event => {
         'immersiveengineering:creosote',
         // 电力学油类：变压器油/植物油 允许木桶盛装、大桶储存（玩家反馈装不了）
         'electroenergetics:transformer_oil',
-        'electroenergetics:plant_oil'
+        'electroenergetics:plant_oil',
+        // 浮空石混合液：结晶前要倒在地上靠近热源催化，没桶根本倒不出来（玩家反馈）
+        'aeronautics:levitite_blend'
     ])
     event.add('tfc:usable_in_barrel', [
         'electroenergetics:transformer_oil',
@@ -31,4 +33,12 @@ ServerEvents.tags('fluid', event => {
     event.add('tfc:usable_in_pot', 'firmalife:yeast_starter')
     event.add('tfc:usable_in_jug', 'firmalife:yeast_starter')
     event.add('tfc:usable_in_barrel', 'firmalife:yeast_starter')
+
+    // 通用奶标签：终端消费配方（蛋糕/派/奶饮等）接受三种鲜奶
+    // 凝乳/奶醋产业链按奶种区分，不走此标签，绝不要把凝乳奶/椰奶加进来
+    event.add('kubejs:milks', [
+        'minecraft:milk',
+        'firmalife:yak_milk',
+        'firmalife:goat_milk'
+    ])
 })
